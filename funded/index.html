@@ -12,192 +12,95 @@
       padding: 32px 16px;
     }
     .container { max-width: 1200px; margin: 0 auto; }
-    header {
-      text-align: center; margin-bottom: 40px;
-    }
+    header { text-align: center; margin-bottom: 40px; }
     header h1 { font-size: 28px; margin-bottom: 8px; background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     header p { color: #64748b; font-size: 14px; }
-    header .stats { display: flex; justify-content: center; gap: 24px; margin-top: 16px; }
+    header .stats { display: flex; justify-content: center; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
     header .stat { background: #1e293b; border-radius: 8px; padding: 8px 16px; font-size: 13px; }
     header .stat span { color: #38bdf8; font-weight: 600; }
-
     #filter-bar { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; justify-content: center; }
-    .filter-btn {
-      background: #1e293b; border: 1px solid #334155; border-radius: 999px;
-      padding: 6px 16px; font-size: 13px; color: #94a3b8; cursor: pointer; transition: all .15s;
-    }
+    .filter-btn { background: #1e293b; border: 1px solid #334155; border-radius: 999px; padding: 6px 16px; font-size: 13px; color: #94a3b8; cursor: pointer; transition: all .15s; }
     .filter-btn:hover { border-color: #38bdf8; color: #38bdf8; }
     .filter-btn.active { background: #38bdf8; color: #0f172a; border-color: #38bdf8; font-weight: 600; }
-
-    #search-box {
-      width: 100%; max-width: 400px; margin: 0 auto 24px; display: block;
-      background: #1e293b; border: 1px solid #334155; border-radius: 8px;
-      padding: 10px 16px; color: #e2e8f0; font-size: 14px; outline: none;
-    }
+    #search-box { width: 100%; max-width: 400px; margin: 0 auto 24px; display: block; background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 10px 16px; color: #e2e8f0; font-size: 14px; outline: none; }
     #search-box::placeholder { color: #475569; }
     #search-box:focus { border-color: #38bdf8; }
-
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
-
-    .card {
-      background: #1e293b; border-radius: 12px; padding: 20px; cursor: pointer;
-      transition: all .15s; border: 1px solid #334155;
-    }
+    .card { background: #1e293b; border-radius: 12px; padding: 20px; cursor: pointer; transition: all .15s; border: 1px solid #334155; }
     .card:hover { border-color: #38bdf8; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(56,189,248,0.1); }
     .card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
-    .card-logo {
-      width: 44px; height: 44px; border-radius: 8px; object-fit: contain;
-      background: #0f172a; padding: 4px;
-    }
-    .card-logo-fallback {
-      width: 44px; height: 44px; border-radius: 8px; background: #334155;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 18px; font-weight: 700; color: #38bdf8; flex-shrink: 0;
-    }
+    .card-logo { width: 44px; height: 44px; border-radius: 8px; object-fit: contain; background: #0f172a; padding: 4px; }
+    .card-logo-fallback { width: 44px; height: 44px; border-radius: 8px; background: #334155; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700; color: #38bdf8; flex-shrink: 0; }
     .card-title { flex: 1; min-width: 0; }
     .card-title h3 { font-size: 15px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .card-title .meta { display: flex; gap: 6px; margin-top: 4px; flex-wrap: wrap; }
-    .badge {
-      font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px;
-      text-transform: uppercase; letter-spacing: 0.3px;
-    }
+    .badge { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.3px; }
     .badge-forex { background: rgba(56,189,248,0.15); color: #38bdf8; }
     .badge-futures { background: rgba(129,140,248,0.15); color: #818cf8; }
-    .badge-discount {
-      background: rgba(251,191,36,0.15); color: #fbbf24; font-size: 10px;
-      padding: 1px 6px; border-radius: 4px; font-weight: 700;
-    }
+    .badge-discount { background: rgba(251,191,36,0.15); color: #fbbf24; font-size: 10px; padding: 1px 6px; border-radius: 4px; font-weight: 700; }
     .card-body { color: #94a3b8; font-size: 13px; }
     .card-body .row { display: flex; justify-content: space-between; margin-bottom: 4px; }
     .card-body .row .label { color: #64748b; }
     .card-footer { margin-top: 12px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .tag {
-      font-size: 11px; background: #0f172a; padding: 2px 8px; border-radius: 999px;
-      color: #64748b; border: 1px solid #334155;
-    }
+    .tag { font-size: 11px; background: #0f172a; padding: 2px 8px; border-radius: 999px; color: #64748b; border: 1px solid #334155; }
     .heart { color: #f43f5e; font-size: 12px; margin-left: auto; display: flex; align-items: center; gap: 2px; }
-
-    @media (max-width: 640px) {
-      .grid { grid-template-columns: 1fr; }
-      header .stats { flex-direction: column; align-items: center; }
-    }
+    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } header .stats { flex-direction: column; align-items: center; } }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>📊 Prop Firms Directory</h1>
-      <p>Self-hosted data sourced from fundedforyou.com — updated <span id="update-date"></span></p>
+      <p>32 prop firms — updated <span id="update-date"></span></p>
       <div class="stats">
         <div class="stat">Firms: <span id="total-firms">—</span></div>
         <div class="stat">Challenges: <span id="total-challenges">—</span></div>
         <div class="stat">Platforms: <span id="total-platforms">—</span></div>
       </div>
     </header>
-
     <div id="filter-bar">
       <button class="filter-btn active" data-filter="all">All</button>
       <button class="filter-btn" data-filter="FOREX">FOREX</button>
       <button class="filter-btn" data-filter="FUTURES">FUTURES</button>
       <button class="filter-btn" data-filter="discount">🔥 Has Discount</button>
     </div>
-
     <input id="search-box" type="text" placeholder="Search prop firms...">
-
     <div id="firms-grid" class="grid"></div>
   </div>
-
   <script>
     let firms = [];
-
     async function init() {
       try {
         const res = await fetch('api/proxy/firms.json');
-        const json = await res.json();
-        firms = json.data || json;
+        firms = (await res.json()).data || firms;
         document.getElementById('total-firms').textContent = firms.length;
-
-        // Count challenges from embedded data
-        const totalCh = firms.reduce((s, f) => s + (f.challengeNames?.length || 0) * (f.accountSizes?.length || 5), 0);
-        document.getElementById('total-challenges').textContent = totalCh;
-        document.getElementById('total-platforms').textContent = new Set(firms.flatMap(f => f.platforms || [])).size;
+        document.getElementById('total-challenges').textContent = firms.reduce((s,f) => s + (f.challengeNames?.length||0) * (f.accountSizes?.length||5), 0);
+        document.getElementById('total-platforms').textContent = new Set(firms.flatMap(f => f.platforms||[])).size;
         document.getElementById('update-date').textContent = new Date().toLocaleDateString();
-
         render(firms);
-
-        // Filter buttons
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-          btn.addEventListener('click', () => {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            apply();
-          });
-        });
-
-        // Search
+        document.querySelectorAll('.filter-btn').forEach(b => b.addEventListener('click', function() { document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active')); this.classList.add('active'); apply(); }));
         document.getElementById('search-box').addEventListener('input', apply);
-      } catch (e) {
-        document.getElementById('firms-grid').innerHTML = `<p style="color:#f43f5e;text-align:center">Failed to load data: ${e.message}</p>`;
-      }
+      } catch(e) { document.getElementById('firms-grid').innerHTML = `<p style="color:#f43f5e;text-align:center">${e.message}</p>`; }
     }
-
     function apply() {
-      const filter = document.querySelector('.filter-btn.active')?.dataset?.filter || 'all';
-      const query = document.getElementById('search-box').value.toLowerCase().trim();
-      let filtered = firms;
-
-      if (filter === 'FOREX') filtered = filtered.filter(f => f.firmType === 'FOREX');
-      else if (filter === 'FUTURES') filtered = filtered.filter(f => f.firmType === 'FUTURES');
-      else if (filter === 'discount') filtered = filtered.filter(f => f.discountPercentage > 0);
-
-      if (query) {
-        filtered = filtered.filter(f =>
-          f.name.toLowerCase().includes(query) ||
-          (f.description && f.description.toLowerCase().includes(query)) ||
-          (f.country && f.country.toLowerCase().includes(query)) ||
-          (f.platforms || []).some(p => p.toLowerCase().includes(query))
-        );
-      }
-
-      render(filtered);
+      const f = (document.querySelector('.filter-btn.active')?.dataset?.filter||'all');
+      const q = document.getElementById('search-box').value.toLowerCase().trim();
+      let list = firms;
+      if (f === 'FOREX') list = list.filter(x => x.firmType === 'FOREX');
+      else if (f === 'FUTURES') list = list.filter(x => x.firmType === 'FUTURES');
+      else if (f === 'discount') list = list.filter(x => x.discountPercentage > 0);
+      if (q) list = list.filter(x => x.name.toLowerCase().includes(q) || (x.country||'').toLowerCase().includes(q) || (x.platforms||[]).some(p => p.toLowerCase().includes(q)));
+      render(list);
     }
-
     function render(list) {
-      const grid = document.getElementById('firms-grid');
-      if (!list.length) {
-        grid.innerHTML = '<p style="color:#64748b;text-align:center;grid-column:1/-1;padding:40px 0">No firms found</p>';
-        return;
-      }
-      grid.innerHTML = list.map(f => `
-        <div class="card" onclick="window.open('${f.affiliateLink || '#'}', '_blank')">
-          <div class="card-header">
-            ${f.logoUrl
-              ? `<img class="card-logo" src="${f.logoUrl}" alt="${f.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" loading="lazy">
-                 <div class="card-logo-fallback" style="display:none">${(f.name||'??').slice(0,2).toUpperCase()}</div>`
-              : `<div class="card-logo-fallback">${(f.name||'??').slice(0,2).toUpperCase()}</div>`
-            }
-            <div class="card-title">
-              <h3>${f.name}</h3>
-              <div class="meta">
-                <span class="badge ${f.firmType === 'FUTURES' ? 'badge-futures' : 'badge-forex'}">${f.firmType}</span>
-                ${f.discountPercentage > 0 ? `<span class="badge-discount">${f.discountPercentage}% OFF</span>` : ''}
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="row"><span class="label">Max Funding</span> $${(f.maxInitialFunding || 0).toLocaleString()}</div>
-            <div class="row"><span class="label">Country</span> ${f.country || '—'}</div>
-            <div class="row"><span class="label">Year</span> ${f.yearFounded || '—'}</div>
-          </div>
-          <div class="card-footer">
-            ${(f.platforms || []).slice(0, 3).map(p => `<span class="tag">${p}</span>`).join('')}
-            ${(f.platforms || []).length > 3 ? `<span class="tag">+${f.platforms.length - 3}</span>` : ''}
-            ${f.favoritesCount > 0 ? `<span class="heart">♥ ${f.favoritesCount}</span>` : ''}
-          </div>
-        </div>
-      `).join('');
+      const g = document.getElementById('firms-grid');
+      if (!list.length) { g.innerHTML = '<p style="color:#64748b;text-align:center;padding:40px 0">No firms found</p>'; return; }
+      g.innerHTML = list.map(f => `<div class="card" onclick="window.open('${f.affiliateLink||'#}','_blank')">
+        <div class="card-header">${f.logoUrl?`<img class="card-logo" src="${f.logoUrl}" alt="${f.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" loading="lazy"><div class="card-logo-fallback" style="display:none">${(f.name||'??').slice(0,2).toUpperCase()}</div>`:`<div class="card-logo-fallback">${(f.name||'??').slice(0,2).toUpperCase()}</div>`}
+          <div class="card-title"><h3>${f.name}</h3><div class="meta"><span class="badge ${f.firmType==='FUTURES'?'badge-futures':'badge-forex'}">${f.firmType}</span>${f.discountPercentage>0?`<span class="badge-discount">${f.discountPercentage}% OFF</span>`:''}</div></div></div>
+        <div class="card-body"><div class="row"><span class="label">Max Funding</span> $${(f.maxInitialFunding||0).toLocaleString()}</div><div class="row"><span class="label">Country</span> ${f.country||'—'}</div><div class="row"><span class="label">Year</span> ${f.yearFounded||'—'}</div></div>
+        <div class="card-footer">${(f.platforms||[]).slice(0,3).map(p => `<span class="tag">${p}</span>`).join('')}${(f.platforms||[]).length>3?`<span class="tag">+${f.platforms.length-3}</span>`:''}${f.favoritesCount>0?`<span class="heart">♥ ${f.favoritesCount}</span>`:''}</div></div>`).join('');
     }
-
     init();
   </script>
 </body>
