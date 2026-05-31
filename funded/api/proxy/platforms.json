@@ -1,0 +1,122 @@
+{
+  "success": true,
+  "total": 29,
+  "data": [
+    {
+      "id": "plat_0",
+      "name": "ATAS"
+    },
+    {
+      "id": "plat_1",
+      "name": "AXB Zero"
+    },
+    {
+      "id": "plat_2",
+      "name": "Bookmap"
+    },
+    {
+      "id": "plat_3",
+      "name": "DX Trade"
+    },
+    {
+      "id": "plat_4",
+      "name": "DXFutures"
+    },
+    {
+      "id": "plat_5",
+      "name": "For Traders X"
+    },
+    {
+      "id": "plat_6",
+      "name": "Inside Edge Trader"
+    },
+    {
+      "id": "plat_7",
+      "name": "Investor RT"
+    },
+    {
+      "id": "plat_8",
+      "name": "Jigsaw Daytradr"
+    },
+    {
+      "id": "plat_9",
+      "name": "MT4"
+    },
+    {
+      "id": "plat_10",
+      "name": "MT5"
+    },
+    {
+      "id": "plat_11",
+      "name": "Match Trader"
+    },
+    {
+      "id": "plat_12",
+      "name": "Motive Wave"
+    },
+    {
+      "id": "plat_13",
+      "name": "Multichart"
+    },
+    {
+      "id": "plat_14",
+      "name": "Ninja Trader"
+    },
+    {
+      "id": "plat_15",
+      "name": "Photon"
+    },
+    {
+      "id": "plat_16",
+      "name": "Qscalp"
+    },
+    {
+      "id": "plat_17",
+      "name": "Quantower"
+    },
+    {
+      "id": "plat_18",
+      "name": "Rithmic"
+    },
+    {
+      "id": "plat_19",
+      "name": "Sierra Chart"
+    },
+    {
+      "id": "plat_20",
+      "name": "Trade Sea"
+    },
+    {
+      "id": "plat_21",
+      "name": "TradeLocker"
+    },
+    {
+      "id": "plat_22",
+      "name": "Tradingview"
+    },
+    {
+      "id": "plat_23",
+      "name": "Tradovate"
+    },
+    {
+      "id": "plat_24",
+      "name": "Volbook"
+    },
+    {
+      "id": "plat_25",
+      "name": "Volfix"
+    },
+    {
+      "id": "plat_26",
+      "name": "Volsys"
+    },
+    {
+      "id": "plat_27",
+      "name": "Volumetrica"
+    },
+    {
+      "id": "plat_28",
+      "name": "cTrader"
+    }
+  ]
+}

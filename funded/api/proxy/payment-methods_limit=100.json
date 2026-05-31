@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "total": 3,
+  "data": [
+    {
+      "id": "pm_1",
+      "name": "Credit Card",
+      "type": "credit_card"
+    },
+    {
+      "id": "pm_2",
+      "name": "Crypto",
+      "type": "crypto"
+    },
+    {
+      "id": "pm_3",
+      "name": "Wire Transfer",
+      "type": "wire"
+    }
+  ]
+}
