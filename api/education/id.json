@@ -1,0 +1,872 @@
+{
+  "version": 1,
+  "schools": [
+    {
+      "id": "smc",
+      "title": "Smart Money Concepts",
+      "subtitle": "Bagaimana bermain dengan pemain besar?",
+      "description": "Menyederhanakan konsep likuiditas dan perbankan untuk pemula dengan cara yang menyenangkan",
+      "iconAsset": "assets/lottie/smc_icon.json",
+      "color": 4282090230,
+      "badgeAsset": "assets/icons/badge_smc.svg",
+      "completedBadge": "Master Likuiditas",
+      "lessons": [
+        {
+          "id": "smc_1",
+          "title": "Apa itu Smart Money?",
+          "subtitle": "Likuiditas Pasar",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "Pasar memiliki pembeli dan penjual. Bank-bank besar (Smart Money) perlu menemukan orang untuk membeli dari mereka atau menjual kepada mereka. Tempat di mana mereka menemukan orang-orang ini disebut \"Likuiditas\". Itulah inti dari Smart Money!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "Lihatlah grafik ini. Titik-titik tertinggi dan terendah ini adalah zona likuiditas. Bank menembus titik tertinggi untuk memburu stop-loss yang ditempatkan di sana, lalu pasar dengan cepat berbalik ke arah yang sebenarnya."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "Sekarang temukan zona akumulasi pada grafik: apakah itu titik tertinggi atau terendah?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa itu Smart Money di pasar?",
+              "options": [
+                "Bank besar yang mengelola likuiditas",
+                "Trader ritel kecil",
+                "Berita ekonomi",
+                "Indikator teknis"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Mengapa bank menembus titik tertinggi?",
+              "options": [
+                "Untuk memburu likuiditas (stop-loss)",
+                "Untuk membeli di harga lebih tinggi",
+                "Untuk short selling",
+                "Untuk menunjukkan grafik"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_2",
+          "title": "Fair Value Gaps (FVG)",
+          "subtitle": "Kesenjangan yang ditinggalkan pasar",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "Ketika bank memasuki pasar secara agresif, mereka meninggalkan \"kesenjangan\" pada grafik di mana tidak ada perdagangan terjadi. Pasar biasanya kembali untuk mengisi kesenjangan ini, seperti menambal lubang di jalan."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/candles_fvg.svg",
+              "text": "Ketuk lokasi kesenjangan pada grafik untuk menemukannya!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Mengapa kesenjangan terjadi pada grafik?",
+              "options": [
+                "Pergerakan agresif bank",
+                "Pengumuman berita biasa",
+                "Volume perdagangan rendah",
+                "Gangguan platform"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_3",
+          "title": "Order Blocks (OB)",
+          "subtitle": "Landasan peluncuran",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "Sebelum bank membuat pergerakan besar, mereka menempatkan pesanan mereka di zona rahasia (Order Block). Ini adalah lilin terakhir sebelum pasar melonjak naik, atau sebaliknya. Ini adalah landasan peluncuran!"
+            },
+            {
+              "type": "quiz",
+              "text": "Order Block adalah lilin terakhir jenis apa sebelum pembalikan?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa itu Order Block?",
+              "options": [
+                "Lilin terakhir sebelum pergerakan besar",
+                "Lilin pertama hari itu",
+                "Lilin biasa",
+                "Indikator teknis"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_4",
+          "title": "Break of Structure (BOS)",
+          "subtitle": "Saat pasar berubah pikiran",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "Ketika bank menembus titik terendah lama dan terus turun, itu disebut \"Break of Structure\" (BOS). Itu berarti tren benar-benar telah berubah. Seperti berjalan di jalan dan melihat lampu lalu lintas merah — berhenti dan berbalik!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "Perbedaan antara BOS dan CHOCH: BOS adalah menembus titik terendah atau tertinggi sementara tren berlanjut. Change of Character (CHOCH) adalah menembus titik terendah dalam tren naik atau titik tertinggi dalam tren turun, menandakan pembalikan penuh."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa kepanjangan dari BOS?",
+              "options": [
+                "Break of Structure",
+                "Buy on Signal",
+                "Best Order Strategy",
+                "Big Open Sesame"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Apa arti CHOCH?",
+              "options": [
+                "Complete change of character",
+                "Kelanjutan tren",
+                "Koreksi kecil",
+                "Buka perdagangan"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_5",
+          "title": "Zona Likuiditas",
+          "subtitle": "Internal dan Eksternal",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "Likuiditas memiliki dua jenis: Internal — titik tertinggi dan terendah di dalam gelombang. Eksternal — titik tertinggi dan terendah di luar gelombang (di atas titik tertinggi terakhir atau di bawah titik terendah terakhir). Bank memburu likuiditas internal terlebih dahulu untuk mencapai zona likuiditas eksternal."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "Identifikasi zona: apakah ini likuiditas internal atau eksternal pada grafik?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa itu likuiditas internal?",
+              "options": [
+                "Titik tertinggi dan terendah di dalam gelombang",
+                "Titik tertinggi dan terendah di luar gelombang",
+                "Rata-rata bergerak",
+                "Garis tren"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Apa yang diburu bank terlebih dahulu?",
+              "options": [
+                "Likuiditas internal",
+                "Likuiditas eksternal",
+                "Fibonacci",
+                "Resistensi"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_6",
+          "title": "Optimal Trade Entry (OTE)",
+          "subtitle": "Titik masuk terbaik",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "Setelah bank memburu likuiditas dan menembus struktur (BOS), mereka kembali untuk menguji zona Order Block atau FVG sebelum melanjutkan. Zona ini disebut OTE — Optimal Trade Entry. Ini adalah zona diskon tempat bank masuk!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "OTE berada di antara 61,8% dan 79% retracement Fibonacci. Anda ingin membeli dari zona Diskon dan menjual dari zona Premium. Bank membeli dari diskon dan menjual kepada publik di premium!"
+            },
+            {
+              "type": "quiz",
+              "text": "Apa zona masuk terbaik setelah BOS?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa kepanjangan dari OTE?",
+              "options": [
+                "Optimal Trade Entry",
+                "Order Trade Exit",
+                "Open Trading Edge",
+                "One Time Entry"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "OTE berada di antara level Fibonacci mana?",
+              "options": [
+                "61,8% dan 79%",
+                "23,6% dan 38,2%",
+                "0% dan 23,6%",
+                "79% dan 100%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elliott",
+      "title": "Elliott Wave",
+      "subtitle": "Pasar memiliki ritmenya sendiri",
+      "description": "Memahami ritme pasar melalui teori gelombang",
+      "iconAsset": "assets/lottie/elliott_icon.json",
+      "color": 4279286145,
+      "badgeAsset": "assets/icons/badge_elliott.svg",
+      "completedBadge": "Komandan Gelombang",
+      "lessons": [
+        {
+          "id": "elliott_1",
+          "title": "Ritme Pasar",
+          "subtitle": "Gelombang Motif dan Korektif",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "Pasar bergerak dalam pola berirama! 5 gelombang searah tren (Motif), dan 3 gelombang melawannya (Korektif). 5 gelombang adalah perjalanan kapal, dan 3 gelombang adalah istirahat."
+            },
+            {
+              "type": "interaction",
+              "text": "Geser ke kiri dan kanan untuk melihat gelombang bergerak!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Ada berapa gelombang motif?",
+              "options": [
+                "5",
+                "3",
+                "8",
+                "2"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Ada berapa gelombang korektif?",
+              "options": [
+                "3",
+                "5",
+                "8",
+                "1"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_2",
+          "title": "Gelombang 3",
+          "subtitle": "Gelombang terkuat",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "Gelombang 3 adalah gelombang terkuat dan terpanjang. Ini adalah gelombang kegilaan! Jika Anda menemukan gelombang pendek, itu tidak mungkin Gelombang 3. Hitung ulang!"
+            },
+            {
+              "type": "quiz",
+              "text": "Pilih Gelombang 3 yang asli dari gelombang yang ditampilkan"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa yang menjadi ciri Gelombang 3?",
+              "options": [
+                "Ini yang terpanjang dan terkuat",
+                "Ini yang terpendek",
+                "Ini yang terlemah",
+                "Ini setara dengan Gelombang 1"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_3",
+          "title": "Fibonacci",
+          "subtitle": "Kotak alat ajaib Anda",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_fib.json",
+              "text": "Kami menggunakan Fibonacci untuk mengetahui dengan tepat di mana gelombang korektif akan melakukan retracement. 61,8% dan 38,2% adalah titik perburuan emas."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa level retracement Fibonacci yang paling penting?",
+              "options": [
+                "61,8%",
+                "50%",
+                "23,6%",
+                "78,6%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_4",
+          "title": "Ekstensi Gelombang",
+          "subtitle": "Saat gelombang memanjang",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "Beberapa gelombang memanjang melebihi normal — disebut \"Ekstensi\". Seringkali gelombang 3, 5, atau C yang memanjang. Jika gelombang 3 memanjang, gelombang 5 akan pendek. Jika gelombang 5 memanjang, pembalikan kuat akan datang! Aturannya: gelombang yang memanjang memprediksi ukuran pergerakan berikutnya."
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "Alternasi: Jika gelombang 2 tajam, gelombang 4 akan datar. Dan sebaliknya. Pasar benci pengulangan! Aturan ini membantu Anda memprediksi bentuk gelombang berikutnya."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa sebutan gelombang yang memanjang melebihi normal?",
+              "options": [
+                "Ekstensi",
+                "Koreksi",
+                "Gelombang motif",
+                "Gelombang segitiga"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Aturan alternasi berlaku untuk apa?",
+              "options": [
+                "Bentuk gelombang 2 dan 4",
+                "Panjang gelombang 1 dan 5",
+                "Ukuran gelombang A dan C",
+                "Waktu gelombang"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_5",
+          "title": "Channel Gelombang",
+          "subtitle": "Menggambar batas-batas",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "Untuk memverifikasi hitungan gelombang Anda, gambarlah sebuah channel yang menghubungkan puncak gelombang 1 dan puncak gelombang 3, dengan garis paralel dari dasar gelombang 2. Gelombang 4 harus memantul dari garis ini. Jika menembus, hitung ulang!"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/elliott_wave_guide.svg",
+              "text": "Gambarlah channel pada grafik: hubungkan titik tertinggi 1 dan 3, lihat apakah gelombang 4 memantul dari garis bawah!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Channel menghubungkan apa dengan apa?",
+              "options": [
+                "Puncak gelombang 1 ke puncak gelombang 3",
+                "Dasar gelombang 2 ke dasar gelombang 4",
+                "Puncak gelombang A ke puncak B",
+                "Awal gelombang 1 ke akhir gelombang 5"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ict",
+      "title": "Inner Circle Trader",
+      "subtitle": "Anda adalah detektif di jejak bank",
+      "description": "Memahami algoritma bank sentral dan waktu",
+      "iconAsset": "assets/lottie/ict_icon.json",
+      "color": 4287323382,
+      "badgeAsset": "assets/icons/badge_ict.svg",
+      "completedBadge": "Detektif ICT",
+      "lessons": [
+        {
+          "id": "ict_1",
+          "title": "Algoritma PD Array",
+          "subtitle": "Akumulasi, Manipulasi, Distribusi",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "Bank sentral tidak mengandalkan keberuntungan. Mereka memiliki algoritma: Akumulasi, Manipulasi, dan Distribusi. Manipulasi ini disebut \"Judas Swing\"!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa yang terjadi setelah akumulasi dalam algoritma PD Array?",
+              "options": [
+                "Manipulasi",
+                "Distribusi",
+                "Penjualan",
+                "Pembelian"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_2",
+          "title": "Killzones",
+          "subtitle": "Waktu adalah senjata",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "Pasar bergerak agresif pada waktu-waktu tertentu seperti pembukaan London dan NY. Waktu-waktu ini disebut Killzones. Waktu di luar itu untuk tidur!"
+            },
+            {
+              "type": "interaction",
+              "text": "Perhatikan jam. Ketika waktu Killzone tiba, jam akan bersinar!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa itu Killzone?",
+              "options": [
+                "Waktu pembukaan pasar utama",
+                "Zona kerugian",
+                "Indikator teknis",
+                "Pengaturan platform"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_3",
+          "title": "Power of 3 (PO3)",
+          "subtitle": "Aplikasi praktis",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "Aplikasi praktis dari algoritma PD. Sebuah lilin menembus titik terendah, memburu likuiditas, lalu berbalik agresif ke arah sebaliknya menembus struktur."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Setelah menembus titik terendah dan memburu likuiditas, apa yang terjadi?",
+              "options": [
+                "Pembalikan kuat ke arah sebaliknya",
+                "Kelanjutan tren turun",
+                "Jeda pasar",
+                "Perdagangan balik"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_4",
+          "title": "Fibonacci dan OTE dalam ICT",
+          "subtitle": "Zona diskon",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "Di sekolah ICT, Fibonacci bukan sekadar alat — ini adalah peta bank! Setelah likuiditas terkumpul dan manipulasi terjadi, pasar kembali ke zona Fibonacci 61,8%-79%. Ini adalah OTE (Optimal Trade Entry). Bank masuk di sini untuk menaiki gelombang berikutnya."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/order_block_rocket.svg",
+              "text": "Identifikasi zona OTE pada grafik: ini adalah area antara 61,8% dan 79%. Bank membeli dari diskon!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "OTE di sekolah ICT adalah zona apa?",
+              "options": [
+                "Zona diskon",
+                "Zona premium",
+                "Zona overbought",
+                "Zona resistensi"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_5",
+          "title": "Teori Waktu dan Harga",
+          "subtitle": "Waktu lebih penting daripada harga",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "Dalam ICT, waktu mengalahkan harga! Harga bisa pergi ke mana saja, tetapi jika waktunya tidak tepat — bank tidak akan bergerak. Pada waktu tertentu (Killzones), bank HARUS bergerak untuk mengeksekusi pesanan mereka. Jika harga mencapai OTE selama Killzone — itu adalah kesempatan emas!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "Sesi London menentukan arah untuk sisa hari itu. Pembukaan NY mengonfirmasi atau membalikkan arah. Penutupan sesi menunjukkan koreksi yang kuat. Waktu adalah teman Anda — bekerjalah dengannya, bukan melawannya!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa yang lebih penting dalam ICT — waktu atau harga?",
+              "options": [
+                "Waktu",
+                "Harga",
+                "Keduanya",
+                "Tidak keduanya"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Kapan kesempatan masuk terbaik?",
+              "options": [
+                "Harga di OTE + waktu di Killzone",
+                "Kapan saja",
+                "Saat harga tinggi",
+                "Saat volume rendah"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smt",
+      "title": "Smart Market Technique",
+      "subtitle": "Pasar adalah cermin",
+      "description": "Memahami hubungan aset yang berkorelasi",
+      "iconAsset": "assets/lottie/smt_icon.json",
+      "color": 4294286859,
+      "badgeAsset": "assets/icons/badge_smt.svg",
+      "completedBadge": "Analis Divergensi",
+      "lessons": [
+        {
+          "id": "smt_1",
+          "title": "Aset Berkorelasi",
+          "subtitle": "Aset yang bergerak bersama",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "Aset seperti Dolar dan Emas bergerak secara terbalik. Jika Anda melihatnya bergerak ke arah yang sama karena kesalahan, \"Divergensi\" telah terjadi, dan itu adalah peluang!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa hubungan antara Dolar dan Emas?",
+              "options": [
+                "Hubungan terbalik",
+                "Hubungan langsung",
+                "Tidak ada hubungan",
+                "Hubungan musiman"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_2",
+          "title": "Divergensi SMT",
+          "subtitle": "Pendeteksi kebohongan",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "Ketika Dolar mencapai titik tertinggi baru, tetapi Emas tidak mencapai titik terendah baru... itu berarti salah satunya berbohong! Divergensi adalah pendeteksi kebohongan."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa yang sebenarnya dideteksi oleh divergensi?",
+              "options": [
+                "Salah satu aset berbohong",
+                "Pasar akan berhenti",
+                "Volume tinggi",
+                "Berita akan datang"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_3",
+          "title": "Zona Premium dan Diskon",
+          "subtitle": "Di mana membeli dan di mana menjual",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "Di mana membeli? Di zona Diskon — di bawah 50% Fibonacci. Di mana menjual? Di zona Premium — di atas 50% Fibonacci. Bank membeli dari Anda di diskon dan menjual kepada Anda di premium. Jangan menjadi trader ritel yang membeli mahal dan menjual murah!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "Ketika Anda menemukan divergensi antara dua aset di zona diskon — itu adalah sinyal beli yang kuat. Ketika divergensi terjadi di zona premium — itu adalah sinyal jual. Menggabungkan SMT dengan Fibonacci memberikan target yang sangat presisi."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Zona diskon berada di bawah level Fibonacci berapa?",
+              "options": [
+                "50%",
+                "61,8%",
+                "38,2%",
+                "78,6%"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Divergensi di zona diskon memberikan sinyal apa?",
+              "options": [
+                "Beli",
+                "Jual",
+                "Tunggu",
+                "Tidak ada"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_4",
+          "title": "Analisis Multi-Timeframe",
+          "subtitle": "Gambaran lengkap",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "Jangan berdagang hanya pada satu timeframe! Timeframe yang lebih tinggi (Mingguan/Harian) memberikan tren keseluruhan. Timeframe menengah (4J/1J) memberikan zona penawaran dan permintaan. Timeframe lebih rendah (15M/5M) memberikan titik masuk. Ketika divergensi SMT muncul pada beberapa timeframe — itu adalah sinyal terkuat!"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/swipe_gesture.svg",
+              "text": "Bergerak di antara timeframe: perkecil untuk melihat gambaran besar, perbesar untuk masuk yang presisi!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Berapa banyak timeframe yang harus Anda gunakan?",
+              "options": [
+                "3 timeframe (tinggi - sedang - rendah)",
+                "Satu timeframe",
+                "5 timeframe",
+                "Tidak perlu"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Apa yang diberikan timeframe yang lebih tinggi?",
+              "options": [
+                "Tren keseluruhan",
+                "Titik masuk",
+                "Stop loss",
+                "Target"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vfx",
+      "title": "Volume / Order Flow",
+      "subtitle": "Volume adalah jiwa pasar",
+      "description": "Memahami volume dan aliran pesanan",
+      "iconAsset": "assets/lottie/vfx_icon.json",
+      "color": 4293870660,
+      "badgeAsset": "assets/icons/badge_vfx.svg",
+      "completedBadge": "Ahli Volume",
+      "lessons": [
+        {
+          "id": "vfx_1",
+          "title": "Bahan Bakar Pasar",
+          "subtitle": "Apa itu Volume?",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "Bayangkan grafik adalah mobil, dan volume adalah bahan bakarnya. Mobil bergerak tanpa bahan bakar? Tidak mungkin! Aksi harga harus didukung oleh volume yang kuat."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Volume itu seperti apa di pasar?",
+              "options": [
+                "Seperti bahan bakar untuk mobil",
+                "Seperti air",
+                "Seperti udara",
+                "Seperti listrik"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_2",
+          "title": "Detak Jantung Pasar",
+          "subtitle": "Delta dan Aliran Pesanan",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "Tidak semua volume sama. Delta memberi tahu kita apakah orang membeli lebih cepat daripada menjual. Jika Delta positif, pembeli yang mengendalikan."
+            },
+            {
+              "type": "interaction",
+              "text": "Ketuk \"Beli\" dan lihat bagaimana Delta berubah"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa arti Delta positif?",
+              "options": [
+                "Pembeli yang mengendalikan",
+                "Penjual yang mengendalikan",
+                "Pasar tutup",
+                "Tidak ada perdagangan"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_3",
+          "title": "Volume Klimaks",
+          "subtitle": "Saat pergerakan berakhir",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "Ketika batang volume mencapai langit-langit besar secara tiba-tiba, itu berarti pergerakan sudah habis dan meledak. Bersiaplah untuk pembalikan tajam!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa yang disinyalir oleh volume yang sangat tinggi?",
+              "options": [
+                "Pergerakan habis, pembalikan akan datang",
+                "Kelanjutan pergerakan",
+                "Awal pergerakan",
+                "Tidak ada sinyal"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_4",
+          "title": "Profil Volume",
+          "subtitle": "Peta volume",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "Profil Volume memberikan batang horizontal yang menunjukkan di mana sebagian besar perdagangan terjadi. Zona dengan volume tertinggi (POC — Point of Control) adalah level yang dihormati pasar. Jika harga di atas POC, itu kuat; jika di bawah, itu lemah!"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "Identifikasi zona POC pada grafik: itu adalah tempat batang volume horizontal paling tinggi!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa kepanjangan dari POC?",
+              "options": [
+                "Point of Control",
+                "Price of Currency",
+                "Power of Chart",
+                "Peak of Candle"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_5",
+          "title": "Divergensi Volume",
+          "subtitle": "Saat harga dan volume tidak setuju",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "Ketika harga mencapai titik tertinggi baru tetapi volume menurun — itu adalah Divergensi Volume. Itu berarti pergerakan lemah, tidak didukung, dan akan segera berbalik. Harga berbohong, volume mengatakan yang sebenarnya!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "Kebalikannya juga benar: jika harga turun dan volume meningkat — penjualan itu nyata dan tren turun itu asli. Volume adalah pengonfirmasi kebenaran untuk setiap pergerakan harga!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Apa arti divergensi volume?",
+              "options": [
+                "Harga dan volume bergerak terpisah",
+                "Harga dan volume sejajar",
+                "Pasar stabil",
+                "Volume normal"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "fxa",
+      "name": "FXA",
+      "url": "https://youtube.com/@FXA",
+      "color": 4282401270,
+      "description": "Saluran Arab khusus dalam penjelasan SMC & ICT yang disederhanakan"
+    },
+    {
+      "id": "smartrisk",
+      "name": "Smart Risk",
+      "url": "https://youtube.com/@SmartRisk",
+      "color": 4282920172,
+      "description": "Saluran Sudan fokus pada edukasi trading dan manajemen risiko"
+    },
+    {
+      "id": "chart",
+      "name": "الشارت السوداني",
+      "url": "https://youtube.com/@AlChartAlSudani",
+      "color": 4288896246,
+      "description": "Analisis teknikal dan fundamental untuk pasar Sudan dan Arab"
+    }
+  ]
+}

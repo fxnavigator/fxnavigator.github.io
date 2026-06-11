@@ -1,0 +1,872 @@
+{
+  "version": 1,
+  "schools": [
+    {
+      "id": "smc",
+      "title": "Smart Money Concepts",
+      "subtitle": "Como jogar com os grandes jogadores?",
+      "description": "Simplificando conceitos de liquidez e bancos para iniciantes de forma divertida",
+      "iconAsset": "assets/lottie/smc_icon.json",
+      "color": 4282090230,
+      "badgeAsset": "assets/icons/badge_smc.svg",
+      "completedBadge": "Mestre em Liquidez",
+      "lessons": [
+        {
+          "id": "smc_1",
+          "title": "O que é Smart Money?",
+          "subtitle": "Liquidez do Mercado",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "O mercado tem compradores e vendedores. Os grandes bancos (Smart Money) precisam encontrar pessoas para comprar deles ou vender para eles. O lugar onde encontram essas pessoas é chamado de \"Liquidez\". Essa é a essência do Smart Money!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "Olhe para este gráfico. Estas máximas e mínimas são zonas de liquidez. Os bancos quebram a máxima para caçar os stop-losses colocados lá, então o mercado rapidamente reverte na direção real."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "Agora encontre a zona de acumulação no gráfico: é a máxima ou a mínima?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que é Smart Money no mercado?",
+              "options": [
+                "Grandes bancos que gerenciam liquidez",
+                "Pequenos traders de varejo",
+                "Notícias econômicas",
+                "Indicadores técnicos"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Por que os bancos quebram a máxima?",
+              "options": [
+                "Para caçar liquidez (stop-losses)",
+                "Para comprar a preços mais altos",
+                "Para vender a descoberto",
+                "Para mostrar o gráfico"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_2",
+          "title": "Fair Value Gaps (FVG)",
+          "subtitle": "Lacunas que o mercado deixa para trás",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "Quando os bancos entram no mercado agressivamente, eles deixam uma \"lacuna\" no gráfico onde nenhuma negociação aconteceu. O mercado geralmente retorna para preencher essa lacuna, como tapar um buraco na rua."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/candles_fvg.svg",
+              "text": "Toque na localização da lacuna no gráfico para descobri-la!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Por que ocorre uma lacuna no gráfico?",
+              "options": [
+                "Movimento agressivo dos bancos",
+                "Anúncio de notícias comum",
+                "Baixo volume de negociação",
+                "Falha na plataforma"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_3",
+          "title": "Order Blocks (OB)",
+          "subtitle": "A plataforma de lançamento",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "Antes dos bancos fazerem um grande movimento, eles colocam suas ordens em uma zona secreta (Order Block). É o último candle de baixa antes do mercado disparar para cima, ou vice-versa. É a plataforma de lançamento!"
+            },
+            {
+              "type": "quiz",
+              "text": "O Order Block é o último candle de que tipo antes da reversão?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que é um Order Block?",
+              "options": [
+                "O último candle antes do grande movimento",
+                "O primeiro candle do dia",
+                "Um candle comum",
+                "Um indicador técnico"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_4",
+          "title": "Break of Structure (BOS)",
+          "subtitle": "Quando o mercado muda de ideia",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "Quando os bancos quebram uma mínima antiga e continuam descendo, isso é um \"Break of Structure\" (BOS). Significa que a tendência realmente mudou. Como andar por uma rua e ver o semáforo ficar vermelho — pare e volte!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "A diferença entre BOS e CHOCH: BOS é quebrar uma mínima ou máxima enquanto a tendência continua. Change of Character (CHOCH) é quebrar uma mínima em uma tendência de alta ou uma máxima em uma tendência de baixa, sinalizando uma reversão completa."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que BOS significa?",
+              "options": [
+                "Break of Structure",
+                "Buy on Signal",
+                "Best Order Strategy",
+                "Big Open Sesame"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "O que CHOCH significa?",
+              "options": [
+                "Complete change of character",
+                "Continuação da tendência",
+                "Correção menor",
+                "Abrir uma negociação"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_5",
+          "title": "Zonas de Liquidez",
+          "subtitle": "Interna e Externa",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "A liquidez tem dois tipos: Interna — máximas e mínimas dentro da onda. Externa — máximas e mínimas além da onda (acima da última máxima ou abaixo da última mínima). Os bancos caçam primeiro a liquidez interna para alcançar as zonas de liquidez externa."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "Identifique a zona: esta é liquidez interna ou externa no gráfico?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que é liquidez interna?",
+              "options": [
+                "Máximas e mínimas dentro da onda",
+                "Máximas e mínimas fora da onda",
+                "Médias móveis",
+                "Linhas de tendência"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "O que os bancos caçam primeiro?",
+              "options": [
+                "Liquidez interna",
+                "Liquidez externa",
+                "Fibonacci",
+                "Resistência"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_6",
+          "title": "Optimal Trade Entry (OTE)",
+          "subtitle": "O melhor ponto de entrada",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "Depois que os bancos caçam liquidez e quebram a estrutura (BOS), eles retornam para testar a zona de Order Block ou FVG antes de continuar. Esta zona é chamada OTE — Optimal Trade Entry. É a zona de desconto onde os bancos entram!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "OTE está entre 61,8% e 79% de retração de Fibonacci. Você quer comprar da zona de Desconto e vender da zona Premium. Os bancos compram do desconto e vendem ao público no premium!"
+            },
+            {
+              "type": "quiz",
+              "text": "Qual é a melhor zona de entrada após um BOS?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que OTE significa?",
+              "options": [
+                "Optimal Trade Entry",
+                "Order Trade Exit",
+                "Open Trading Edge",
+                "One Time Entry"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "OTE está entre quais níveis de Fibonacci?",
+              "options": [
+                "61,8% e 79%",
+                "23,6% e 38,2%",
+                "0% e 23,6%",
+                "79% e 100%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elliott",
+      "title": "Elliott Wave",
+      "subtitle": "O mercado tem seu ritmo",
+      "description": "Entendendo o ritmo do mercado através da teoria das ondas",
+      "iconAsset": "assets/lottie/elliott_icon.json",
+      "color": 4279286145,
+      "badgeAsset": "assets/icons/badge_elliott.svg",
+      "completedBadge": "Comandante de Ondas",
+      "lessons": [
+        {
+          "id": "elliott_1",
+          "title": "Ritmo do Mercado",
+          "subtitle": "Ondas Motrizes e Corretivas",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "O mercado se move em um padrão rítmico! 5 ondas a favor da tendência (Motrizes) e 3 ondas contra ela (Corretivas). As 5 ondas são a viagem do navio, e as 3 ondas são o descanso."
+            },
+            {
+              "type": "interaction",
+              "text": "Deslize para a esquerda e direita para ver as ondas em movimento!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Quantas ondas motrizes existem?",
+              "options": [
+                "5",
+                "3",
+                "8",
+                "2"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Quantas ondas corretivas existem?",
+              "options": [
+                "3",
+                "5",
+                "8",
+                "1"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_2",
+          "title": "Onda 3",
+          "subtitle": "A onda mais forte",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "A Onda 3 é a mais forte e mais longa. É a onda da loucura! Se você encontrar uma onda curta, não pode ser a Onda 3. Reconte!"
+            },
+            {
+              "type": "quiz",
+              "text": "Escolha a verdadeira Onda 3 entre as ondas mostradas"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que caracteriza a Onda 3?",
+              "options": [
+                "É a mais longa e mais forte",
+                "É a mais curta",
+                "É a mais fraca",
+                "É igual à Onda 1"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_3",
+          "title": "Fibonacci",
+          "subtitle": "Sua caixa de ferramentas mágica",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_fib.json",
+              "text": "Usamos Fibonacci para saber exatamente onde as ondas corretivas vão retroceder. 61,8% e 38,2% são os pontos dourados de caça."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Qual é o nível de retração de Fibonacci mais importante?",
+              "options": [
+                "61,8%",
+                "50%",
+                "23,6%",
+                "78,6%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_4",
+          "title": "Extensões de Onda",
+          "subtitle": "Quando a onda se estende",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "Algumas ondas se estendem além do normal — chamado de \"Extensão\". Frequentemente as ondas 3, 5 ou C se estendem. Se a onda 3 se estende, a onda 5 será curta. Se a onda 5 se estende, uma forte reversão está chegando! A regra: a onda estendida prevê o tamanho do próximo movimento."
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "Alternância: Se a onda 2 foi afiada, a onda 4 será plana. E vice-versa. O mercado odeia repetição! Esta regra ajuda a prever a forma da próxima onda."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Como se chama uma onda que se estende além do normal?",
+              "options": [
+                "Extensão",
+                "Correção",
+                "Onda motriz",
+                "Onda triangular"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "A regra da alternância se aplica a quê?",
+              "options": [
+                "Forma das ondas 2 e 4",
+                "Comprimento das ondas 1 e 5",
+                "Tamanho das ondas A e C",
+                "Tempo das ondas"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_5",
+          "title": "Canalização de Ondas",
+          "subtitle": "Desenhando os limites",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "Para verificar sua contagem de ondas, desenhe um canal conectando o topo da onda 1 e o topo da onda 3, com uma linha paralela da base da onda 2. A onda 4 deve ricochetear nesta linha. Se quebrar, reconte!"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/elliott_wave_guide.svg",
+              "text": "Desenhe o canal no gráfico: conecte as máximas de 1 e 3, veja se a onda 4 ricocheteou na linha inferior!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O canal conecta o quê com o quê?",
+              "options": [
+                "Topo da onda 1 ao topo da onda 3",
+                "Base da onda 2 à base da onda 4",
+                "Topo da onda A ao topo da B",
+                "Início da onda 1 ao fim da onda 5"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ict",
+      "title": "Inner Circle Trader",
+      "subtitle": "Você é um detetive na trilha dos bancos",
+      "description": "Entendendo os algoritmos dos bancos centrais e o timing",
+      "iconAsset": "assets/lottie/ict_icon.json",
+      "color": 4287323382,
+      "badgeAsset": "assets/icons/badge_ict.svg",
+      "completedBadge": "Detetive ICT",
+      "lessons": [
+        {
+          "id": "ict_1",
+          "title": "Algoritmo PD Array",
+          "subtitle": "Acumular, Manipular, Distribuir",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "Os bancos centrais não confiam na sorte. Eles têm um algoritmo: Acumular, Manipular e Distribuir. Esta manipulação é o \"Judas Swing\"!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que vem depois da acumulação no algoritmo PD Array?",
+              "options": [
+                "Manipulação",
+                "Distribuição",
+                "Venda",
+                "Compra"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_2",
+          "title": "Killzones",
+          "subtitle": "O tempo é a arma",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "O mercado se move agressivamente durante horários específicos como aberturas de Londres e Nova York. Esses horários são chamados de Killzones. O tempo fora deles é para dormir!"
+            },
+            {
+              "type": "interaction",
+              "text": "Observe o relógio. Quando chega a hora da Killzone, o relógio brilha!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que é uma Killzone?",
+              "options": [
+                "Horários principais de abertura do mercado",
+                "Zonas de perda",
+                "Um indicador técnico",
+                "Configurações da plataforma"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_3",
+          "title": "Power of 3 (PO3)",
+          "subtitle": "Aplicação prática",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "A aplicação prática do algoritmo PD. Um candle quebra uma mínima, caça liquidez, então reverte agressivamente na direção oposta quebrando a estrutura."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Depois de quebrar a mínima e caçar liquidez, o que acontece?",
+              "options": [
+                "Reversão forte na direção oposta",
+                "Continuação da tendência de baixa",
+                "Pausa do mercado",
+                "Contra-negociação"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_4",
+          "title": "Fibonacci e OTE no ICT",
+          "subtitle": "A zona de desconto",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "Na escola ICT, Fibonacci não é apenas uma ferramenta — é o mapa dos bancos! Depois que a liquidez é coletada e a manipulação ocorre, o mercado retorna para a zona Fibonacci de 61,8%-79%. Esta é a OTE (Optimal Trade Entry). Os bancos entram aqui para surfar a próxima onda."
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/order_block_rocket.svg",
+              "text": "Identifique a zona OTE no gráfico: é a área entre 61,8% e 79%. Os bancos compram do desconto!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "OTE na escola ICT é que zona?",
+              "options": [
+                "Zona de desconto",
+                "Zona premium",
+                "Zona de sobrecompra",
+                "Zona de resistência"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_5",
+          "title": "Teoria do Tempo e Preço",
+          "subtitle": "O tempo é mais importante que o preço",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "No ICT, o tempo supera o preço! O preço pode ir para qualquer lugar, mas se o timing não estiver certo — os bancos não se movem. Em horários específicos (Killzones), os bancos DEVEM se mover para executar suas ordens. Se o preço atingir a OTE durante uma Killzone — essa é uma oportunidade de ouro!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "A sessão de Londres define a direção para o resto do dia. A abertura de Nova York confirma ou reverte a direção. O fechamento da sessão mostra fortes correções. O tempo é seu amigo — trabalhe com ele, não contra ele!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que é mais importante no ICT — tempo ou preço?",
+              "options": [
+                "Tempo",
+                "Preço",
+                "Ambos",
+                "Nenhum"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Quando é a melhor oportunidade de entrada?",
+              "options": [
+                "Preço na OTE + horário na Killzone",
+                "A qualquer momento",
+                "Quando o preço está alto",
+                "Quando o volume está baixo"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smt",
+      "title": "Smart Market Technique",
+      "subtitle": "O mercado é um espelho",
+      "description": "Entendendo as relações entre ativos correlacionados",
+      "iconAsset": "assets/lottie/smt_icon.json",
+      "color": 4294286859,
+      "badgeAsset": "assets/icons/badge_smt.svg",
+      "completedBadge": "Analista de Divergência",
+      "lessons": [
+        {
+          "id": "smt_1",
+          "title": "Ativos Correlacionados",
+          "subtitle": "Ativos que se movem juntos",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "Ativos como o Dólar e o Ouro se movem inversamente. Se você os vir se movendo na mesma direção por engano, ocorreu uma \"Divergência\", e essa é a oportunidade!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Qual é a relação entre Dólar e Ouro?",
+              "options": [
+                "Relação inversa",
+                "Relação direta",
+                "Sem relação",
+                "Relação sazonal"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_2",
+          "title": "Divergência SMT",
+          "subtitle": "O detector de mentiras",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "Quando o Dólar faz uma nova máxima, mas o Ouro não faz uma nova mínima... significa que um deles está mentindo! A divergência é o detector de mentiras."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que exatamente a divergência detecta?",
+              "options": [
+                "Um dos ativos está mentindo",
+                "O mercado vai parar",
+                "O volume está alto",
+                "Notícias estão chegando"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_3",
+          "title": "Zonas Premium e Desconto",
+          "subtitle": "Onde comprar e onde vender",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "Onde comprar? Na zona de Desconto — abaixo de 50% de Fibonacci. Onde vender? Na zona Premium — acima de 50% de Fibonacci. Os bancos compram de você no desconto e vendem para você no premium. Não seja o trader de varejo que compra caro e vende barato!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "Quando você encontra divergência entre dois ativos na zona de desconto — esse é um forte sinal de compra. Quando a divergência acontece na zona premium — esse é um sinal de venda. Combinar SMT com Fibonacci dá alvos muito precisos."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A zona de desconto está abaixo de que nível de Fibonacci?",
+              "options": [
+                "50%",
+                "61,8%",
+                "38,2%",
+                "78,6%"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Divergência na zona de desconto dá que sinal?",
+              "options": [
+                "Compra",
+                "Venda",
+                "Esperar",
+                "Nada"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_4",
+          "title": "Análise Multi-Timeframe",
+          "subtitle": "O panorama completo",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "Não negocie em apenas um timeframe! O timeframe superior (Semanal/Diário) dá a tendência geral. O timeframe médio (4H/1H) dá as zonas de oferta e demanda. O timeframe inferior (15M/5M) dá o ponto de entrada. Quando a divergência SMT aparece em múltiplos timeframes — esse é o sinal mais forte!"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/swipe_gesture.svg",
+              "text": "Alternar entre timeframes: afaste para ver o panorama geral, aproxime para a entrada precisa!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Quantos timeframes você deve usar?",
+              "options": [
+                "3 timeframes (alto - médio - baixo)",
+                "Um timeframe",
+                "5 timeframes",
+                "Não precisa"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "O que o timeframe superior oferece?",
+              "options": [
+                "A tendência geral",
+                "Ponto de entrada",
+                "Stop loss",
+                "Alvo"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vfx",
+      "title": "Volume / Order Flow",
+      "subtitle": "O volume é a alma do mercado",
+      "description": "Entendendo volume e fluxo de ordens",
+      "iconAsset": "assets/lottie/vfx_icon.json",
+      "color": 4293870660,
+      "badgeAsset": "assets/icons/badge_vfx.svg",
+      "completedBadge": "Especialista em Volume",
+      "lessons": [
+        {
+          "id": "vfx_1",
+          "title": "Combustível do Mercado",
+          "subtitle": "O que é Volume?",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "Imagine que o gráfico é um carro, e o volume é o combustível. Um carro andando sem combustível? Impossível! A ação do preço deve ser apoiada por volume forte."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que o volume representa no mercado?",
+              "options": [
+                "Como combustível para um carro",
+                "Como água",
+                "Como ar",
+                "Como eletricidade"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_2",
+          "title": "Pulso do Mercado",
+          "subtitle": "Delta e Fluxo de Ordens",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "Nem todo volume é igual. O Delta nos diz se as pessoas estão comprando mais rápido do que vendendo. Se o Delta é positivo, os compradores estão no controle."
+            },
+            {
+              "type": "interaction",
+              "text": "Toque em \"Comprar\" e veja como o Delta muda"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que significa Delta positivo?",
+              "options": [
+                "Compradores estão no controle",
+                "Vendedores estão no controle",
+                "Mercado está fechado",
+                "Sem negociação"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_3",
+          "title": "Volume de Clímax",
+          "subtitle": "Quando o movimento termina",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "Quando as barras de volume atingem um teto massivo rapidamente, significa que o movimento está exausto e explodiu. Prepare-se para uma reversão brusca!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que o volume extremamente alto sinaliza?",
+              "options": [
+                "O movimento está exausto, reversão chegando",
+                "Continuação do movimento",
+                "Início do movimento",
+                "Sem sinal"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_4",
+          "title": "Perfil de Volume",
+          "subtitle": "Mapa de volume",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "O Perfil de Volume dá uma barra horizontal mostrando onde a maior parte da negociação aconteceu. A zona com o maior volume (POC — Point of Control) é o nível que o mercado respeita. Se o preço está acima do POC, é forte; se abaixo, é fraco!"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "Identifique a zona POC no gráfico: é onde a barra de volume horizontal é mais alta!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que POC significa?",
+              "options": [
+                "Point of Control",
+                "Price of Currency",
+                "Power of Chart",
+                "Peak of Candle"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_5",
+          "title": "Divergência de Volume",
+          "subtitle": "Quando preço e volume discordam",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "Quando o preço faz uma nova máxima mas o volume diminui — isso é Divergência de Volume. Significa que o movimento é fraco, sem suporte, e prestes a reverter. O preço mente, o volume diz a verdade!"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "O oposto também é verdade: se o preço cai e o volume aumenta — a liquidação é real e a tendência de baixa é genuína. O volume é o confirmador da verdade para qualquer movimento de preço!"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "O que significa divergência de volume?",
+              "options": [
+                "Preço e volume estão se afastando",
+                "Preço e volume estão alinhados",
+                "Mercado está estável",
+                "Volume está normal"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "fxa",
+      "name": "FXA",
+      "url": "https://youtube.com/@FXA",
+      "color": 4282401270,
+      "description": "Canal árabe especializado em explicações simplificadas de SMC e ICT"
+    },
+    {
+      "id": "smartrisk",
+      "name": "Smart Risk",
+      "url": "https://youtube.com/@SmartRisk",
+      "color": 4282920172,
+      "description": "Canal sudanês focado em educação de trading e gestão de risco"
+    },
+    {
+      "id": "chart",
+      "name": "الشارت السوداني",
+      "url": "https://youtube.com/@AlChartAlSudani",
+      "color": 4288896246,
+      "description": "Análise técnica e fundamental para os mercados sudanês e árabe"
+    }
+  ]
+}

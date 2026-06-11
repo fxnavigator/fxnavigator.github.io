@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fxa",
+    "name": "FXA",
+    "url": "https://youtube.com/@FXA",
+    "color": 4282401270,
+    "description": "قناة عربية متخصصة في شرح SMC و ICT بأسلوب مبسط"
+  },
+  {
+    "id": "smartrisk",
+    "name": "Smart Risk",
+    "url": "https://youtube.com/@SmartRisk",
+    "color": 4282920172,
+    "description": "قناة سودانية متخصصة في تعليم التداول وإدارة المخاطر"
+  },
+  {
+    "id": "chart",
+    "name": "الشارت السوداني",
+    "url": "https://youtube.com/@AlChartAlSudani",
+    "color": 4288896246,
+    "description": "تحليلات فنية وأساسية للسوق السوداني والعربي"
+  }
+]

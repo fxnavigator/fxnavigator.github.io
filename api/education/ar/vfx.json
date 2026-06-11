@@ -1,0 +1,146 @@
+{
+  "id": "vfx",
+  "title": "مدرسة الـ VFX",
+  "subtitle": "الحجم هو روح السوق",
+  "description": "فهم الحجم وتدفق الأوامر",
+  "iconAsset": "assets/lottie/vfx_icon.json",
+  "color": 4293870660,
+  "badgeAsset": "assets/icons/badge_vfx.svg",
+  "completedBadge": "خبير الحجم",
+  "lessons": [
+    {
+      "id": "vfx_1",
+      "title": "وقود السوق",
+      "subtitle": "إيه هو الحجم؟",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+          "text": "تخيل الشارت عربية، والحجم هو البنزين. عربية تمشي من غير بنزين؟ مستحيل! حركة السعر لازم يبقى وراها حجم قوي."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "الحجم في السوق زي إيه؟",
+          "options": [
+            "زي البنزين للعربية",
+            "زي الماء",
+            "زي الهواء",
+            "زي الكهرباء"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_2",
+      "title": "نبض السوق",
+      "subtitle": "الدلتا وتدفق الأوامر",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_delta.json",
+          "text": "مش كل حجم زي بعض. الدلتا بتقولنا هل الناس بتشتري أسرع من ما بتبيع؟ لو الدلتا موجبة، المشترين مسيطرين."
+        },
+        {
+          "type": "interaction",
+          "text": "اضغط على \"Buy\" وشوف إزاي الدلتا بتتغير"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "الدلتا الموجبة تعني إيه؟",
+          "options": [
+            "المشترين مسيطرين",
+            "البائعين مسيطرين",
+            "السوق مغلق",
+            "ما فيش تداولات"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_3",
+      "title": "نقطة الانفجار",
+      "subtitle": "لما الحركة تخلص",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_climax.json",
+          "text": "لما توصل الحانات (شريط الحجم) لسقف عالي جداً بسرعة، ده معناه إن الحركة خلصت وانفجرت، استعد للارتداد العنيف!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "الحجم العالي جداً فجأة بيديك إشارة إيه؟",
+          "options": [
+            "الحركة خلصت وجاهز للارتداد",
+            "استمرار الحركة",
+            "بداية الحركة",
+            "ما فيش إشارة"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_4",
+      "title": "ملف الحجم",
+      "subtitle": "خريطة الحجم",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_climax.json",
+          "text": "ملف الحجم (Volume Profile) بيديك شريط جانبي بيوضح فين الأماكن اللي حصل فيها أكبر تداول. المنطقة اللي فيها أعلى حجم (POC — Point of Control) هي المكان اللي السوق بيحترمه. لو السوق فوق POC يبقى قوي، لو تحته يبقى ضعيف!"
+        },
+        {
+          "type": "interaction",
+          "illustrationAsset": "assets/icons/chart_pattern.svg",
+          "text": "حدد منطقة POC على الشارت: هي المنطقة اللي فيها أعلى شريط حجم أفقي!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "POC تختصر إيه؟",
+          "options": [
+            "Point of Control",
+            "Price of Currency",
+            "Power of Chart",
+            "Peak of Candle"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_5",
+      "title": "تباعد الحجم",
+      "subtitle": "لما السعر والحجم يختلفوا",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_delta.json",
+          "text": "لما السعر يعمل قمة جديدة لكن الحجم يقل — ده اسمه تباعد الحجم (Volume Divergence). معناه إن الحركة ضعيفة ومش مدعومة وهتنعكس قريب. السعر بيكدب والحجم هو الصادق!"
+        },
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+          "text": "العكس كمان صحيح: لو السعر نازل والحجم زاد — ده معناه إن البيع بدأ بقوة والاتجاه الهابط حقيقي. الحجم هو تأكيد الصدق لأي حركة سعرية!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "تباعد الحجم يعني إيه؟",
+          "options": [
+            "السعر والحجم مش ماشيين مع بعض",
+            "السعر والحجم ماشيين مع بعض",
+            "السوق مستقر",
+            "الفوليوم عادي"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}

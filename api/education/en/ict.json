@@ -1,0 +1,892 @@
+{
+  "id": "ict",
+  "title": "Inner Circle Trader (ICT) — Complete Course",
+  "subtitle": "Master institutional algorithms and time-based trading",
+  "description": "A comprehensive ICT course covering PD Arrays, Killzones, PO3, Fibonacci OTE, Time & Price theory, and a complete algorithmic trading plan.",
+  "color": 4287323382,
+  "completedBadge": "ICT Detective",
+  "lessons": [
+    {
+      "id": "ict_1",
+      "title": "The ICT Foundation — Thinking Like an Institution",
+      "subtitle": "Core Philosophy, IPDA, and the Algorithmic Market",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "ICT methodology is built on the premise that financial markets are not random but follow predictable algorithms designed by institutions and central banks. Unlike retail traders who rely on lagging indicators and emotional decision-making, ICT teaches you to think like the institutions that actually move price. The core philosophy is that price moves between liquidity pools, and understanding this flow allows you to predict where price is going next. Retail traders typically lose because they buy when institutions are selling and sell when institutions are buying. ICT flips this paradigm by teaching you to trade alongside the smart money rather than against it. Every concept in ICT builds on this foundational shift in perspective from retail to institutional thinking.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "animation",
+          "text": "The Interbank Price Delivery Algorithm (IPDA) is the mechanism that central banks and large financial institutions use to distribute price across the market. IPDA operates on a simple principle: accumulate liquidity in one area, then deliver price to the opposite area where opposing liquidity sits. Think of IPDA as the engine that drives price from one liquidity pool to the next. It is the reason why markets make specific patterns that repeat across all timeframes and all instruments. Understanding IPDA means understanding that every price move has a purpose to hunt liquidity. There are no random moves in the market; every swing is deliberate and algorithmic in nature.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "animation",
+          "text": "Modern financial markets are dominated by algorithmic trading systems operated by the largest banks and hedge funds. These algorithms execute trades based on predefined rules that create consistent, repeatable patterns on your chart. ICT has reverse-engineered these algorithms by studying thousands of hours of price action across multiple markets and timeframes. The result is a trading methodology that identifies exactly where these algorithms are programmed to execute. When you learn ICT, you are not learning opinions or guesses; you are learning the actual code that runs the markets. This algorithmic understanding is what separates ICT from every other trading methodology.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "animation",
+          "text": "A dealing range is the price zone within which institutions accumulate or distribute their positions before a major move. In ICT, the dealing range is defined by a high and low boundary that contains price for an extended period. Within this range, institutions build their positions slowly by buying near the low and selling near the high, or vice versa. The dealing range is always followed by an expansion move that breaks out of the range in the direction of institutional interest. Identifying the dealing range on your chart allows you to position yourself ahead of the breakout. The larger the dealing range and the longer price spends within it, the more powerful the eventual breakout move will be.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "animation",
+          "text": "Traditional market maker models assume that a single entity controls price, but ICT model recognizes that multiple institutions interact to create the market we see. The institutional model in ICT consists of three phases: accumulation, manipulation, and distribution. This cycle repeats on every timeframe, from the 1-minute chart to the monthly chart. The same pattern that plays out over a week on the daily chart also plays out over minutes on the 1-minute chart. Understanding this fractal nature of the market is key to mastering ICT. The institutional model is the lens through which you will view every chart from now on.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "animation",
+          "text": "The Judas Swing is the term ICT uses for the manipulation phase of the institutional cycle. It is a sharp, seemingly aggressive move in one direction that traps retail traders before reversing violently in the true direction. The Judas Swing gets its name from the biblical figure who betrayed with a kiss; the market appears to give you a profitable opportunity, only to reverse and take your money. Recognizing the Judas Swing is essential because it is the moment when retail traders get trapped and institutional traders get positioned. If you can identify the Judas Swing in real time, you can avoid being the liquidity and instead ride the institutional move.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "interaction",
+          "chartId": "ict_1_practice",
+          "text": "Practice exercise: Open a 1-hour chart of EUR/USD and scroll back 72 hours. Identify the most obvious dealing range, a period where price oscillated between a clear high and low for at least 12 hours. Mark the high and low with horizontal lines. Now look for the breakout from this range. Was it preceded by a sharp spike beyond one boundary, which is the Judas Swing, followed by a reversal through the range in the opposite direction? If so, you have identified the full institutional cycle: accumulation within the range, manipulation via the spike, and distribution through the breakout. Practice this on different pairs and timeframes until you can spot it instantly."
+        },
+        {
+          "type": "animation",
+          "text": "Institutions think in terms of risk management, liquidity, and time horizon. A large bank does not care about catching the exact top or bottom; they care about executing massive orders with minimal slippage. They plan their trades days or weeks in advance and execute according to algorithmic schedules. Retail traders think in terms of quick profits, trading on impulse based on what price just did. This difference in time horizon and planning is why institutions consistently profit while retail traders consistently lose. To trade like an institution, you must adopt their patience, their planning process, and their focus on risk management above all else.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "animation",
+          "text": "Markets alternate between expansion and contraction phases. Contraction, also called consolidation or range-bound, is when price moves sideways within a dealing range, building liquidity. Expansion is when price breaks out of the range and trends strongly in one direction. ICT teaches that you should trade during expansion and wait during contraction. Most retail traders do the opposite; they get bored during contraction and trade the noise, then get scared during expansion and miss the trend. By identifying whether the market is in expansion or contraction, you can adjust your strategy accordingly. The contraction phase is for preparation and analysis; the expansion phase is for execution.",
+          "concept": "ict_liquidity_sweep"
+        },
+        {
+          "type": "animation",
+          "text": "Consider EUR/USD in March 2024: price traded in a 50-pip dealing range between 1.0800 and 1.0850 for three full days. On the fourth day, price spiked down to 1.0790, the Judas Swing, grabbing stops below the range, then reversed and broke above 1.0850 within two hours. The breakout from the dealing range reached 1.0950 over the next 48 hours, a 100-pip move. Institutions accumulated long positions within the 1.0800-1.0850 range, manipulated stops below the range, and then distributed into the rally above 1.0950. This is the institutional cycle in action. Had you identified the dealing range on day one, you would have been prepared for the breakout when the Judas Swing appeared.",
+          "concept": "ict_liquidity_sweep"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does IPDA stand for in ICT?",
+          "options": [
+            "Interbank Price Delivery Algorithm",
+            "International Price Distribution Algorithm",
+            "Interbank Premium Discount Array",
+            "Internal Price Development Action"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a dealing range in ICT?",
+          "options": [
+            "A price zone where institutions accumulate or distribute before a major move",
+            "A range of Fibonacci levels",
+            "The difference between bid and ask price",
+            "A range of trading hours"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does the Judas Swing represent?",
+          "options": [
+            "The manipulation phase that traps retail traders before the true move",
+            "A profitable trade opportunity",
+            "The end of a trend",
+            "A market close"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "According to ICT, why do retail traders typically lose?",
+          "options": [
+            "They buy when institutions are selling and sell when institutions are buying",
+            "They do not have enough capital",
+            "The market is rigged against them",
+            "They trade too infrequently"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What happens during market expansion in ICT terms?",
+          "options": [
+            "Price breaks out of the dealing range and trends strongly",
+            "Price moves sideways in a range",
+            "Volume decreases significantly",
+            "Liquidity builds for the next move"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "ict_2",
+      "title": "Premium & Discount Arrays (PD Array)",
+      "subtitle": "Identifying Institutional Buying and Selling Zones",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "The Premium and Discount Array is the fundamental framework in ICT for determining where price is cheap and where it is expensive. It divides any price move into two halves using the 50% retracement level as the equilibrium. The area below 50% is the discount zone, where institutions prefer to buy. The area above 50% is the premium zone, where institutions prefer to sell. The PD Array is not a single concept but a collection of tools including Fibonacci retracements, the 50% level, and the OTE zone that work together to identify high-probability entry points. Understanding the PD Array is the prerequisite for every other ICT concept you will learn.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "animation",
+          "text": "The premium zone is the upper half of any significant price swing, ranging from the 50% retracement level to the 100% level at the swing high. Price in the premium zone is considered expensive from an institutional perspective. Institutions look to sell into the premium zone, especially when price reaches the 70.5% to 88.6% retracement area within it. Retail traders typically buy in the premium zone because they see price going up and want to join the move; this is exactly when institutions are distributing their long positions. The premium zone is a warning sign for longs and an opportunity for shorts. Always be cautious when buying in premium territory.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "animation",
+          "text": "The discount zone is the lower half of a price swing, ranging from the 0% level at the swing low to the 50% retracement level. Price in the discount zone is considered cheap from an institutional perspective. Institutions look to buy in the discount zone, especially near the 61.8% to 78.6% retracement area when price comes into this zone from above. Retail traders typically sell in the discount zone because they see price falling and panic; this is exactly when institutions are accumulating long positions. The discount zone is an opportunity for longs and a warning sign for shorts. The deeper the discount, the more attractive the price becomes for institutional buying.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "animation",
+          "text": "The 50% retracement level is the equilibrium point in the PD Array. It represents fair value; the price level where neither buyers nor sellers have a clear advantage. Above 50%, the market is in premium territory; below 50%, the market is in discount territory. The 50% level often acts as a magnet for price, meaning price tends to return to this level after significant moves. In ICT, the 50% level is one of the most important levels on your chart because it is the dividing line between institutional buying and selling zones. When price crosses from discount to premium or vice versa, it signals a potential shift in market sentiment.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "animation",
+          "text": "To draw the PD Array correctly, you must use structural swing points on your chart. For a bullish setup where you are looking to buy, identify a clear downward swing from a Higher High to a Lower Low. Apply the Fibonacci retracement tool from the swing high at 100% to the swing low at 0%. The discount zone is from 0% to 50%, and the premium zone is from 50% to 100%. For a bearish setup where you are looking to sell, identify a clear upward swing from a Higher Low to a Higher High. Apply Fibonacci from the swing low at 0% to the swing high at 100%. Always use structure-based swing points, not arbitrary highs and lows.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "animation",
+          "text": "The PD Array becomes significantly more powerful when combined with market structure analysis. Do not trade PD Array levels in isolation; always filter them through the lens of higher timeframe structure. If the daily chart is in an uptrend, you should only take buy setups in the discount zone of the 4-hour or 1-hour chart. If the daily chart is in a downtrend, only take sell setups in the premium zone on the lower timeframe. When the higher timeframe structure aligns with the PD Array zone from the lower timeframe, you have a high-probability directional bias. Structure determines direction; PD Array determines the entry level.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "interaction",
+          "chartId": "ict_2_practice",
+          "text": "Exercise: On a 4-hour EUR/USD chart, identify the most recent significant swing from a low to a high. Draw Fibonacci from the swing low to the swing high. Mark 0-50% as discount in green and 50-100% as premium in red. Now look at where price is currently trading. Based on the daily trend, should you be looking for buy entries or sell entries? If price is in discount and the daily trend is up, mark potential buy zones. If price is in premium and the daily trend is down, mark potential sell zones. This exercise trains you to align PD Array with structure before ever considering an entry."
+        },
+        {
+          "type": "animation",
+          "text": "Consider GBP/USD on the 4-hour chart in early 2024. Price made a swing high at 1.2800 and a swing low at 1.2600, a full 200-pip swing. Fibonacci drawn from 1.2800 to 1.2600 showed the discount zone from 1.2600 to 1.2700 and the premium zone from 1.2700 to 1.2800. The daily chart was in a clear uptrend. Price pulled back into the premium zone at 1.2750 and formed a bearish Order Block. A smart ICT trader would skip the short setup in premium because the daily trend was up. Price eventually broke above 1.2800 and rallied to 1.3000. This shows that higher timeframe structure always takes priority.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "animation",
+          "text": "Common PD Array mistakes include drawing Fibonacci on the wrong swing points, using the PD Array without considering higher timeframe structure, entering at the 50% level without confirmation, and confusing premium for discount zones on different trend directions. Another major mistake is expecting price to reverse exactly at the 50% level every time. The 50% level is a zone, not an exact line, and price may overshoot it slightly before reversing. Always wait for confirmation such as a reversal candlestick pattern or an Order Block within your PD Array zone. The PD Array tells you where to look, not when to enter.",
+          "concept": "ict_pd_array"
+        },
+        {
+          "type": "animation",
+          "text": "Master traders analyze the PD Array across multiple timeframes. Start with the weekly chart to identify the macro discount and premium zones. Move to the daily chart to refine within the weekly zones. Then use the 4-hour and 1-hour charts to find your entry within the daily zones. The rule of thumb is: buy in the discount zone of the higher timeframe and look for the discount zone of the lower timeframe within that. If the weekly is in discount and the daily pulls back to its discount zone, that is a high-probability buy area. Aligning PD Arrays across multiple timeframes gives you the highest probability setups in ICT.",
+          "concept": "ict_pd_array"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the equilibrium level in the PD Array?",
+          "options": [
+            "50% retracement",
+            "61.8% retracement",
+            "38.2% retracement",
+            "78.6% retracement"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where do institutions prefer to buy?",
+          "options": [
+            "In the discount zone below 50%",
+            "In the premium zone above 50%",
+            "At the exact swing high",
+            "At round numbers"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where do institutions prefer to sell?",
+          "options": [
+            "In the premium zone above 50%",
+            "In the discount zone below 50%",
+            "At the exact swing low",
+            "At the 0% Fibonacci level"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What determines the direction of your trade when using PD Array?",
+          "options": [
+            "Higher timeframe market structure",
+            "The PD Array zone itself",
+            "Fibonacci extension levels",
+            "The current candle color"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What common mistake do traders make with the 50% level?",
+          "options": [
+            "Expecting an exact reversal at 50% without confirmation",
+            "Using Fibonacci too often",
+            "Not drawing Fibonacci at all",
+            "Trading only the 50% level"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "ict_3",
+      "title": "Market Structure & Liquidity in ICT",
+      "subtitle": "Advanced Structure, Displacement, and Market Structure Shifts",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Market structure in ICT goes beyond simple Higher Highs and Lower Lows. ICT introduces the concept of internal and external structure to provide a deeper understanding of price movements. External structure refers to the overall trend direction on the higher timeframe, while internal structure refers to the smaller swings within that trend. A market structure shift occurs when internal structure breaks in the opposite direction of external structure, warning of a potential trend change. Understanding this layered structure allows you to identify when a pullback is just a pullback versus when it is the beginning of a reversal.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "A displacement in ICT is a strong, aggressive candlestick or series of candles that breaks through a structural level with momentum. Displacement is characterized by a large body, small wicks, and a clear break beyond a key level. This is distinct from a gradual move which lacks the institutional force behind it. A displacement tells you that institutions have committed to the direction with significant order flow. When you see a displacement, it confirms that the move is institutional and not random noise. Always pay attention to displacement candles as they mark the points of highest institutional interest.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "Liquidity voids are zones on the chart where price moved quickly without leaving overlapping candles, creating an area of thin trading. These voids occur when institutions push price aggressively through multiple price levels in a short period, leaving behind an area where few orders were filled. Liquidity voids act as magnets for future price movement because the unfilled orders in that zone need to be satisfied. ICT teaches that price will often return to fill these voids before continuing in the original direction. Identifying liquidity voids gives you both a target for profit-taking and a potential entry zone on retracement.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "Internal structure refers to the smaller swings within the larger external trend. In an external uptrend, the internal structure consists of smaller Higher Highs and Higher Lows that make up the larger move. A break of internal structure, where price breaks below a recent internal Higher Low, is the first warning sign that the external trend may be weakening. ICT traders watch for breaks of internal structure as early entry signals even before the external structure changes. Trading with internal structure allows you to enter trends earlier and with tighter stop-losses compared to waiting for external structure breaks.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "External structure is the dominant trend on the higher timeframe, typically the daily or weekly chart. It is defined by the sequence of major swing highs and swing lows. For an external uptrend, we see Higher Highs and Higher Lows on the daily chart. For an external downtrend, we see Lower Highs and Lower Lows. The external structure determines your overall bias for the day or week. All lower timeframe trades should be taken in the direction of the external structure. Fighting the external structure is the fastest way to lose money because you are trading against the institutional flow.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "A Market Structure Shift, also called MSS in ICT, occurs when the internal structure breaks in the opposite direction of the external trend, signaling a potential reversal. For example, in an external uptrend, an MSS occurs when price breaks below the most recent Higher Low and forms a Lower Low. This is the ICT equivalent of a Change of Character from SMC. The difference is that in ICT, an MSS is specifically tied to the displacement and liquidity concepts. A valid MSS is confirmed by three factors: a displacement through the structural level, a liquidity grab preceding the move, and follow-through in the new direction.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "interaction",
+          "chartId": "ict_3_practice",
+          "text": "Exercise: On a 1-hour chart of XAU/USD, identify the external structure using the daily chart; is it uptrend, downtrend, or ranging? Now identify the internal structure on the 1-hour chart. Mark the internal swing highs and lows. Look for any instance where internal structure broke in the opposite direction of the external trend. That is a potential MSS. Was it preceded by a liquidity grab at a key level? Was the break a displacement with a large candle? If yes, you have identified a high-probability MSS. Practice finding MSS on at least three different charts before your next trading session."
+        },
+        {
+          "type": "animation",
+          "text": "Liquidity sweeps occur when price briefly breaks beyond a key structural level to trigger stop-losses, then immediately reverses. In ICT, a liquidity sweep is the precursor to every significant reversal. The sweep confirms that institutions are active at that level and have collected the liquidity they need. Without a liquidity sweep, a reversal is less reliable because there may not be enough fuel for the move. Always look for a sweep of the previous high before a short entry and a sweep of the previous low before a long entry. The sweep validates that institutions are committed to the move.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "Structure-based bias determination is a systematic process. Step 1: Check the daily chart external structure. Step 2: Identify any recent MSS or CHoCH that would change the daily bias. Step 3: On the 4-hour chart, identify the internal structure and liquidity levels. Step 4: On the 1-hour chart, look for potential sweeps and displacement patterns. Step 5: Combine all this information into a single bias; bullish, bearish, or neutral. Your bias should never be based on a single timeframe or a single concept. The more confluence you have across timeframes, the stronger your bias should be.",
+          "concept": "ict_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "Combining structure with PD Array creates the complete ICT analytical framework. The structure tells you the direction, and the PD Array tells you the zone. Structure says buy or sell; PD Array says where to buy or sell. For a long trade, you need: external uptrend confirmed, internal structure showing Higher Lows, price in the discount zone of the 4-hour PD Array. For a short trade, you need: external downtrend confirmed, internal structure showing Lower Highs, price in the premium zone of the 4-hour PD Array. When structure and PD Array align perfectly, you have identified the ideal conditions for an institutional-grade trade setup.",
+          "concept": "ict_market_structure"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is a displacement in ICT?",
+          "options": [
+            "A strong candle that breaks through a structural level with momentum",
+            "A slow gradual move to a new high",
+            "A consolidation pattern",
+            "A gap at market open"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a liquidity void?",
+          "options": [
+            "A zone where price moved too fast, leaving thin trading area",
+            "A zone with extremely high volume",
+            "A gap between sessions",
+            "An area of equal buying and selling"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What confirms a Market Structure Shift in ICT?",
+          "options": [
+            "Displacement plus liquidity sweep plus follow-through",
+            "A single break of a swing low",
+            "High volume on any candle",
+            "A news announcement"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is external structure?",
+          "options": [
+            "The dominant trend on the higher timeframe",
+            "The structure on the 1-minute chart",
+            "Any swing low on any timeframe",
+            "A Fibonacci level"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What precedes every significant reversal in ICT?",
+          "options": [
+            "A liquidity sweep of a key structural level",
+            "A news event",
+            "An economic data release",
+            "A Fibonacci extension"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "ict_4",
+      "title": "Killzones — Institutional Execution Times",
+      "subtitle": "London Open, NY Open, Asian Range, and London Close",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Killzones are specific time windows during the trading day when institutional order flow is heaviest and the most significant price movements occur. ICT identified these windows by studying when central banks and large institutions execute their orders. Trading outside killzones is like fishing in a pond with no fish; you can sit there all day and catch nothing. During killzones, the water is teeming with institutional activity, and your probability of catching a move increases dramatically. The four primary killzones are: Asian Range, London Open, London Close, and New York Open.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "animation",
+          "text": "The London Open Killzone, also called LOKZ, runs from 2:00 AM to 5:00 AM Eastern Standard Time. This is when the London session begins and massive institutional orders flood the market. The London Open is characterized by high volatility, large candlesticks, and often sets the tone for the entire day. ICT teaches that the London Open frequently produces a liquidity grab in the first hour, followed by a directional move for the rest of the session. Trading the London Open requires being at your desk before 2:00 AM EST to prepare. The moves during LOKZ are often the cleanest and most technical of the day.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "animation",
+          "text": "The New York Open Killzone, or NYOKZ, runs from 7:00 AM to 10:00 AM Eastern Standard Time. This is when the US session begins and overlaps with the London session for several hours. NYOKZ is the most volatile period of the trading day because two major financial centers are open simultaneously. Institutions use this overlap to execute large orders with minimal slippage. The NY Open often confirms or reverses the direction established during the London session. If London moved up and NY continues up, the trend is confirmed. If NY reverses the London move, it signals a potential shift in sentiment.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "animation",
+          "text": "The Asian range is not a killzone itself, but the range established during the Asian session is a critical reference point for London and NY traders. The Asian session runs from approximately 7:00 PM to 2:00 AM EST, and it typically produces a low-volatility range. ICT teaches that the high and low of the Asian range act as key levels for the London Open. If London breaks above the Asian high, it is bullish; if it breaks below the Asian low, it is bearish. Many professional traders use the Asian range as their trading range for the London session, looking for breaks and retests of its boundaries.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "animation",
+          "text": "The London Close runs from 11:00 AM to 12:00 PM Eastern Standard Time. This is when the London session ends and traders close their positions, creating a flurry of activity. The London Close often produces sharp reversals as institutions take profits or adjust positions before the end of the European day. ICT teaches that the London Close can be an excellent time to enter trades in the direction of the New York session momentum. The combination of London profit-taking and NY continuation creates powerful moves during this hour. Many of the best trades of the day occur during the London Close.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "interaction",
+          "chartId": "ict_4_practice",
+          "text": "Exercise: Mark the killzones on your chart using vertical lines. Set your chart timezone to Eastern Standard Time. Draw a vertical line at 2:00 AM, 5:00 AM, 7:00 AM, 10:00 AM, and 11:00 AM EST. Now look back at the last week of data on EUR/USD. Observe how price behaves within each marked zone. You will notice that the majority of significant moves start within these killzone windows. Moves that start outside killzones are less reliable and more likely to reverse. This exercise will train your eye to see the market rhythm and help you understand why time is as important as price in ICT."
+        },
+        {
+          "type": "animation",
+          "text": "Trading each killzone requires a different strategy. For LOKZ, focus on breaks of the Asian range high or low with a confirmation candle. For NYOKZ, look for continuations or reversals of the London direction, using the PD Array from the 4-hour chart. For London Close, look for sharp reversals as London traders exit positions. The common thread across all killzones is that you must have your bias and levels prepared before the killzone begins. Do not analyze during the killzone; analyze before it starts and execute when the conditions line up. Preparation is the key to killzone trading.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "animation",
+          "text": "The London/NY overlap from 7:00 AM to 12:00 PM EST is the most powerful trading period of the day. During this overlap, the full force of both European and American institutional order flow hits the market simultaneously. This is when you see the largest candlesticks and the most decisive breakouts. ICT teaches that the overlap is the premier time for executing high-probability trades. The combination of the PD Array established during London, the liquidity grabbed during NY Open, and the volume from both sessions creates ideal conditions for the Power of 3 cycle to complete.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "animation",
+          "text": "Combining killzones with the PD Array is where ICT really shines. Before each killzone, identify where price is trading relative to the PD Array on the 1-hour and 4-hour charts. If price is in the discount zone before LOKZ and the daily trend is up, prepare for a potential buy setup during the London Open. If price is in the premium zone before NYOKZ and the daily trend is down, prepare for a sell setup. The killzone provides the timing, and the PD Array provides the level. When both align, you have a complete ICT trade setup with a high probability of success.",
+          "concept": "ict_killzone"
+        },
+        {
+          "type": "animation",
+          "text": "Consider a real example: EUR/USD on a Tuesday in February 2024. The Asian range was 1.0750 to 1.0780. Price was in the discount zone of the 4-hour PD Array, and the daily trend was up. At 2:15 AM EST, during LOKZ, price broke above the Asian high at 1.0780 and retested it as support. A trader prepared for this setup would have entered long at 1.0785 with a stop below the Asian low at 1.0745, targeting the next liquidity zone at 1.0850. Price reached 1.0850 by 9:00 AM EST during NYOKZ, a 65-pip move with a risk-reward ratio of over 7:1. This is killzone trading at its finest.",
+          "concept": "ict_killzone"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What are the hours of the London Open Killzone?",
+          "options": [
+            "2:00 AM to 5:00 AM EST",
+            "7:00 AM to 10:00 AM EST",
+            "11:00 AM to 12:00 PM EST",
+            "7:00 PM to 2:00 AM EST"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What are the hours of the New York Open Killzone?",
+          "options": [
+            "7:00 AM to 10:00 AM EST",
+            "2:00 AM to 5:00 AM EST",
+            "11:00 AM to 12:00 PM EST",
+            "7:00 PM to 2:00 AM EST"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Why is the London/NY overlap the most powerful trading period?",
+          "options": [
+            "Two major financial centers are open simultaneously",
+            "Volume is lowest during this time",
+            "Only retail traders are active",
+            "The market is closed"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Asian range used for in ICT?",
+          "options": [
+            "A reference for London Open breakouts",
+            "A target for profit-taking",
+            "A stop-loss placement guide",
+            "A Fibonacci extension level"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What happens during the London Close?",
+          "options": [
+            "Sharp reversals as London traders exit positions",
+            "The market closes for the day",
+            "Volume drops to zero",
+            "Price moves sideways"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "ict_5",
+      "title": "Power of 3 (PO3)",
+      "subtitle": "Accumulation, Manipulation, Distribution Cycle",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "The Power of 3, also called PO3, is the core cycle that drives all price movement in ICT. PO3 stands for Accumulation, Manipulation, and Distribution. Accumulation is when institutions build their positions slowly, typically within a dealing range. Manipulation is when they spike price in the opposite direction to grab liquidity and trap retail traders. Distribution is when they push price in the true direction to exit their positions at a profit. This three-phase cycle repeats continuously across all timeframes and all markets. Understanding PO3 is understanding the heartbeat of the market.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "animation",
+          "text": "The Accumulation phase is characterized by range-bound price action with low volatility. Price oscillates between a support and resistance level, creating a dealing range. During this phase, institutions are building their positions by buying near support and selling near resistance. The accumulation phase can last from hours to days depending on the timeframe. Retail traders get bored during accumulation and often close their positions prematurely, handing their shares to institutions. The key to surviving accumulation is patience; your job is to identify the range and wait for the manipulation phase to reveal the direction.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "animation",
+          "text": "The Manipulation phase is the Judas Swing, a sharp break beyond the accumulation range in the opposite direction of the true move. This is the trap. Price spikes beyond the range boundary, triggering stop-losses and enticing traders to enter in the wrong direction. The manipulation is designed to create maximum pain for retail traders. Immediately after grabbing liquidity, price reverses and breaks back into the range. The manipulation phase is short and violent, often lasting only one to three candles on the execution timeframe. Recognizing this phase is the most important skill in PO3 trading.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "animation",
+          "text": "The Distribution phase is the true directional move. After the manipulation spike and reversal, price breaks out of the accumulation range in the true direction and trends strongly. During distribution, institutions are exiting the positions they built during accumulation at a profit. The distribution phase is characterized by strong momentum, large candlesticks, and often forms a Fair Value Gap. This is where you make your money as an ICT trader. The distribution phase continues until it reaches the next liquidity zone, where the cycle begins again. Ride the distribution phase with confidence, knowing institutions are driving price.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "animation",
+          "text": "The AMD cycle of Accumulation, Manipulation, Distribution can be visualized on any timeframe. On the 1-minute chart, it might complete in 15 minutes. On the daily chart, it might take two weeks. The cycle is fractal, meaning the same pattern repeats at every scale. An AMD cycle on the daily chart consists of smaller AMD cycles on the 4-hour chart, which themselves consist of even smaller cycles on the 15-minute chart. Understanding this fractal nature allows you to zoom in for entries and zoom out for context. The direction of the higher timeframe cycle dictates the direction you should trade on lower timeframes.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "animation",
+          "text": "Multi-timeframe PO3 analysis is essential for proper trade execution. Start with the weekly chart: identify the current phase of the PO3 cycle. Is it accumulating, being manipulated, or distributing? Move to the daily chart: find the same cycle within the weekly phase. Then drop to the 4-hour for your entry. For example, if the weekly is in distribution (trending up), the daily should be in accumulation or manipulation within that up-cycle. You want to enter at the end of the daily manipulation, which would align with the 4-hour discount zone. This layered analysis ensures you are trading with multiple timeframe confluence.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "interaction",
+          "chartId": "ict_5_practice",
+          "text": "Exercise: On a 1-hour chart of GBP/USD covering the last 48 hours, identify the three phases of PO3. Start by finding a clear range where price oscillated between two levels for several hours; that is accumulation. Now look for a spike beyond one boundary of the range followed by an immediate reversal; that is manipulation. Finally, find the breakout in the opposite direction of the spike that trends away from the range; that is distribution. Label each phase on your chart. Once you can spot all three phases clearly, try predicting what phase comes next from any point on the chart."
+        },
+        {
+          "type": "animation",
+          "text": "Combining PO3 with killzones creates a powerful timing mechanism. The accumulation phase often develops during the Asian session or during low-volatility periods. The manipulation phase frequently occurs at the London Open, as institutions use the influx of orders to grab liquidity. The distribution phase then plays out during the NY session or London Close. By aligning the PO3 cycle with killzones, you can anticipate when each phase is likely to occur. For example, if you see accumulation during the Asian session, prepare for manipulation at the London Open and distribution during the NY Open. This time-based anticipation is unique to ICT.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "animation",
+          "text": "Real example: XAU/USD on a Wednesday in March 2024. Price accumulated between $2,150 and $2,170 for six hours during the Asian session. At 3:00 AM EST during LOKZ, price spiked down to $2,145, grabbing stops below the range; the manipulation. Within 30 minutes, price reversed and broke above $2,170, then rallied to $2,200 by 9:00 AM EST during NYOKZ; the distribution. The full PO3 cycle completed in about 12 hours. A trader who recognized the accumulation phase during Asia would have been prepared for the manipulation at London Open and could have entered long at the retest of $2,170 for a $30 move.",
+          "concept": "ict_po3"
+        },
+        {
+          "type": "animation",
+          "text": "PO3 failures happen when the manipulation phase does not produce the expected reversal. If price breaks out of the range after the manipulation spike and continues in the spike direction instead of reversing, the PO3 has failed and the manipulation was actually the true direction. When this happens, the original accumulation range was likely in the opposite direction of what you expected. The solution is to not fight the failure. If price continues in the spike direction after a brief pause, the market is telling you that the spike was not a manipulation but a genuine breakout. Accept the signal and trade in the new direction.",
+          "concept": "ict_po3"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does PO3 stand for in ICT?",
+          "options": [
+            "Power of 3: Accumulation, Manipulation, Distribution",
+            "Premium Order of Three",
+            "Price Operation 3",
+            "Process of 3 Phases"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What happens during the Manipulation phase of PO3?",
+          "options": [
+            "A sharp spike beyond the range to grab liquidity",
+            "Price moves slowly in a range",
+            "Institutions exit their positions",
+            "Volume decreases"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What characterizes the Accumulation phase?",
+          "options": [
+            "Range-bound price action with low volatility",
+            "Strong trending moves",
+            "Sharp spikes and reversals",
+            "High volume breakouts"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "How does PO3 relate to killzones?",
+          "options": [
+            "Accumulation in Asia, manipulation at London Open, distribution in NY",
+            "PO3 only works outside killzones",
+            "Killzones are unrelated to PO3",
+            "PO3 happens at midnight"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do if PO3 fails?",
+          "options": [
+            "Accept the failure and trade in the new direction",
+            "Double down on the original position",
+            "Wait for the price to reverse",
+            "Close all positions and stop trading"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "ict_6",
+      "title": "Optimal Trade Entry & Fibonacci in ICT",
+      "subtitle": "ICT Fibonacci Levels, OTE Zone, and Confluence Trading",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "ICT uses specific Fibonacci retracement levels that differ from traditional Fibonacci trading. While most traders use 38.2%, 50%, and 61.8%, ICT focuses on 70.5%, 78.6%, and 88.6% as his primary retracement levels. These deeper retracement levels correspond to the zones where institutions place their limit orders to enter positions. The logic is that institutions want the best possible price, so they place their orders deeper in the retracement, closer to the swing point. Understanding these specific levels is what separates ICT Fibonacci from generic Fibonacci trading.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "animation",
+          "text": "The 70.5% retracement level is the first ICT level of interest. This is where many institutional limit orders sit, waiting for price to retrace deep enough to provide a good risk-reward entry. The 78.6% level is ICT preferred entry zone, corresponding to the golden ratio squared. The 88.6% level is the deepest retracement level before the full 100% retracement, and it is where institutions place their last layer of orders. Each level serves as a potential entry point, with the confluence of multiple levels creating a stronger zone. Always draw all three levels and note where they cluster with other ICT concepts.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "animation",
+          "text": "The Optimal Trade Entry zone in ICT is specifically the area between 70.5% and 88.6% retracement, with the 78.6% level being the sweet spot. This is where institutions prefer to enter their positions because it offers the best balance between a good price and confirmation that the move is not reversing entirely. For a long trade, the OTE zone is on a downward retracement within an uptrend. For a short trade, the OTE zone is on an upward retracement within a downtrend. Entering in the OTE zone ensures you are buying low or selling high relative to the current swing.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "animation",
+          "text": "The triple confluence of FVG plus OB plus OTE creates the highest probability entry in ICT. When a Fair Value Gap exists at the same price level as an Order Block, and both are within the OTE zone, you have three independent ICT concepts pointing to the same area. This triple alignment means that institutions left orders at that level, executed aggressively through it, and the retracement has brought price back to the optimal entry zone. The probability of a reversal at such a level is extremely high. Do not enter an OTE trade unless at least one of these confluences is present, and preferably both.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "animation",
+          "text": "Stop-loss placement in ICT is precise and strategic. For a long trade in the OTE zone, place your stop-loss 5 to 10 pips below the Order Block that defines the lower boundary of your entry zone. Do not place it at the exact swing low; that is where liquidity sits and where institutions will hunt stops. For a short trade, place your stop 5 to 10 pips above the Order Block defining the upper boundary. The stop-loss width should be determined by the structure, not by your comfort level. A well-placed stop is tight enough to protect capital but wide enough to survive normal market noise.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "animation",
+          "text": "ICT uses three primary extension targets: 127.2%, 141.4%, and 161.8% of the original swing. These extension levels project where price is likely to go after entering from the OTE zone. The 127.2% extension is the minimum target and is often reached quickly. The 141.4% extension is the intermediate target and is typical for trending moves. The 161.8% extension is the maximum target and is reached only in strong trends. Take partial profits at each extension level: sell 50% at 127.2%, 30% at 141.4%, and let 20% run to 161.8%. This pyramiding approach maximizes profit while reducing risk as the trade progresses.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "animation",
+          "text": "To draw Fibonacci in ICT style, first identify the most recent structural swing that aligns with your bias. For a long setup, find a clear downward swing from a Higher High to a Lower Low within an uptrend. Apply the Fibonacci retracement tool from the swing high at 100% to the swing low at 0%. Mark the 70.5%, 78.6%, and 88.6% levels. Then identify any OB or FVG within this zone. For a short setup, find an upward swing from a Higher Low to a Higher High within a downtrend. Apply Fibonacci from the swing low at 0% to the swing high at 100%. Mark the same levels.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "interaction",
+          "chartId": "ict_6_practice",
+          "text": "Practice exercise: Open a 1-hour chart of EUR/USD and find a clear uptrend on the 4-hour chart. Within the 1-hour chart, identify a downward retracement swing. Draw Fibonacci from the swing high to the swing low of that retracement. Mark the 70.5%, 78.6%, and 88.6% levels. Now look for an Order Block and a Fair Value Gap within this zone. If you find both, you have identified a triple-confluence OTE zone. Mark the entry price, the stop-loss level 5-10 pips below the nearest OB, and the three extension targets. This is your complete trade plan from a single chart setup."
+        },
+        {
+          "type": "animation",
+          "text": "Real example: USD/JPY on the 1-hour chart. The 4-hour trend was up. Price made a downward retracement swing from 151.50 to 150.00. Fibonacci applied: 70.5% at 151.05, 78.6% at 151.18, 88.6% at 151.33. Within this OTE zone of 151.05 to 151.33, there was a bullish Order Block at 151.10 and an FVG from 151.08 to 151.15. Price entered the zone, touched 151.20, and formed a bullish engulfing candle. Entry long at 151.20, stop at 151.00 below the OB, target 1 at 152.10 at 127.2% extension, target 2 at 152.40 at 141.4%, target 3 at 152.85 at 161.8%. Price hit target 1 within 8 hours for a 90-pip gain.",
+          "concept": "ict_ote_fib"
+        },
+        {
+          "type": "animation",
+          "text": "Common OTE mistakes include: drawing Fibonacci on the wrong swing, entering before price reaches the OTE zone, ignoring confluence requirements, placing stops at obvious levels, using the wrong extension targets, and exiting too early. The most damaging mistake is taking an OTE trade without OB or FVG confluence; this reduces the probability significantly. Another mistake is taking an OTE trade against the higher timeframe trend. Always remember that the OTE zone is an entry tool within a directional bias, not a reversal signal by itself. Filter every OTE setup through higher timeframe structure and killzone timing for the best results.",
+          "concept": "ict_ote_fib"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What are the three key ICT Fibonacci retracement levels?",
+          "options": [
+            "70.5%, 78.6%, 88.6%",
+            "38.2%, 50%, 61.8%",
+            "23.6%, 38.2%, 50%",
+            "50%, 61.8%, 78.6%"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the OTE zone range in ICT?",
+          "options": [
+            "70.5% to 88.6% retracement",
+            "50% to 61.8% retracement",
+            "38.2% to 50% retracement",
+            "0% to 23.6% retracement"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What three confluences create the highest-probability entry?",
+          "options": [
+            "FVG plus OB plus OTE",
+            "RSI plus MACD plus MA",
+            "Volume plus News plus Trend",
+            "Support plus Resistance plus Trendline"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where should you place your stop-loss in an OTE trade?",
+          "options": [
+            "5-10 pips below the OB in the entry zone",
+            "At the exact swing low",
+            "At the 100% Fibonacci level",
+            "At a round number"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the most common ICT extension target?",
+          "options": [
+            "127.2%",
+            "100%",
+            "200%",
+            "161.8%"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "ict_7",
+      "title": "Time & Price Theory",
+      "subtitle": "ICT Specific Times, Time Cycles, and Price-Time Alignment",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Time and Price Theory is one of the most unique aspects of ICT methodology. ICT identified specific times during the trading day when institutional algorithms are programmed to act. These times are based on New York Eastern Standard Time and include 10:00 AM, 11:00 AM, and 2:00 PM. At these specific times, institutions execute orders regardless of price levels, which creates predictable reversals or continuations. Understanding these times allows you to anticipate market moves before they happen, giving you a significant edge over traders who only focus on price. In ICT, time is the trigger and price is the target.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "animation",
+          "text": "The 10:00 AM reversal is the most well-known ICT time event. At 10:00 AM Eastern Standard Time, the market often experiences a sharp reversal from the direction it was trading during the first hour of the NY session. ICT teaches that institutional algorithms are programmed to create a reversal at this time to trap traders who entered during the NY Open momentum. If price was going up from 9:30 AM to 10:00 AM, expect a reversal down at 10:00 AM. If price was going down, expect a reversal up. This is not a guarantee, but the probability of a reversal at 10:00 AM is statistically significant across thousands of trading days.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "animation",
+          "text": "The 11:00 AM continuation is the second key time in ICT. If the 10:00 AM reversal occurred, the 11:00 AM time marks the point where the new direction should continue. By 11:00 AM, the manipulation phase is usually complete and the distribution phase begins. This is often the best time to add to winning positions or enter new trades in the direction of the 10:00 AM reversal. The 11:00 AM move is typically the most powerful directional move of the NY session because it has the full support of institutional order flow without the noise of the session open.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "animation",
+          "text": "The 2:00 PM reversal is the end-of-day institutional adjustment. At 2:00 PM Eastern Standard Time, institutions adjust their positions ahead of the close of the trading day. This often results in a reversal of the 11:00 AM move or a sharp acceleration of it, depending on how institutions need to position for the next day. The 2:00 PM reversal is less reliable than the 10:00 AM reversal but is still significant. ICT teaches that the 2:00 PM move often establishes the closing price range that will be used as a reference for the next day Asian session.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "animation",
+          "text": "Time cycles in ICT go beyond single-day times. ICT identified that markets move in specific time cycles based on the rotation of the Earth and the opening of global financial centers. These cycles include the 4-hour cycle, the 8-hour cycle, the daily cycle, and the weekly cycle. Each cycle has characteristic patterns and reversal points. For example, the 4-hour cycle often sees a reversal or acceleration every 4 hours from the London Open. Understanding these cycles helps you anticipate when trends will pause or reverse, allowing you to plan entries and exits around these natural market rhythms.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "interaction",
+          "chartId": "ict_7_practice",
+          "text": "Exercise: On a 15-minute chart of EUR/USD, mark vertical lines at 10:00 AM, 11:00 AM, and 2:00 PM EST for the last five trading days. Observe what happened at each time. Did price reverse at 10:00 AM? Did it continue at 11:00 AM? Did it reverse again at 2:00 PM? Count how many times each time produced a meaningful move. You will find that 10:00 AM produces a reversal approximately 60-70% of the time, 11:00 AM produces a continuation about 50-60% of the time, and 2:00 PM produces a reversal about 40-50% of the time. Track these statistics yourself to build confidence in time-based trading."
+        },
+        {
+          "type": "animation",
+          "text": "Price-time alignment occurs when price reaches a key ICT level at the same time as a key ICT time event. This is the holy grail of ICT trading. For example, if price retraces to the 78.6% Fibonacci OTE zone exactly at 10:00 AM EST, and an Order Block exists at that level, you have the perfect alignment of price, time, and structure. When price and time align, the probability of a reversal is at its highest. ICT teaches that you should prioritize trades where time and price align over trades where only price is aligned. Time confirms that institutions are active at that moment.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "animation",
+          "text": "Liquidity runs are movements that target specific liquidity pools with precise timing. ICT teaches that institutions time their liquidity runs to coincide with killzones and specific time events for maximum effectiveness. A liquidity run during a killzone has more power and follow-through than one occurring outside of trading hours. For example, a sweep of the Asian high at 2:15 AM EST during LOKZ is more likely to lead to a sustained move than the same sweep happening at 6:00 AM EST during the London lunch break. Timing amplifies the effectiveness of liquidity runs significantly.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "animation",
+          "text": "Forecasting with time and price is the ultimate ICT skill. To forecast, start with the time: which killzone is coming next, and what time events will occur during it? Then determine the price: where is the PD Array and OTE zone relative to current price? If the next event is NYOKZ at 9:00 AM, and price is in the discount zone approaching an OTE level, you can forecast a potential reversal at 10:00 AM from that level. Write your forecast down before the event and compare it to what actually happens. Forecasting trains your brain to think algorithmically and improves your pattern recognition over time.",
+          "concept": "ict_time_price"
+        },
+        {
+          "type": "animation",
+          "text": "Real example: On a Thursday in April 2024, GBP/USD was in a 4-hour uptrend. Price pulled back to the 78.6% OTE level at 1.2500 by 9:45 AM EST. At exactly 10:00 AM EST, price formed a bullish engulfing candle at the OTE level, with an Order Block at 1.2490 and an FVG from 1.2490 to 1.2505. This was perfect price-time alignment: OTE plus OB plus FVG plus 10:00 AM reversal time. Price reversed from 1.2500 and rallied to 1.2580 by 12:00 PM, an 80-pip move. A trader prepared for the 10:00 AM reversal would have caught the entire move with a tight stop below 1.2490.",
+          "concept": "ict_time_price"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What are ICT three key time events during the NY session?",
+          "options": [
+            "10:00 AM, 11:00 AM, 2:00 PM EST",
+            "9:00 AM, 12:00 PM, 3:00 PM EST",
+            "8:00 AM, 1:00 PM, 4:00 PM EST",
+            "10:00 AM, 12:00 PM, 3:00 PM EST"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What typically happens at 10:00 AM EST according to ICT?",
+          "options": [
+            "A sharp reversal from the NY Open direction",
+            "A continuation of the NY Open direction",
+            "The market closes",
+            "A slow drift sideways"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is price-time alignment?",
+          "options": [
+            "Price reaching a key level at the same time as a key time event",
+            "Price and time moving in the same direction",
+            "A calendar of economic events",
+            "The correlation between timeframes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Why does time matter in ICT?",
+          "options": [
+            "Institutions execute orders at specific algorithmic times",
+            "Time determines the candle color",
+            "Price only moves at certain hours",
+            "Time is irrelevant in ICT"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a liquidity run in the context of time?",
+          "options": [
+            "A move targeting liquidity pools timed with killzones",
+            "A fast price movement without volume",
+            "A slow grind toward a level",
+            "A news-driven spike"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "ict_8",
+      "title": "Complete ICT Trading Plan",
+      "subtitle": "9-Step Plan from Analysis to Review with Full Worked Example",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Step 1: Determine your Higher Timeframe Bias. Start with the daily chart; identify whether the market is in an uptrend with Higher Highs and Higher Lows, a downtrend with Lower Highs and Lower Lows, or ranging. Then check the weekly chart for additional context. Your bias for the day must match the daily and weekly structure. If the daily is in an uptrend, you are only looking for long trades. If it is in a downtrend, only short trades. If it is ranging, you wait for a structure break before committing. This single step eliminates most losing trades because you stop fighting the institutional trend.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 2: Identify the PD Array and premium/discount zones. On the 4-hour chart, identify the most recent significant swing that aligns with your daily bias. Draw Fibonacci from the swing high to swing low. Mark the discount zone from 0-50%, the premium zone from 50-100%, and the OTE zone from 70.5-88.6%. Note where current price sits relative to these zones. If you are bullish and price is in the discount zone, you have a potential buy zone. If you are bearish and price is in the premium zone, you have a potential sell zone. If price is in the wrong zone for your bias, wait for it to move into the correct zone.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 3: Select the appropriate Killzone. Based on the current time, determine which killzone is active or approaching. If it is between 2 AM and 5 AM EST, you are in LOKZ. If between 7 AM and 10 AM EST, you are in NYOKZ. If between 11 AM and 12 PM EST, you are in London Close. If you are outside killzone hours, do not trade; spend this time analyzing higher timeframes and preparing for the next killzone. The killzone provides the timing for your trade. Even if price is at the perfect PD Array level, do not enter if you are outside a killzone unless the setup is exceptional.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 4: Anticipate the Power of 3 cycle. Determine which phase of PO3 the market is currently in. If price is ranging during the Asian session, you are in accumulation and should prepare for manipulation at the next killzone. If price is spiking during LOKZ, you are likely in the manipulation phase and should wait for the reversal and distribution. If price is trending strongly during NYOKZ, you are in distribution and should look to ride the move. Understanding where you are in the PO3 cycle helps you anticipate what comes next and positions you for the highest-probability entry.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 5: Identify Fair Value Gaps and Order Blocks. On the 15-minute or 1-hour chart, look for a Fair Value Gap created by the manipulation spike or the initial distribution move. Then find the Order Block; the last candle before the aggressive move that created the FVG. Draw these zones on your chart. If the FVG and OB overlap with your OTE zone from Step 2, you have triple confluence. If only one is present, the setup is still valid but less reliable. If neither is present, skip the trade. The FVG and OB are your confirmation that institutions participated in the move at that level.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 6: Define your OTE entry zone. On the lower timeframe, refine your entry to the specific price level within the OTE zone where the OB and FVG are located. Mark the exact entry price, the stop-loss level 5-10 pips beyond the OB, and your three extension targets at 127.2%, 141.4%, and 161.8%. Your entry should be a limit order placed at the OB level, not a market order chasing price. If price does not reach your OTE zone, do not force the trade. Missing a trade is better than taking a bad one. The market will eventually give you another opportunity.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 7: Execute the trade with precision. Wait for price to enter your OTE zone and form a confirmation candle. For a long trade, the confirmation is a bullish reversal candle such as a hammer, bullish engulfing, or inside bar breakout to the upside. For a short trade, it is a bearish reversal candle such as a shooting star, bearish engulfing, or inside bar breakout to the downside. Enter on the close of the confirmation candle. Do not enter before the candle closes, as the wick may trap you. Once entered, set your stop and first target immediately.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 8: Manage the trade actively. Once price moves in your favor, take 50% profit at the 127.2% extension target and move your stop to breakeven. Let the remaining 50% run with a trailing stop behind each new structural level. For a long trade, trail your stop below each new Higher Low. For a short trade, trail your stop above each new Lower High. Take an additional 25% profit at the 141.4% target and let the final 25% run to the 161.8% target with a wider stop. If price reverses and hits your breakeven stop on the remaining position, the trade was still a winner overall.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 9: Review and journal the trade immediately. Write down: the daily bias, the PD Array zone, the killzone used, the PO3 phase, the FVG and OB levels, the entry and exit prices, the risk-reward ratio, the outcome, and your emotional state during the trade. Did you follow every step of the plan? Did you exit early because of fear? Did you move your stop emotionally? A trading journal is the fastest way to improve. Review your journal weekly and identify patterns in your mistakes. Most traders repeat the same errors until they write them down and consciously work to correct them.",
+          "concept": "ict_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Risk management rules are non-negotiable. Never risk more than 1-2% of your account on a single trade. If your account is $10,000, your maximum loss per trade is $100 to $200. Never trade more than 3 times per day; after 3 losses your judgment is compromised. Never add to a losing position. Never move your stop-loss away from price to give the trade more room. If the trade hits your stop, it was wrong; accept the loss and wait for the next setup. Master the 9-step plan and follow it consistently. Profits are the natural result of a disciplined process, not the goal itself. Trust the process.",
+          "concept": "ict_trading_plan"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is Step 1 of the ICT trading plan?",
+          "options": [
+            "Determine higher timeframe bias from daily chart",
+            "Enter a trade immediately",
+            "Check the news",
+            "Draw Fibonacci on the 1-minute chart"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is Step 2 of the ICT trading plan?",
+          "options": [
+            "Identify PD Array and premium/discount zones on 4-hour",
+            "Place a market order",
+            "Set take-profit levels",
+            "Check your email"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is Step 3 of the ICT trading plan?",
+          "options": [
+            "Select the appropriate Killzone based on current time",
+            "Close all open positions",
+            "Switch to a demo account",
+            "Increase position size"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What confluence is required before entering an ICT trade?",
+          "options": [
+            "FVG and OB within the OTE zone",
+            "Any two indicators crossing",
+            "A news announcement",
+            "High volume on the current candle"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "How should you manage a winning OTE trade?",
+          "options": [
+            "Take 50% profit at 127.2%, trail the rest",
+            "Hold until it hits your original stop",
+            "Exit immediately at breakeven",
+            "Add more to the position as it moves in your favor"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the maximum recommended risk per trade in ICT?",
+          "options": [
+            "1-2% of your account",
+            "10% of your account",
+            "25% of your account",
+            "50% of your account"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}

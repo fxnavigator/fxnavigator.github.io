@@ -1,0 +1,872 @@
+{
+  "version": 1,
+  "schools": [
+    {
+      "id": "smc",
+      "title": "Smart Money Concepts",
+      "subtitle": "如何与大户博弈？",
+      "description": "以有趣的方式为初学者简化流动性和银行概念",
+      "iconAsset": "assets/lottie/smc_icon.json",
+      "color": 4282090230,
+      "badgeAsset": "assets/icons/badge_smc.svg",
+      "completedBadge": "流动性大师",
+      "lessons": [
+        {
+          "id": "smc_1",
+          "title": "什么是Smart Money？",
+          "subtitle": "市场流动性",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "市场有买方和卖方。大型银行（Smart Money）需要找到可以买入或卖出的人。他们找到这些人的地方称为\"流动性\"。这就是Smart Money的精髓！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "看看这张图表。这些高点和低点就是流动性区域。银行突破高点以猎取放置在那里的止损单，然后市场迅速朝真实方向反转。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "现在在图表上找到吸筹区：它是高点还是低点？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "什么是市场中的Smart Money？",
+              "options": [
+                "管理流动性的大型银行",
+                "小型零售交易者",
+                "经济新闻",
+                "技术指标"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "银行为什么要突破高点？",
+              "options": [
+                "为了猎取流动性（止损单）",
+                "为了以更高价格买入",
+                "为了做空",
+                "为了显示图表"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_2",
+          "title": "Fair Value Gaps (FVG)",
+          "subtitle": "市场留下的缺口",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "当银行激进地进入市场时，他们会在图表上留下一个没有发生交易的\"缺口\"。市场通常会回补这个缺口，就像填补路上的坑洞一样。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/candles_fvg.svg",
+              "text": "点击图表上缺口的位置来发现它！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "为什么图表上会出现缺口？",
+              "options": [
+                "银行激进的走势",
+                "普通新闻发布",
+                "交易量低",
+                "平台故障"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_3",
+          "title": "Order Blocks (OB)",
+          "subtitle": "发射台",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "在银行做出大动作之前，他们会在一个秘密区域（Order Block）下达订单。这是市场飙升前的最后一根下跌蜡烛，反之亦然。这就是发射台！"
+            },
+            {
+              "type": "quiz",
+              "text": "Order Block是反转前什么类型的最后一根蜡烛？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "什么是Order Block？",
+              "options": [
+                "大行情前的最后一根蜡烛",
+                "一天中的第一根蜡烛",
+                "普通蜡烛",
+                "技术指标"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_4",
+          "title": "Break of Structure (BOS)",
+          "subtitle": "当市场改变主意时",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "当银行突破旧的低点并继续下行时，这就是\"Break of Structure\"（BOS）。这意味着趋势真正改变了。就像走在街上看到交通灯变红——停下来掉头！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "BOS和CHOCH的区别：BOS是在趋势继续时突破低点或高点。Change of Character（CHOCH）是在上升趋势中突破低点或在下降趋势中突破高点，标志着完全反转。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "BOS代表什么？",
+              "options": [
+                "Break of Structure",
+                "Buy on Signal",
+                "Best Order Strategy",
+                "Big Open Sesame"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "CHOCH是什么意思？",
+              "options": [
+                "Complete change of character",
+                "趋势延续",
+                "小幅修正",
+                "开仓交易"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_5",
+          "title": "流动性区域",
+          "subtitle": "内部与外部",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "流动性有两种类型：内部流动性——波浪内部的高点和低点。外部流动性——波浪之外的高点和低点（高于最后一个高点或低于最后一个低点）。银行首先猎取内部流动性以达到外部流动性区域。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "识别该区域：图表上是内部流动性还是外部流动性？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "什么是内部流动性？",
+              "options": [
+                "波浪内部的高点和低点",
+                "波浪外部的高点和低点",
+                "移动平均线",
+                "趋势线"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "银行首先猎取什么？",
+              "options": [
+                "内部流动性",
+                "外部流动性",
+                "斐波那契",
+                "阻力位"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_6",
+          "title": "Optimal Trade Entry (OTE)",
+          "subtitle": "最佳入场点",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "在银行猎取流动性并突破结构（BOS）之后，他们会回测试Order Block或FVG区域，然后再继续。这个区域称为OTE——Optimal Trade Entry。这是银行入场的折扣区域！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "OTE位于61.8%和79%斐波那契回撤之间。你应该从折扣区买入，从溢价区卖出。银行从折扣区买入，然后以溢价卖给公众！"
+            },
+            {
+              "type": "quiz",
+              "text": "BOS之后的最佳入场区域是什么？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "OTE代表什么？",
+              "options": [
+                "Optimal Trade Entry",
+                "Order Trade Exit",
+                "Open Trading Edge",
+                "One Time Entry"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "OTE位于哪些斐波那契水平之间？",
+              "options": [
+                "61.8%和79%",
+                "23.6%和38.2%",
+                "0%和23.6%",
+                "79%和100%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elliott",
+      "title": "Elliott Wave",
+      "subtitle": "市场有其自身的节奏",
+      "description": "通过波浪理论理解市场节奏",
+      "iconAsset": "assets/lottie/elliott_icon.json",
+      "color": 4279286145,
+      "badgeAsset": "assets/icons/badge_elliott.svg",
+      "completedBadge": "波浪指挥官",
+      "lessons": [
+        {
+          "id": "elliott_1",
+          "title": "市场节奏",
+          "subtitle": "推动浪和调整浪",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "市场以有节奏的模式运行！5个推动浪（顺趋势）和3个调整浪（逆趋势）。5个浪是船的航行，3个浪是休息。"
+            },
+            {
+              "type": "interaction",
+              "text": "左右滑动查看波浪运动！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "有多少个推动浪？",
+              "options": [
+                "5",
+                "3",
+                "8",
+                "2"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "有多少个调整浪？",
+              "options": [
+                "3",
+                "5",
+                "8",
+                "1"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_2",
+          "title": "第3浪",
+          "subtitle": "最强的一浪",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "第3浪是最强最长的一浪。这是疯狂之浪！如果你发现一个短浪，那不可能是第3浪。重新数！"
+            },
+            {
+              "type": "quiz",
+              "text": "从显示的波浪中选出真正的第3浪"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "第3浪的特点是什么？",
+              "options": [
+                "它是最长最强的",
+                "它是最短的",
+                "它是最弱的",
+                "它等于第1浪"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_3",
+          "title": "斐波那契",
+          "subtitle": "你的神奇工具箱",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_fib.json",
+              "text": "我们使用斐波那契来精确了解调整浪将在哪里回撤。61.8%和38.2%是黄金狩猎点。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "最重要的斐波那契回撤水平是什么？",
+              "options": [
+                "61.8%",
+                "50%",
+                "23.6%",
+                "78.6%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_4",
+          "title": "波浪延伸",
+          "subtitle": "当波浪延伸时",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "有些波浪会超出正常范围延伸——称为\"延伸浪\"。通常是第3、5或C浪延伸。如果第3浪延伸，第5浪就会短。如果第5浪延伸，强烈的反转即将来临！规则：延伸浪预示着下一个走势的幅度。"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "交替原则：如果第2浪是尖锐的，第4浪将是平坦的。反之亦然。市场厌恶重复！这个规则帮助你预测下一浪的形态。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "超出正常范围延伸的浪叫什么？",
+              "options": [
+                "延伸浪",
+                "调整浪",
+                "推动浪",
+                "三角形浪"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "交替原则适用于什么？",
+              "options": [
+                "第2浪和第4浪的形态",
+                "第1浪和第5浪的长度",
+                "A浪和C浪的大小",
+                "波浪的时间"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_5",
+          "title": "波浪通道",
+          "subtitle": "绘制边界",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "要验证你的波浪计数，画一条通道连接第1浪顶部和第3浪顶部，再从第2浪底部画一条平行线。第4浪应该从这条线反弹。如果突破了，重新数！"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/elliott_wave_guide.svg",
+              "text": "在图表上绘制通道：连接第1浪和第3浪的高点，看看第4浪是否从下方线反弹！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "通道连接什么和什么？",
+              "options": [
+                "第1浪顶部到第3浪顶部",
+                "第2浪底部到第4浪底部",
+                "A浪顶部到B浪顶部",
+                "第1浪起点到第5浪终点"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ict",
+      "title": "Inner Circle Trader",
+      "subtitle": "你是追踪银行的侦探",
+      "description": "理解中央银行算法和时间规律",
+      "iconAsset": "assets/lottie/ict_icon.json",
+      "color": 4287323382,
+      "badgeAsset": "assets/icons/badge_ict.svg",
+      "completedBadge": "ICT侦探",
+      "lessons": [
+        {
+          "id": "ict_1",
+          "title": "PD Array算法",
+          "subtitle": "吸筹、操纵、派发",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "中央银行不依赖运气。它们有一个算法：吸筹、操纵和派发。这种操纵被称为\"Judas Swing\"！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "在PD Array算法中，吸筹之后是什么？",
+              "options": [
+                "操纵",
+                "派发",
+                "卖出",
+                "买入"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_2",
+          "title": "Killzones",
+          "subtitle": "时间就是武器",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "市场在特定时间（如伦敦和纽约开盘）剧烈波动。这些时间被称为Killzones。其他时间是睡觉时间！"
+            },
+            {
+              "type": "interaction",
+              "text": "看时钟。当达到Killzone时间时，时钟会发光！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "什么是Killzone？",
+              "options": [
+                "主要市场开盘时间",
+                "亏损区域",
+                "技术指标",
+                "平台设置"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_3",
+          "title": "Power of 3 (PO3)",
+          "subtitle": "实际应用",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "PD算法的实际应用。一根蜡烛突破低点，猎取流动性，然后朝相反方向激进反转，突破结构。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "在突破低点并猎取流动性之后，会发生什么？",
+              "options": [
+                "朝相反方向强势反转",
+                "继续下跌趋势",
+                "市场暂停",
+                "反向交易"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_4",
+          "title": "ICT中的斐波那契和OTE",
+          "subtitle": "折扣区域",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "在ICT学派中，斐波那契不仅仅是一种工具——它是银行的地图！在收集流动性和操纵发生之后，市场会回到61.8%-79%的斐波那契区域。这就是OTE（Optimal Trade Entry）。银行在此入场以搭乘下一波行情。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/order_block_rocket.svg",
+              "text": "在图表上识别OTE区域：它是61.8%和79%之间的区域。银行从折扣区买入！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "ICT学派中的OTE是什么区域？",
+              "options": [
+                "折扣区域",
+                "溢价区域",
+                "超买区域",
+                "阻力区域"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_5",
+          "title": "时间与价格理论",
+          "subtitle": "时间比价格更重要",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "在ICT中，时间胜过价格！价格可以去任何地方，但如果时机不对——银行不会行动。在特定时间（Killzones），银行必须行动以执行他们的订单。如果价格在Killzone期间达到OTE——那就是黄金机会！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "伦敦时段决定了当天剩余时间的走势方向。纽约开盘确认或反转该方向。时段收盘显示强烈修正。时间是你的朋友——与之合作，而非对抗！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "在ICT中，什么更重要——时间还是价格？",
+              "options": [
+                "时间",
+                "价格",
+                "两者",
+                "都不"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "什么是最佳入场机会？",
+              "options": [
+                "价格在OTE + 时间在Killzone",
+                "任何时间",
+                "价格高时",
+                "交易量低时"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smt",
+      "title": "Smart Market Technique",
+      "subtitle": "市场是一面镜子",
+      "description": "理解相关资产之间的关系",
+      "iconAsset": "assets/lottie/smt_icon.json",
+      "color": 4294286859,
+      "badgeAsset": "assets/icons/badge_smt.svg",
+      "completedBadge": "背离分析师",
+      "lessons": [
+        {
+          "id": "smt_1",
+          "title": "相关资产",
+          "subtitle": "一起变动的资产",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "像美元和黄金这样的资产呈反向变动。如果你看到它们错误地朝同一方向移动，就发生了\"背离\"，这就是机会！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "美元和黄金之间的关系是什么？",
+              "options": [
+                "反向关系",
+                "正向关系",
+                "无关系",
+                "季节性关系"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_2",
+          "title": "SMT背离",
+          "subtitle": "测谎仪",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "当美元创出新高，但黄金没有创出新低...这意味着其中之一在撒谎！背离就是测谎仪。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "背离究竟检测到什么？",
+              "options": [
+                "其中一个资产在撒谎",
+                "市场将停止",
+                "交易量高",
+                "新闻即将到来"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_3",
+          "title": "溢价和折扣区域",
+          "subtitle": "在哪里买入和卖出",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "在哪里买入？在折扣区域——斐波那契50%以下。在哪里卖出？在溢价区域——斐波那契50%以上。银行在折扣区从你手中买入，在溢价区卖给你。不要做高买低卖的零售交易者！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "当你在折扣区域发现两个资产之间的背离时——那是强烈的买入信号。当背离发生在溢价区域时——那是卖出信号。将SMT与斐波那契结合使用能给出非常精确的目标。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "折扣区域在斐波那契什么水平以下？",
+              "options": [
+                "50%",
+                "61.8%",
+                "38.2%",
+                "78.6%"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "折扣区域的背离给出什么信号？",
+              "options": [
+                "买入",
+                "卖出",
+                "等待",
+                "无信号"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_4",
+          "title": "多时间框架分析",
+          "subtitle": "全局图景",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "不要只在一个时间框架上交易！较高时间框架（周线/日线）给出整体趋势。中等时间框架（4H/1H）给出供需区域。较低时间框架（15M/5M）给出入场点。当SMT背离出现在多个时间框架上时——那是最强的信号！"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/swipe_gesture.svg",
+              "text": "在时间框架之间切换：缩小看大图，放大找精确入场点！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "你应该使用多少个时间框架？",
+              "options": [
+                "3个时间框架（高-中-低）",
+                "一个时间框架",
+                "5个时间框架",
+                "不需要"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "较高时间框架给你什么？",
+              "options": [
+                "整体趋势",
+                "入场点",
+                "止损位",
+                "目标位"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vfx",
+      "title": "Volume / Order Flow",
+      "subtitle": "成交量是市场的灵魂",
+      "description": "理解成交量和订单流",
+      "iconAsset": "assets/lottie/vfx_icon.json",
+      "color": 4293870660,
+      "badgeAsset": "assets/icons/badge_vfx.svg",
+      "completedBadge": "成交量专家",
+      "lessons": [
+        {
+          "id": "vfx_1",
+          "title": "市场燃料",
+          "subtitle": "什么是成交量？",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "想象图表是一辆车，成交量是燃料。车没有燃料能行驶吗？不可能！价格行为必须由强劲的成交量支撑。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "成交量在市场里像什么？",
+              "options": [
+                "就像汽车的燃料",
+                "就像水",
+                "就像空气",
+                "就像电"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_2",
+          "title": "市场脉搏",
+          "subtitle": "Delta和订单流",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "并非所有成交量都一样。Delta告诉我们人们买入是否比卖出更快。如果Delta为正，买方掌控局面。"
+            },
+            {
+              "type": "interaction",
+              "text": "点击\"买入\"，看看Delta如何变化"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "正的Delta意味着什么？",
+              "options": [
+                "买方掌控局面",
+                "卖方掌控局面",
+                "市场关闭",
+                "没有交易"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_3",
+          "title": "高潮成交量",
+          "subtitle": "当行情结束的时候",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "当成交量柱突然达到巨大的天花板时，意味着行情已经耗尽并爆发。准备好迎接急剧反转！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "极高的成交量表明什么？",
+              "options": [
+                "行情已耗尽，反转即将到来",
+                "行情将继续",
+                "行情刚开始",
+                "无信号"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_4",
+          "title": "成交量剖面图",
+          "subtitle": "成交量地图",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "成交量剖面图显示一个水平柱状图，标示出大部分交易发生的位置。成交量最高的区域（POC——Point of Control）是市场尊重的水平。如果价格在POC之上，行情强劲；如果在之下，行情疲弱！"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "在图表上识别POC区域：就是水平成交量柱最高的位置！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "POC代表什么？",
+              "options": [
+                "Point of Control",
+                "Price of Currency",
+                "Power of Chart",
+                "Peak of Candle"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_5",
+          "title": "成交量背离",
+          "subtitle": "当价格和成交量不一致时",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "当价格创出新高但成交量减少时——那就是成交量背离。这意味着行情疲弱，缺乏支撑，即将反转。价格会撒谎，成交量说真话！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "反之亦然：如果价格下跌而成交量增加——抛售是真实的，下降趋势是真实的。成交量是任何价格走势的真相确认者！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "成交量背离意味着什么？",
+              "options": [
+                "价格和成交量正在分离",
+                "价格和成交量一致",
+                "市场稳定",
+                "成交量正常"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "fxa",
+      "name": "FXA",
+      "url": "https://youtube.com/@FXA",
+      "color": 4282401270,
+      "description": "专注于SMC和ICT简化解释的阿拉伯语频道"
+    },
+    {
+      "id": "smartrisk",
+      "name": "Smart Risk",
+      "url": "https://youtube.com/@SmartRisk",
+      "color": 4282920172,
+      "description": "专注于交易教育和风险管理的苏丹频道"
+    },
+    {
+      "id": "chart",
+      "name": "الشارت السوداني",
+      "url": "https://youtube.com/@AlChartAlSudani",
+      "color": 4288896246,
+      "description": "苏丹和阿拉伯市场的技术和基本面分析"
+    }
+  ]
+}

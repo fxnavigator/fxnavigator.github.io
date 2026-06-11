@@ -1,0 +1,872 @@
+{
+  "version": 1,
+  "schools": [
+    {
+      "id": "smc",
+      "title": "スマートマネーコンセプト",
+      "subtitle": "大手机関投資家とどう戦うか？",
+      "description": "流動性とバンキングの概念を初心者にも楽しくわかりやすく解説",
+      "iconAsset": "assets/lottie/smc_icon.json",
+      "color": 4282090230,
+      "badgeAsset": "assets/icons/badge_smc.svg",
+      "completedBadge": "流動性マスター",
+      "lessons": [
+        {
+          "id": "smc_1",
+          "title": "スマートマネーとは？",
+          "subtitle": "市場の流動性",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "市場には買い手と売り手がいます。大手銀行（スマートマネー）は、自分たちから買ってくれる人、または売ってくれる人を見つける必要があります。彼らがこれらの人々を見つける場所を「流動性」と呼びます。それがスマートマネーの本質です！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "このチャートを見てください。これらの高値と安値が流動性ゾーンです。銀行は高値を突破してそこにあるストップロスを狩り、その後すぐに市場は本当の方向へ反転します。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "では、チャート上の累積ゾーンを見つけてください。高値ですか、それとも安値ですか？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "市場におけるスマートマネーとは？",
+              "options": [
+                "流動性を管理する大手銀行",
+                "小規模な個人トレーダー",
+                "経済ニュース",
+                "テクニカル指標"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "銀行はなぜ高値を突破するのか？",
+              "options": [
+                "流動性（ストップロス）を狩るため",
+                "より高い価格で買うため",
+                "空売りするため",
+                "チャートを示すため"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_2",
+          "title": "フェアバリューギャップ（FVG）",
+          "subtitle": "市場に残されたギャップ",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "銀行が積極的に市場に参入すると、取引が行われなかった「ギャップ」がチャートに残ります。市場は通常、道路の穴を埋めるように、このギャップを埋めに戻ります。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/candles_fvg.svg",
+              "text": "チャート上のギャップの位置をタップして見つけ出そう！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "なぜチャートにギャップが生じるのか？",
+              "options": [
+                "積極的な銀行の動き",
+                "定期的なニュース発表",
+                "低いトレーダー出来高",
+                "プラットフォームの不具合"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_3",
+          "title": "オーダーブロック（OB）",
+          "subtitle": "発射台",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "銀行が大きな動きをする前に、彼らは秘密のゾーン（オーダーブロック）に注文を置きます。それは市場が急上昇する前の最後の下降ローソク、またはその逆です。それが発射台です！"
+            },
+            {
+              "type": "quiz",
+              "text": "オーダーブロックは反転前の最後の何というローソクですか？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "オーダーブロックとは？",
+              "options": [
+                "大きな動きの前の最後のローソク",
+                "その日の最初のローソク",
+                "通常のローソク",
+                "テクニカル指標"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_4",
+          "title": "構造のブレイク（BOS）",
+          "subtitle": "市場が方向を変えるとき",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "銀行が古い安値をブレイクして下がり続けるとき、それが「構造のブレイク」（BOS）です。それはトレンドが本当に変わったことを意味します。通りを歩いていて信号が赤に変わったようなもの — 止まって引き返せ！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_chart_grab.json",
+              "text": "BOSとCHOCHの違い：BOSはトレンドが継続する中での安値または高値のブレイクです。キャラクターの変化（CHOCH）は上昇トレンド中の安値ブレイク、または下降トレンド中の高値ブレイクであり、完全な反転を示します。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "BOSとは何の略ですか？",
+              "options": [
+                "Break of Structure（構造のブレイク）",
+                "Buy on Signal（シグナルで買い）",
+                "Best Order Strategy（最善の注文戦略）",
+                "Big Open Sesame（ビッグオープンセサミ）"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "CHOCHとはどういう意味ですか？",
+              "options": [
+                "キャラクターの完全な変化",
+                "トレンドの継続",
+                "小幅な調整",
+                "取引を開く"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_5",
+          "title": "流動性ゾーン",
+          "subtitle": "内部と外部",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_vacuum.json",
+              "text": "流動性には2つのタイプがあります。内部流動性 — 波動内の高値と安値。外部流動性 — 波動を超えた高値と安値（最後の高値より上、または最後の安値より下）。銀行はまず内部流動性を狩り、外部流動性ゾーンに到達します。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "ゾーンを特定してください：これはチャート上の内部流動性ですか、外部流動性ですか？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "内部流動性とは？",
+              "options": [
+                "波動内の高値と安値",
+                "波動外の高値と安値",
+                "移動平均線",
+                "トレンドライン"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "銀行が最初に狩るのはどちら？",
+              "options": [
+                "内部流動性",
+                "外部流動性",
+                "フィボナッチ",
+                "レジスタンス"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smc_6",
+          "title": "最適なエントリー（OTE）",
+          "subtitle": "最良のエントリーポイント",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_order_block.json",
+              "text": "銀行が流動性を狩り、構造をブレイク（BOS）した後、彼らはオーダーブロックまたはFVGゾーンをテストするために戻ってから続行します。このゾーンをOTE — 最適なエントリーと呼びます。銀行が参入する割引ゾーンです！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smc_fvg.json",
+              "text": "OTEはフィボナッチ61.8%から79%の間にあります。割引ゾーンで買い、プレミアムゾーンで売ります。銀行は割引で買い、プレミアムで一般に売ります！"
+            },
+            {
+              "type": "quiz",
+              "text": "BOS後の最良のエントリーゾーンは？"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "OTEとは何の略ですか？",
+              "options": [
+                "Optimal Trade Entry（最適なエントリー）",
+                "Order Trade Exit（注文決済）",
+                "Open Trading Edge（オープントレーディングエッジ）",
+                "One Time Entry（ワンタイムエントリー）"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "OTEはどのフィボナッチレベルの間ですか？",
+              "options": [
+                "61.8%と79%",
+                "23.6%と38.2%",
+                "0%と23.6%",
+                "79%と100%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elliott",
+      "title": "エリオット波動",
+      "subtitle": "市場にはリズムがある",
+      "description": "波動理論を通じて市場リズムを理解する",
+      "iconAsset": "assets/lottie/elliott_icon.json",
+      "color": 4279286145,
+      "badgeAsset": "assets/icons/badge_elliott.svg",
+      "completedBadge": "波動指揮官",
+      "lessons": [
+        {
+          "id": "elliott_1",
+          "title": "市場のリズム",
+          "subtitle": "推進波と修正波",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "市場はリズミカルなパターンで動きます！トレンド方向に5波動（推進波）、反対方向に3波動（修正波）。5波動は船の旅、3波動は休息です。"
+            },
+            {
+              "type": "interaction",
+              "text": "左右にスワイプして波動の動きを見てみよう！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "推進波はいくつありますか？",
+              "options": [
+                "5",
+                "3",
+                "8",
+                "2"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "修正波はいくつありますか？",
+              "options": [
+                "3",
+                "5",
+                "8",
+                "1"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_2",
+          "title": "波動3",
+          "subtitle": "最強の波動",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "波動3は最も強く、最も長い波動です。狂乱の波動です！短い波動を見つけたら、それは波動3ではありません。数え直しましょう！"
+            },
+            {
+              "type": "quiz",
+              "text": "表示された波動から本当の波動3を選んでください"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "波動3の特徴は？",
+              "options": [
+                "最も長くて強い",
+                "最も短い",
+                "最も弱い",
+                "波動1と同じ"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_3",
+          "title": "フィボナッチ",
+          "subtitle": "魔法のツールボックス",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_fib.json",
+              "text": "フィボナッチを使って、修正波がどこで引き戻すかを正確に知ることができます。61.8%と38.2%がゴールデンハンティングスポットです。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "最も重要なフィボナッチリトレースメントレベルは？",
+              "options": [
+                "61.8%",
+                "50%",
+                "23.6%",
+                "78.6%"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_4",
+          "title": "波動の延長",
+          "subtitle": "波動が延びるとき",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "一部の波動は通常以上に延びます — 「延長」と呼ばれます。多くの場合、波動3、5、またはCが延長します。波動3が延長すると、波動5は短くなります。波動5が延長すると、強力な反転が来ます！ルール：延長した波動が次の動きの大きさを予測します。"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_wave3.json",
+              "text": "交互性：波動2が急峻だった場合、波動4はフラットになります。その逆も同様です。市場は繰り返しを嫌います！このルールは次の波動の形状を予測するのに役立ちます。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "通常以上に延びる波動を何と呼ぶ？",
+              "options": [
+                "延長（Extension）",
+                "修正（Correction）",
+                "推進波（Motive wave）",
+                "トライアングル波動（Triangle wave）"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "交互性のルールは何に適用される？",
+              "options": [
+                "波動2と4の形状",
+                "波動1と5の長さ",
+                "波動AとCの大きさ",
+                "波動のタイミング"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "elliott_5",
+          "title": "波動チャネリング",
+          "subtitle": "境界線を引く",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/elliott_waves.json",
+              "text": "波動カウントを検証するには、波動1のトップと波動3のトップを結ぶチャネルを描き、波動2のボトムから平行線を引きます。波動4はこの線でバウンスするはずです。もしブレイクしたら、数え直し！"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/elliott_wave_guide.svg",
+              "text": "チャート上にチャネルを描いてください：1と3の高値を結び、波動4が下部の線でバウンスしたか確認しましょう！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "チャネルは何と何を結びますか？",
+              "options": [
+                "波動1のトップから波動3のトップ",
+                "波動2のボトムから波動4のボトム",
+                "波動Aのトップから波動Bのトップ",
+                "波動1の開始から波動5の終了"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ict",
+      "title": "インナーサークルトレーダー",
+      "subtitle": "銀行の痕跡を追う探偵",
+      "description": "中央銀行のアルゴリズムとタイミングを理解する",
+      "iconAsset": "assets/lottie/ict_icon.json",
+      "color": 4287323382,
+      "badgeAsset": "assets/icons/badge_ict.svg",
+      "completedBadge": "ICT探偵",
+      "lessons": [
+        {
+          "id": "ict_1",
+          "title": "PDアレイアルゴリズム",
+          "subtitle": "蓄積、操作、分配",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "中央銀行は運に頼りません。彼らにはアルゴリズムがあります：蓄積、操作、分配。この操作が「 Judas Swing 」です！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "PDアレイアルゴリズムで蓄積の次に来るのは？",
+              "options": [
+                "操作（Manipulation）",
+                "分配（Distribution）",
+                "売り（Selling）",
+                "買い（Buying）"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_2",
+          "title": "キルゾーン",
+          "subtitle": "時間は武器",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "市場はロンドンやNYのオープンなど特定の時間帯に積極的に動きます。これらの時間をキルゾーンと呼びます。それ以外の時間は眠る時間です！"
+            },
+            {
+              "type": "interaction",
+              "text": "時計を見てください。キルゾーンの時間になると、時計が光ります！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "キルゾーンとは？",
+              "options": [
+                "主要な市場のオープン時間",
+                "損失ゾーン",
+                "テクニカル指標",
+                "プラットフォーム設定"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_3",
+          "title": "3の力（PO3）",
+          "subtitle": "実践的な応用",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "PDアルゴリズムの実践的な応用です。ローソクが安値をブレイクし、流動性を狩り、その後反対方向に積極的に反転して構造をブレイクします。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "安値をブレイクして流動性を狩った後、何が起こる？",
+              "options": [
+                "反対方向への強力な反転",
+                "下降トレンドの継続",
+                "市場の休止",
+                "カウンタートレード"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_4",
+          "title": "ICTにおけるフィボナッチとOTE",
+          "subtitle": "割引ゾーン",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_pd_array.json",
+              "text": "ICT学派では、フィボナッチは単なるツールではなく — 銀行の地図です！流動性が集められ操作が行われた後、市場は61.8%〜79%のフィボナッチゾーンに戻ります。これがOTE（最適なエントリー）です。銀行はここで参入し、次の波動に乗ります。"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/order_block_rocket.svg",
+              "text": "チャート上のOTEゾーンを特定してください：61.8%と79%の間のエリアです。銀行は割引で買います！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "ICT学派におけるOTEは何ゾーン？",
+              "options": [
+                "割引ゾーン（Discount zone）",
+                "プレミアムゾーン（Premium zone）",
+                "買われ過ぎゾーン（Overbought zone）",
+                "レジスタンスゾーン（Resistance zone）"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "ict_5",
+          "title": "時間と価格の理論",
+          "subtitle": "時間は価格より重要",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_killzone.json",
+              "text": "ICTでは、時間が価格に勝ります！価格はどこにでも行けますが、タイミングが合わなければ銀行は動きません。特定の時間（キルゾーン）に、銀行は注文を実行するために動かざるを得ません。キルゾーン中に価格がOTEに達したら — それは黄金のチャンスです！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/ict_po3.json",
+              "text": "ロンドンセッションがその日の方向性を決めます。NYのオープンが方向を確認または反転させます。セッションクローズは強い修正を示します。時間はあなたの味方です — 味方につけましょう！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "ICTではどちらがより重要？時間か価格か？",
+              "options": [
+                "時間",
+                "価格",
+                "両方",
+                "どちらでもない"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "最良のエントリー機会はいつ？",
+              "options": [
+                "OTEの価格＋キルゾーンの時間",
+                "いつでも",
+                "価格が高いとき",
+                "出来高が低いとき"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smt",
+      "title": "スマートマーケットテクニック",
+      "subtitle": "市場は鏡",
+      "description": "相関する資産の関係を理解する",
+      "iconAsset": "assets/lottie/smt_icon.json",
+      "color": 4294286859,
+      "badgeAsset": "assets/icons/badge_smt.svg",
+      "completedBadge": "ダイバージェンスアナリスト",
+      "lessons": [
+        {
+          "id": "smt_1",
+          "title": "相関資産",
+          "subtitle": "連動して動く資産",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "ドルとゴールドのような資産は逆方向に動きます。もし誤って同じ方向に動いているのを見たら、「ダイバージェンス」が発生しており、それがチャンスです！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "ドルとゴールドの関係は？",
+              "options": [
+                "逆相関",
+                "直接相関",
+                "関係なし",
+                "季節的相関"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_2",
+          "title": "SMTダイバージェンス",
+          "subtitle": "嘘発見器",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "ドルが新高値を更新したのに、ゴールドが新安値をつけていない場合…どちらかが嘘をついています！ダイバージェンスは嘘発見器です。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "ダイバージェンスは正確に何を検出する？",
+              "options": [
+                "一方の資産が嘘をついている",
+                "市場が止まる",
+                "出来高が多い",
+                "ニュースが来る"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_3",
+          "title": "プレミアムと割引ゾーン",
+          "subtitle": "どこで買い、どこで売るか",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "どこで買う？割引ゾーン — フィボナッチ50%以下。どこで売る？プレミアムゾーン — フィボナッチ50%以上。銀行はあなたから割引で買い、プレミアムであなたに売ります。高値で買い安値で売る個人トレーダーになってはいけません！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_divergence.json",
+              "text": "割引ゾーンで2つの資産間にダイバージェンスを見つけたら — それは強い買いシグナルです。プレミアムゾーンでダイバージェンスが発生したら — それは売りシグナルです。SMTとフィボナッチを組み合わせることで、非常に正確なターゲットが得られます。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "割引ゾーンはどのフィボナッチレベル以下？",
+              "options": [
+                "50%",
+                "61.8%",
+                "38.2%",
+                "78.6%"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "割引ゾーンでのダイバージェンスは何のシグナル？",
+              "options": [
+                "買い",
+                "売り",
+                "待機",
+                "なし"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "smt_4",
+          "title": "マルチタイムフレーム分析",
+          "subtitle": "全体像",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/smt_correlation.json",
+              "text": "たった一つの時間枠で取引してはいけません！高時間枠（週足/日足）は全体的なトレンドを示します。中時間枠（4時間/1時間）は需給ゾーンを示します。低時間枠（15分/5分）はエントリーポイントを示します。複数の時間枠でSMTダイバージェンスが現れたら — それが最強のシグナルです！"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/swipe_gesture.svg",
+              "text": "時間枠を移動：ズームアウトして全体像を見て、ズームインして正確なエントリーポイントを確認！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "いくつの時間枠を使うべき？",
+              "options": [
+                "3つの時間枠（高 - 中 - 低）",
+                "1つの時間枠",
+                "5つの時間枠",
+                "必要ない"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "高時間枠は何を示す？",
+              "options": [
+                "全体的なトレンド",
+                "エントリーポイント",
+                "ストップロス",
+                "ターゲット"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vfx",
+      "title": "出来高 / オーダーフロー",
+      "subtitle": "出来高は市場の魂",
+      "description": "出来高とオーダーフローを理解する",
+      "iconAsset": "assets/lottie/vfx_icon.json",
+      "color": 4293870660,
+      "badgeAsset": "assets/icons/badge_vfx.svg",
+      "completedBadge": "出来高エキスパート",
+      "lessons": [
+        {
+          "id": "vfx_1",
+          "title": "市場の燃料",
+          "subtitle": "出来高とは？",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "チャートを車、出来高を燃料だと想像してください。燃料なしで走る車？不可能です！価格アクションは強い出来高に支えられていなければなりません。"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "市場における出来高は何に例えられる？",
+              "options": [
+                "車の燃料",
+                "水",
+                "空気",
+                "電気"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_2",
+          "title": "市場の鼓動",
+          "subtitle": "デルタとオーダーフロー",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "すべての出来高が同じではありません。デルタは、人々が売るよりも速く買っているかどうかを教えてくれます。デルタがプラスなら、買い手がコントロールしています。"
+            },
+            {
+              "type": "interaction",
+              "text": "「買い」をタップして、デルタがどう変化するか見てみよう"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "プラスのデルタは何を意味する？",
+              "options": [
+                "買い手がコントロールしている",
+                "売り手がコントロールしている",
+                "市場が閉まっている",
+                "取引なし"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_3",
+          "title": "クライマックス出来高",
+          "subtitle": "動きが終わるとき",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "出来高バーが急激に巨大な天井に達したとき、それは動きが枯渇して爆発したことを意味します。急激な反転に備えましょう！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "極端に高い出来高は何を示す？",
+              "options": [
+                "動きが枯渇、反転が来る",
+                "動きの継続",
+                "動きの開始",
+                "シグナルなし"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_4",
+          "title": "ボリュームプロファイル",
+          "subtitle": "出来高マップ",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_climax.json",
+              "text": "ボリュームプロファイルは、最も多くの取引が行われた場所を示す水平バーを提供します。最も出来高の多いゾーン（POC — コントロールポイント）は、市場が尊重するレベルです。価格がPOCより上なら強く、下なら弱い！"
+            },
+            {
+              "type": "interaction",
+              "illustrationAsset": "assets/icons/chart_pattern.svg",
+              "text": "チャート上のPOCゾーンを特定してください：水平な出来高バーが最も高い場所です！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "POCとは何の略？",
+              "options": [
+                "Point of Control（コントロールポイント）",
+                "Price of Currency（通貨の価格）",
+                "Power of Chart（チャートの力）",
+                "Peak of Candle（ローソクのピーク）"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "vfx_5",
+          "title": "出来高ダイバージェンス",
+          "subtitle": "価格と出来高が一致しないとき",
+          "steps": [
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_delta.json",
+              "text": "価格が新高値を更新したのに出来高が減少している — それが出来高ダイバージェンスです。動きが弱く、支えがなく、反転しようとしていることを意味します。価格は嘘をつき、出来高は真実を語ります！"
+            },
+            {
+              "type": "animation",
+              "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+              "text": "逆もまた真です：価格が下落して出来高が増加している場合 — 売りは本物で、下降トレンドは本格的です。出来高はあらゆる価格変動の真実確認者です！"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "出来高ダイバージェンスとは？",
+              "options": [
+                "価格と出来高が離れていく",
+                "価格と出来高が一致している",
+                "市場が安定している",
+                "出来高が正常"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "fxa",
+      "name": "FXA",
+      "url": "https://youtube.com/@FXA",
+      "color": 4282401270,
+      "description": "SMCとICTの簡略化された説明に特化したアラビア語チャンネル"
+    },
+    {
+      "id": "smartrisk",
+      "name": "Smart Risk",
+      "url": "https://youtube.com/@SmartRisk",
+      "color": 4282920172,
+      "description": "トレーディング教育とリスク管理に特化したスーダンチャンネル"
+    },
+    {
+      "id": "chart",
+      "name": "الشارت السوداني",
+      "url": "https://youtube.com/@AlChartAlSudani",
+      "color": 4288896246,
+      "description": "スーダンおよびアラブ市場のテクニカル分析とファンダメンタル分析"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "elliott",
+  "title": "Elliott Wave",
+  "subtitle": "The market has its rhythm",
+  "description": "Understanding market rhythm through wave theory",
+  "iconAsset": "assets/lottie/elliott_icon.json",
+  "color": 4279286145,
+  "badgeAsset": "assets/icons/badge_elliott.svg",
+  "completedBadge": "Wave Commander",
+  "lessons": [
+    {
+      "id": "elliott_1",
+      "title": "Market Rhythm",
+      "subtitle": "Motive and Corrective Waves",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/elliott_waves.json",
+          "text": "The market moves in a rhythmic pattern! 5 waves with the trend (Motive), and 3 waves against it (Corrective). The 5 waves are the ship's journey, and the 3 waves are the rest."
+        },
+        {
+          "type": "interaction",
+          "text": "Swipe left and right to see the waves in motion!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How many motive waves are there?",
+          "options": [
+            "5",
+            "3",
+            "8",
+            "2"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "How many corrective waves are there?",
+          "options": [
+            "3",
+            "5",
+            "8",
+            "1"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "elliott_2",
+      "title": "Wave 3",
+      "subtitle": "The strongest wave",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/elliott_wave3.json",
+          "text": "Wave 3 is the strongest and longest wave. It's the madness wave! If you find a short wave, it can't be Wave 3. Recount!"
+        },
+        {
+          "type": "quiz",
+          "text": "Choose the real Wave 3 from the waves shown"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What characterizes Wave 3?",
+          "options": [
+            "It's the longest and strongest",
+            "It's the shortest",
+            "It's the weakest",
+            "It equals Wave 1"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "elliott_3",
+      "title": "Fibonacci",
+      "subtitle": "Your magical toolbox",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/elliott_fib.json",
+          "text": "We use Fibonacci to know exactly where corrective waves will retrace. 61.8% and 38.2% are the golden hunting spots."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the most important Fibonacci retracement level?",
+          "options": [
+            "61.8%",
+            "50%",
+            "23.6%",
+            "78.6%"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "elliott_4",
+      "title": "Wave Extensions",
+      "subtitle": "When the wave extends",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/elliott_waves.json",
+          "text": "Some waves extend beyond normal — called \"Extension\". Often wave 3, 5, or C extends. If wave 3 extends, wave 5 will be short. If wave 5 extends, a strong reversal is coming! The rule: the extended wave predicts the next move's size."
+        },
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/elliott_wave3.json",
+          "text": "Alternation: If wave 2 was sharp, wave 4 will be flat. And vice versa. The market hates repetition! This rule helps you predict the shape of the next wave."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What's a wave that extends beyond normal called?",
+          "options": [
+            "Extension",
+            "Correction",
+            "Motive wave",
+            "Triangle wave"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "The alternation rule applies to what?",
+          "options": [
+            "Shape of wave 2 and 4",
+            "Length of wave 1 and 5",
+            "Size of wave A and C",
+            "Wave timing"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "elliott_5",
+      "title": "Wave Channeling",
+      "subtitle": "Drawing the boundaries",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/elliott_waves.json",
+          "text": "To verify your wave count, draw a channel connecting the top of wave 1 and the top of wave 3, with a parallel line from the bottom of wave 2. Wave 4 should bounce off this line. If it breaks, recount!"
+        },
+        {
+          "type": "interaction",
+          "illustrationAsset": "assets/icons/elliott_wave_guide.svg",
+          "text": "Draw the channel on the chart: connect the highs of 1 and 3, see if wave 4 bounced off the lower line!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The channel connects what with what?",
+          "options": [
+            "Top of wave 1 to top of wave 3",
+            "Bottom of wave 2 to bottom of wave 4",
+            "Top of wave A to top of B",
+            "Start of wave 1 to end of wave 5"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "vfx",
+  "title": "Volume / Order Flow",
+  "subtitle": "Volume is the market's soul",
+  "description": "Understanding volume and order flow",
+  "iconAsset": "assets/lottie/vfx_icon.json",
+  "color": 4293870660,
+  "badgeAsset": "assets/icons/badge_vfx.svg",
+  "completedBadge": "Volume Expert",
+  "lessons": [
+    {
+      "id": "vfx_1",
+      "title": "Market Fuel",
+      "subtitle": "What is Volume?",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+          "text": "Imagine the chart is a car, and volume is the fuel. A car moving without fuel? Impossible! Price action must be backed by strong volume."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is volume like in the market?",
+          "options": [
+            "Like fuel for a car",
+            "Like water",
+            "Like air",
+            "Like electricity"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_2",
+      "title": "Market Pulse",
+      "subtitle": "Delta & Order Flow",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_delta.json",
+          "text": "Not all volume is the same. Delta tells us if people are buying faster than selling. If Delta is positive, buyers are in control."
+        },
+        {
+          "type": "interaction",
+          "text": "Tap \"Buy\" and see how Delta changes"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does positive Delta mean?",
+          "options": [
+            "Buyers are in control",
+            "Sellers are in control",
+            "Market is closed",
+            "No trading"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_3",
+      "title": "Climax Volume",
+      "subtitle": "When the move ends",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_climax.json",
+          "text": "When volume bars hit a massive ceiling quickly, it means the move is exhausted and exploded. Get ready for a sharp reversal!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does extremely high volume signal?",
+          "options": [
+            "The move is exhausted, reversal coming",
+            "Continuation of the move",
+            "Start of the move",
+            "No signal"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_4",
+      "title": "Volume Profile",
+      "subtitle": "Volume map",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_climax.json",
+          "text": "Volume Profile gives you a horizontal bar showing where the most trading happened. The zone with the highest volume (POC — Point of Control) is the level the market respects. If price is above POC, it's strong; if below, it's weak!"
+        },
+        {
+          "type": "interaction",
+          "illustrationAsset": "assets/icons/chart_pattern.svg",
+          "text": "Identify the POC zone on the chart: it's where the horizontal volume bar is tallest!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does POC stand for?",
+          "options": [
+            "Point of Control",
+            "Price of Currency",
+            "Power of Chart",
+            "Peak of Candle"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "vfx_5",
+      "title": "Volume Divergence",
+      "subtitle": "When price and volume disagree",
+      "steps": [
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_delta.json",
+          "text": "When price makes a new high but volume decreases — that's Volume Divergence. It means the move is weak, unsupported, and about to reverse. Price lies, volume tells the truth!"
+        },
+        {
+          "type": "animation",
+          "lottieFile": "assets/lottie/vfx_volume_fuel.json",
+          "text": "The opposite is also true: if price drops and volume increases — the sell-off is real and the downtrend is genuine. Volume is the truth-confirmer for any price move!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does volume divergence mean?",
+          "options": [
+            "Price and volume are moving apart",
+            "Price and volume are aligned",
+            "Market is stable",
+            "Volume is normal"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}
