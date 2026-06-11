@@ -1,0 +1,682 @@
+{
+  "id": "smc",
+  "title": "Smart Money Concepts (SMC)",
+  "subtitle": "Track institutional footprints on your chart",
+  "description": "A complete SMC course covering market structure, liquidity, Fair Value Gaps, Order Blocks, Supply & Demand zones, and a comprehensive trading plan based on Smart Money Concepts methodology.",
+  "color": 4283215696,
+  "completedBadge": "Smart Money Trader",
+  "lessons": [
+    {
+      "id": "smc_1",
+      "title": "Market Structure — The Foundation of SMC",
+      "subtitle": "Swing highs, swing lows, trends, and ranging markets",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Market structure is the single most important concept in SMC. It is the framework upon which every other concept is built. Market structure refers to the sequence of swing highs and swing lows that price creates as it moves across your chart. By identifying these swing points, you can determine whether the market is trending up, trending down, or ranging. In an uptrend, price makes higher highs (HH) and higher lows (HL). In a downtrend, price makes lower highs (LH) and lower lows (LL). In a ranging market, price oscillates between a defined high and low without making clear directional swings. Understanding market structure is the first step to trading like smart money because institutions always trade in the direction of the larger timeframe structure.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "A swing high is a point on the chart where price has made a peak, with lower highs on both sides. A swing low is a point where price has made a trough, with higher lows on both sides. To identify a valid swing point, you need at least one candle on each side with a lower high (for swing high) or a higher low (for swing low). In practice, using 3-5 candles on each side gives cleaner swing points. The higher timeframe you use, the more significant the swing point. A swing high on the daily chart is far more important than a swing high on the 5-minute chart. Always start your analysis from the higher timeframe to identify the dominant trend, then drop down to lower timeframes for your entry.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "An uptrend is defined by a series of higher highs and higher lows. Each successive high must be higher than the previous high, and each successive low must be higher than the previous low. As long as this structure remains intact, the trend is up, and you should only look for buy opportunities. A trend change does not occur until price takes out a previous swing low, which would confirm a shift in structure. In SMC, we do not try to predict trend changes; we wait for confirmation. The trend is your friend until it is broken. Trading against the trend is the fastest way to lose money in the markets. Always align your trades with the dominant market structure.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "A downtrend is defined by a series of lower highs and lower lows. Each successive high must be lower than the previous high, and each successive low must be lower than the previous low. In a downtrend, you should only look for sell opportunities. Many retail traders make the mistake of trying to pick a bottom in a downtrend because price looks cheap. In SMC, we understand that price can always go lower, and we do not try to catch falling knives. We wait for the downtrend to show signs of exhaustion through market structure shifts before considering long positions. Patience in a downtrend is rewarded when the reversal finally comes.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "A ranging market, also known as consolidation or sideways movement, occurs when price oscillates between a defined support and resistance zone without making higher highs or lower lows. In a ranging market, the market structure is flat; swing highs are roughly equal and swing lows are roughly equal. Ranging markets are dangerous because price can break out in either direction. In SMC, we do not trade ranging markets; we wait for a breakout that confirms the direction. The range is typically where institutions accumulate or distribute positions before the next major move. Identifying the range boundaries allows you to anticipate the breakout direction when it comes.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "Multi-timeframe analysis is the practice of looking at the same market across multiple timeframes to build a complete picture. In SMC, we use a three-timeframe approach: the higher timeframe for direction, the execution timeframe for entry, and the lower timeframe for precision. For example, if you trade on the 1-hour chart, you would look at the daily chart for direction and the 15-minute chart for entry. The higher timeframe tells you whether to buy or sell. The execution timeframe is where you identify your setup. The lower timeframe gives you the precise entry. Never trade against the higher timeframe structure, no matter how good the setup looks on your execution chart.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_1_practice",
+          "text": "Practice exercise: Open the chart data provided and identify the market structure. Mark all swing highs and swing lows. Determine whether the overall trend is up, down, or ranging. Label each swing point as HH, HL, LH, or LL. Identify at least three complete trend swings. Now drop down to a lower timeframe on the same data and see how the smaller structure relates to the larger trend. Note how the smaller swings often pause or retrace at key swing points on the higher timeframe."
+        },
+        {
+          "type": "animation",
+          "text": "Consider this real example: EUR/USD on the daily chart makes a swing low at 1.0800 in January, a swing high at 1.1000 in February, a higher low at 1.0850 in March, and a higher high at 1.1150 in April. This sequence of HH and HL confirms a clear uptrend on the daily timeframe. A trader looking at the 1-hour chart sees temporary pullbacks but should not sell them because the daily structure is bullish. Instead, they should look for buy entries on the 1-hour chart when price pulls back to key support levels. By aligning the lower timeframe entry with the higher timeframe direction, the trader dramatically increases their probability of success. This is the power of multi-timeframe market structure analysis.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "One of the biggest mistakes beginners make is forcing a trade when the market structure is unclear. If you cannot clearly identify whether the market is in an uptrend, downtrend, or ranging, do not trade. Wait for the structure to become clear. The market will always give you another opportunity. In SMC, we prioritize clarity over activity. A professional trader spends most of their time waiting for high-probability setups that align with the dominant market structure. An amateur trader feels compelled to trade every swing and ends up trading against the structure, which leads to consistent losses. Be patient. Let the market structure guide you, and only trade when the path of least resistance is clear.",
+          "concept": "smc_market_structure"
+        },
+        {
+          "type": "animation",
+          "text": "Market structure is fractal, meaning the same patterns appear on every timeframe. A daily uptrend consists of multiple 4-hour uptrends and downtrends nested within it. Understanding this fractal nature allows you to align your trades with multiple timeframe confirmations. When the daily, 4-hour, and 1-hour charts all show the same directional bias, you have a high-probability trade setup. When they conflict, it is best to wait for alignment. The more timeframes that confirm the structure, the higher the probability of a successful trade. This is why SMC traders spend significant time analyzing structure across timeframes before entering any trade.",
+          "concept": "smc_market_structure"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What defines an uptrend in SMC?",
+          "options": ["Higher highs and higher lows", "Lower highs and lower lows", "Equal highs and equal lows", "Higher highs and lower lows"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a swing high in market structure?",
+          "options": ["A peak with lower highs on both sides", "A trough with higher lows on both sides", "The highest high of the year", "Any candle with a long upper wick"],
+          "correctIndex": 0
+        },
+        {
+          "question": "In multi-timeframe analysis, which timeframe determines your trading direction?",
+          "options": ["Higher timeframe", "Execution timeframe", "Lower timeframe", "All timeframes equally"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do when market structure is unclear?",
+          "options": ["Wait for clarity before trading", "Trade small size to test the market", "Trade the opposite of your analysis", "Enter with a wide stop loss"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What happens when a downtrend structure is broken?",
+          "options": ["Price takes out a previous swing high", "Price makes a new lower low", "The range expands", "Volume decreases"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smc_2",
+      "title": "Liquidity Concepts — The Engine of Price Movement",
+      "subtitle": "Buy-side and sell-side liquidity, stop runs, and liquidity sweeps",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Liquidity is the lifeblood of financial markets. In SMC, liquidity refers to the pool of pending orders sitting above and below the current price. These orders include stop losses of retail traders, limit orders waiting to be filled, and pending breakout orders. Institutions need liquidity to execute their massive orders without moving price too far against them. Therefore, they engineer price moves specifically designed to trigger these pending orders. Understanding where liquidity sits on your chart allows you to predict where price is likely to go next. Price is always drawn to liquidity like a magnet. This is the single most important insight in SMC: price moves to where the liquidity is.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "animation",
+          "text": "Buy-side liquidity (BSL) refers to pending buy orders sitting above the current market price. These are typically stop losses of short sellers and buy stop orders from breakout traders. Price is drawn upward to sweep this liquidity before reversing. Sell-side liquidity (SSL) refers to pending sell orders sitting below the current market price, typically stop losses of long traders and sell stop orders. Price is drawn downward to sweep this liquidity before reversing. The most obvious places to find liquidity are above previous swing highs (BSL) and below previous swing lows (SSL). The more obvious the level, the more liquidity sits there, and the more likely price is to go get it.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "animation",
+          "text": "A liquidity sweep occurs when price briefly breaks beyond a key level to trigger pending stop losses and limit orders, then reverses sharply. The sweep is almost always followed by a reversal, because once the liquidity has been harvested, there is no reason for price to continue in that direction. The sweep is the institutional trap; it stops out traders who were positioned in the direction of the sweep and positions institutions in the opposite direction. After sweeping buy-side liquidity above a high, price will typically move down, and after sweeping sell-side liquidity below a low, price will typically move up. This pattern repeats constantly across all markets and timeframes.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "animation",
+          "text": "A stop run is a specific type of liquidity sweep where price hunts for stop losses placed by retail traders. Most retail traders place their stop losses just beyond the most recent swing high or swing low. The large institutions know this and deliberately push price beyond these levels to trigger the stops. The stop losses become market orders that provide the liquidity institutions need to enter their own positions in the opposite direction. When you see price spike beyond a key level and immediately reverse, you have witnessed a stop run. Instead of placing your stops exactly at the swing high or low, move them slightly further away to avoid being caught in the stop run.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "animation",
+          "text": "A liquidity pool is a concentration of pending orders at a specific price level. The most common liquidity pools are: swing highs (where short stop losses sit), swing lows (where long stop losses sit), double tops/bottoms (where breakout orders sit), and range boundaries. Institutions map these liquidity pools before deciding where to push price. A single liquidity sweep often targets multiple pools in sequence. For example, price may sweep buy-side liquidity above a recent high, then immediately reverse to sweep sell-side liquidity below a recent low, creating a two-way liquidity grab. This two-way sweep traps traders on both sides before the real directional move begins.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "animation",
+          "text": "The Asian range is a specific SMC concept that identifies liquidity. The high and low of the Asian session often act as key liquidity levels for the London and New York sessions. Price will frequently break beyond the Asian high or low during London or New York to sweep liquidity, then reverse. Traders who understand this concept wait for the Asian liquidity sweep before entering their trades. The same concept applies to the London open, which creates its own range that New York will use for liquidity. This session-based liquidity analysis adds a time component to your structural analysis and significantly improves your entry timing.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_2_practice",
+          "text": "Practice exercise: Open the chart data and identify at least three liquidity sweeps. For each sweep, mark the liquidity pool that was targeted (BSL above a high or SSL below a low). Note what happened immediately after the sweep: did price reverse? How far did it move after sweeping the liquidity? Identify at least one two-way liquidity grab where price swept both sides before the real directional move. Draw horizontal lines at each liquidity level and note which ones were swept and which ones remain untouched. Untouched liquidity levels are potential targets for future price moves."
+        },
+        {
+          "type": "animation",
+          "text": "A real example: On October 3, 2023, GBP/USD formed a clear double top at 1.2200 on the 15-minute chart. Below the double top, there was a swing low at 1.2150. Price first broke below 1.2150, sweeping sell-side liquidity and stopping out long traders. Then it reversed sharply and broke above 1.2200, sweeping buy-side liquidity above the double top and stopping out short traders. After this two-way liquidity grab, price rallied over 100 pips in the next four hours. Traders who recognized the liquidity grab at 1.2150 and 1.2200 could have entered long after the second sweep and captured the entire move. This is the power of understanding liquidity: you can anticipate where price will go and position yourself ahead of the institutions.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "animation",
+          "text": "Liquidity is not just found at obvious swing points. It also builds inside consolidation zones where traders place tight stops on both sides of the range. When a tight consolidation forms, institutions know there are many stop losses packed closely together on both sides. A sharp spike in one direction triggers all the stops on that side, and the resulting market orders provide liquidity for a move in the opposite direction. The tighter the consolidation and the longer it lasts, the more liquidity builds on both sides, and the more explosive the eventual liquidity sweep will be. This is why breakouts from tight ranges are often violent and fast.",
+          "concept": "smc_liquidity"
+        },
+        {
+          "type": "animation",
+          "text": "As a beginner, the best way to start using liquidity concepts is simple: before entering any trade, ask yourself where the nearest buy-side and sell-side liquidity sits. If you are considering a long trade, is there obvious sell-side liquidity below the current price that has not been swept? If so, price may need to go down to sweep that liquidity before it can move up. Wait for the sweep before entering. Similarly, if you are considering a short trade, is there obvious buy-side liquidity above that has not been swept? If so, wait for price to sweep it before selling. This single rule will dramatically improve your trade timing and reduce the number of times you get stopped out before the market moves in your direction.",
+          "concept": "smc_liquidity"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is buy-side liquidity (BSL)?",
+          "options": ["Pending buy orders above current price", "Pending sell orders below current price", "Limit orders at current price", "Market orders at any price"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What typically happens immediately after a liquidity sweep?",
+          "options": ["Price reverses", "Price continues in the sweep direction", "Price goes sideways", "Volume drops to zero"],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where are stop losses of short sellers typically located?",
+          "options": ["Above recent swing highs", "Below recent swing lows", "At current price level", "At Fibonacci levels"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a two-way liquidity grab?",
+          "options": ["Price sweeps both sides before the real move", "Price moves in one direction only", "Price stays within a range", "Volume increases on both sides"],
+          "correctIndex": 0
+        },
+        {
+          "question": "Why do institutions create liquidity sweeps?",
+          "options": ["To trigger stop losses and enter positions", "To make price move faster", "To confuse retail traders", "To increase market volatility"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smc_3",
+      "title": "Break of Structure (BOS) and Change of Character (CHoCH)",
+      "subtitle": "Identifying trend shifts and structural breaks",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "A Break of Structure (BOS) occurs when price breaks through a key swing point, confirming that the current trend is continuing. In an uptrend, a BOS is when price breaks above the previous swing high, confirming the uptrend remains intact. In a downtrend, a BOS is when price breaks below the previous swing low. Think of BOS as the market saying yes, the trend is still valid, and I am continuing in this direction. BOS is your signal to trade in the direction of the trend. When you see a BOS, you know that the institutional order flow is still strong in that direction, and you can confidently look for entries aligned with the break.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "animation",
+          "text": "A Change of Character (CHoCH), also called a market structure shift, occurs when price breaks a key swing point that invalidates the current trend structure. In an uptrend, a CHoCH is when price breaks below the most recent swing low, signaling that the uptrend has ended and a potential reversal is underway. In a downtrend, a CHoCH is when price breaks above the most recent swing high. CHoCH is the most important signal in SMC because it tells you that the dominant trend has changed and you should stop trading in the old direction and prepare for the new direction. A CHoCH is your signal to flip your bias from bullish to bearish or vice versa.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "animation",
+          "text": "The key difference between BOS and CHoCH is the direction of the break relative to the trend. In an uptrend, a break above a high is BOS (trend continuation), while a break below a low is CHoCH (trend reversal). In a downtrend, a break below a low is BOS, while a break above a high is CHoCH. Many beginners confuse the two, but the distinction is critical. BOS tells you to stay in the trade; CHoCH tells you to get out and reverse. Trading after a CHoCH in the old direction is one of the most common ways retail traders lose money. They hold onto a position long after the trend has changed, hoping for a reversal that never comes.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "animation",
+          "text": "There are two types of CHoCH: major and minor. A major CHoCH occurs on the higher timeframe and signals a complete trend reversal that is likely to last for days or weeks. A minor CHoCH occurs on the lower timeframe and signals a temporary shift within the larger trend. For example, during a daily uptrend, the 1-hour chart may show multiple minor CHoCHs as price pulls back, but as long as the daily structure remains intact, these are just pullbacks within the larger trend. Distinguishing between major and minor CHoCH is essential for proper trade management. A minor CHoCH is a potential entry opportunity in the direction of the larger trend; a major CHoCH is a warning that the larger trend is ending.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "animation",
+          "text": "A CHoCH is confirmed by three factors: price must break the swing point with momentum (a decisive close beyond the level), the break should be accompanied by a structural shift on a lower timeframe, and ideally there should be a liquidity sweep at the swing point immediately before the break. A CHoCH without a preceding liquidity sweep is less reliable because it means the liquidity was not swept before the reversal. When you see a liquidity sweep followed by a CHoCH, you have a high-probability reversal signal. This combination is the foundation of many SMC trade setups. The sweep traps traders in the wrong direction, and the CHoCH confirms the reversal is underway.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "animation",
+          "text": "BOS and CHoCH are fractal and apply across all timeframes. A daily CHoCH within a weekly uptrend is actually a BOS at the daily level (break of a swing low within the daily trend) but a minor pullback at the weekly level. This is why multi-timeframe analysis is essential; you need to know where you are in the context of higher timeframe structure. A common SMC strategy is to wait for a CHoCH on the execution timeframe that aligns with the trend on the higher timeframe. For example, in a daily uptrend, wait for a 1-hour CHoCH down, which creates a higher low, then look for a 1-hour BOS up to confirm the resumption of the daily trend. This two-step confirmation dramatically increases trade probability.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_3_practice",
+          "text": "Practice exercise: Open the chart data and identify all BOS and CHoCH points. Start with the higher timeframe: mark all swing highs and lows, then label each break as either BOS (trend continuation) or CHoCH (trend reversal). How many major vs minor CHoCH can you identify? Look for CHoCH events that were preceded by a liquidity sweep at the swing point. Note how the market behaved after each BOS and CHoCH. Were BOS events followed by continued momentum in the trend direction? Were CHoCH events followed by reversals? This awareness will sharpen your ability to read market structure in real time."
+        },
+        {
+          "type": "animation",
+          "text": "Real example: On the 4-hour chart of USD/JPY in April 2024, the market was in a clear downtrend with a series of LH and LL. Price formed a swing low at 150.00, then bounced to a lower high at 151.50. Price then broke above 151.50, which was a CHoCH on the 4-hour chart (break of a swing high in a downtrend). This CHoCH was preceded by a liquidity sweep below 150.00. The sweep below the low trapped short sellers, and the CHoCH above 151.50 confirmed the reversal. Price proceeded to rally over 300 pips in the following week. A trader who recognized the liquidity sweep + CHoCH combination could have entered long near 151.50 and captured the entire move.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "animation",
+          "text": "One common mistake is confusing a normal pullback with a CHoCH. In an uptrend, a pullback is when price moves down but does not break the previous swing low. This is simply profit-taking or a minor correction. A CHoCH requires the swing low to be broken. To avoid false CHoCH signals, wait for the candle to close decisively beyond the swing point. An intra-candle break that reverses before closing is not a valid CHoCH. Also, look for confirmation on a lower timeframe before acting on a CHoCH. If the 1-hour chart shows a potential CHoCH, check the 15-minute chart for a corresponding structure shift. Multiple timeframe confirmation significantly reduces false signals.",
+          "concept": "smc_bos_choch"
+        },
+        {
+          "type": "animation",
+          "text": "Your trading plan should include clear rules for BOS and CHoCH: define which timeframe marks your trend, define how many candles on each side constitute a valid swing point, define what constitutes a decisive break (closing price beyond the level), define whether you require a liquidity sweep before the break, and define how you will trade each scenario. By codifying these rules in advance, you remove emotion from your decision-making and trade with a systematic approach. Professional SMC traders have these rules memorized and execute them automatically. Amateur traders hesitate and miss the move because they are unsure whether the break is valid. Be systematic. Be disciplined. Trust your rules.",
+          "concept": "smc_bos_choch"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does BOS stand for in SMC?",
+          "options": ["Break of Structure", "Balance of Supply", "Buy on Strength", "Break of Support"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does a CHoCH signal in an uptrend?",
+          "options": ["The uptrend may be ending", "The uptrend is accelerating", "The uptrend is pausing", "Nothing significant"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What confirms a valid CHoCH?",
+          "options": ["Decisive close beyond the swing point", "Price touching the swing point", "Price approaching the swing point", "Volume spike at the swing point"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the difference between a pullback and a CHoCH in an uptrend?",
+          "options": ["A CHoCH breaks the previous swing low, a pullback does not", "A pullback breaks the swing low, a CHoCH does not", "They are the same thing", "A pullback occurs on higher timeframes only"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should precede a CHoCH for a high-probability reversal signal?",
+          "options": ["A liquidity sweep at the swing point", "A news event", "The end of the trading day", "High volume"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smc_4",
+      "title": "Fair Value Gap (FVG) — Institutional Imbalance",
+      "subtitle": "Identifying and trading price inefficiencies",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "A Fair Value Gap (FVG) is a price inefficiency created by aggressive institutional order flow. It appears on the chart as a gap between the wicks of three consecutive candles, where the middle candle has a wick that does not fully overlap with the wicks of the surrounding candles. Specifically, a bullish FVG forms when the low of the third candle is above the high of the first candle, leaving a gap that was not filled. A bearish FVG forms when the high of the third candle is below the low of the first candle. This gap represents an area where price moved so quickly that not all orders could be filled, leaving an imbalance that price will likely return to fill.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "animation",
+          "text": "To identify an FVG on your chart, look for three consecutive candles where the middle candle is significantly larger than the ones on either side. A bullish FVG is identified by: first candle, any direction; second candle, large bullish candle; third candle, any direction. The FVG exists between the high of the first candle and the low of the third candle. For a bearish FVG: first candle, any direction; second candle, large bearish candle; third candle, any direction. The FVG exists between the low of the first candle and the high of the third candle. Practice spotting these patterns and you will start seeing FVGs on every chart you look at.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "animation",
+          "text": "FVGs are significant because institutions cannot leave price inefficiencies in the market indefinitely. Price will almost always return to fill or mitigate the FVG. Mitigation occurs when price re-enters the gap zone, confirming that the imbalance has been addressed. There are three types of FVG mitigation: full fill (price closes the entire gap), partial fill (price touches part of the gap and reverses), and overshoot (price exceeds the gap on the other side). The reaction at the FVG zone tells you about the strength of the underlying trend. A strong rejection at the FVG (a touch and immediate reversal) indicates the trend is strong and likely to continue.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "animation",
+          "text": "FVGs function as support and resistance zones. A bullish FVG acts as support because when price returns to fill it, buy orders are waiting in that zone. A bearish FVG acts as resistance because sell orders are waiting there. When price returns to an FVG, watch for price action signals such as: a bullish engulfing candle at a bullish FVG, a bearish engulfing at a bearish FVG, a CHoCH accompanied by an FVG touch, or a BOS from an FVG zone. The combination of an FVG with a CHoCH or BOS is a very high-probability trade setup. Many SMC traders use FVGs as their primary entry trigger, entering when price touches the FVG and confirms the reaction.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "animation",
+          "text": "SMC categorizes FVGs by size and significance. A large FVG (gap covers many pips) on a higher timeframe is more significant than a small FVG on a lower timeframe. A clean FVG (clear gap with no overlap) is more reliable than a messy FVG (partial overlap). A fresh FVG that has not been touched is more likely to be filled than an old FVG that has been partially mitigated. When multiple FVGs align at the same price level, that zone becomes extremely significant. For example, if a daily FVG and a 4-hour FVG overlap in the same price zone, that zone is a critical support or resistance level that institutions will respect.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "animation",
+          "text": "FVGs also help determine trend strength. In a strong uptrend, new FVGs form frequently as price surges higher. In a strong downtrend, bearish FVGs form on the way down. The absence of FVGs suggests weak institutional interest and a lack of conviction in the trend. When you see a series of FVGs in the same direction, it confirms strong institutional order flow. When FVGs are being filled quickly after formation, it suggests the trend may be losing momentum. Monitoring FVGs in conjunction with market structure gives you a complete picture of institutional activity.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_4_practice",
+          "text": "Practice exercise: The chart data contains several FVGs. Identify each one and mark it on the chart with a rectangle. For each FVG, note whether it is bullish or bearish, its size in pips, whether it has been mitigated, and the price action at the FVG when price returned to it. Which FVGs acted as support? Which acted as resistance? Which ones were followed by a BOS? Which were followed by a CHoCH? The combination of FVG with BOS is one of the most powerful entry signals in SMC. Look for examples where price touched an FVG and then immediately broke structure in the opposite direction."
+        },
+        {
+          "type": "animation",
+          "text": "Real example: EUR/USD on the 1-hour chart shows a large bullish FVG between 1.0850 and 1.0870 formed on March 15, 2024. Price rallied to 1.0950 over the next two days, then pulled back. The pullback filled the FVG at 1.0850-1.0870 over the next 12 hours. At the FVG zone, price formed a bullish engulfing candle and then broke above the recent high in a textbook BOS. This was a perfect SMC buy setup: FVG acted as support, price confirmed the reaction with a bullish candle, and the BOS confirmed the trend continuation. A trader entering at the FVG zone with a stop below the FVG could have captured 80 pips as price rallied back toward 1.0950.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "animation",
+          "text": "A common FVG trading strategy is: identify a fresh FVG on the execution timeframe. Wait for price to return to the FVG zone. Look for a confirmation candle at the FVG (a rejection wick, an engulfing pattern, or a lower timeframe CHoCH). Enter in the direction of the higher timeframe trend with a stop loss beyond the FVG zone. Set your first target at the most recent swing high/low. This strategy works because you are entering at a price level where institutions have previously shown aggressive interest, and you are trading in the direction of the dominant trend. The combination of FVG and higher timeframe trend alignment gives you a significant edge.",
+          "concept": "smc_fvg"
+        },
+        {
+          "type": "animation",
+          "text": "One caution: do not trade every FVG you see. Focus on FVGs that align with the higher timeframe structure. A bullish FVG in a daily downtrend is likely to fail because the larger trend is against it. Also, avoid FVGs that form during low-liquidity periods such as Friday afternoons or between major sessions. FVGs formed during high-liquidity periods (London open, New York open, news releases) are more reliable because the aggressive order flow came from genuine institutional activity. Quality over quantity applies to FVG trading. One well-placed trade at a high-quality, trend-aligned FVG is worth more than ten trades at random FVGs.",
+          "concept": "smc_fvg"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is a Fair Value Gap (FVG)?",
+          "options": ["A price inefficiency between three candles", "A gap in trading hours", "A Fibonacci retracement level", "A support and resistance level"],
+          "correctIndex": 0
+        },
+        {
+          "question": "A bullish FVG forms between which points?",
+          "options": ["High of first candle and low of third candle", "Low of first candle and high of third candle", "Open of first candle and close of third candle", "Close of first candle and open of third candle"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does it mean when price touches an FVG and reverses immediately?",
+          "options": ["The FVG acted as support or resistance", "The FVG is invalid", "The trend is about to reverse", "Volume is too low"],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which FVGs are most reliable for trading?",
+          "options": ["FVGs aligned with higher timeframe trend", "FVGs on lower timeframes", "Old FVGs that have been partially filled", "FVGs during low liquidity"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is FVG mitigation?",
+          "options": ["Price returning to the FVG zone", "The FVG disappearing from the chart", "Volume decreasing in the FVG zone", "The FVG expanding"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smc_5",
+      "title": "Order Blocks — Institutional Footprints",
+      "subtitle": "Identifying where institutions entered the market",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "An Order Block (OB) is a specific candle or group of candles where institutions have placed a significant number of pending orders. It represents the last candle before a strong directional move, indicating the price level where institutions entered the market. A bullish Order Block is the last bearish candle (or red candle) before a strong upward move. A bearish Order Block is the last bullish candle (or green candle) before a strong downward move. The Order Block zone extends from the high to the low of that candle. When price returns to this zone, institutions will likely defend it because they have orders sitting there.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "animation",
+          "text": "To identify a bullish Order Block, look for a significant bullish move, then find the last bearish candle immediately before the move began. That bearish candle is the bullish Order Block. The institutions used the low of that candle to place their buy orders. When price returns to the OB zone, it will likely bounce. For a bearish Order Block, find a significant bearish move and look for the last bullish candle before the move. That is the bearish Order Block. Institutions placed sell orders at the high of that candle. The strength of the OB is proportional to the strength of the move that followed it. A powerful move means a powerful Order Block.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "animation",
+          "text": "Order Blocks are closely related to FVGs and often appear together. When a bullish OB forms, it is frequently followed by a bullish FVG as price surges away from the OB. The OB provides the entry level, and the FVG confirms the institutional intent. When you see an OB and an FVG at the same price level, that zone is extremely significant. This confluence of multiple SMC concepts at the same price level dramatically increases the probability of a successful trade. Many experienced SMC traders only trade when they have at least two confluent factors at the entry level.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "animation",
+          "text": "A Breaker Block is a special type of Order Block that has failed and flipped polarity. It occurs when an OB is broken, meaning price moved through it and closed beyond it. When this happens, the OB invalidates and becomes a Breaker Block, which now acts in the opposite direction. A failed bullish OB becomes a bearish Breaker Block, meaning the former support level is now resistance. Breaker Blocks are powerful because they represent a shift in institutional sentiment. When institutions abandon their position at an OB, the level becomes a magnet for price in the opposite direction. Trading Breaker Blocks is an advanced SMC technique.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "animation",
+          "text": "A Mitigation Block (MB) occurs when price returns to an Order Block zone. The mitigation is confirmed when price touches the OB zone and then reverses. Different types of mitigation: a touch and immediate reversal indicates strong institutional defense; a penetration with a wick through the OB indicates a partial mitigation; a close beyond the OB invalidates it (turning it into a Breaker Block). The strength of the reaction at the OB tells you about institutional commitment to that level. A sharp, decisive reversal from the OB suggests strong institutional interest and a high-probability trade.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "animation",
+          "text": "To filter high-quality Order Blocks: choose OBs on higher timeframes (4H, daily), look for OBs that were the start of significant moves (200+ pips), prefer OBs that have not been touched since formation, favor OBs that align with FVGs or other confluent factors, avoid OBs that formed during low-liquidity periods, and look for clean OBs with clearly defined high and low boundaries. A high-quality OB on the 4-hour chart is more reliable than ten low-quality OBs on the 5-minute chart. Patience is key: wait for price to approach the OB zone, then look for your confirmation signal before entering.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_5_practice",
+          "text": "Practice exercise: The chart data shows several strong directional moves. Identify the Order Blocks that preceded each move. Mark the OB zones with rectangles. For each OB, note whether it is bullish or bearish, the strength of the subsequent move, and whether price has returned to mitigate the OB. Identify any Breaker Blocks where an OB zone was broken and flipped direction. Notice the relationship between OBs and FVGs: do they often appear at similar levels? Draw horizontal lines at each significant OB and watch how price reacts when it returns to those levels in the future."
+        },
+        {
+          "type": "animation",
+          "text": "A practical example: On the 4-hour chart of Gold (XAU/USD), price formed a clear bullish Order Block at $2,020 in March 2024. This was the last bearish candle before a $60 rally. Two weeks later, price pulled back to $2,025, just above the OB zone. At the OB, price formed a hammer candle and reversed sharply, rallying $50 in two days. A trader who identified the OB at $2,020 could have placed a buy limit order at $2,025 with a stop below $2,015. The trade offered a 2:1 risk-to-reward ratio. This is the power of Order Blocks: they give you precise levels for entries with well-defined risk parameters.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "animation",
+          "text": "Combine Order Blocks with market structure for a complete approach: identify the higher timeframe direction, mark key OBs in that direction, wait for price to approach the OB zone, look for confirmation on a lower timeframe (a bullish engulfing at a bullish OB, a CHoCH on the lower timeframe), and enter with a stop beyond the OB. Target the next structural level (previous swing high/low) for your take profit. This structure-based approach ensures you are trading with the institutions, not against them. Your entries are at levels where institutions have shown interest, and your targets are at logical structural levels.",
+          "concept": "smc_order_block"
+        },
+        {
+          "type": "animation",
+          "text": "Common mistakes when trading Order Blocks: buying or selling at the OB without waiting for confirmation, taking OBs from too low a timeframe, ignoring the higher timeframe trend, not accounting for spreads and slippage that may take your stop, and averaging into a losing position at an OB that has been invalidated. Discipline is essential. If price closes beyond the OB, your analysis was wrong. Accept the loss and wait for the next setup. There is no room for ego in SMC trading. The market is always right, and your job is to adapt to what the market is doing, not to force your analysis onto the market.",
+          "concept": "smc_order_block"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is a bullish Order Block?",
+          "options": ["The last bearish candle before a strong bullish move", "The last bullish candle before a strong bearish move", "Any large candle on the chart", "A candle with high volume"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What happens when an Order Block is broken and price closes beyond it?",
+          "options": ["It becomes a Breaker Block", "It becomes stronger", "It disappears", "Nothing changes"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What confirms a valid Order Block?",
+          "options": ["A strong directional move following the candle", "A large wick on the candle", "High volume on the candle", "The candle being the longest of the day"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do before entering a trade at an Order Block?",
+          "options": ["Wait for confirmation price action", "Enter immediately", "Place a stop at the same level", "Double your position size"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What makes an Order Block high quality?",
+          "options": ["Higher timeframe, followed by strong move, not yet mitigated", "Lower timeframe, small move, partially mitigated", "Middle of a range, no clear move", "Any candle on any timeframe"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smc_6",
+      "title": "Supply and Demand Zones — The Original SMC",
+      "subtitle": "Identifying fresh and used zones, base formation, and zone flipping",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Supply and Demand zones predate SMC but are a core component of the methodology. A Supply zone is a price area where selling pressure exceeds buying pressure, causing price to drop. A Demand zone is where buying pressure exceeds selling pressure, causing price to rise. In SMC, we refine this concept by looking for specific base formations that indicate institutional activity. A base is a consolidation zone where price trades sideways for several candles before making a strong move away. The base represents the area where institutions accumulated their position before the move. The quality of the zone depends on the speed and strength of the move away from the base.",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "animation",
+          "text": "There are three types of base formations: the drop-base-rally (DBR), the rally-base-drop (RBD), and the rally-base-rally (RBR) or drop-base-drop (DBD). A DBR forms when price drops into a base, consolidates, then rallies sharply. The base is the demand zone. An RBD forms when price rallies into a base, consolidates, then drops sharply. The base is the supply zone. RBR and DBD are continuation patterns where the base acts as support or resistance for the trend. The most powerful zones come from DBR and RBD patterns because they represent a complete reversal of direction, suggesting strong institutional intervention at the base level.",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "animation",
+          "text": "The key concept in SMC supply and demand is zone freshness. A fresh zone that has never been touched since formation is the most powerful. An untouched demand zone is like a loaded spring waiting to release. Once price returns to the zone, the orders are triggered and the zone becomes used. A used zone is significantly weaker and less likely to produce a strong reaction. This is a critical distinction from traditional supply and demand, where zones remain valid indefinitely. In SMC, we rank zones by freshness: fresh zone (highest probability), lightly touched zone (medium probability), heavily touched or broken zone (low probability).",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "animation",
+          "text": "Zone flipping is another key SMC concept. When a supply zone is broken, it often flips to become a demand zone, and vice versa. This happens because the institutions that sold at the supply zone are now buying at that level, viewing it as value. The flip is confirmed when price returns to the old zone and holds it as support (old supply becoming new demand) or resistance (old demand becoming new supply). Zone flipping is the supply-demand equivalent of the Breaker Block concept. It represents a shift in institutional sentiment at that price level. Flipped zones are powerful because they represent a battle between buyers and sellers that has been decisively won by one side.",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "animation",
+          "text": "Rally-Base-Rally (RBR) is a continuation pattern in an uptrend. Price rallies, forms a base (consolidation), then continues higher. The base is a demand zone. Drop-Base-Drop (DBD) is a continuation pattern in a downtrend. Price drops, forms a base, then continues lower. The base is a supply zone. These zones are effective for counter-trend entries or for adding to existing positions. The power of an RBR or DBD zone depends on the strength of the trend and the time spent in the base. A longer base (more candles) typically means more orders were filled and the zone will be more significant.",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "animation",
+          "text": "Identifying the base requires looking for a clear consolidation of at least 3-5 candles with small bodies, tight ranges, and overlapping high/lows. The base should be clearly distinguishable from the surrounding price action. After identifying the base, draw the zone from the lowest low of the base to the highest high. The strongest zones have a narrow base width (tight consolidation) and a strong, sharp move away from the base. A narrow base with a fast breakout indicates aggressive institutional activity. A wide base with a slow breakout indicates less urgency from institutions, making the zone less reliable.",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_6_practice",
+          "text": "Practice exercise: The chart data contains multiple supply and demand zones. Identify each zone and classify it as DBR, RBD, RBR, or DBD. Draw boxes around each base. Rank each zone by freshness (fresh, lightly touched, heavily touched, broken). Identify any zone flips where a former supply zone is now acting as demand or vice versa. Practice rating zones by quality: narrow base + strong breakout = high quality; wide base + weak breakout = low quality. The ability to quickly identify and rank supply and demand zones is an essential SMC skill."
+        },
+        {
+          "type": "animation",
+          "text": "Real example: On the daily chart of Bitcoin, price formed a clear DBR at $25,000 in September 2023. Price dropped from $28,000 to $25,000, consolidated for 10 days between $25,000 and $26,000, then rallied to $35,000 over the next month. The base at $25,000-$26,000 was a fresh demand zone. In November 2023, price returned to $26,500, touching the top of the demand zone, and bounced sharply to $44,000. A trader who identified this fresh demand zone and waited for price to return could have entered near $26,500 with a stop below $25,000 and captured a $17,500 move.",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "animation",
+          "text": "Combining supply and demand with other SMC tools: look for zones that align with Order Blocks, FVGs, or liquidity levels. A fresh demand zone that also contains a bullish Order Block and sits at a previous swing high that has become support is an extremely high-probability entry level. When multiple SMC concepts converge at the same price level, you have what is called a confluent trade setup. Confluence is the key to high win rates in SMC. Do not trade on a single factor alone. Wait for multiple factors to align before committing your capital.",
+          "concept": "smc_supply_demand"
+        },
+        {
+          "type": "animation",
+          "text": "Risk management for supply and demand trades: place your stop loss beyond the zone (not inside it), use a 1:2 minimum risk-to-reward ratio, take partial profits at the first structural target, move your stop to break-even when price reaches the first target, and never add to a losing position. A zone trade either works immediately or it is wrong. If price returns to the zone and shows no reaction, get out. The zone has been invalidated. There is no need to wait for your stop to be hit. A professional SMC trader exits losing trades quickly and lets winning trades run. This asymmetry is what makes SMC profitable over the long term.",
+          "concept": "smc_supply_demand"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does DBR stand for in supply and demand?",
+          "options": ["Drop-Base-Rally", "Demand-Base-Resistance", "Double-Bottom-Reversal", "Drop-Below-Range"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a fresh zone in SMC?",
+          "options": ["A zone that has never been touched since formation", "A zone formed today", "A zone on the daily chart", "A zone with a narrow base"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is zone flipping?",
+          "options": ["Old supply becomes demand and vice versa", "A zone moving to a different price level", "A zone disappearing", "Two zones merging on a higher timeframe"],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which base formation indicates the strongest potential reversal?",
+          "options": ["DBR and RBD", "RBR and DBD", "All formations are equally strong", "Only DBR patterns"],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where should you place your stop loss when trading a zone?",
+          "options": ["Beyond the zone, not inside it", "Inside the zone", "At the entry price", "There should be no stop loss"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smc_7",
+      "title": "Optimal Trade Entry (OTE) — Fibonacci Confluence",
+      "subtitle": "Entering at the most efficient retracement level",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Optimal Trade Entry (OTE) is SMC's approach to Fibonacci retracement. While traditional traders use the 38.2%, 50%, and 61.8% levels, SMC focuses on the 70-80% retracement zone as the optimal entry area. The theory is that when price retraces 70-80% of a move, it has shaken out weak hands and allowed institutions to add to their positions at the best possible price. The 70-80% zone represents the sweet spot where fear is at its maximum among retail traders, while institutions calmly add to their positions. Trading the OTE zone requires patience because price does not always reach this level, but when it does, the trades are among the most profitable.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "animation",
+          "text": "To apply OTE, first identify a clear swing point A (the start of the move) and a swing point B (the end of the impulse move). Draw a Fibonacci retracement tool from point A to point B. For a bullish setup, draw from the low (A) to the high (B). The OTE zone is between 70% and 80% retracement of the A-to-B move. For a bearish setup, draw from the high (A) to the low (B). The OTE zone is again between 70% and 80%. The OTE zone gives you a specific price area to watch for entries. Do not enter immediately when price reaches the zone; wait for confirmation that the retracement is ending.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "animation",
+          "text": "The OTE zone is most powerful when it aligns with other SMC confluences. An OTE zone that also contains an FVG is extremely powerful. An OTE zone at an Order Block is a high-probability entry. An OTE zone at a supply or demand zone creates a massive confluence zone. When multiple confluences align, you can trade with higher conviction and larger position size. The best SMC trades occur when OTE, an FVG, an Order Block, and a supply/demand zone all converge at the same price level. This is the holy grail of SMC entries. When you see this level of confluence, you can trade with confidence.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "animation",
+          "text": "Confirmation at the OTE zone is crucial. Wait for one of the following signals before entering: a bullish or bearish engulfing candle at the zone, a lower timeframe CHoCH that reverses the retracement, a wick that touches the zone and immediately reverses, or a BOS on a lower timeframe that confirms the resumption of the trend. A clean entry with confirmation is always preferable to a rushed entry at the zone. The difference between a professional and an amateur is patience. The amateur enters as soon as price touches the zone; the professional waits for confirmation and gets a better entry with tighter stop.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "animation",
+          "text": "There are two main OTE strategies: trend continuation and trend reversal. The trend continuation strategy uses OTE within an established trend. In an uptrend, wait for a pullback to the 70-80% retracement of the last impulse wave and enter long. The trend reversal strategy uses OTE after a CHoCH. After a CHoCH confirms a trend change, the first retracement to the OTE zone of the impulse move offers an entry in the new trend direction. The trend continuation OTE is higher probability because it aligns with the dominant trend. The reversal OTE offers better risk-to-reward but requires confirmation to ensure the CHoCH was valid.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "animation",
+          "text": "Fibonacci extension levels help set profit targets. After entering at the OTE zone, common targets are the 100% extension (full move), the 127% extension, and the 161.8% extension of the A-to-B move. Take partial profits at each level and let the rest run with a trailing stop. The 100% extension is a conservative target, the 161.8% is an aggressive target. Your target selection should depend on the quality of the trade: high-confluence trades can aim for the 161.8% extension; lower-confluence trades take profit at 100%. Always have a predefined exit plan before entering the trade.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_7_practice",
+          "text": "Practice exercise: The chart data shows several clear impulse moves followed by retracements. Identify point A (start of impulse) and point B (end of impulse) for each move. Draw the Fibonacci retracement tool and mark the 70-80% OTE zone. For each OTE zone, note whether it aligns with other SMC confluences (FVG, OB, supply/demand zone). Did price reach the OTE zone? Did it reverse from there? How far did it move after the reversal? Would the trade have been profitable? Calculate the potential risk-to-reward ratio for each OTE trade. Quality OTE trades with confluence should offer at least 2:1 risk-to-reward."
+        },
+        {
+          "type": "animation",
+          "text": "Real example: On EUR/USD 1-hour chart, a clear impulse move from 1.0800 (A) to 1.1000 (B) covered 200 pips. Price retraced to the Fibonacci 70-80% zone between 1.0840 and 1.0860. This zone contained a fresh demand zone from a DBR pattern. When price reached 1.0850, a bullish engulfing candle formed, confirming the reversal. A trader could have entered long at 1.0860 with a stop at 1.0830 (30 pips below the OTE zone). The first target at 1.1000 (100% extension) offered 140 pips, a 4.6:1 R:R. Price reached 1.1000 within 12 hours and continued to 1.1080 over the next two days.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "animation",
+          "text": "Common OTE mistakes: using Fibonacci on choppy, unclear swings; entering at the OTE zone without confirmation; taking OTE trades against the higher timeframe trend; using too tight a stop that gets taken by normal volatility; and not having a predefined profit target. Remember that OTE works best in markets with clear trends and clean impulse moves. In ranging or choppy markets, Fibonacci levels are unreliable. Also, the OTE zone on higher timeframes (4H, daily) is significantly more reliable than on lower timeframes. Be patient and selective. Wait for the right setup with multiple confluences, and your win rate will reflect your discipline.",
+          "concept": "smc_ote"
+        },
+        {
+          "type": "animation",
+          "text": "Institutional traders use OTE because it allows them to enter large positions with minimal slippage. By entering during the retracement, they avoid chasing price and get filled at a level where the risk-to-reward is optimal. The 70-80% zone is the point where most retail traders have given up on the trend and closed their positions, providing the liquidity institutions need to build their positions. By trading the OTE zone, you are essentially using the same entry logic as the institutions. You are not fighting the order flow; you are flowing with it. This alignment with institutional logic is what makes OTE such a powerful concept.",
+          "concept": "smc_ote"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What retracement level does SMC focus on for OTE?",
+          "options": ["70-80% retracement", "38.2% retracement", "50% retracement", "61.8% retracement"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do when price reaches the OTE zone?",
+          "options": ["Wait for confirmation before entering", "Enter immediately", "Place a stop at the OTE zone", "Double your position"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What makes an OTE trade high probability?",
+          "options": ["Confluence with other SMC concepts", "A large impulse move", "Any Fibonacci level", "Price reaching the zone quickly"],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which timeframe OTE is most reliable?",
+          "options": ["Higher timeframes (4H, daily)", "Lower timeframes (5min, 15min)", "All timeframes equally", "Only the 1-hour chart"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a common profit target for OTE trades?",
+          "options": ["100% Fibonacci extension of the impulse move", "The next Fibonacci retracement", "The previous day's close", "50% of the impulse move"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smc_8",
+      "title": "Complete SMC Trading Plan",
+      "subtitle": "Bringing It All Together — A Systematic Approach",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "In this final lesson, we combine all SMC concepts into a complete, systematic trading plan. A trading plan is essential because it removes emotion from your decision-making and ensures consistency. Professional traders have a plan for every scenario and execute it without hesitation. Amateur traders make decisions on the fly, based on how they feel about the current price action. Your SMC trading plan should cover: your trading hours, the instruments you trade, the timeframes you analyze, your entry criteria, your stop loss placement rules, your profit target rules, your position sizing, and your risk management rules.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 1: Determine the higher timeframe direction. Start with the daily or 4-hour chart. Mark the market structure: identify swing highs and lows, determine whether the trend is up, down, or ranging. Your bias should always align with the higher timeframe direction. If the daily chart is in an uptrend, you are only looking for long entries. If it is in a downtrend, you only look for short entries. If the market is ranging, you wait for a breakout. This single rule will dramatically improve your results because you are always trading with the dominant institutional flow.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 2: Drop to your execution timeframe (1H or 15M). Wait for a retracement or pullback in the direction opposite to your bias. For a long setup, wait for a pullback down. For a short setup, wait for a pullback up. The pullback should show signs of exhaustion: weakening momentum, small-bodied candles, or a CHoCH on a lower timeframe. Mark the key swing points of the pullback to identify potential entry zones. Do not try to catch every move; wait for a clear, identifiable pullback that offers a good risk-to-reward entry.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 3: On the execution timeframe, look for confluent entry factors. Check for: an FVG in the pullback zone, an Order Block at the swing point, a supply or demand zone at the level, the Fibonacci OTE zone (70-80% retracement), and a liquidity level that has been swept. The more of these factors that converge at the same price level, the higher the probability of the trade. A minimum of two confluent factors is recommended. Three or more is a high-probability trade that you can trade with confidence.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 4: Wait for confirmation at the entry zone. Confirmation can be: a bullish or bearish engulfing candle, a wick showing rejection, a lower timeframe CHoCH, or a BOS on a lower timeframe confirming the resumption. Never enter without confirmation. The market is giving you a signal; do not anticipate it. The difference between a good and a bad entry is often just 10-20 pips, but those pips make the difference between a trade that works and one that gets stopped out. Patience at entry is the hallmark of a professional SMC trader.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 5: Place your stop loss according to SMC rules. The stop should be placed beyond the last swing point in the direction of your stop. If you are long, place the stop below the recent swing low that would invalidate the trade. If short, above the recent swing high. The stop should also consider the boundaries of any FVG or OB zone you are trading; if the zone is invalidated, the stop should be triggered. A properly placed stop in SMC gives the trade room to breathe while protecting you from catastrophic loss.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "interaction",
+          "chartId": "smc_8_practice",
+          "text": "Practice exercise: The chart data is a complete market scenario. Apply the full 5-step SMC trading plan: (1) Identify the higher timeframe direction. (2) Find a pullback on the execution timeframe. (3) Mark all confluent entry factors (FVG, OB, S/D zone, OTE, liquidity). (4) Identify the confirmation candle. (5) Determine your stop loss and profit target levels. Calculate the risk-to-reward ratio. Is this a trade worth taking? What is your conviction level based on confluence? Document your entire thought process as you go through each step."
+        },
+        {
+          "type": "animation",
+          "text": "Step 6: Take profits at structural levels. Your first target should be the most recent swing high (for longs) or swing low (for shorts) that aligns with your timeframe. Take 50% of your position off at the first target and move your stop to break-even. Let the remaining 50% run to the next structural target or use a trailing stop. Managing the trade after entry is just as important as the entry itself. Many traders get the entry right but take profits too early or let a winning trade turn into a loser. A systematic trade management plan prevents these errors.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Step 7: Review every trade. After closing a trade, record: the date, instrument, direction, entry level, exit level, stop loss, risk amount, reward amount, R:R ratio, confluent factors present, and your emotional state during the trade. Reviewing your trades is the fastest way to improve. You will notice patterns in your winning and losing trades. You will identify which confluent factors give you the best edge. You will learn which market conditions suit your strategy and which to avoid. A trading journal is not optional; it is essential for growth as an SMC trader.",
+          "concept": "smc_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Final advice: SMC is a journey, not a destination. You will not master these concepts overnight. Start by focusing on market structure alone until you can identify it instantly. Then add liquidity. Then FVGs. Then Order Blocks. Then supply and demand. Then OTE. Build your skills layer by layer. Trade demo until you achieve three months of consistent profitability. Then trade the smallest possible size on a live account. Risk no more than 1-2% per trade. Be patient. Be disciplined. Trust the process. The market will always be there, and there will always be another opportunity. Trade when the setup is perfect, and pass when it is not.",
+          "concept": "smc_trading_plan"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the first step in the SMC trading plan?",
+          "options": ["Determine higher timeframe direction", "Look for an FVG", "Draw Fibonacci levels", "Enter the trade"],
+          "correctIndex": 0
+        },
+        {
+          "question": "How many confluent factors are recommended for a trade?",
+          "options": ["Minimum 2", "Minimum 1", "Minimum 5", "No minimum necessary"],
+          "correctIndex": 0
+        },
+        {
+          "question": "When should you enter a trade?",
+          "options": ["After confirmation at the entry zone", "When price touches the FVG", "When you see the setup forming", "When the market opens"],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where should you take your first profit target?",
+          "options": ["At the most recent swing high/low", "At the next day's open", "After 20 pips", "At the same level as your entry"],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the maximum recommended risk per trade?",
+          "options": ["1-2% of account", "5-10% of account", "25% of account", "50% of account"],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}
