@@ -1,23 +1,30 @@
 [
-  {
-    "id": "fxa",
-    "name": "FXA",
-    "url": "https://youtube.com/@FXA",
-    "color": 4282401270,
-    "description": "قناة عربية متخصصة في شرح SMC و ICT بأسلوب مبسط"
-  },
-  {
-    "id": "smartrisk",
-    "name": "Smart Risk",
-    "url": "https://youtube.com/@SmartRisk",
-    "color": 4282920172,
-    "description": "قناة سودانية متخصصة في تعليم التداول وإدارة المخاطر"
-  },
-  {
-    "id": "chart",
-    "name": "الشارت السوداني",
-    "url": "https://youtube.com/@AlChartAlSudani",
-    "color": 4288896246,
-    "description": "تحليلات فنية وأساسية للسوق السوداني والعربي"
-  }
-]
+    {
+      "id": "omer_osman",
+      "name": "Omer Osman Ahmed Osman",
+      "url": "https://www.youtube.com/@omerosmanahmedosman",
+      "color": 4287443968,
+      "description": "Arabic trading education focused on Smart Money and Forex markets"
+    },
+    {
+      "id": "trader9799",
+      "name": "Trader9799",
+      "url": "https://www.youtube.com/@trader9799",
+      "color": 4289974891,
+      "description": "Arabic trading channel covering Forex, analysis and market insights"
+    },
+    {
+      "id": "jemytrade",
+      "name": "Jemy Trade",
+      "url": "https://www.youtube.com/@jemytrade",
+      "color": 4283755673,
+      "description": "Arabic trading education with practical chart analysis"
+    },
+    {
+      "id": "sphinxtrading",
+      "name": "Sphinx Trading",
+      "url": "https://www.youtube.com/@SphinxTrading",
+      "color": 4281545523,
+      "description": "Arabic ICT, SMC and institutional trading concepts"
+    }
+  ]

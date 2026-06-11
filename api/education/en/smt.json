@@ -1,32 +1,115 @@
 {
   "id": "smt",
-  "title": "Smart Market Technique",
-  "subtitle": "The market is a mirror",
-  "description": "Understanding correlated asset relationships",
-  "iconAsset": "assets/lottie/smt_icon.json",
+  "title": "Smart Money Techniques \u2014 Complete Course",
+  "subtitle": "Master divergence analysis across markets and timeframes",
+  "description": "A comprehensive SMT course covering regular and hidden divergence, multi-market analysis, intermarket relationships, structural confluence, timeframe alignment, advanced patterns, and a complete systematic trading plan.",
   "color": 4294286859,
-  "badgeAsset": "assets/icons/badge_smt.svg",
   "completedBadge": "Divergence Analyst",
   "lessons": [
     {
       "id": "smt_1",
-      "title": "Correlated Assets",
-      "subtitle": "Assets that move together",
+      "title": "Regular Divergence \u2014 The Foundation",
+      "subtitle": "Bullish and bearish divergence between price and oscillator",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/smt_correlation.json",
-          "text": "Assets like the Dollar and Gold move inversely. If you see them moving in the same direction by mistake, a \"Divergence\" has occurred, and that's the opportunity!"
+          "text": "Regular divergence is the cornerstone of Smart Money Techniques. It occurs when the price of an asset makes a higher high while an oscillator such as RSI or MACD makes a lower high, or when price makes a lower low while the oscillator makes a higher low. This discrepancy signals that the momentum behind the current move is weakening, even though price continues in the same direction. In bullish regular divergence, price makes a lower low while the oscillator prints a higher low, indicating that selling pressure is exhausting. In bearish regular divergence, price makes a higher high while the oscillator produces a lower high, warning that buying momentum is fading. Recognizing this pattern is the first skill you must develop as an SMT trader.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The Relative Strength Index is one of the most reliable tools for spotting regular divergence. When RSI is above 70, the market is considered overbought, and when it falls below 30, it is considered oversold. Regular bearish divergence forms when price reaches a new high but RSI stays below its previous peak, ideally still in or near overbought territory. Regular bullish divergence forms when price reaches a new low but RSI stays above its previous trough, ideally in or near oversold territory. The RSI divergence is most reliable on higher timeframes such as the 4-hour or daily chart. Always wait for RSI to confirm the divergence by breaking its own trendline before acting on the signal.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "MACD is another powerful oscillator for detecting regular divergence. Pay attention to the MACD histogram and the signal line crossings. In regular bearish divergence, price makes a higher high but the MACD histogram makes a lower high, and the MACD lines may fail to cross above the signal line with the same momentum. In regular bullish divergence, price makes a lower low but the MACD histogram prints a higher low, often with a bullish crossover occurring above the previous crossover level. MACD divergence tends to be smoother and less prone to false signals than RSI divergence. Combining both RSI and MACD divergence confirmation significantly increases the probability of a successful trade.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The underlying logic of regular divergence is rooted in institutional order flow. When large institutions begin to distribute their positions near a market top, they need liquidity to exit. They push price higher to attract retail buyers while simultaneously reducing their exposure. This creates a situation where price rises but the underlying momentum declines, producing the divergence on your oscillator. The same dynamic occurs in reverse at market bottoms: institutions accumulate positions by pushing price lower to scare out retail traders, but the selling momentum fades, creating bullish divergence. Regular divergence therefore reveals where the smart money is quietly reversing their positions while the crowd remains focused on the price extreme.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To spot regular divergence on any chart, follow a systematic approach. First, identify a clear swing high or swing low in price. Second, draw a line connecting the two most recent swing highs in an uptrend or swing lows in a downtrend. Third, check the corresponding oscillator values at those same points. Fourth, compare the direction of the oscillator line to the direction of the price line. If they move in opposite directions, regular divergence exists. Fifth, wait for confirmation: a break of the trendline connecting the swing points, a candlestick reversal pattern, or a corresponding signal line crossover on your oscillator. Never trade divergence based solely on the pattern; always require confirmation before entering a position.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The strength of a divergence signal depends on several factors. Divergence that forms after a prolonged trend is more significant than divergence that forms after a short move. Divergence with multiple oscillator confirmations, such as both RSI and MACD showing the same pattern, carries more weight. Divergence near major support or resistance levels is more reliable than divergence in the middle of a range. Divergence on higher timeframes such as daily or 4-hour is more powerful than divergence on lower timeframes like 5-minute charts. A regular divergence on the daily chart can signal a trend reversal lasting weeks, while the same pattern on a 5-minute chart may only produce a 15-minute counter-trend move. Always consider the timeframe context when evaluating divergence strength.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "One common mistake beginners make is interpreting every oscillator divergence as a trading signal. In strongly trending markets, momentum oscillators can diverge multiple times before price finally reverses. A trend that is driven by powerful fundamental factors can sustain multiple divergences as it extends further than any oscillator-based prediction would suggest. The solution is to avoid fighting the dominant trend. If price is making consistently higher highs and higher lows on the daily chart, a bearish divergence on the 1-hour chart should be treated with skepticism. Only trade divergence against the trend when it forms on the same timeframe as your primary trend analysis. Patience and trend context are essential.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Divergence works across all liquid financial markets including forex, commodities, indices, and cryptocurrencies. In forex, EUR/USD regular divergence tends to produce moves of 30 to 80 pips on the 1-hour chart. In gold, divergence signals often correlate with major reversal points because gold is highly sensitive to institutional positioning. In stock indices like the S&P 500, divergence on the daily chart can signal corrections lasting several days or weeks. The universality of divergence stems from the fact that all markets are driven by human psychology and institutional order flow. Whether you trade currencies, commodities, or equities, the principles of regular divergence remain the same. Master the concept once and apply it everywhere.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Your practice routine for regular divergence should be consistent and deliberate. Each day, open three different markets on the 1-hour chart and scan for regular divergence patterns. Mark the swing highs and lows, draw the divergence lines, and note where the oscillator confirms or rejects the signal. Keep a journal of every divergence signal you identify, whether you trade it or not, and record the outcome. This builds pattern recognition in your brain and develops your intuition for which divergences are worth trading. After two weeks of daily practice, you will begin to spot divergence patterns at a glance without needing to consciously check each condition. Pattern recognition is a skill that requires repetition, not just theoretical understanding.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "smt_1_practice",
+          "text": "Open the chart below for EUR/USD on the H1 timeframe. Identify at least three regular divergence patterns, both bullish and bearish, by comparing the price swings with the RSI or MACD oscillator at the bottom. For each divergence you find, draw the two trendlines one connecting the price swing points and one connecting the oscillator swing points. Confirm that they move in opposite directions. Then mark the subsequent price move that followed each divergence and measure the resulting move in pips. Finally, rate each divergence signal on a scale of 1 to 3 based on its strength considering trend context, timeframe, and oscillator confirmation. Upload your annotated chart to the practice log."
         }
       ],
       "quiz": [
         {
-          "question": "What is the relationship between Dollar and Gold?",
+          "question": "What does regular bearish divergence indicate?",
           "options": [
-            "Inverse relationship",
-            "Direct relationship",
-            "No relationship",
-            "Seasonal relationship"
+            "Price makes a higher high while the oscillator makes a lower high, signaling weakening upward momentum",
+            "Price makes a lower low while the oscillator makes a higher low",
+            "Price and the oscillator move in the same direction",
+            "The oscillator stays flat while price trends"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which oscillator is mentioned as being smoother and less prone to false signals for divergence detection?",
+          "options": [
+            "MACD",
+            "RSI",
+            "Stochastic",
+            "Bollinger Bands"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the underlying cause of regular divergence according to SMT?",
+          "options": [
+            "Institutional order flow and position distribution or accumulation",
+            "Random market noise",
+            "News events exclusively",
+            "Retail traders dominating the market"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Why should you avoid trading divergence against a strong daily trend based on a 1-hour signal?",
+          "options": [
+            "The dominant trend can sustain multiple divergences before reversing",
+            "Divergence only works on daily charts",
+            "Oscillators do not work on lower timeframes",
+            "Trending markets have no divergences"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the recommended daily practice routine for mastering divergence?",
+          "options": [
+            "Scan three markets on the 1-hour chart daily and journal every divergence signal",
+            "Trade every divergence signal you see",
+            "Only look at divergences on the weekly chart",
+            "Ignore divergences that do not result in immediate profit"
           ],
           "correctIndex": 0
         }
@@ -34,23 +117,108 @@
     },
     {
       "id": "smt_2",
-      "title": "SMT Divergence",
-      "subtitle": "The lie detector",
+      "title": "Hidden Divergence \u2014 Trend Continuation Signal",
+      "subtitle": "Using divergence to confirm trend strength and add to positions",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/smt_divergence.json",
-          "text": "When the Dollar makes a new high, but Gold doesn't make a new low... it means one of them is lying! Divergence is the lie detector."
+          "text": "Hidden divergence is the counterpart to regular divergence and signals trend continuation rather than reversal. It forms when price makes a higher low in an uptrend while the oscillator makes a lower low, or when price makes a lower high in a downtrend while the oscillator makes a higher high. This pattern reveals that the pullback in price was shallow relative to the momentum loss, indicating that the trend is healthy and likely to resume. Hidden divergence is one of the most powerful tools for adding to winning positions during a trend. Unlike regular divergence which warns of exhaustion, hidden divergence confirms that the smart money is using the pullback to accumulate more positions in the direction of the trend.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The mechanics of hidden divergence differ fundamentally from regular divergence. In a strong uptrend, price pulls back to form a higher low, which is normal healthy retracement behavior. However, when you check the oscillator at the same two points, you see that it made a lower low between the prior oscillator trough and the current one. This means the selling pressure during the pullback was actually stronger on the oscillator than the price action suggests, yet price did not break down. This is a sign that institutional buying absorbed the selling pressure. The hidden divergence tells you that buyers are still in control despite temporary weakness. The same logic applies in reverse for downtrends.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Hidden bullish divergence is the most common form you will encounter in trending markets. Look for an uptrend where price makes a higher low above the previous low, but the RSI or MACD makes a lower low below its previous trough. The ideal entry point is when price breaks above the immediate swing high that follows the higher low. Place your stop loss below the higher low that formed the divergence. The target is the next swing high or a Fibonacci extension of the prior move. Hidden bullish divergence is particularly reliable when it forms at the 38.2% or 50% Fibonacci retracement level of the prior impulse wave. This combination of hidden divergence with Fibonacci provides a high-probability entry framework.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Hidden bearish divergence works in the same manner but in reverse. In a downtrend, price makes a lower high below the previous high, while the oscillator makes a higher high above its previous peak. This indicates that the upward pullback lacked genuine buying strength behind it, despite what the oscillator might suggest at first glance. The ideal short entry is when price breaks below the immediate swing low following the lower high. Place your stop loss above the lower high and target the next swing low or Fibonacci extension. Hidden bearish divergence is most powerful when it forms during a retracement in a well-established downtrend on the 4-hour or daily chart.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "One key distinction between hidden and regular divergence is the position of the oscillator relative to its center line. In hidden bullish divergence, the oscillator typically stays above the 50-level for RSI or above the zero line for MACD, confirming that the overall momentum remains bullish despite the temporary dip. In hidden bearish divergence, the oscillator tends to stay below the 50-level or below zero, confirming bearish momentum dominance. If the oscillator crosses the center line during the hidden divergence pattern, the signal weakens significantly because it suggests a potential shift in the broader momentum structure. Always check the center line position to filter lower-quality hidden divergence signals.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Hidden divergence is an excellent tool for pyramiding into a trend. Pyramiding means adding to a winning position as the trend develops. When you are already in a profitable long trade and a hidden bullish divergence forms during a pullback, you can add a second position at the divergence confirmation point. This second position has a tighter stop loss because it is placed below the higher low that formed the divergence. The risk on the added position is smaller than the original position, but the potential reward is the full continuation move. Pyramiding using hidden divergence allows you to maximize trend profits while keeping overall risk controlled. Never pyramid without a clear hidden divergence confirmation.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "False hidden divergences occur primarily in ranging or choppy markets. When there is no clear trend, pullbacks and oscillator movements become erratic, producing patterns that look like hidden divergence but lead to failed breakouts. The best filter for hidden divergence is the ADX indicator. If ADX is above 25, the market is trending, and hidden divergence signals are reliable. If ADX is below 25, the market is ranging, and you should ignore hidden divergence patterns. Another filter is the slope of the 50-period moving average. If the MA is clearly sloping upward or downward, hidden divergence in that direction is more likely to succeed. Always confirm the presence of a genuine trend before acting on hidden divergence.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Hidden divergence also works effectively with multiple timeframes. When the daily chart shows a strong uptrend and the 4-hour chart shows hidden bullish divergence, the probability of a continuation move is extremely high. The daily chart provides the trend direction, and the 4-hour hidden divergence provides the precise entry timing. This multi-timeframe hidden divergence setup is used by institutional traders to add size to their positions at optimal risk-reward points. When you see hidden divergence aligning across two timeframes in the same direction, you can increase your position size with confidence. The confluence of trend direction and hidden divergence on a lower timeframe is one of the highest-probability setups in SMT.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Hidden divergence is also valuable for exit management. If you are in a trade and price makes a higher high while the oscillator makes a lower high on the same timeframe you used for entry, this regular divergence signals that the trend may be exhausting. You should consider taking partial profits. However, if the pullback that follows forms a hidden bullish divergence, you can reload the position with a tighter stop. This cycle of regular divergence for exits and hidden divergence for re-entries allows you to ride a trend from beginning to end while actively managing risk. Advanced traders use this rhythm to extract maximum profit from trending markets while keeping drawdowns minimal.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "smt_2_practice",
+          "text": "Open the practice chart and locate a clear uptrend with at least three impulse legs. Identify hidden bullish divergence during the pullback between the first and second impulse legs, and again between the second and third impulse legs. Draw the price swing lines connecting the higher lows, and the oscillator lines connecting the lower lows. Confirm that each hidden divergence formed at a Fibonacci retracement level between 38.2% and 61.8%. Mark the entry point at the breakout of the immediate swing high, place your stop loss below the higher low, and measure the profit target to the next swing high. Repeat the exercise for a downtrend with hidden bearish divergence."
         }
       ],
       "quiz": [
         {
-          "question": "What exactly does divergence detect?",
+          "question": "What does hidden divergence signal?",
           "options": [
-            "One of the assets is lying",
-            "The market will stop",
-            "Volume is high",
-            "News is coming"
+            "Trend continuation and strength of the prevailing trend",
+            "An imminent trend reversal",
+            "Market exhaustion",
+            "A range-bound market condition"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "In hidden bullish divergence, what pattern do price and the oscillator form?",
+          "options": [
+            "Price makes a higher low, oscillator makes a lower low",
+            "Price makes a lower low, oscillator makes a higher low",
+            "Both price and oscillator make lower lows",
+            "Price makes a higher high, oscillator makes a lower high"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the recommended filter to avoid false hidden divergences?",
+          "options": [
+            "ADX above 25 confirming a trending market",
+            "Trading only during London session",
+            "Using a 200-period moving average",
+            "Only trading on the 1-minute chart"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What trading technique involves adding to a winning position during hidden divergence?",
+          "options": [
+            "Pyramiding",
+            "Scalping",
+            "Hedging",
+            "Martingale"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where should the stop loss be placed in a hidden bullish divergence trade?",
+          "options": [
+            "Below the higher low that formed the divergence",
+            "Below the lowest low of the chart",
+            "At the entry point",
+            "Above the previous high"
           ],
           "correctIndex": 0
         }
@@ -58,38 +226,108 @@
     },
     {
       "id": "smt_3",
-      "title": "Premium & Discount Zones",
-      "subtitle": "Where to buy and where to sell",
+      "title": "Multi-Market Divergence",
+      "subtitle": "Comparing correlated markets to spot divergence signals",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/smt_correlation.json",
-          "text": "Where to buy? In the Discount zone — below 50% Fibonacci. Where to sell? In the Premium zone — above 50% Fibonacci. Banks buy from you in discount and sell to you in premium. Don't be the retail trader who buys high and sells low!"
+          "text": "Multi-market divergence, also called SMT divergence in its purest form, involves comparing two correlated assets to detect divergence between them. The classic example is EUR/USD and USD/CHF. These two pairs typically move in opposite directions because the US dollar is the base currency in USD/CHF and the quote currency in EUR/USD. When EUR/USD makes a higher high but USD/CHF does not make a corresponding lower low, a multi-market divergence exists. This signals that the dollar strength or weakness is not consistent across all dollar pairs. The pair that deviates from its expected behavior is revealing a potential reversal opportunity. This technique allows you to see divergence without using any oscillator at all.",
+          "concept": null
         },
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/smt_divergence.json",
-          "text": "When you find divergence between two assets in the discount zone — that's a strong buy signal. When divergence happens in the premium zone — that's a sell signal. Combining SMT with Fibonacci gives you very precise targets."
+          "text": "The foundation of multi-market divergence is understanding which currency pairs are correlated. EUR/USD and USD/CHF have an inverse correlation of approximately negative 0.95, meaning they nearly mirror each other. GBP/USD and EUR/GBP are also inversely correlated. AUD/USD and NZD/USD have a positive correlation around 0.80, meaning they tend to move in the same direction. Commodity pairs like AUD/USD and USD/CAD also show consistent correlations. When these expected relationships break down, the deviation signals that the smart money is repositioning in one market ahead of the other. The key is to compare the relative strength of each pair rather than the absolute price direction.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To perform multi-market divergence analysis on any trading platform, place two correlated charts side by side. For EUR/USD and USD/CHF, observe the swing highs and lows on both charts simultaneously. In a normal relationship, when EUR/USD makes a higher high, USD/CHF should make a lower low. If EUR/USD makes a higher high but USD/CHF makes a higher low instead of a lower low, this is a bullish multi-market divergence for EUR/USD. The failure of USD/CHF to confirm the expected move suggests that EUR/USD will reverse downward to realign with the relationship. The divergence between the two pairs acts as an early warning system for institutional repositioning.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Multi-market divergence is especially powerful at key structural levels. If EUR/USD is approaching a major resistance zone while simultaneously showing bullish multi-market divergence against USD/CHF, the divergence suggests that EUR/USD may break through that resistance rather than reverse. The USD/CHF chart is revealing that the dollar does not have the strength to push EUR/USD lower. Conversely, if EUR/USD is at support and shows bearish multi-market divergence, the support level is likely to break. This technique is widely used by institutional traders because it compares actual price action across markets rather than relying on derived oscillator calculations. The market itself becomes the oscillator.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Beyond the major forex pairs, multi-market divergence can be applied to cross rates. Consider GBP/JPY and EUR/JPY. Both are yen crosses and tend to move together. If GBP/JPY makes a higher high while EUR/JPY makes a lower high, the divergence suggests that GBP is weakening relative to EUR. You could then consider shorting GBP/JPY or longing EUR/GBP. Another powerful combination is gold and the US dollar. Gold typically moves inversely to the dollar. If gold makes a higher high while USD/CHF, a dollar proxy, also makes a higher high, this positive divergence between two inversely correlated assets is a strong signal that the dollar will weaken aggressively. The more markets you compare, the richer the information.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Correlation relationships can change during different market regimes. During risk-on periods, equity indices and commodity currencies like AUD and NZD tend to rise together while the safe-haven yen and Swiss franc weaken. During risk-off periods, the opposite occurs. Multi-market divergence analysis should account for the current risk environment. A divergence between AUD/USD and USD/JPY during a risk-on period has different implications than the same divergence during a risk-off period. Always assess the broader market context before interpreting multi-market divergence signals. Correlations are not static; they shift with market conditions, and your analysis must adapt accordingly.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To integrate multi-market divergence with your existing analysis, first determine your primary trade bias from your main chart. Then open the correlated pair chart and check if it confirms or contradicts your bias. If both charts align, the trade is high probability. If they diverge, the trade is uncertain, and you should wait for alignment. This simple two-chart check alone will improve your win rate significantly because it prevents you from trading against the broader intermarket flow. Many experienced traders use this technique as their primary filter before entering any trade. The divergence between two correlated pairs acts as an intermarket momentum indicator that complements your timeframe analysis.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A practical example will clarify the process. On March 5, 2024, EUR/USD reached 1.0850 while USD/CHF was at 0.8850. Over the next three days, EUR/USD pushed higher to 1.0920, making a higher high as expected in a euro-strength scenario. However, USD/CHF did not make a corresponding lower low; instead it remained flat around 0.8840, forming a higher low. This was bearish multi-market divergence against EUR/USD. Within 48 hours, EUR/USD dropped 120 pips back below 1.0800. The USD/CHF chart revealed that the dollar was not weakening despite EUR/USD rising, flagging that the EUR/USD rally was unsustainable. Had you only looked at EUR/USD, you would have missed this critical warning signal.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "As you develop your multi-market divergence skills, expand your analysis to include three or four correlated pairs at once. For a comprehensive dollar analysis, watch EUR/USD, USD/CHF, GBP/USD, and USD/JPY simultaneously. If three of these pairs align against the dollar while one diverges, the majority view is usually correct, and the divergent pair will eventually realign. This consensus approach filters out noise from individual pair fluctuations. The eye can be trained to spot these patterns across multiple charts with practice. Start with two pairs, then add a third, then a fourth as your pattern recognition improves. Multi-market divergence is the closest you can get to reading the global order flow.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "smt_3_practice",
+          "text": "Open the practice chart which shows both EUR/USD and USD/CHF overlaid on the same timeframe. Identify at least three instances of multi-market divergence between these two pairs. For each instance, mark the swing point where one pair made a higher high or lower low while the other pair failed to confirm. Draw horizontal lines to show the expected level the second pair should have reached. Note whether the divergence led to a reversal in the divergent pair within the next 6 to 12 candles. Calculate the pip movement that resulted from each divergence signal. Rate each divergence signal for reliability and note any false signals you observe."
         }
       ],
       "quiz": [
         {
-          "question": "Discount zone is below what Fibonacci level?",
+          "question": "What is multi-market divergence?",
           "options": [
-            "50%",
-            "61.8%",
-            "38.2%",
-            "78.6%"
+            "A comparison between two correlated assets to detect when one fails to confirm the expected move of the other",
+            "A single oscillator diverging from price",
+            "The same divergence appearing on two different timeframes",
+            "Two different oscillators showing the same divergence"
           ],
           "correctIndex": 0
         },
         {
-          "question": "Divergence in discount zone gives what signal?",
+          "question": "Which two forex pairs have an inverse correlation of approximately negative 0.95?",
           "options": [
-            "Buy",
-            "Sell",
-            "Wait",
-            "Nothing"
+            "EUR/USD and USD/CHF",
+            "GBP/USD and USD/JPY",
+            "AUD/USD and NZD/USD",
+            "EUR/JPY and GBP/JPY"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does bearish multi-market divergence for EUR/USD against USD/CHF mean?",
+          "options": [
+            "EUR/USD makes a higher high while USD/CHF does not make a corresponding lower low, suggesting EUR/USD will reverse down",
+            "EUR/USD makes a lower low while USD/CHF makes a higher high",
+            "Both pairs move in the same direction",
+            "USD/CHF makes a lower low confirming EUR/USD strength"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Why should correlation relationships be assessed within the current risk environment?",
+          "options": [
+            "Correlations change during different risk-on and risk-off regimes",
+            "Correlations are fixed and never change",
+            "Only risk-off environments matter",
+            "Correlations only apply to commodity pairs"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the benefit of watching three or four correlated pairs simultaneously?",
+          "options": [
+            "The majority view filters out noise from individual pair fluctuations",
+            "It guarantees profitable trades",
+            "It eliminates the need for stop losses",
+            "It works only during the London session"
           ],
           "correctIndex": 0
         }
@@ -97,38 +335,544 @@
     },
     {
       "id": "smt_4",
-      "title": "Multi-Timeframe Analysis",
-      "subtitle": "The full picture",
+      "title": "Intermarket Analysis with SMT",
+      "subtitle": "Bonds, equities, commodities, and forex divergence between asset classes",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/smt_correlation.json",
-          "text": "Don't trade on just one timeframe! The higher timeframe (Weekly/Daily) gives you the overall trend. The medium timeframe (4H/1H) gives you supply and demand zones. The lower timeframe (15M/5M) gives you the entry point. When SMT divergence appears on multiple timeframes — that's the strongest signal!"
+          "text": "Intermarket analysis expands the divergence concept beyond forex pairs to include different asset classes: bonds, equities, commodities, and currencies. These four asset classes are interconnected through global capital flows, interest rate expectations, and risk sentiment. When one asset class diverges from its expected relationship with another, it reveals institutional positioning that is not yet visible in any single market. For example, if the US dollar is weakening but US treasury yields are rising, this intermarket divergence suggests that the dollar weakness may be temporary or that a fundamental shift is underway. Understanding these cross-asset relationships gives you a multidimensional view of the market.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The bond market is the foundation of intermarket analysis. Bond yields reflect interest rate expectations and are a primary driver of currency values. When US treasury yields rise, the dollar typically strengthens because higher yields attract foreign capital. If the dollar weakens despite rising yields, an intermarket divergence exists, suggesting that other factors such as risk aversion or trade flows are overpowering the yield advantage. The bond-forex relationship is one of the most reliable intermarket connections. Always check the direction of the 10-year US treasury yield when analyzing dollar pairs. A divergence between yield direction and currency direction is a powerful warning that the current trend may soon reverse.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Equity markets and currencies have well-established relationships. Risk-on currencies like AUD, NZD, and CAD tend to rise when global stock markets are rallying, while safe-haven currencies like USD, JPY, and CHF tend to fall. If the S&P 500 is making new highs but AUD/USD is failing to follow, this intermarket divergence signals that the risk appetite is not translating into commodity currency strength. This divergence often precedes a correction in equities. Conversely, if stocks are falling but the yen is also falling rather than rising, the expected safe-haven flow is missing, suggesting the equity selloff may be limited. Stock-currency divergences provide early clues about shifts in global risk sentiment.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Gold holds a special position in intermarket analysis because it is both a commodity and a monetary asset. Gold typically moves inversely to the US dollar and inversely to real interest rates. When gold rises while the dollar also rises, this intermarket divergence suggests that the dollar rally is not trusted by the smartest money in the market. Gold diverging from the dollar is one of the most reliable leading indicators available. Similarly, gold often diverges from silver during major market turns. A rising gold-to-silver ratio signals risk aversion, while a falling ratio signals risk appetite. Monitoring these intermarket divergences gives you insight into the institutional view of the global economy.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The relationship between commodities and commodity currencies is another rich area for intermarket divergence analysis. AUD/USD is closely tied to iron ore and copper prices. USD/CAD is strongly influenced by crude oil. If oil prices are rising but USD/CAD is also rising instead of falling, the Canadian dollar is not benefiting from higher oil prices as it should. This divergence suggests that other factors such as domestic economic weakness or broader dollar strength are overriding the oil-CAD relationship. Such divergences often resolve with a sharp move in USD/CAD to realign with oil. Always overlay the relevant commodity price on your commodity currency chart to spot these divergences.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To perform systematic intermarket divergence analysis, create a watchlist with at least one instrument from each asset class. A good starting point is EUR/USD for forex, the S&P 500 for equities, US 10-year yield for bonds, gold for commodities, and the dollar index for overall dollar strength. Each morning, compare the direction of each instrument over the last 24 hours. Note any relationships that are behaving unexpectedly. For example, if equities are up, yields are up, gold is down, but EUR/USD is also down, the euro should be strengthening if the dollar is weakening against gold, but it is not. This inconsistency is an intermarket divergence worth investigating further.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Intermarket divergence signals tend to lead price moves by hours or even days, giving you ample time to prepare. Unlike oscillator divergence which can be acted upon immediately, intermarket divergence requires patience because the actual price alignment may take time to develop. The institutional capital flows between asset classes are massive and cannot be executed instantly. When you identify a clear intermarket divergence, prepare your trade plan but wait for confirmation on your primary timeframe chart. The confirmation could be a break of a key level, a candlestick pattern, or a structural shift. Intermarket analysis sets the bias; your primary chart provides the execution timing.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A powerful intermarket divergence combination is the correlation between the US dollar, US equities, and emerging market currencies. When the dollar is strengthening, emerging market currencies typically weaken, and US equities may struggle as dollar strength hurts multinational corporate earnings. If the dollar is strengthening but emerging market currencies are also strengthening, this intermarket divergence signals that global liquidity is abundant and risk appetite is high despite dollar strength. This environment is extremely bullish for risk assets. Conversely, if the dollar is weakening but emerging market currencies are also weakening, it signals that a liquidity crisis may be developing. These three-way divergences provide a macro-level read on global financial conditions.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Intermarket divergence is not limited to the major asset classes. Sector-specific divergences within the equity market can also provide valuable signals. For example, if technology stocks are rallying but transportation stocks are falling, this intermarket divergence within the equity market has historically preceded broader market corrections. The Dow Theory teaches that all sectors must confirm a trend for it to be valid. When sectors diverge, it signals that the market advance is not broad-based and is vulnerable to a reversal. Apply the same divergence detection technique that you use for forex pairs to different stock sectors and indices. These intra-equity divergences often lead the broader market by several days.",
+          "concept": null
         },
         {
           "type": "interaction",
-          "illustrationAsset": "assets/icons/swipe_gesture.svg",
-          "text": "Move between timeframes: zoom out to see the big picture, zoom in for the precise entry!"
+          "chartId": "smt_4_practice",
+          "text": "Open the practice chart showing four panels: EUR/USD, S&P 500 futures, US 10-year yield, and gold. Study the relationships between these four markets over the displayed period. Identify at least two instances where one market diverged from its expected relationship with another. For example, find where gold rose while the dollar also rose, or where stocks fell but the yen did not strengthen. For each divergence, draw a vertical line at the point where the divergence became visible. Draw another vertical line where the divergence resolved and the expected relationship was restored. Measure how many candles passed between the divergence and its resolution, and note the resulting price move in each market."
         }
       ],
       "quiz": [
         {
-          "question": "How many timeframes should you use?",
+          "question": "Which asset class is described as the foundation of intermarket analysis?",
           "options": [
-            "3 timeframes (high - mid - low)",
-            "One timeframe",
-            "5 timeframes",
-            "No need"
+            "The bond market",
+            "The equity market",
+            "The commodity market",
+            "The forex market"
           ],
           "correctIndex": 0
         },
         {
-          "question": "What does the higher timeframe give you?",
+          "question": "What does it mean when gold rises while the US dollar also rises?",
           "options": [
-            "The overall trend",
-            "Entry point",
-            "Stop loss",
-            "Target"
+            "An intermarket divergence suggesting the dollar rally is not trusted by institutional capital",
+            "A normal correlation between gold and the dollar",
+            "Gold has no relationship with the dollar",
+            "The dollar will continue strengthening"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which currency pair has a strong relationship with crude oil prices?",
+          "options": [
+            "USD/CAD",
+            "EUR/USD",
+            "GBP/JPY",
+            "NZD/USD"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "How should intermarket divergence signals be traded compared to oscillator divergence?",
+          "options": [
+            "With more patience, waiting for price confirmation on the primary timeframe chart",
+            "With immediate execution as soon as the divergence appears",
+            "Only on the 1-minute chart",
+            "Using market orders without confirmation"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does a divergence between a strengthening dollar and strengthening emerging market currencies suggest?",
+          "options": [
+            "Abundant global liquidity and high risk appetite",
+            "An impending market crash",
+            "The dollar will weaken immediately",
+            "Emerging markets are in crisis"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smt_5",
+      "title": "Divergence at Key Structural Levels",
+      "subtitle": "Combining divergence with order blocks, FVGs, and support and resistance zones",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "The combination of divergence with key structural levels creates some of the highest-probability setups in SMT. A structural level can be an order block, a fair value gap, a support or resistance zone, or a Fibonacci level. When a divergence pattern appears precisely at one of these levels, two independent analyses are pointing to the same price point. The divergence provides the momentum exhaustion signal, and the structural level provides the price rejection zone. This confluence dramatically increases the probability that price will reverse at that level. Trading divergence without structural confluence is like having a map with a direction but no destination.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "An order block is a candle or group of candles where institutions placed large pending orders, leaving a footprint on the chart. When price returns to an order block and simultaneously shows regular divergence on the oscillator, the setup is extremely strong. The order block identifies where the smart money is likely to defend or re-enter their positions, and the divergence confirms that the momentum driving price toward that level is exhausting. The optimal entry is a candlestick reversal pattern at the order block with diverging oscillator. Place your stop loss beyond the order block and your target at the next structural level. The order block acts as your invalidation point.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Fair value gaps form when price moves so aggressively that it leaves an imbalance between consecutive candles. These gaps act as magnets for price to return and fill them. When divergence forms as price reaches an FVG, the setup combines a price inefficiency with momentum exhaustion. The FVG draws price in, and the divergence confirms that the move filling the gap is losing steam. The most powerful FVG divergence setups occur when the FVG aligns with a Fibonacci retracement level and a previous order block. This triple confluence is one of the most reliable reversal setups in all of SMT. Always mark FVGs on your chart before looking for divergence.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Support and resistance levels are the most basic structural elements, yet they remain highly effective when combined with divergence. The key is to use structural levels that have been tested multiple times, creating a strong level of interest. When price approaches a well-established support level and simultaneously forms regular bullish divergence, the probability of a bounce is high. Conversely, a resistance level with regular bearish divergence signals a strong reversal. The more times a level has been tested, the more significant it becomes. Support becomes resistance and vice versa when broken, and divergence at these flipped levels is particularly powerful.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Fibonacci retracement levels are natural companions to divergence analysis. The 61.8% retracement is the most significant level because it is the optimal trade entry level in ICT and SMT methodology. When price retraces to the 61.8% level and forms regular or hidden divergence, the setup is considered institutional grade. The 38.2% and 50% levels also work but with lower probability. Fibonacci extension levels serve as profit targets for divergence trades. For a bullish divergence setup, the 127.2% or 161.8% extension of the prior swing provides a logical target. Combining divergence entry with Fibonacci targets gives you a complete risk-managed trade plan.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To trade structural level divergence, follow this step-by-step framework. First, identify the dominant trend on the higher timeframe. Second, mark all key structural levels on the lower timeframe: order blocks, FVGs, support and resistance, and Fibonacci levels. Third, wait for price to approach one of these levels. Fourth, look for divergence on the oscillator as price reaches the level. Fifth, wait for confirmation: a reversal candlestick pattern such as a pin bar, engulfing candle, or inside bar at the level. Sixth, enter on the confirmation candle close. Seventh, place your stop loss on the other side of the structural level. Eighth, target the next structural level or Fibonacci extension. Following this framework eliminates emotional decision-making.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A concrete example will illustrate the process. EUR/USD is in a daily uptrend and retraces to a 4-hour order block at 1.0820. As price touches 1.0820, the RSI shows regular bullish divergence with a higher low compared to the prior RSI trough. A bullish engulfing candle closes at 1.0830, confirming the reversal. You enter long at 1.0830 with a stop loss at 1.0810, ten pips below the order block. The target is the previous swing high at 1.0950, providing a 120-pip reward on a 20-pip risk. Trade management: move stop loss to breakeven when price reaches 1.0880, then trail with a 30-pip stop. This systematic approach ensures you capture the full move while protecting profits.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The most common mistake when trading divergence at structural levels is entering before price actually reaches the level. Impatience leads to entries that are 10 to 20 pips away from the structural level, which dramatically reduces the risk-reward ratio and increases the chance of getting stopped out. Wait for price to trade at or very near the structural level. Another mistake is ignoring the higher timeframe trend. Even the most perfect divergence at a structural level will fail if the higher timeframe trend is overwhelmingly against it. If the daily chart is in a strong downtrend, a bullish divergence at a 1-hour support level is likely to fail. Always check the higher timeframe first.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The concept of time and price alignment adds another dimension to structural level divergence. In SMT, certain times of the trading day produce more reliable reversals at structural levels. The London open, the New York open, and the daily close are periods when institutional order flow is most concentrated. A divergence pattern that coincides with one of these high-volume periods is more reliable than one that forms during low-volume Asian session trading. Additionally, divergence that forms at a structural level during a new trading week or month carries extra significance because institutions often execute their largest orders at these time boundaries. Always note the time context when evaluating divergence at structural levels.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "smt_5_practice",
+          "text": "Open the practice chart which contains pre-marked order blocks, FVGs, and support and resistance levels. Your task is to find divergence patterns at each of these levels. Start with the strongest structural level on the chart and check for regular divergence at that exact price. Mark the divergence lines on both price and the oscillator. Draw the entry candle, the stop loss level below the structural zone, and the profit target at the next structural level. Calculate the risk-reward ratio for each setup. Identify at least three valid divergence-at-structural-level setups and rank them from highest to lowest probability based on the confluence of factors present."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why does combining divergence with structural levels create high-probability setups?",
+          "options": [
+            "Two independent analyses converge on the same price point, providing confluence",
+            "Divergence alone is always sufficient",
+            "Structural levels always cause reversals",
+            "Oscillators are not needed at structural levels"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is an order block in SMT methodology?",
+          "options": [
+            "A candle or group of candles where institutions placed large pending orders",
+            "The highest price of the day",
+            "A random level on the chart",
+            "A Fibonacci extension level"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Fibonacci retracement level is considered the most significant for divergence trades?",
+          "options": [
+            "61.8%",
+            "38.2%",
+            "78.6%",
+            "23.6%"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the recommended confirmation before entering a divergence trade at a structural level?",
+          "options": [
+            "A reversal candlestick pattern such as a pin bar or engulfing candle",
+            "Immediate entry at the first touch of the level",
+            "A news announcement",
+            "A volume spike only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the most common mistake traders make with divergence at structural levels?",
+          "options": [
+            "Entering before price actually reaches the level due to impatience",
+            "Using too large a stop loss",
+            "Trading only on the daily chart",
+            "Taking profits too early"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smt_6",
+      "title": "Timeframe Confluence in Divergence",
+      "subtitle": "Aligning divergence signals across multiple timeframes for high-confidence trades",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Timeframe confluence is the practice of aligning divergence signals across two or more timeframes to achieve a higher probability trade setup. The core principle is that the higher timeframe determines the direction and bias, while the lower timeframe provides the precise entry and exit. When divergence appears on both the higher and lower timeframe in the same direction, the signal is much more powerful than divergence on a single timeframe. The institutional order flow that produces divergence on the daily chart is more significant than the same pattern on the 15-minute chart. Mastering timeframe confluence allows you to trade with the confidence that you are aligned with the dominant institutional flow.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The standard timeframe hierarchy for divergence analysis is: daily for the primary trend, 4-hour for the swing structure, 1-hour for the trade setup, and 15-minute for the entry trigger. Start your analysis on the daily chart to determine the overall trend direction. If the daily chart shows a clear uptrend, you will only take bullish divergence setups on lower timeframes. Then move to the 4-hour chart to identify the current swing structure and find any divergence patterns that align with the daily trend. Then move to the 1-hour chart for your precise setup. Finally, use the 15-minute chart for the exact entry trigger. Each timeframe filters the noise from the lower ones.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The most powerful alignment occurs when the daily chart shows a strong trend, the 4-hour chart shows hidden divergence in the direction of the daily trend, and the 1-hour chart shows regular divergence at a structural level for an entry in the same direction. This triple alignment means the daily trend, the 4-hour continuation signal, and the 1-hour reversal signal are all pointing in the same direction. The probability of such a setup is extremely high. When you see this alignment, you can increase your position size relative to your standard risk parameters. This is the institutional-grade setup that professional traders wait for rather than forcing lower-probability trades on single timeframes.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To practice timeframe analysis, use the top-down approach consistently. Never start on a lower timeframe and try to fit the higher timeframe to your idea. Always start from the highest timeframe and drill down. If the daily chart does not show a clear trend, do not trade divergence on lower timeframes because the market is likely ranging. If the daily chart shows a trend but the 4-hour chart has no clear divergence pattern, wait for the 4-hour setup to develop before moving to the 1-hour chart. Forcing the analysis when the structure is not clear on a higher timeframe is the fastest way to lose money. Discipline in the top-down approach keeps you out of bad trades.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "An important concept in timeframe confluence is the idea of divergence resonance. This occurs when the same divergence pattern appears across multiple timeframes at the same time. For example, if the 4-hour chart shows regular bullish divergence and the 1-hour chart also shows regular bullish divergence at the same price level, the divergence is resonating across timeframes. This resonance confirms that the momentum exhaustion is significant and not just a temporary fluctuation on a single timeframe. Divergence resonance is the closest thing to a guaranteed signal in SMT because it reveals that institutions are active across multiple time horizons simultaneously. When you see resonance, act decisively.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Timeframe divergence can also be used for position management. When you enter a trade based on a 1-hour divergence, you can use the 4-hour chart to manage the trade. As long as the 4-hour divergence remains valid, the trade is still alive. If the 4-hour divergence invalidates by price breaking the structural level that formed the divergence, you should exit the trade even if the 1-hour divergence is still intact. This hierarchical management approach ensures that your trade remains aligned with the larger institutional flow. Similarly, if the 4-hour chart shows hidden divergence continuing, you can add to your position with confidence. The higher timeframe governs all trading decisions.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Different timeframes serve different purposes in divergence analysis. The weekly and daily charts answer the question of direction. The 4-hour and 1-hour charts answer the question of structure and level. The 15-minute and 5-minute charts answer the question of timing. Never ask a lower timeframe a question that only a higher timeframe can answer. For example, do not look at a 5-minute divergence to determine if the daily trend is changing. The daily trend changes only when the daily chart shows divergence. Keep each timeframe in its proper role, and your analysis will be systematically sound. Many traders lose because they over-analyze low timeframes while ignoring the higher timeframe trend.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A practical daily routine for timeframe confluence analysis: start your day by checking the daily charts of your watchlist pairs. Mark any divergence patterns on the daily chart and note the trend direction. Then move to the 4-hour charts of the pairs that showed interesting daily setups. Identify the key structural levels and any 4-hour divergence. Then move to the 1-hour chart for the precise plan. Set alerts at the key levels identified in the 1-hour analysis. When the alert triggers, check the 15-minute chart for the entry confirmation. This entire process takes ten minutes per pair once you are practiced. The structure ensures you never enter a trade without full contextual awareness of all timeframes.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "One advanced application of timeframe confluence is divergence divergence, where a higher timeframe regular divergence is confirmed by a lower timeframe hidden divergence. For example, the daily chart shows regular bearish divergence signaling a potential trend reversal. However, the 4-hour chart shows hidden bullish divergence, indicating that the immediate pullback is a continuation move within a larger correction. This seeming contradiction actually provides valuable information: the market is in the early stages of a reversal, and the 4-hour hidden divergence represents the final push higher before the daily reversal accelerates. Trading this structure requires patience to wait for the lower timeframe divergence to complete before entering the higher timeframe divergence trade. This layered understanding of conflicting divergences across timeframes separates advanced traders from intermediate ones.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "smt_6_practice",
+          "text": "Open the practice chart which is a two-panel display showing both the 4-hour and 1-hour charts for the same instrument over the same period. Identify one trade setup where both timeframes show divergence in the same direction. For example, find a regular bullish divergence on the 4-hour chart and a regular bullish divergence on the 1-hour chart occurring at the same price level. Draw trendlines on both charts to mark the divergence. Note the 4-hour divergence entry point and the 1-hour divergence entry point. Did the 1-hour entry provide a better risk-reward ratio than the 4-hour entry? Determine the ideal entry based on both timeframes and explain your reasoning."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the starting timeframe in the top-down divergence analysis approach?",
+          "options": [
+            "The daily chart",
+            "The 15-minute chart",
+            "The 5-minute chart",
+            "The monthly chart"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is divergence resonance?",
+          "options": [
+            "The same divergence pattern appearing on multiple timeframes simultaneously",
+            "A loud divergence signal",
+            "Divergence that repeats on the same timeframe",
+            "Hidden divergence on a single timeframe"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which timeframe should you use to manage an existing position entered on a 1-hour divergence?",
+          "options": [
+            "The 4-hour chart",
+            "The 15-minute chart",
+            "The 5-minute chart",
+            "The 1-minute chart"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What question does the weekly and daily timeframe answer?",
+          "options": [
+            "Direction of the trend",
+            "Precise entry timing",
+            "Stop loss placement",
+            "Order block identification"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do if the daily chart does not show a clear trend?",
+          "options": [
+            "Do not trade divergence on lower timeframes",
+            "Trade divergence on the 5-minute chart aggressively",
+            "Look for divergence on the monthly chart",
+            "Reverse your normal divergence strategy"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smt_7",
+      "title": "Advanced Divergence Patterns",
+      "subtitle": "Complex divergences, multi-wave divergences, and divergence clusters",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Advanced divergence patterns go beyond the simple single divergence setup. These include complex divergences where the oscillator makes three or more peaks or troughs while price makes a single extreme, multi-wave divergences that span multiple swing points across a trend, and divergence clusters where multiple types of divergence appear in the same price zone. These advanced patterns reveal deeper institutional activity and often precede the largest moves. While a simple divergence signals a potential reversal, an advanced divergence pattern signals a major structural shift that institutions have been preparing for over an extended period. Recognizing these patterns separates the intermediate SMT trader from the advanced one.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Complex divergence occurs when the oscillator prints two or three peaks or troughs while price prints one final extreme. In a complex bearish divergence setup, price may make a single high while RSI makes two lower highs, a pattern called double divergence. When RSI makes three lower highs while price makes a single high, it is called triple divergence. Triple divergence is extremely rare but produces some of the most powerful reversals in the market. The logic is simple: each successive failure of the oscillator to confirm price represents another layer of momentum exhaustion. By the third divergence, the selling pressure from institutional distribution has reached its peak. Complex divergences are most reliable on higher timeframes.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Multi-wave divergence spans across multiple swing points within a larger trend structure. For example, in a five-wave uptrend, you may see regular bearish divergence between waves 3 and 5 on the oscillator, combined with hidden bullish divergence between waves 2 and 4. This creates a multi-wave divergence structure where the overall trend is showing signs of exhaustion through regular divergence at the final wave while the intermediate waves show hidden divergence confirming the internal trend structure. Reading these multi-wave patterns requires practice but provides a comprehensive view of the institutional order flow throughout an entire trend cycle. Think of it as reading the full conversation between price and momentum rather than just a single sentence.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Divergence clusters occur when multiple divergence types converge at the same price level. A typical divergence cluster might include regular divergence on the daily chart, hidden divergence on the 4-hour chart, and complex divergence on the 1-hour chart all pointing to the same price zone. When you see a divergence cluster, it means that multiple timeframe analyses independently identified the same level as significant. The cluster creates a zone of convergence where the probability of a reversal is maximized. Always mark divergence clusters on your chart with a single highlighted zone. Trade these zones with higher conviction and potentially larger position size than single divergence setups.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Another advanced concept is divergence stacking, where regular divergence forms, then price corrects briefly and forms another divergence in the same direction at an even stronger structural level. This second divergence is essentially a re-entry opportunity for those who missed the first signal. Divergence stacking is common before major economic releases when institutions are building large positions ahead of the event. The first divergence may produce a 30-pip move, and the second divergence at a deeper structural level may produce a 100-pip move after the news. Recognizing stacked divergence allows you to add to your position after the initial move, capturing the larger institutional move that follows.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The relationship between divergence and trend structure can also reveal wave counts for Elliott Wave practitioners. In an impulsive five-wave move, regular divergence typically appears between waves 3 and 5, signaling the end of the impulse. Hidden divergence typically appears between waves 2 and 4, confirming the internal trend structure. By analyzing the divergence between each wave pair, you can validate your wave count and anticipate where the next wave will end. This integration of SMT divergence with Elliott Wave analysis creates a powerful synthesis: the wave count provides the structural framework, and divergence provides the momentum confirmation at each wave completion point.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "False signals in advanced divergence patterns most commonly occur when the broader trend is extremely strong. In a powerful trending market, complex divergences can fail repeatedly as the trend extends beyond any oscillator-based prediction. The key filter is the trend's slope and strength as measured by the ADX or the 50-period moving average slope. If the trend is extremely steep, even triple divergence may fail. In such conditions, hidden divergence remains more reliable because it confirms trend continuation rather than fighting it. The best filter for advanced divergence is the same as for simple divergence: never trade against the dominant daily trend. Advanced patterns are not magic; they still require proper market context.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To master advanced divergence patterns, maintain a dedicated chart book. Each day, scan the daily charts and identify any complex divergences, multi-wave divergences, or divergence clusters. Screenshot each pattern and annotate it with your analysis. After one month of daily scanning, review your collection and note which patterns produced significant moves and which failed. This visual database builds your intuition for the subtle differences between a powerful complex divergence and a failing one. Pattern recognition is a visual skill developed through repeated exposure, not intellectual understanding. The more advanced patterns you see, the better your brain becomes at distinguishing high-probability setups from noise.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Divergence between volume and price is an advanced pattern that combines SMT with volume profile analysis. When price is making new highs but volume is declining, this volume divergence confirms the price divergence you see on oscillators. Volume is the fuel for price moves; when the fuel is running out, the move is likely to end. Conversely, when price is making a pullback low but volume is increasing, it suggests that institutional buying is absorbing the selling pressure, confirming a hidden divergence structure. Adding volume analysis to your divergence toolkit provides a third layer of confirmation. Volume divergence is particularly powerful when it aligns with oscillator divergence and structural levels.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "smt_7_practice",
+          "text": "Open the practice chart which contains a longer data series with multiple identifiable advance divergence patterns. Your task is to find and label each of the following: a complex divergence where the oscillator makes two or three peaks or troughs while price makes a single extreme, a multi-wave divergence spanning at least three swing points, and a divergence cluster where multiple divergence types converge in the same zone. For each pattern, draw all relevant divergence lines, note the timeframe context, and project a target based on the institutional order flow the pattern reveals. Prioritize the cluster as the strongest setup and explain why."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is complex divergence?",
+          "options": [
+            "The oscillator makes two or three peaks or troughs while price makes a single extreme",
+            "Divergence on multiple timeframes",
+            "Divergence between two different pairs",
+            "The simplest form of divergence"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a divergence cluster?",
+          "options": [
+            "Multiple divergence types converging at the same price level across different timeframes",
+            "A group of divergences that all failed",
+            "Divergence on a single timeframe with multiple oscillators",
+            "A cluster of candles showing divergence"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is triple divergence?",
+          "options": [
+            "Three oscillator peaks or troughs against one price extreme, producing a very rare and powerful signal",
+            "Three different timeframes showing divergence",
+            "Three different currency pairs diverging simultaneously",
+            "Three consecutive divergences that all failed"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the best filter to avoid false advanced divergence signals in strongly trending markets?",
+          "options": [
+            "Check that the ADX or moving average slope confirms a moderate trend, not an extreme one",
+            "Ignore all trends and trade every divergence",
+            "Only trade complex divergences on the 1-minute chart",
+            "Use no filters and accept all signals"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the recommended practice method for mastering advanced divergence patterns?",
+          "options": [
+            "Maintain a daily chart book of annotated divergence patterns reviewed monthly",
+            "Trade every divergence pattern immediately",
+            "Only read books about divergence",
+            "Watch one video tutorial and start trading"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "smt_8",
+      "title": "Complete SMT Trading Plan",
+      "subtitle": "A systematic framework integrating all SMT concepts into a profitable trading plan",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "The Complete SMT Trading Plan is a systematic framework that integrates all the concepts from the previous seven lessons into a single, repeatable trading process. The goal is to remove emotional decision-making by providing a clear checklist for every trade you take. This plan covers market selection, timeframe analysis, divergence identification, structural level confirmation, entry execution, position management, and trade review. No concept in SMT works in isolation; the power comes from combining them in a structured way. Every trade you take should follow this plan step by step, with no shortcuts. Discipline in following the plan is what separates profitable SMT traders from those who lose money.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Step one of the SMT Trading Plan: market selection and preparation. At the start of each trading session, review the economic calendar for high-impact news events. Avoid trading 30 minutes before and after major news releases unless you have a specific news trading strategy. Then select your primary markets: one major currency pair such as EUR/USD, one commodity such as gold, and one index such as the S&P 500. The more markets you follow, the thinner your attention is spread. Focus on three to five instruments maximum. Write down the current daily trend and the key support and resistance levels for each instrument. Preparation prevents poor performance.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Step two: higher timeframe divergence analysis on the daily and 4-hour charts. For each instrument on your watchlist, check the daily chart for regular divergence patterns that signal potential trend reversals. Then check the 4-hour chart for hidden divergence patterns that confirm trend continuation. Mark any divergence you find on both timeframes with clear trendlines on your chart. If the daily chart shows no clear divergence but the 4-hour chart shows a pattern, the setup is valid but has lower conviction. If both daily and 4-hour chart show divergence in the same direction, this is a high-conviction setup. Record your bias for each instrument based on this analysis.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Step three: structural level identification on the 1-hour chart. Once you have your bias from the higher timeframe analysis, move to the 1-hour chart to identify the specific structural levels where price could reverse. Mark order blocks, fair value gaps, support and resistance levels, and Fibonacci retracement levels. If your bias is bullish, you are looking for price to reach a discount zone below the 50% Fibonacci level where a support level, order block, or FVG is also present. If your bias is bearish, you are looking for a premium zone above 50% Fibonacci with resistance, order blocks, or FVGs. These structural levels become your potential entry zones.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Step four: entry trigger on the 15-minute chart with divergence confirmation. Wait for price to reach your identified structural zone on the 1-hour chart. Then switch to the 15-minute chart and check for divergence at the exact level. The entry trigger requires both divergence on the 15-minute chart AND a reversal candlestick pattern. The ideal entry is a 15-minute pin bar, engulfing candle, or inside bar that closes at or beyond the open of the triggering candle. Enter on the close of the confirmation candle. Do not enter on divergence alone without the candlestick confirmation. This two-step filter ensures that both momentum and price action are aligned.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Step five: stop loss placement and position sizing. Place your stop loss based on the structural level, not on an arbitrary pip value. For a long entry at a support level, place the stop loss 5 to 10 pips below the support level. For a short entry at a resistance level, place the stop loss 5 to 10 pips above resistance. Calculate your position size so that a stop loss hit results in a loss of no more than 1% of your trading capital. If the required stop loss is too wide for your 1% risk limit, the trade is not worth taking. Wait for a setup with a tighter structural stop loss. Position sizing based on structural levels is the foundation of intelligent risk management.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Step six: profit target and trade management. Your initial profit target is the next structural level in the direction of your trade. For a long trade, this is the next resistance level above entry. For a short trade, the next support level below entry. When price reaches 50% of your target, move your stop loss to breakeven to create a risk-free trade. When price reaches 100% of your target, take 50% of your position off and move the stop loss on the remaining position to trail by one ATR. Use the 4-hour chart for trailing stop placement: keep the stop below each successive higher low in an uptrend or above each lower high in a downtrend. This maximizes profit while protecting against sudden reversals.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Step seven: trade review and journaling. After every trade, whether winning or losing, complete a trade review entry in your trading journal. Include the following: the instrument and timeframe, the type of divergence used, the structural level entered at, the entry and exit prices, the risk-reward ratio achieved, the emotional state before and during the trade, and a grade for how well you followed the plan. Trades that followed the plan but lost money are good trades; trades that broke the plan but made money are bad trades. Judge yourself by process, not by outcome. Review your journal weekly to identify patterns in your trading behavior. The journal is the most powerful tool for continuous improvement.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Continuous improvement is built into the SMT Trading Plan through the review cycle. Every week, review your trade journal and calculate your win rate, average risk-reward ratio, and profit factor. Identify which divergence types are working best for you personally. Some traders find regular divergence more reliable; others excel with hidden divergence. Adapt the plan to your strengths while maintaining the structural discipline. Also review your losing trades to identify patterns in your mistakes. Are you entering too early? Are you ignoring the higher timeframe trend? Are you taking trades that do not meet the full confluence criteria? Each mistake identified is an opportunity to refine your plan. The SMT Trading Plan is a living document that evolves with your experience.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "smt_8_practice",
+          "text": "Open the practice chart which displays a full trading session across multiple timeframes. Your task is to execute the complete SMT Trading Plan from start to finish. Begin with market selection and preparation, then perform higher timeframe divergence analysis on the daily and 4-hour charts. Mark the structural levels on the 1-hour chart. Wait for price to reach your identified zone and confirm divergence on the 15-minute chart with a reversal candle. Record your entry price, stop loss, and profit target. Calculate your risk-reward ratio. Finally, write a mock trade review journal entry evaluating your process. Submit your complete trade plan including all charts and calculations."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the purpose of the Complete SMT Trading Plan?",
+          "options": [
+            "To remove emotional decision-making with a systematic, repeatable checklist for every trade",
+            "To provide a single indicator that predicts all market movements",
+            "To eliminate the need for analysis",
+            "To guarantee profitable trades every time"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "How many instruments should you focus on according to the SMT Trading Plan?",
+          "options": [
+            "Three to five instruments maximum",
+            "Ten to fifteen instruments",
+            "One instrument only",
+            "As many instruments as possible"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where should your stop loss be placed in the SMT Trading Plan?",
+          "options": [
+            "Based on a structural level, 5 to 10 pips beyond it",
+            "At a fixed 30-pip distance from entry",
+            "At 50% of your profit target",
+            "Randomly based on your account balance"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "When should you move your stop loss to breakeven?",
+          "options": [
+            "When price reaches 50% of your profit target",
+            "Immediately after entry",
+            "Only at the end of the trading day",
+            "When price reaches 100% of your profit target"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "How should you judge your trades according to the SMT Trading Plan?",
+          "options": [
+            "By the process, not by the outcome",
+            "By whether you made money or lost money",
+            "By how many pips you gained",
+            "By the number of trades taken"
           ],
           "correctIndex": 0
         }

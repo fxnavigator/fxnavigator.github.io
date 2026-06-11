@@ -1,23 +1,65 @@
 [
   {
-    "id": "fxa",
-    "name": "FXA",
-    "url": "https://youtube.com/@FXA",
-    "color": 4282401270,
-    "description": "Arabic channel specialized in SMC & ICT simplified explanations"
+    "id": "ict_official",
+    "name": "The Inner Circle Trader (ICT)",
+    "url": "https://youtube.com/@InnerCircleTrader",
+    "color": 4283215696,
+    "description": "Official ICT channel and original source of ICT concepts"
   },
   {
-    "id": "smartrisk",
-    "name": "Smart Risk",
-    "url": "https://youtube.com/@SmartRisk",
-    "color": 4282920172,
-    "description": "Sudanese channel focused on trading education and risk management"
+    "id": "ttrades",
+    "name": "TTrades",
+    "url": "https://youtube.com/@TTrades_edu",
+    "color": 4280391411,
+    "description": "ICT and SMC educational content with practical examples"
   },
   {
-    "id": "chart",
-    "name": "الشارت السوداني",
-    "url": "https://youtube.com/@AlChartAlSudani",
-    "color": 4288896246,
-    "description": "Technical and fundamental analysis for Sudanese and Arab markets"
+    "id": "mentfx",
+    "name": "MentFX",
+    "url": "https://youtube.com/@MentFX",
+    "color": 4281742902,
+    "description": "Advanced ICT, liquidity and institutional trading concepts"
+  },
+  {
+    "id": "photon",
+    "name": "Photon Trading",
+    "url": "https://youtube.com/@PhotonTrading",
+    "color": 4284513675,
+    "description": "Price action, liquidity and market structure education"
+  },
+  {
+    "id": "elliottwave",
+    "name": "Elliott Wave International",
+    "url": "https://youtube.com/@elliottwaveinternational",
+    "color": 4288585374,
+    "description": "Official Elliott Wave educational channel"
+  },
+  {
+    "id": "orderflowanalysis",
+    "name": "Order Flow Analysis",
+    "url": "https://www.youtube.com/@orderflowanalysis",
+    "color": 4286141768,
+    "description": "Order Flow, footprint charts and professional market analysis"
+  },
+  {
+    "id": "tys",
+    "name": "TYS",
+    "url": "https://www.youtube.com/@TYS1",
+    "color": 4282668390,
+    "description": "Trading psychology, market structure and professional trading education"
+  },
+  {
+    "id": "fractalflowpro",
+    "name": "Fractal Flow Pro",
+    "url": "https://www.youtube.com/@fractalflowpro",
+    "color": 4285311901,
+    "description": "Fractal analysis, liquidity concepts and advanced market behavior"
+  },
+  {
+    "id": "trading_lifer",
+    "name": "Trading Lifer",
+    "url": "https://www.youtube.com/@Trading_Lifer",
+    "color": 4281083598,
+    "description": "Forex education, market structure and trading strategy content"
   }
 ]

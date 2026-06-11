@@ -1,31 +1,71 @@
 {
   "id": "elliott",
-  "title": "Elliott Wave",
-  "subtitle": "The market has its rhythm",
-  "description": "Understanding market rhythm through wave theory",
-  "iconAsset": "assets/lottie/elliott_icon.json",
+  "title": "Elliott Wave Theory — Complete Course",
+  "subtitle": "Master market rhythm through wave analysis",
+  "description": "Master the Elliott Wave Principle, a powerful method for analyzing financial markets through recurring wave patterns. This complete course covers the 5-3 wave structure, impulse rules, corrective patterns, Fibonacci relationships, extensions, diagonals, multi-timeframe analysis, and a full trading plan. By the end, you will be able to identify high-probability wave counts and execute trades with confidence using the Wave Commander methodology.",
   "color": 4279286145,
-  "badgeAsset": "assets/icons/badge_elliott.svg",
   "completedBadge": "Wave Commander",
   "lessons": [
     {
       "id": "elliott_1",
-      "title": "Market Rhythm",
-      "subtitle": "Motive and Corrective Waves",
+      "title": "Elliott Wave Basics — The 5-3 Pattern",
+      "subtitle": "5-wave impulse and 3-wave correction structure",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/elliott_waves.json",
-          "text": "The market moves in a rhythmic pattern! 5 waves with the trend (Motive), and 3 waves against it (Corrective). The 5 waves are the ship's journey, and the 3 waves are the rest."
+          "text": "The Elliott Wave Principle is built on a simple observation: markets move in repetitive patterns called waves. These waves reflect the collective psychology of market participants oscillating between optimism and pessimism. Ralph Nelson Elliott discovered that these swings follow a predictable 5-3 structure: five waves in the direction of the main trend (impulse), followed by three waves against it (correction). This 5-3 pattern is the fundamental building block of every market move, from a one-minute chart to a monthly chart. Understanding this structure gives you a framework to anticipate where price is likely to go next.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "An impulse wave always consists of five sub-waves labeled 1, 2, 3, 4, and 5. Waves 1, 3, and 5 move with the main trend and are called motive waves. Waves 2 and 4 move against the trend and are called corrective waves within the impulse. The key rule: Wave 2 cannot retrace beyond the start of Wave 1, Wave 3 is never the shortest among the three motive waves, and Wave 4 cannot overlap with the price territory of Wave 1. These three rules are absolute and any wave count that violates them is automatically invalid.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "After a five-wave impulse completes, a three-wave correction begins, labeled A, B, and C. Wave A moves against the preceding trend, Wave B is a partial retracement of Wave A, and Wave C completes the correction by moving beyond the end of Wave A. The three main corrective patterns are zigzags (sharp 5-3-5 structure), flats (sideways 3-3-5 structure), and triangles (contracting 3-3-3-3-3 structure). Each corrective pattern reveals important information about the strength of the following impulse wave.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The fractal nature of Elliott Waves means that each wave contains smaller waves of the same 5-3 pattern. A Wave 1 on the daily chart typically consists of five smaller waves on the 4-hour chart. This self-similar structure repeats across all timeframes from one-minute to monthly charts. When analyzing a chart, always start from the highest timeframe to see the big picture, then drill down to lower timeframes to identify precise entry and exit points. A completed 5-wave structure on the weekly chart signals a major trend change, while a 5-wave on the 15-minute chart indicates a short-term opportunity.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Consider a real-world example on EUR/USD: an impulse wave begins at 1.0700 with Wave 1 reaching 1.0800, Wave 2 retracing shallowly to 1.0750, Wave 3 extending powerfully to 1.1000, Wave 4 correcting to 1.0900, and Wave 5 completing at 1.1050. This five-wave impulse took approximately 25 trading hours. Then a corrective ABC unfolded: Wave A dropped to 1.0850, Wave B bounced to 1.0950, and Wave C fell to 1.0750. The entire 5-3 cycle established the trading range for the next several weeks. By identifying where in this cycle price currently sits, you can anticipate the next move with high probability.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "To label waves correctly, follow this systematic approach. First, identify the dominant trend direction on the chart. Second, look for five clear swings in that direction separated by three counter-trend swings. Third, apply the three inviolable rules to validate your count: check that Wave 2 does not retrace past the start of Wave 1, Wave 3 is not the shortest, and Wave 4 does not overlap Wave 1. Fourth, label the corrective ABC waves after the impulse completes. Finally, zoom out to confirm that the completed 5-3 cycle fits within a larger wave structure on a higher timeframe.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The most common mistake beginners make is forcing a wave count where no valid structure exists. If the three inviolable rules are broken, there is no valid count and you must wait for a clearer pattern to develop. Markets spend roughly 70 percent of time in corrective mode and only 30 percent in impulsive trending moves. During corrective phases, wave counting becomes unreliable as patterns overlap and overlap again. Patience is essential: wait for a clean 5-wave impulse to confirm the trend direction before committing to a trade. The Elliott Wave tool works best in trending markets, not choppy range-bound conditions.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The psychology behind each wave tells a compelling story. Wave 1 represents early adopters buying the initial breakout. Wave 2 is profit-taking by early buyers that scares latecomers out. Wave 3 is the powerful crowd-driven move where the majority recognizes the trend and FOMO drives aggressive buying. Wave 4 is profit-taking by smart money who bought during Wave 1 and 2. Wave 5 is the final euphoric push where latecomers finally enter, often accompanied by diverging momentum. Reading this psychological progression helps you anticipate when a trend is mature and likely to reverse.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Discipline and objectivity are essential for successful Elliott Wave analysis. Never enter a trade based solely on a wave count; always combine wave analysis with support and resistance levels, Fibonacci retracements, and volume confirmation. Use the wave count as a framework to frame your trading bias, not as a standalone signal. The market is fractal and complex, but the 5-3 pattern provides a consistent lens for understanding price action. Master this foundation thoroughly before advancing to extensions, diagonals, and complex corrections. Like any skill, wave counting improves with daily practice on live charts.",
+          "concept": null
         },
         {
           "type": "interaction",
-          "text": "Swipe left and right to see the waves in motion!"
+          "chartId": "elliott_1_practice",
+          "text": "Open the practice chart below. Locate a complete 5-wave impulse structure and label waves 1 through 5 directly on the chart. Then find the subsequent 3-wave ABC correction and label each leg. Verify the three inviolable rules: Wave 2 must not exceed the start of Wave 1, Wave 3 must not be the shortest motive wave, and Wave 4 must not overlap Wave 1. If any rule is broken, the count is invalid and you should search for a different structure. Once confirmed, note the Fibonacci retracement level of Wave 2 against Wave 1 to assess the strength of the trend.",
+          "concept": null
         }
       ],
       "quiz": [
         {
-          "question": "How many motive waves are there?",
+          "question": "How many waves are in an impulse pattern?",
           "options": [
             "5",
             "3",
@@ -35,12 +75,42 @@
           "correctIndex": 0
         },
         {
-          "question": "How many corrective waves are there?",
+          "question": "Which of the following is an inviolable rule of Elliott Wave theory?",
           "options": [
-            "3",
-            "5",
-            "8",
-            "1"
+            "Wave 3 is never the shortest motive wave",
+            "Wave 1 must be the longest wave",
+            "Wave 4 must overlap Wave 1",
+            "Wave 2 must be shorter than Wave 4"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What percentage of market time is typically spent in impulsive trending moves?",
+          "options": [
+            "Roughly 30 percent",
+            "Roughly 70 percent",
+            "Roughly 50 percent",
+            "Roughly 10 percent"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does the fractal nature of Elliott Waves mean?",
+          "options": [
+            "Each wave contains smaller waves of the same pattern",
+            "Waves only appear on daily charts",
+            "Fractal patterns are random and unreliable",
+            "Each wave is independent of other timeframes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which wave in an impulse is typically driven by crowd psychology and FOMO?",
+          "options": [
+            "Wave 3",
+            "Wave 1",
+            "Wave 5",
+            "Wave 2"
           ],
           "correctIndex": 0
         }
@@ -48,27 +118,109 @@
     },
     {
       "id": "elliott_2",
-      "title": "Wave 3",
-      "subtitle": "The strongest wave",
+      "title": "Impulse Wave Rules — The Three Non-Negotiables",
+      "subtitle": "Master the absolute rules that govern valid wave counts",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/elliott_wave3.json",
-          "text": "Wave 3 is the strongest and longest wave. It's the madness wave! If you find a short wave, it can't be Wave 3. Recount!"
+          "text": "The three inviolable rules of Elliott Wave theory are the foundation of every valid wave count. Rule one: Wave 2 cannot retrace more than 100 percent of Wave 1. This means Wave 2 must never go beyond the starting point of Wave 1. If it does, the structure is not an impulse and your count is invalid. Rule two: Wave 3 is never the shortest among waves 1, 3, and 5. It can be the longest or the middle in length, but it cannot be the shortest. Rule three: Wave 4 cannot overlap the price territory of Wave 1. These three rules are absolute and admit no exceptions.",
+          "concept": null
         },
         {
-          "type": "quiz",
-          "text": "Choose the real Wave 3 from the waves shown"
+          "type": "animation",
+          "text": "Rule one — Wave 2 retracement limit — is your first line of defense against invalid counts. A valid Wave 2 can retrace anywhere from 23.6 percent to 99.9 percent of Wave 1, but it must stop short of the origin of Wave 1. A deep Wave 2 near 78.6 percent retracement suggests strong counter-trend pressure that barely failed to reverse the primary trend. A shallow Wave 2 around 23.6 percent indicates the counter-trend force is weak and the following Wave 3 is likely to be powerful. Always measure Wave 2 as a percentage of Wave 1 using the Fibonacci retracement tool to assess trend strength.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Rule two — Wave 3 is never the shortest — is the most frequently tested rule in real trading. While Wave 3 can be shorter than Wave 1 or Wave 5 individually, it cannot be shorter than both of them. In practice, Wave 3 is most often the longest and most powerful wave, frequently extending to 1.618 or 2.618 times the length of Wave 1. A Wave 3 that is clearly the shortest invalidates the count immediately. This rule ensures that the main thrust of the trend is always substantial and recognizable as the dominant move in the sequence.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Rule three — Wave 4 cannot overlap Wave 1 — is especially important for identifying the end of a trend. The overlap zone is defined as any price level reached by Wave 1: if Wave 4 enters that territory, the count is invalid. In regular impulses, Wave 4 typically retraces between 23.6 and 38.2 percent of Wave 3 and stays well above the peak of Wave 1. An overlap violation often indicates that the structure is actually a diagonal or that the trend has weakened significantly. In leveraged markets like forex, a Wave 4 overlap can signal an impending reversal of the larger trend.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "There are additional guidelines that, while not absolute rules, greatly improve wave counting accuracy. Wave 2 typically retraces more of Wave 1 than Wave 4 retraces of Wave 3, a concept known as alternation. Wave 5 is often approximately equal to Wave 1 in length when Wave 3 has extended. Wave 3 most commonly travels 1.618 times the distance of Wave 1. Wave 4 often retraces to the sub-wave four of Wave 3. These guidelines help you anticipate the likely size and shape of each wave before it fully develops.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Wave 2 and Wave 4 typically exhibit alternation in both price and time. If Wave 2 is a sharp, deep correction (zigzag), expect Wave 4 to be a sideways, shallow correction (flat or triangle). Conversely, if Wave 2 is a sideways correction, Wave 4 will likely be sharp. This alternation principle is not a rule but a strong tendency that occurs in approximately 80 percent of valid impulse structures. Recognizing alternation helps you anticipate the shape of the upcoming correction and position yourself accordingly for the next impulse wave.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Channeling is a powerful technique for validating impulse wave counts. Draw a trendline connecting the endpoints of Waves 1 and 3, then draw a parallel line from the endpoint of Wave 2. Wave 4 should ideally end near this upper parallel line. If Wave 4 breaks through the channel boundary violently, the count may be invalid. After Wave 4 completes, draw a new channel connecting Waves 2 and 4, with a parallel line from Wave 3. Wave 5 often ends near or slightly beyond this upper boundary. Channels provide visual confirmation that the wave structure is orderly and valid.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Apply the three rules systematically on every chart you analyze. Start by identifying five clear swings and labeling them 1 through 5. Check rule one: is Wave 2 above the start of Wave 1? If yes, proceed. Check rule two: is Wave 3 longer than both Wave 1 and Wave 5? If yes, proceed. Check rule three: does Wave 4 stay entirely above the high of Wave 1? If all three conditions are met, you have a valid impulse count. If any rule is violated, discard the count and look for a different structure. This systematic approach eliminates guesswork and emotional bias from your analysis.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Common pitfalls include confusing corrective bounces for Wave 2 of a new impulse, mislabeling the start of Wave 1 during strong trend moves, and ignoring the overlap rule on lower timeframes where noise is higher. Always start your analysis on the higher timeframe first to establish the dominant trend, then move to lower timeframes for entry precision. The three rules apply universally across all markets including forex, indices, commodities, and cryptocurrencies. Master these rules completely before proceeding to corrective patterns and Fibonacci analysis.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "elliott_2_practice",
+          "text": "Open the practice chart and identify a five-wave impulse structure. Label each wave from 1 to 5. Systematically verify all three inviolable rules: measure that Wave 2 does not exceed the origin of Wave 1 using the Fibonacci retracement tool, confirm that Wave 3 is longer than Waves 1 and 5, and check that Wave 4 does not overlap any price level reached during Wave 1. If any rule is broken, find a different wave set. Also apply the alternation guideline: note whether Wave 2 and Wave 4 have different shapes. Draw a channel using Waves 1 and 3, and see if Wave 4 respects the channel boundary.",
+          "concept": null
         }
       ],
       "quiz": [
         {
-          "question": "What characterizes Wave 3?",
+          "question": "What is the maximum retracement allowed for Wave 2?",
           "options": [
-            "It's the longest and strongest",
-            "It's the shortest",
-            "It's the weakest",
-            "It equals Wave 1"
+            "It cannot exceed the start of Wave 1",
+            "It cannot exceed 78.6 percent",
+            "It cannot exceed 61.8 percent",
+            "There is no limit"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which wave can never be the shortest among the three motive waves?",
+          "options": [
+            "Wave 3",
+            "Wave 1",
+            "Wave 5",
+            "Wave 2"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What happens if Wave 4 overlaps the price territory of Wave 1?",
+          "options": [
+            "The impulse count is invalid",
+            "The count is still valid if Wave 3 is long",
+            "It confirms a diagonal pattern",
+            "It is acceptable in forex markets"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What tendency does alternation describe?",
+          "options": [
+            "Wave 2 and Wave 4 have different shapes",
+            "Wave 2 and Wave 4 are always equal",
+            "Wave 3 always alternates direction",
+            "All waves alternate in length"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What tool is used to measure Wave 2 retracement depth?",
+          "options": [
+            "Fibonacci retracement tool",
+            "Moving average",
+            "RSI indicator",
+            "Bollinger Bands"
           ],
           "correctIndex": 0
         }
@@ -76,23 +228,109 @@
     },
     {
       "id": "elliott_3",
-      "title": "Fibonacci",
-      "subtitle": "Your magical toolbox",
+      "title": "Corrective Waves — Zigzag, Flat, Triangle",
+      "subtitle": "Master the three corrective pattern types and their internal structures",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/elliott_fib.json",
-          "text": "We use Fibonacci to know exactly where corrective waves will retrace. 61.8% and 38.2% are the golden hunting spots."
+          "text": "Corrective waves move against the larger trend and are labeled A, B, and C. While impulses are always five-wave structures, corrections come in three distinct varieties: zigzags, flats, and triangles. Each corrective pattern has a unique internal sub-structure that reveals the strength or weakness of the prevailing trend. Corrective waves are inherently more complex and varied than impulses, making their identification a crucial skill. Understanding these patterns allows you to anticipate when a correction is complete and the next impulse is ready to begin.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A zigzag correction is a sharp, aggressive move against the trend with a 5-3-5 internal structure. Wave A is a five-wave impulse, Wave B is a three-wave correction of Wave A, and Wave C is a five-wave impulse that extends beyond the end of Wave A. Zigzags typically retrace between 50 and 78.6 percent of the preceding impulse. They occur most frequently in Wave 2 positions and signal strong counter-trend pressure. A zigzag correction that retraces deeply suggests the market is testing the previous trend and the next impulse will be powerful.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A flat correction is a sideways, consolidating pattern with a 3-3-5 internal structure. Wave A is a three-wave move, Wave B retraces nearly to or slightly beyond the start of Wave A, and Wave C is a five-wave move that ends near or slightly past the end of Wave A. Flats indicate that the larger trend is strong because the correction cannot push price far back. They commonly appear as Wave 4 corrections and often precede extensions in Wave 5. A flat that runs in a tight range signals institutional accumulation or distribution.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A triangle correction is a contracting or expanding pattern with a 3-3-3-3-3 internal structure, consisting of five overlapping waves labeled A, B, C, D, and E. Triangles typically form in Wave 4 positions and occasionally in Wave B of larger corrections. The most common type is the contracting symmetrical triangle where each subsequent wave is smaller than the previous one. Triangles represent a period of indecision and coiling energy. The breakout from a triangle is usually powerful and travels approximately the distance of the widest part of the triangle.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Irregular corrections occur when Wave B of a flat exceeds the start of the preceding impulse and Wave C ends beyond the end of Wave A. This pattern is called an expanded flat and often triggers stop-loss orders placed beyond the previous high before reversing. Running corrections are similar but Wave C does not reach as far as Wave A, leaving a false sense of completion. Both variants signal strong trend continuation. Identifying these variations prevents you from prematurely entering against the dominant trend.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Distinguishing between a zigzag and a flat is essential for correct wave labeling. The key difference is the internal structure of Wave A: if Wave A has a clear five-wave impulse structure, it is a zigzag. If Wave A appears to be a three-wave move, it is a flat. The depth of the correction also helps: zigzags are sharp and deep, while flats are shallow and sideways. Triple zigzags and double flats add further complexity but follow the same underlying principles. Always check the internal wave count of Wave A to determine the corrective pattern type.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Triangles have specific rules: four of the five waves must form within a converging trendline boundary, and at least four waves must be three-wave structures. Wave E often exceeds the A-C trendline slightly in a phenomenon called a throw-over before reversing. Triangles cannot form in Wave 2 positions and are most reliable as fourth waves. The volume pattern within a triangle typically contracts as the pattern develops, with a volume spike on the breakout. A triangle that appears in Wave B of a larger correction signals the final phase before the trend resumes.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Wave C is the most powerful and extended leg in most corrective patterns. In zigzags, Wave C is a five-wave impulse that travels beyond Wave A, often reaching 1.618 times the length of Wave A. In flats, Wave C is typically equal to or slightly longer than Wave A. In triangles, each successive sub-wave is approximately 0.618 times the length of the previous wave. Measuring these Fibonacci relationships helps you anticipate where the correction will end and where to enter the next impulse trade.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Mastering corrective waves requires practice and patience. Corrective patterns are more nuanced than impulses and often require multiple attempts to label correctly. A common strategy is to wait for the correction to complete and then trade the breakout in the direction of the larger trend. Use Fibonacci retracement levels on the preceding impulse to identify potential correction endpoints. The 61.8 percent and 78.6 percent levels are frequent reversal zones for zigzags, while flats often complete at the 38.2 percent level. Combine these levels with support and resistance for higher probability entries.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "elliott_3_practice",
+          "text": "Open the practice chart and identify at least two different corrective patterns. For each pattern, determine whether it is a zigzag, flat, or triangle by examining the internal structure of Wave A. Label the A-B-C waves. If you find a triangle, label all five sub-waves A through E and draw the converging trendlines. Note the depth of each correction as a percentage of the preceding impulse using the Fibonacci retracement tool. Finally, describe the strength of the subsequent impulse move: did a deep zigzag lead to a powerful third wave? Did a shallow flat precede a strong fifth wave extension?",
+          "concept": null
         }
       ],
       "quiz": [
         {
-          "question": "What is the most important Fibonacci retracement level?",
+          "question": "What is the internal structure of a zigzag correction?",
           "options": [
-            "61.8%",
-            "50%",
-            "23.6%",
-            "78.6%"
+            "5-3-5",
+            "3-3-5",
+            "3-3-3-3-3",
+            "5-5-5"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which corrective pattern has a 3-3-5 internal structure?",
+          "options": [
+            "Flat",
+            "Zigzag",
+            "Triangle",
+            "Double three"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where do triangle corrections most commonly form?",
+          "options": [
+            "Wave 4 position",
+            "Wave 2 position",
+            "Wave 1 position",
+            "Wave 5 position"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What key difference distinguishes a zigzag from a flat?",
+          "options": [
+            "Wave A is a five-wave impulse in zigzags",
+            "Wave A is longer in flats",
+            "Zigzags are always sideways",
+            "Flats always have five-wave A waves"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does a flat correction indicate about the larger trend?",
+          "options": [
+            "The trend is strong and correction is shallow",
+            "The trend is weak and reversing",
+            "The trend is ending",
+            "The market is random"
           ],
           "correctIndex": 0
         }
@@ -100,38 +338,109 @@
     },
     {
       "id": "elliott_4",
-      "title": "Wave Extensions",
-      "subtitle": "When the wave extends",
+      "title": "Fibonacci Relationships — The Mathematical Blueprint",
+      "subtitle": "Using Fibonacci ratios to predict wave targets and retracements",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/elliott_waves.json",
-          "text": "Some waves extend beyond normal — called \"Extension\". Often wave 3, 5, or C extends. If wave 3 extends, wave 5 will be short. If wave 5 extends, a strong reversal is coming! The rule: the extended wave predicts the next move's size."
+          "text": "Fibonacci ratios are the mathematical blueprint of Elliott Wave patterns. The most important ratios are 0.382, 0.500, 0.618, 0.786, 1.000, 1.272, 1.414, 1.618, 2.000, 2.618, and 4.236. These numbers derive from the Fibonacci sequence where each number is the sum of the two preceding numbers. In Elliott Wave analysis, these ratios define the relationships between waves with remarkable consistency. The golden ratio of 1.618 and its reciprocal 0.618 are the most frequently observed relationships across all timeframes and markets.",
+          "concept": null
         },
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/elliott_wave3.json",
-          "text": "Alternation: If wave 2 was sharp, wave 4 will be flat. And vice versa. The market hates repetition! This rule helps you predict the shape of the next wave."
+          "text": "Wave 2 typically retraces Wave 1 at specific Fibonacci levels. The most common retracement levels for Wave 2 are 38.2 percent, 50 percent, and 61.8 percent of Wave 1. A shallow retracement at 38.2 percent indicates strong trend momentum and often precedes an extended Wave 3. A deep retracement at 61.8 percent suggests the counter-trend force is significant but ultimately fails. A retracement between 78.6 and 100 percent invalidates the count. Always plot the Fibonacci retracement tool from the start to the end of Wave 1 to project Wave 2 targets.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Wave 3 is most frequently related to Wave 1 by the ratio 1.618. If Wave 1 traveled 100 pips, Wave 3 will often travel 161.8 pips. In strong trends, Wave 3 can extend to 2.618 or even 4.236 times Wave 1. To project Wave 3, measure the distance of Wave 1, multiply by 1.618, and add it to the end of Wave 2. This projection provides a minimum target for Wave 3. If price reaches this level quickly, it often continues to the 2.618 extension. Wave 3 extensions are the most profitable segments of any Elliott Wave move.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Wave 4 typically retraces Wave 3 to the 23.6 percent or 38.2 percent Fibonacci level. Unlike Wave 2 which can retrace deeply, Wave 4 is usually shallow because the trend is more mature. The internal sub-waves of Wave 4 often find support at the 61.8 or 78.6 retracement of the previous fourth wave within Wave 3. If Wave 4 retraces beyond 50 percent of Wave 3, suspect a potential diagonal formation rather than a regular impulse. Shallow fourth waves confirm the strength of the dominant trend.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Wave 5 often relates to either Wave 1 or the net distance from the start of Wave 1 to the end of Wave 3. If Wave 3 is extended, Wave 5 is typically equal to Wave 1 (1.000 ratio). If Wave 3 is not extended, Wave 5 often equals 0.618 or 1.000 of the distance from Wave 1 through Wave 3. To project Wave 5, measure from the start of Wave 1 to the end of Wave 3, take 0.618, and add it to the end of Wave 4. This is called the 0.618 projection and is highly reliable for targets.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The golden pocket is the zone between the 61.8 percent and 78.6 percent Fibonacci retracement levels. This area is statistically the most likely reversal zone for corrective waves. When Wave 2 or Wave 4 retraces into the golden pocket and shows a reversal candlestick pattern, it provides a high-probability entry for a trade in the direction of the larger trend. Combine the golden pocket with support and resistance levels for even stronger confluence. The golden pocket works across all timeframes and is one of the most reliable concepts in technical analysis.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Multi-wave Fibonacci projections are essential for complex trades. When Wave 1 is known, you can project Wave 3 and Wave 5 targets simultaneously. Use the Fibonacci extension tool from the bottom of Wave 1 to the top of Wave 3, then to the bottom of Wave 4. The 1.272 and 1.618 levels become Wave 5 targets. Alternatively, use the Fibonacci expansion tool from the start of Wave 1 to the end of Wave 1, then to the end of Wave 2, to project Wave 3 targets at the 1.618 level. Multiple projections converging at the same price level create a high-conviction target zone.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "In corrective ABC patterns, Fibonacci relationships are equally important. Within a zigzag, Wave C often equals 1.000 or 1.618 times the length of Wave A. Within a flat, Wave C typically equals Wave A (1.000), but can extend to 1.618 if it is an expanded flat. Triangle sub-waves relate by the ratio 0.618: each successive wave is approximately 61.8 percent of the previous wave. These relationships allow you to project where the correction will end with remarkable accuracy, giving you an edge in timing your entries.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Combining Fibonacci ratios with Elliott Wave rules creates a powerful analytical framework. Always use Fibonacci in context: a 61.8 retracement at Wave 2 is normal, but the same retracement at Wave 4 may indicate a diagonal. Fibonacci targets should be viewed as zones rather than exact prices. A margin of two to five pips around each level accounts for market noise and liquidity hunting. Maintain a Fibonacci toolset with preset levels of 0.236, 0.382, 0.500, 0.618, 0.786, 1.000, 1.272, 1.618, and 2.618 for efficient chart analysis.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "elliott_4_practice",
+          "text": "Open the practice chart and identify a complete five-wave impulse. Apply the Fibonacci retracement tool from the start of Wave 1 to the end of Wave 1 and note where Wave 2 retraced to. Apply the Fibonacci extension tool from the start of Wave 1 to the end of Wave 1, then to the end of Wave 2, and check whether Wave 3 reached the 1.618 level. Measure Wave 4 retracement of Wave 3 and confirm it is between 23.6 and 38.2 percent. Finally, project Wave 5 using the 0.618 expansion from the start of Wave 1 through Wave 3. Document each Fibonacci relationship and note whether the price respected the levels precisely.",
+          "concept": null
         }
       ],
       "quiz": [
         {
-          "question": "What's a wave that extends beyond normal called?",
+          "question": "What is the most common Fibonacci ratio for Wave 3 relative to Wave 1?",
           "options": [
-            "Extension",
-            "Correction",
-            "Motive wave",
-            "Triangle wave"
+            "1.618",
+            "0.618",
+            "2.618",
+            "1.000"
           ],
           "correctIndex": 0
         },
         {
-          "question": "The alternation rule applies to what?",
+          "question": "What is the golden pocket in Fibonacci analysis?",
           "options": [
-            "Shape of wave 2 and 4",
-            "Length of wave 1 and 5",
-            "Size of wave A and C",
-            "Wave timing"
+            "The 61.8 to 78.6 percent retracement zone",
+            "The 38.2 percent retracement level",
+            "The 100 percent extension level",
+            "The 23.6 percent retracement zone"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the typical retracement range for Wave 4 of Wave 3?",
+          "options": [
+            "23.6 to 38.2 percent",
+            "50 to 61.8 percent",
+            "61.8 to 78.6 percent",
+            "0 to 23.6 percent"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "If Wave 3 is extended, what is Wave 5 typically equal to?",
+          "options": [
+            "Wave 1",
+            "Wave 3",
+            "0.618 of Wave 3",
+            "0.382 of Wave 1"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What ratio relates successive sub-waves within a triangle correction?",
+          "options": [
+            "0.618",
+            "1.618",
+            "2.618",
+            "0.382"
           ],
           "correctIndex": 0
         }
@@ -139,28 +448,439 @@
     },
     {
       "id": "elliott_5",
-      "title": "Wave Channeling",
-      "subtitle": "Drawing the boundaries",
+      "title": "Extensions and Truncations",
+      "subtitle": "Extended waves, failed fifths, and nested extensions",
       "steps": [
         {
           "type": "animation",
-          "lottieFile": "assets/lottie/elliott_waves.json",
-          "text": "To verify your wave count, draw a channel connecting the top of wave 1 and the top of wave 3, with a parallel line from the bottom of wave 2. Wave 4 should bounce off this line. If it breaks, recount!"
+          "text": "An extension occurs when one of the three motive waves (1, 3, or 5) becomes elongated with a clearly larger internal sub-wave count. Extended waves contain more subdivisions than non-extended waves, revealing intense institutional participation in that direction. Wave 3 is the most commonly extended wave in equity and forex markets, while Wave 5 extensions occur more frequently in commodity markets. An extended wave alerts you that the trend is powerful and likely to continue beyond normal expectations. Recognizing extended waves early allows you to maximize profits by holding positions longer.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Wave 3 extensions are the most common and most profitable. When Wave 3 extends, it typically travels 1.618 to 2.618 times the length of Wave 1 and contains clear 5-wave sub-structures within it. The internal sub-waves of an extended Wave 3 themselves follow the 5-3 pattern, creating a fractal extension. Volume typically expands dramatically during Wave 3 extensions, confirming institutional accumulation. To trade a Wave 3 extension, enter at the completion of Wave 2 with a target at the 1.618 extension of Wave 1, then add to the position as the extension unfolds.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Wave 5 extensions occur when Wave 5 exceeds Wave 3 in length, often accompanied by diverging momentum oscillators. The internal structure of an extended Wave 5 shows a clear five-wave impulse, and the move often terminates with a blow-off top or selling climax. Volume during Wave 5 extensions typically declines compared to Wave 3, indicating that fewer participants are driving the final leg. A Wave 5 extension is a warning that the trend is exhausted and a sharp reversal is imminent. Traders should take profits and prepare for a significant correction after a Wave 5 extension completes.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A truncation, also called a failed fifth, occurs when Wave 5 fails to exceed the high of Wave 3. This pattern signals extreme weakness in the prevailing trend and often precedes a violent reversal in the opposite direction. Truncations are rare but highly significant when they occur. They most frequently appear in Wave 5 positions of larger-degree impulse waves and in Wave C positions of corrective patterns. When you see a truncation, prepare to trade the reversal aggressively. The failure to extend confirms that the trend has lost all momentum.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Nested extensions occur when an extended wave contains another extended wave within it. For example, a Wave 3 extension on the daily chart may contain a Wave 3 extension on the 4-hour chart, which itself contains a Wave 3 extension on the 1-hour chart. Nested extensions create powerful, multi-day trends that can cover enormous price distances. These are the moves that create the strongest trends and are most frequently identified by experienced Elliott Wave traders. The nested structure confirms that institutions are aggressively building large positions in the direction of the trend.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Identifying an extension versus a regular wave requires careful internal wave counting. An extended wave has more sub-waves than non-extended waves: a regular wave has no additional subdivisions, while an extended wave has a clear 5-wave structure within itself. For example, if Wave 3 consists of five smaller waves on the same timeframe, it is likely extended. The momentum during an extended wave is typically stronger, with larger candles and higher volume. Extended waves also take longer to complete than non-extended waves, providing a time-based clue for identification.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Fibonacci relationships become even more critical when dealing with extensions. An extended Wave 3 almost always reaches at least the 1.618 extension of Wave 1 and often reaches the 2.618 level. An extended Wave 5 typically reaches 1.618 of the net distance from the start of Wave 1 through Wave 3. When a truncation occurs, measure the length from Wave 4 low to the failed Wave 5 high, then project that distance for the initial target of the reversal move. Truncations often lead to moves that retrace the entire impulse in a matter of days.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Not every long wave is an extension. A wave may be long because it is part of a larger-degree impulse, not because it is extended. The key distinction is internal structure: an extended wave shows a clear five-wave sub-division, while a long non-extended wave may simply be a first wave of a larger pattern. Always check the internal wave count before declaring an extension. Additionally, use multiple timeframe analysis: an extension on a lower timeframe may be a regular wave on a higher timeframe. Context determines classification.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The practical application of extension and truncation analysis improves your trade management significantly. When you identify a Wave 3 extension, hold your core position through Wave 4 and add to it for Wave 5. When you identify a truncation, reverse your position immediately with a tight stop beyond the failed wave. Use volume and RSI divergence to confirm truncations before acting. Maintain a watchlist of pairs that are completing fifth waves and monitor them for extension or truncation signals. These patterns produce the highest reward-to-risk setups in Elliott Wave trading.",
+          "concept": null
         },
         {
           "type": "interaction",
-          "illustrationAsset": "assets/icons/elliott_wave_guide.svg",
-          "text": "Draw the channel on the chart: connect the highs of 1 and 3, see if wave 4 bounced off the lower line!"
+          "chartId": "elliott_5_practice",
+          "text": "Open the practice chart and locate a completed five-wave impulse. Determine which wave (1, 3, or 5) is the longest and check whether it has a clear five-wave sub-division internally. If Wave 3 is the longest, check if it reached at least the 1.618 Fibonacci extension of Wave 1. If Wave 5 is the longest, check for momentum divergence using RSI or MACD. Also search for any truncation where Wave 5 failed to exceed Wave 3. If you find a truncation, note the price level where Wave 5 ended relative to Wave 3. Document your findings for each wave and classify the structure as regular, extended, or truncated.",
+          "concept": null
         }
       ],
       "quiz": [
         {
-          "question": "The channel connects what with what?",
+          "question": "Which wave is most commonly extended in forex markets?",
           "options": [
-            "Top of wave 1 to top of wave 3",
-            "Bottom of wave 2 to bottom of wave 4",
-            "Top of wave A to top of B",
-            "Start of wave 1 to end of wave 5"
+            "Wave 3",
+            "Wave 1",
+            "Wave 5",
+            "Wave 2"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a truncation in Elliott Wave terminology?",
+          "options": [
+            "Wave 5 fails to exceed Wave 3",
+            "Wave 3 is shorter than Wave 1",
+            "Wave 4 overlaps Wave 1",
+            "Wave 2 exceeds the start of Wave 1"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What internal structure identifies an extended wave?",
+          "options": [
+            "A clear five-wave sub-division within the wave",
+            "A single large candle",
+            "A gap in price",
+            "Low volume on the move"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What typically follows a truncation?",
+          "options": [
+            "A violent reversal in the opposite direction",
+            "Continuation of the same trend",
+            "A long consolidation period",
+            "A gap higher"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What are nested extensions?",
+          "options": [
+            "An extended wave containing another extended wave",
+            "Two extensions of equal size",
+            "Extensions only on weekly charts",
+            "Extensions that cancel each other out"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "elliott_6",
+      "title": "Diagonals — Leading and Ending",
+      "subtitle": "Wedge patterns with 3-3-3-3-3 internal structure",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Diagonals are special impulse patterns where the five sub-waves move within converging or diverging trendlines, forming a wedge shape. Unlike regular impulses where sub-waves 1, 3, and 5 are five-wave structures, diagonals have sub-waves that are all three-wave structures (3-3-3-3-3). There are two types: leading diagonals and ending diagonals. Leading diagonals form in Wave 1 or Wave A positions, while ending diagonals form in Wave 5 or Wave C positions. Diagonals signal that the trend is accelerating toward exhaustion.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Ending diagonals are the most common diagonal pattern and appear in fifth wave positions. They form as a wedge with converging trendlines that connect the peaks and troughs of the five sub-waves. Each sub-wave has a 3-3-3-3-3 structure, meaning each wave within the diagonal is a corrective pattern rather than an impulse. Volume typically contracts as the diagonal progresses, and the breakout from the diagonal is sharp and often retraces the entire diagonal quickly. An ending diagonal in Wave 5 signals the end of the larger trend and warns of a significant reversal.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Leading diagonals appear in Wave 1 of impulse patterns or Wave A of zigzag corrections. They have the same wedge shape but occur at the beginning of a trend rather than the end. The internal structure is also 3-3-3-3-3, although some practitioners allow a 5-3-5-3-5 structure for leading diagonals. Leading diagonals often form when the new trend begins with uncertainty and overlapping waves. A leading diagonal in Wave 1 suggests the initial move was hesitant and the following Wave 2 correction will be deep. This pattern helps you prepare for a significant retracement before the main trend resumes.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The key rules for diagonals differ from regular impulses. Rules one and two of regular impulses still apply: Wave 2 cannot exceed the start of Wave 1, and Wave 3 is never the shortest. However, rule three is relaxed: Wave 4 can overlap Wave 1 in a diagonal. This is the defining characteristic that distinguishes diagonals from regular impulses. The overlap rule exception allows diagonals to form their characteristic wedge shape where each successive wave is pushed into a narrower range. Always check for Wave 4 overlap when considering a diagonal count.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Fibonacci relationships within diagonals follow specific ratios. The converging trendlines of a diagonal should contract at a rate where each wave is approximately 0.618 to 0.786 of the previous wave. Wave 2 typically retraces Wave 1 by 61.8 to 78.6 percent. Wave 3 is often 0.618 of the combined distance of Waves 1 and 2. Wave 5 frequently ends at the 0.618 or 0.786 retracement of the entire diagonal height. These ratios help you confirm that a wedge-shaped pattern is a valid diagonal rather than a random overlapping move.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Look for diagonals during strong trend moves where the momentum appears to be fading. While the price continues making new highs, the rate of change slows down and the waves become more overlapping. Volume divergence is a strong confirming signal: price makes a new high in Wave 5 but volume is lower than during Wave 3. RSI and MACD typically show clear bearish or bullish divergence on the final leg. When these conditions align, the probability of a diagonal is high. The subsequent reversal is often swift and retraces the entire diagonal in one-third to one-half of the time it took to form.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Diagonals also appear in corrective waves. A diagonal can form as Wave C of a zigzag correction, signaling that the correction is ending. In this context, the diagonal functions as a terminal pattern and the broader trend is about to resume. Additionally, diagonals in Wave B of a flat correction indicate that the correction is not yet complete and Wave C will follow. Recognizing diagonals within corrective waves prevents you from entering the trend prematurely. Always verify the position of a diagonal within the larger wave structure before drawing conclusions.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A common mistake is confusing a diagonal with a regular impulse that has a deep Wave 4. The critical distinction is the internal structure of the sub-waves. In a regular impulse, Waves 1, 3, and 5 have five-wave internal structures. In a diagonal, all sub-waves have three-wave structures. Drop down to the next lower timeframe to examine the internal wave count of each sub-wave. If the sub-waves show impulsive 5-wave structures, it is a regular impulse. If they show corrective 3-wave structures, it is a diagonal. This distinction is crucial for proper analysis.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Trade diagonals by preparing for the reversal or continuation move that follows. For an ending diagonal in Wave 5, look for a sharp reversal and trade in the opposite direction. Enter after the diagonal breaks below its lower trendline with a target at the start of the diagonal. For a leading diagonal in Wave 1, prepare for a deep Wave 2 retracement and plan to enter the larger trend on the completion of Wave 2. Always use a stop loss beyond the extreme of the diagonal. Diagonals produce some of the most reliable reversal signals in Elliott Wave theory when properly identified.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "elliott_6_practice",
+          "text": "Open the practice chart and search for a diagonal pattern. Draw converging trendlines connecting the peaks and troughs to confirm the wedge shape. Label each sub-wave from 1 through 5. Check for Wave 4 overlap with Wave 1 to confirm it is a diagonal rather than a regular impulse. Drop to a lower timeframe to verify that each sub-wave has a 3-3-3-3-3 structure. Note whether the diagonal is a leading diagonal (Wave 1 or A position) or an ending diagonal (Wave 5 or C position). Document any momentum divergence you observe on RSI or MACD and describe the subsequent price action after the diagonal completed.",
+          "concept": null
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the internal structure of a diagonal?",
+          "options": [
+            "3-3-3-3-3",
+            "5-3-5-3-5",
+            "5-5-5-5-5",
+            "3-5-3-5-3"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Where do ending diagonals typically form?",
+          "options": [
+            "Wave 5 or Wave C position",
+            "Wave 1 position",
+            "Wave 3 position",
+            "Wave 2 position"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which rule of regular impulses is relaxed for diagonals?",
+          "options": [
+            "Wave 4 can overlap Wave 1",
+            "Wave 2 can exceed Wave 1",
+            "Wave 3 can be the shortest",
+            "Wave 5 must be the longest"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What volume pattern typically accompanies a diagonal?",
+          "options": [
+            "Volume contracts as the diagonal progresses",
+            "Volume expands as the diagonal progresses",
+            "Volume remains constant",
+            "Volume is irrelevant"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does an ending diagonal signal?",
+          "options": [
+            "The larger trend is ending and a reversal is imminent",
+            "The trend will accelerate",
+            "A new trend is beginning",
+            "The market will go sideways"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "elliott_7",
+      "title": "Multi-Timeframe Wave Analysis",
+      "subtitle": "Aligning wave counts across multiple timeframes",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Multi-timeframe analysis is the cornerstone of professional Elliott Wave trading. The fractal nature of waves means that every wave on a higher timeframe contains lower timeframe waves, and every group of lower timeframe waves combines into a higher timeframe wave. Successful analysis requires aligning your wave counts across at least three timeframes: the higher timeframe for trend direction, the trading timeframe for pattern recognition, and the lower timeframe for precise entry and exit. This alignment ensures that your trades are in harmony with the dominant trend at every level.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The progression rule states that waves must progress sequentially across timeframes. A completed 5-wave impulse on the 15-minute chart corresponds to a single Wave 1 on the 1-hour chart. A completed 5-wave on the 1-hour chart corresponds to a Wave 1 on the 4-hour chart, and so on. This progression continues from the 1-minute chart all the way up to the monthly chart. By understanding this hierarchy, you can determine exactly where price is within the larger wave structure at any moment. This context is invaluable for making high-probability trading decisions.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Start your multi-timeframe analysis on the highest timeframe first. On the weekly or daily chart, identify the dominant trend and determine whether price is in an impulse or correction phase. Then move to the 4-hour or 1-hour chart to identify the specific wave count within that trend. Finally, drop to the 15-minute or 5-minute chart to pinpoint your entry and exit levels. This top-down approach prevents the common mistake of trading against the larger trend. Many traders fail because they focus on lower timeframe patterns without considering the higher timeframe context.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "One of the biggest challenges in multi-timeframe analysis is dealing with conflicting signals. The 1-hour chart may show an impulse while the 4-hour chart shows a correction. In these cases, the higher timeframe always takes precedence. If the higher timeframe is in correction, the lower timeframe impulse is likely a sub-wave of that correction and may reverse sooner than expected. Wait for alignment across at least two timeframes before entering a trade. The highest probability setups occur when all three timeframes align in the same direction.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Volume analysis across timeframes adds powerful confirmation. On the higher timeframe, increasing volume during an impulse confirms institutional participation. On the lower timeframe, declining volume during a correction signals that the counter-trend move is weak and the impulse is about to resume. When volume diverges across timeframes, such as high volume on the lower timeframe correction, it suggests the correction may become deeper or even reverse the trend. Always incorporate volume into your multi-timeframe analysis for a complete picture.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Weekly and monthly charts are the most reliable for identifying the true wave count because they filter out market noise. Start by labeling the major waves on the weekly chart over the past one to three years. This gives you the macro context. Then zoom into the monthly chart to see the most recent move in detail. From there, move to the weekly and daily charts to refine your count. The larger the timeframe, the more reliable the count. A weekly wave count that has been valid for six months is far more trustworthy than a 15-minute count that formed in six hours.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "A powerful technique is to use multiple timeframe templates. Create a three-panel layout with the daily, 4-hour, and 1-hour charts displayed simultaneously. Use consistent labeling on all three timeframes so you can see how waves interconnect. For example, label the daily Wave 1 as [1], its sub-waves on the 4-hour as (1), (2), (3), etc., and the 4-hour sub-waves on the 1-hour as i, ii, iii, etc. This systematic labeling convention keeps your analysis organized and reveals how each wave fits into the larger structure at a glance.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The daily chart is usually the optimal timeframe for trading Elliott Wave patterns. It provides enough data points for reliable counts while keeping the analysis manageable. Use the daily chart to identify the primary wave count and trend direction. Use the 4-hour chart to refine the count for entries. Use the 1-hour chart for stop-loss placement. This daily-focused approach balances reliability with practicality. Traders who jump between too many timeframes often create confusion and conflicting counts. Stick to three well-chosen timeframes and learn to read them together.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The ultimate goal of multi-timeframe analysis is confluence: all timeframes telling the same story. When the weekly chart shows an ongoing impulse, the daily chart shows Wave 3 of that impulse extending, and the 4-hour chart shows a small Wave 2 completing in the golden pocket, you have a high-conviction trade setup. Practice this analysis daily on at least three different currency pairs. Over time, your ability to see the wave structure across timeframes will become intuitive. This skill separates professional Elliott Wave traders from amateurs.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "elliott_7_practice",
+          "text": "Open the practice chart and perform a full multi-timeframe analysis. Start at the highest available timeframe and identify the dominant wave count. Move down one timeframe and refine the count, labeling sub-waves. Move down another timeframe and identify the specific entry structure. On each level, document whether price is in an impulse or correction phase and whether the rules hold. Check for alignment: do all timeframes agree on the trend direction? Identify any conflicts and note the higher timeframe resolution. Finally, identify a potential trade setup where all timeframes align and describe your entry, target, and stop-loss levels.",
+          "concept": null
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How many timeframes should you analyze for proper Elliott Wave trading?",
+          "options": [
+            "At least three",
+            "One timeframe is sufficient",
+            "As many as possible",
+            "Exactly two"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which timeframe takes precedence when timeframes conflict?",
+          "options": [
+            "The higher timeframe",
+            "The lower timeframe",
+            "The middle timeframe",
+            "Whichever shows a clearer pattern"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the progression rule in multi-timeframe analysis?",
+          "options": [
+            "Waves progress sequentially from lower to higher timeframes",
+            "Higher timeframes always move faster",
+            "Lower timeframes determine the trend",
+            "All timeframes are independent"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the primary benefit of weekly and monthly chart analysis?",
+          "options": [
+            "They filter out market noise and show reliable wave counts",
+            "They provide more trading opportunities",
+            "They are easier to analyze",
+            "They require no Fibonacci tools"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is confluence in multi-timeframe analysis?",
+          "options": [
+            "All timeframes telling the same directional story",
+            "Conflicting signals between timeframes",
+            "Higher timeframe in correction, lower in impulse",
+            "Complete trend reversal"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "elliott_8",
+      "title": "Complete Elliott Trading Plan",
+      "subtitle": "Six-phase plan integrating all wave analysis concepts",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "A complete Elliott Wave trading plan consists of six phases: scan, contextualize, validate, plan, execute, and review. Each phase builds on the previous one to create a systematic approach that eliminates emotional decision-making. This plan integrates wave counting, Fibonacci analysis, corrective pattern recognition, multi-timeframe alignment, and risk management into a single cohesive workflow. Following this plan consistently is the key to long-term profitability with Elliott Wave analysis. Without a plan, even the best wave count is useless.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Phase one: Scan the markets for potential Elliott Wave setups. Use the daily and 4-hour charts to scan all major forex pairs for clear 5-3 wave structures. Focus on pairs that show a distinct trending move followed by a correction. The best candidates have a clear Wave 3 extension or a correction in the golden pocket. Eliminate any pair where the wave structure is ambiguous or violates the three rules. Spend no more than 15 minutes on this phase. Speed in scanning comes from daily practice and familiarity with the pairs you trade.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Phase two: Contextualize the wave count within the larger structure. Zoom out to the weekly chart and confirm that your potential setup aligns with the broader trend. Determine whether the setup is a Wave 3, Wave 5, or corrective pattern within the larger degree trend. Check for multi-timeframe alignment: the higher, trading, and lower timeframes should agree on the direction. If the higher timeframe contradicts your trading timeframe setup, discard it and move to the next pair. Context is everything; a beautiful lower timeframe setup is worthless if the higher timeframe trend is against it.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Phase three: Validate your count using multiple confirmations. Verify the three inviolable rules. Apply Fibonacci retracement and extension tools to confirm the wave relationships. Check for alternation between Wave 2 and Wave 4. Look for supporting volume patterns: rising volume on impulse waves, declining volume during corrections. Check momentum oscillators for divergences that confirm the wave position. Draw wave channels to confirm the structure. A validated count should pass at least five of these checks. If the count is weak on multiple checks, wait for a clearer setup.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Phase four: Plan the trade with specific entry, stop-loss, and take-profit levels. For a long trade in Wave 3, enter at the completion of Wave 2 in the golden pocket with a stop below the start of Wave 1. Set the first target at the 1.618 extension of Wave 1 and the second target at the 2.618 extension. For Wave 5 trades, use a tighter stop and target the 0.618 extension of the Wave 1 through Wave 3 distance. For corrective pattern trades, wait for the completion of Wave C and enter at the Fibonacci retracement level with a stop beyond the correction extreme. Always define your risk-reward ratio before entering.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Phase five: Execute the trade with discipline. Place your entry order at the planned level, your stop loss at the predetermined level, and your take-profit orders at the target levels. Use limit orders for entries rather than market orders to get better fills. Scale into the position if the wave structure confirms during the move: add at the 1.272 extension and remove partial profits at the 1.618 extension. Trail your stop loss under each completed sub-wave to protect profits. Execute your plan exactly as designed; do not deviate based on real-time emotions or FOMO.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Phase six: Review every trade and maintain a detailed trading journal. After each trade, record the wave count, the timeframe, the entry and exit levels, the Fibonacci relationships, the corrective pattern type, and your emotional state during the trade. Analyze what went right or wrong within your six-phase plan. Did you skip the contextualize phase and trade against the higher timeframe? Did you fail to validate the count properly? Systematic review is the fastest path to improvement. Review your last 10 trades weekly and identify patterns in your mistakes.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "Risk management within the Elliott plan is non-negotiable. Never risk more than one to two percent of your account on a single trade. Position size according to the distance to your stop loss, not the size of the potential move. If a stop loss must be wide due to the wave structure, reduce your position size accordingly. The best wave counts in the world will occasionally fail; proper risk management ensures you survive those failures and stay in the game. Do not average down on losing positions. A failed wave count means the trade is invalid, not that the count will eventually work out.",
+          "concept": null
+        },
+        {
+          "type": "animation",
+          "text": "The psychological aspect of Elliott Wave trading requires special attention. Wave analysis creates a strong narrative that can lead to confirmation bias. You may find yourself seeing patterns that are not there or holding onto invalid counts too long. Combat this by writing down your wave count and targets before entering each trade. If the price action invalidates your count, accept the loss and move on immediately. The market is always right; your wave count is merely a hypothesis. Maintain a growth mindset: every invalid count is a learning opportunity that refines your analysis skills for the next trade.",
+          "concept": null
+        },
+        {
+          "type": "interaction",
+          "chartId": "elliott_8_practice",
+          "text": "Open the practice chart and execute the complete six-phase Elliott trading plan. Phase one: scan the chart and identify a potential wave setup. Phase two: zoom out and contextualize the count within the larger structure. Phase three: validate the count using rules, Fibonacci, volume, and divergence checks. Phase four: plan your entry, stop-loss, and two take-profit levels with a defined risk-reward ratio. Phase five: simulate an entry at your planned level and note how you would manage the trade. Phase six: write a journal entry evaluating your analysis, including what you did well and what could be improved. Document every decision with specific price levels and Fibonacci ratios.",
+          "concept": null
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How many phases are in the Complete Elliott Trading Plan?",
+          "options": [
+            "6",
+            "5",
+            "8",
+            "3"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the first phase of the trading plan?",
+          "options": [
+            "Scan the markets for potential setups",
+            "Execute the trade",
+            "Contextualize the wave count",
+            "Review the trade"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do if the higher timeframe contradicts your trading timeframe setup?",
+          "options": [
+            "Discard the setup and move to the next pair",
+            "Ignore the higher timeframe",
+            "Double your position size",
+            "Enter with a wider stop loss"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the maximum recommended risk per trade in the Elliott plan?",
+          "options": [
+            "One to two percent of account",
+            "Five percent of account",
+            "Ten percent of account",
+            "Twenty percent of account"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do when price action invalidates your wave count?",
+          "options": [
+            "Accept the loss and move on immediately",
+            "Hold the position until the count works out",
+            "Double down on the position",
+            "Ignore the price action"
           ],
           "correctIndex": 0
         }
