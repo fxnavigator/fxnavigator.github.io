@@ -874,6 +874,15 @@
           ],
           "correctIndex": 0
         },
+        {
+          "question": "What is the volume-profile-based Take Profit Strategy in the VFX plan?",
+          "options": [
+            "Set the first target (TP1) before the first High Volume Node (HVN) or POC that price faces, and set the second target at the Value Area boundaries",
+            "Close the entire position immediately and automatically once price reaches a random 1:1 risk-reward ratio",
+            "Place all take-profit targets at weekly historical highs without any partial position closing",
+            "Take profit manually only based on real-time changes in the RSI indicator"
+          ],
+          "correctIndex": 0
         }
       ]
     },
