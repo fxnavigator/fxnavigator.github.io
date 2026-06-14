@@ -44,6 +44,7 @@
         {
           "type": "interaction",
           "chartId": "smc_1_practice",
+          "concept": "smc_market_structure",
           "text": "Practice exercise: Open the chart data provided and identify the market structure. Mark all swing highs and swing lows. Determine whether the overall trend is up, down, or ranging. Label each swing point as HH, HL, LH, or LL. Identify at least three complete trend swings. Now drop down to a lower timeframe on the same data and see how the smaller structure relates to the larger trend. Note how the smaller swings often pause or retrace at key swing points on the higher timeframe."
         },
         {
@@ -65,27 +66,52 @@
       "quiz": [
         {
           "question": "What defines an uptrend in SMC?",
-          "options": ["Higher highs and higher lows", "Lower highs and lower lows", "Equal highs and equal lows", "Higher highs and lower lows"],
+          "options": [
+            "Higher highs and higher lows",
+            "Lower highs and lower lows",
+            "Equal highs and equal lows",
+            "Higher highs and lower lows"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is a swing high in market structure?",
-          "options": ["A peak with lower highs on both sides", "A trough with higher lows on both sides", "The highest high of the year", "Any candle with a long upper wick"],
+          "options": [
+            "A peak with lower highs on both sides",
+            "A trough with higher lows on both sides",
+            "The highest high of the year",
+            "Any candle with a long upper wick"
+          ],
           "correctIndex": 0
         },
         {
           "question": "In multi-timeframe analysis, which timeframe determines your trading direction?",
-          "options": ["Higher timeframe", "Execution timeframe", "Lower timeframe", "All timeframes equally"],
+          "options": [
+            "Higher timeframe",
+            "Execution timeframe",
+            "Lower timeframe",
+            "All timeframes equally"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What should you do when market structure is unclear?",
-          "options": ["Wait for clarity before trading", "Trade small size to test the market", "Trade the opposite of your analysis", "Enter with a wide stop loss"],
+          "options": [
+            "Wait for clarity before trading",
+            "Trade small size to test the market",
+            "Trade the opposite of your analysis",
+            "Enter with a wide stop loss"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What happens when a downtrend structure is broken?",
-          "options": ["Price takes out a previous swing high", "Price makes a new lower low", "The range expands", "Volume decreases"],
+          "options": [
+            "Price takes out a previous swing high",
+            "Price makes a new lower low",
+            "The range expands",
+            "Volume decreases"
+          ],
           "correctIndex": 0
         }
       ]
@@ -128,7 +154,8 @@
         {
           "type": "interaction",
           "chartId": "smc_2_practice",
-          "text": "Practice exercise: Open the chart data and identify at least three liquidity sweeps. For each sweep, mark the liquidity pool that was targeted (BSL above a high or SSL below a low). Note what happened immediately after the sweep: did price reverse? How far did it move after sweeping the liquidity? Identify at least one two-way liquidity grab where price swept both sides before the real directional move. Draw horizontal lines at each liquidity level and note which ones were swept and which ones remain untouched. Untouched liquidity levels are potential targets for future price moves."
+          "text": "Practice exercise: Open the chart data and identify at least three liquidity sweeps. For each sweep, mark the liquidity pool that was targeted (BSL above a high or SSL below a low). Note what happened immediately after the sweep: did price reverse? How far did it move after sweeping the liquidity? Identify at least one two-way liquidity grab where price swept both sides before the real directional move. Draw horizontal lines at each liquidity level and note which ones were swept and which ones remain untouched. Untouched liquidity levels are potential targets for future price moves.",
+          "concept": "smc_liquidity"
         },
         {
           "type": "animation",
@@ -149,27 +176,52 @@
       "quiz": [
         {
           "question": "What is buy-side liquidity (BSL)?",
-          "options": ["Pending buy orders above current price", "Pending sell orders below current price", "Limit orders at current price", "Market orders at any price"],
+          "options": [
+            "Pending buy orders above current price",
+            "Pending sell orders below current price",
+            "Limit orders at current price",
+            "Market orders at any price"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What typically happens immediately after a liquidity sweep?",
-          "options": ["Price reverses", "Price continues in the sweep direction", "Price goes sideways", "Volume drops to zero"],
+          "options": [
+            "Price reverses",
+            "Price continues in the sweep direction",
+            "Price goes sideways",
+            "Volume drops to zero"
+          ],
           "correctIndex": 0
         },
         {
           "question": "Where are stop losses of short sellers typically located?",
-          "options": ["Above recent swing highs", "Below recent swing lows", "At current price level", "At Fibonacci levels"],
+          "options": [
+            "Above recent swing highs",
+            "Below recent swing lows",
+            "At current price level",
+            "At Fibonacci levels"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is a two-way liquidity grab?",
-          "options": ["Price sweeps both sides before the real move", "Price moves in one direction only", "Price stays within a range", "Volume increases on both sides"],
+          "options": [
+            "Price sweeps both sides before the real move",
+            "Price moves in one direction only",
+            "Price stays within a range",
+            "Volume increases on both sides"
+          ],
           "correctIndex": 0
         },
         {
           "question": "Why do institutions create liquidity sweeps?",
-          "options": ["To trigger stop losses and enter positions", "To make price move faster", "To confuse retail traders", "To increase market volatility"],
+          "options": [
+            "To trigger stop losses and enter positions",
+            "To make price move faster",
+            "To confuse retail traders",
+            "To increase market volatility"
+          ],
           "correctIndex": 0
         }
       ]
@@ -212,7 +264,8 @@
         {
           "type": "interaction",
           "chartId": "smc_3_practice",
-          "text": "Practice exercise: Open the chart data and identify all BOS and CHoCH points. Start with the higher timeframe: mark all swing highs and lows, then label each break as either BOS (trend continuation) or CHoCH (trend reversal). How many major vs minor CHoCH can you identify? Look for CHoCH events that were preceded by a liquidity sweep at the swing point. Note how the market behaved after each BOS and CHoCH. Were BOS events followed by continued momentum in the trend direction? Were CHoCH events followed by reversals? This awareness will sharpen your ability to read market structure in real time."
+          "text": "Practice exercise: Open the chart data and identify all BOS and CHoCH points. Start with the higher timeframe: mark all swing highs and lows, then label each break as either BOS (trend continuation) or CHoCH (trend reversal). How many major vs minor CHoCH can you identify? Look for CHoCH events that were preceded by a liquidity sweep at the swing point. Note how the market behaved after each BOS and CHoCH. Were BOS events followed by continued momentum in the trend direction? Were CHoCH events followed by reversals? This awareness will sharpen your ability to read market structure in real time.",
+          "concept": "smc_bos_choch"
         },
         {
           "type": "animation",
@@ -233,27 +286,52 @@
       "quiz": [
         {
           "question": "What does BOS stand for in SMC?",
-          "options": ["Break of Structure", "Balance of Supply", "Buy on Strength", "Break of Support"],
+          "options": [
+            "Break of Structure",
+            "Balance of Supply",
+            "Buy on Strength",
+            "Break of Support"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What does a CHoCH signal in an uptrend?",
-          "options": ["The uptrend may be ending", "The uptrend is accelerating", "The uptrend is pausing", "Nothing significant"],
+          "options": [
+            "The uptrend may be ending",
+            "The uptrend is accelerating",
+            "The uptrend is pausing",
+            "Nothing significant"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What confirms a valid CHoCH?",
-          "options": ["Decisive close beyond the swing point", "Price touching the swing point", "Price approaching the swing point", "Volume spike at the swing point"],
+          "options": [
+            "Decisive close beyond the swing point",
+            "Price touching the swing point",
+            "Price approaching the swing point",
+            "Volume spike at the swing point"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is the difference between a pullback and a CHoCH in an uptrend?",
-          "options": ["A CHoCH breaks the previous swing low, a pullback does not", "A pullback breaks the swing low, a CHoCH does not", "They are the same thing", "A pullback occurs on higher timeframes only"],
+          "options": [
+            "A CHoCH breaks the previous swing low, a pullback does not",
+            "A pullback breaks the swing low, a CHoCH does not",
+            "They are the same thing",
+            "A pullback occurs on higher timeframes only"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What should precede a CHoCH for a high-probability reversal signal?",
-          "options": ["A liquidity sweep at the swing point", "A news event", "The end of the trading day", "High volume"],
+          "options": [
+            "A liquidity sweep at the swing point",
+            "A news event",
+            "The end of the trading day",
+            "High volume"
+          ],
           "correctIndex": 0
         }
       ]
@@ -296,7 +374,8 @@
         {
           "type": "interaction",
           "chartId": "smc_4_practice",
-          "text": "Practice exercise: The chart data contains several FVGs. Identify each one and mark it on the chart with a rectangle. For each FVG, note whether it is bullish or bearish, its size in pips, whether it has been mitigated, and the price action at the FVG when price returned to it. Which FVGs acted as support? Which acted as resistance? Which ones were followed by a BOS? Which were followed by a CHoCH? The combination of FVG with BOS is one of the most powerful entry signals in SMC. Look for examples where price touched an FVG and then immediately broke structure in the opposite direction."
+          "text": "Practice exercise: The chart data contains several FVGs. Identify each one and mark it on the chart with a rectangle. For each FVG, note whether it is bullish or bearish, its size in pips, whether it has been mitigated, and the price action at the FVG when price returned to it. Which FVGs acted as support? Which acted as resistance? Which ones were followed by a BOS? Which were followed by a CHoCH? The combination of FVG with BOS is one of the most powerful entry signals in SMC. Look for examples where price touched an FVG and then immediately broke structure in the opposite direction.",
+          "concept": "smc_fvg"
         },
         {
           "type": "animation",
@@ -317,27 +396,52 @@
       "quiz": [
         {
           "question": "What is a Fair Value Gap (FVG)?",
-          "options": ["A price inefficiency between three candles", "A gap in trading hours", "A Fibonacci retracement level", "A support and resistance level"],
+          "options": [
+            "A price inefficiency between three candles",
+            "A gap in trading hours",
+            "A Fibonacci retracement level",
+            "A support and resistance level"
+          ],
           "correctIndex": 0
         },
         {
           "question": "A bullish FVG forms between which points?",
-          "options": ["High of first candle and low of third candle", "Low of first candle and high of third candle", "Open of first candle and close of third candle", "Close of first candle and open of third candle"],
+          "options": [
+            "High of first candle and low of third candle",
+            "Low of first candle and high of third candle",
+            "Open of first candle and close of third candle",
+            "Close of first candle and open of third candle"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What does it mean when price touches an FVG and reverses immediately?",
-          "options": ["The FVG acted as support or resistance", "The FVG is invalid", "The trend is about to reverse", "Volume is too low"],
+          "options": [
+            "The FVG acted as support or resistance",
+            "The FVG is invalid",
+            "The trend is about to reverse",
+            "Volume is too low"
+          ],
           "correctIndex": 0
         },
         {
           "question": "Which FVGs are most reliable for trading?",
-          "options": ["FVGs aligned with higher timeframe trend", "FVGs on lower timeframes", "Old FVGs that have been partially filled", "FVGs during low liquidity"],
+          "options": [
+            "FVGs aligned with higher timeframe trend",
+            "FVGs on lower timeframes",
+            "Old FVGs that have been partially filled",
+            "FVGs during low liquidity"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is FVG mitigation?",
-          "options": ["Price returning to the FVG zone", "The FVG disappearing from the chart", "Volume decreasing in the FVG zone", "The FVG expanding"],
+          "options": [
+            "Price returning to the FVG zone",
+            "The FVG disappearing from the chart",
+            "Volume decreasing in the FVG zone",
+            "The FVG expanding"
+          ],
           "correctIndex": 0
         }
       ]
@@ -380,7 +484,8 @@
         {
           "type": "interaction",
           "chartId": "smc_5_practice",
-          "text": "Practice exercise: The chart data shows several strong directional moves. Identify the Order Blocks that preceded each move. Mark the OB zones with rectangles. For each OB, note whether it is bullish or bearish, the strength of the subsequent move, and whether price has returned to mitigate the OB. Identify any Breaker Blocks where an OB zone was broken and flipped direction. Notice the relationship between OBs and FVGs: do they often appear at similar levels? Draw horizontal lines at each significant OB and watch how price reacts when it returns to those levels in the future."
+          "text": "Practice exercise: The chart data shows several strong directional moves. Identify the Order Blocks that preceded each move. Mark the OB zones with rectangles. For each OB, note whether it is bullish or bearish, the strength of the subsequent move, and whether price has returned to mitigate the OB. Identify any Breaker Blocks where an OB zone was broken and flipped direction. Notice the relationship between OBs and FVGs: do they often appear at similar levels? Draw horizontal lines at each significant OB and watch how price reacts when it returns to those levels in the future.",
+          "concept": "smc_order_block"
         },
         {
           "type": "animation",
@@ -401,27 +506,52 @@
       "quiz": [
         {
           "question": "What is a bullish Order Block?",
-          "options": ["The last bearish candle before a strong bullish move", "The last bullish candle before a strong bearish move", "Any large candle on the chart", "A candle with high volume"],
+          "options": [
+            "The last bearish candle before a strong bullish move",
+            "The last bullish candle before a strong bearish move",
+            "Any large candle on the chart",
+            "A candle with high volume"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What happens when an Order Block is broken and price closes beyond it?",
-          "options": ["It becomes a Breaker Block", "It becomes stronger", "It disappears", "Nothing changes"],
+          "options": [
+            "It becomes a Breaker Block",
+            "It becomes stronger",
+            "It disappears",
+            "Nothing changes"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What confirms a valid Order Block?",
-          "options": ["A strong directional move following the candle", "A large wick on the candle", "High volume on the candle", "The candle being the longest of the day"],
+          "options": [
+            "A strong directional move following the candle",
+            "A large wick on the candle",
+            "High volume on the candle",
+            "The candle being the longest of the day"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What should you do before entering a trade at an Order Block?",
-          "options": ["Wait for confirmation price action", "Enter immediately", "Place a stop at the same level", "Double your position size"],
+          "options": [
+            "Wait for confirmation price action",
+            "Enter immediately",
+            "Place a stop at the same level",
+            "Double your position size"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What makes an Order Block high quality?",
-          "options": ["Higher timeframe, followed by strong move, not yet mitigated", "Lower timeframe, small move, partially mitigated", "Middle of a range, no clear move", "Any candle on any timeframe"],
+          "options": [
+            "Higher timeframe, followed by strong move, not yet mitigated",
+            "Lower timeframe, small move, partially mitigated",
+            "Middle of a range, no clear move",
+            "Any candle on any timeframe"
+          ],
           "correctIndex": 0
         }
       ]
@@ -464,7 +594,8 @@
         {
           "type": "interaction",
           "chartId": "smc_6_practice",
-          "text": "Practice exercise: The chart data contains multiple supply and demand zones. Identify each zone and classify it as DBR, RBD, RBR, or DBD. Draw boxes around each base. Rank each zone by freshness (fresh, lightly touched, heavily touched, broken). Identify any zone flips where a former supply zone is now acting as demand or vice versa. Practice rating zones by quality: narrow base + strong breakout = high quality; wide base + weak breakout = low quality. The ability to quickly identify and rank supply and demand zones is an essential SMC skill."
+          "text": "Practice exercise: The chart data contains multiple supply and demand zones. Identify each zone and classify it as DBR, RBD, RBR, or DBD. Draw boxes around each base. Rank each zone by freshness (fresh, lightly touched, heavily touched, broken). Identify any zone flips where a former supply zone is now acting as demand or vice versa. Practice rating zones by quality: narrow base + strong breakout = high quality; wide base + weak breakout = low quality. The ability to quickly identify and rank supply and demand zones is an essential SMC skill.",
+          "concept": "smc_supply_demand"
         },
         {
           "type": "animation",
@@ -485,27 +616,52 @@
       "quiz": [
         {
           "question": "What does DBR stand for in supply and demand?",
-          "options": ["Drop-Base-Rally", "Demand-Base-Resistance", "Double-Bottom-Reversal", "Drop-Below-Range"],
+          "options": [
+            "Drop-Base-Rally",
+            "Demand-Base-Resistance",
+            "Double-Bottom-Reversal",
+            "Drop-Below-Range"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is a fresh zone in SMC?",
-          "options": ["A zone that has never been touched since formation", "A zone formed today", "A zone on the daily chart", "A zone with a narrow base"],
+          "options": [
+            "A zone that has never been touched since formation",
+            "A zone formed today",
+            "A zone on the daily chart",
+            "A zone with a narrow base"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is zone flipping?",
-          "options": ["Old supply becomes demand and vice versa", "A zone moving to a different price level", "A zone disappearing", "Two zones merging on a higher timeframe"],
+          "options": [
+            "Old supply becomes demand and vice versa",
+            "A zone moving to a different price level",
+            "A zone disappearing",
+            "Two zones merging on a higher timeframe"
+          ],
           "correctIndex": 0
         },
         {
           "question": "Which base formation indicates the strongest potential reversal?",
-          "options": ["DBR and RBD", "RBR and DBD", "All formations are equally strong", "Only DBR patterns"],
+          "options": [
+            "DBR and RBD",
+            "RBR and DBD",
+            "All formations are equally strong",
+            "Only DBR patterns"
+          ],
           "correctIndex": 0
         },
         {
           "question": "Where should you place your stop loss when trading a zone?",
-          "options": ["Beyond the zone, not inside it", "Inside the zone", "At the entry price", "There should be no stop loss"],
+          "options": [
+            "Beyond the zone, not inside it",
+            "Inside the zone",
+            "At the entry price",
+            "There should be no stop loss"
+          ],
           "correctIndex": 0
         }
       ]
@@ -548,7 +704,8 @@
         {
           "type": "interaction",
           "chartId": "smc_7_practice",
-          "text": "Practice exercise: The chart data shows several clear impulse moves followed by retracements. Identify point A (start of impulse) and point B (end of impulse) for each move. Draw the Fibonacci retracement tool and mark the 70-80% OTE zone. For each OTE zone, note whether it aligns with other SMC confluences (FVG, OB, supply/demand zone). Did price reach the OTE zone? Did it reverse from there? How far did it move after the reversal? Would the trade have been profitable? Calculate the potential risk-to-reward ratio for each OTE trade. Quality OTE trades with confluence should offer at least 2:1 risk-to-reward."
+          "text": "Practice exercise: The chart data shows several clear impulse moves followed by retracements. Identify point A (start of impulse) and point B (end of impulse) for each move. Draw the Fibonacci retracement tool and mark the 70-80% OTE zone. For each OTE zone, note whether it aligns with other SMC confluences (FVG, OB, supply/demand zone). Did price reach the OTE zone? Did it reverse from there? How far did it move after the reversal? Would the trade have been profitable? Calculate the potential risk-to-reward ratio for each OTE trade. Quality OTE trades with confluence should offer at least 2:1 risk-to-reward.",
+          "concept": "smc_ote"
         },
         {
           "type": "animation",
@@ -569,27 +726,52 @@
       "quiz": [
         {
           "question": "What retracement level does SMC focus on for OTE?",
-          "options": ["70-80% retracement", "38.2% retracement", "50% retracement", "61.8% retracement"],
+          "options": [
+            "70-80% retracement",
+            "38.2% retracement",
+            "50% retracement",
+            "61.8% retracement"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What should you do when price reaches the OTE zone?",
-          "options": ["Wait for confirmation before entering", "Enter immediately", "Place a stop at the OTE zone", "Double your position"],
+          "options": [
+            "Wait for confirmation before entering",
+            "Enter immediately",
+            "Place a stop at the OTE zone",
+            "Double your position"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What makes an OTE trade high probability?",
-          "options": ["Confluence with other SMC concepts", "A large impulse move", "Any Fibonacci level", "Price reaching the zone quickly"],
+          "options": [
+            "Confluence with other SMC concepts",
+            "A large impulse move",
+            "Any Fibonacci level",
+            "Price reaching the zone quickly"
+          ],
           "correctIndex": 0
         },
         {
           "question": "Which timeframe OTE is most reliable?",
-          "options": ["Higher timeframes (4H, daily)", "Lower timeframes (5min, 15min)", "All timeframes equally", "Only the 1-hour chart"],
+          "options": [
+            "Higher timeframes (4H, daily)",
+            "Lower timeframes (5min, 15min)",
+            "All timeframes equally",
+            "Only the 1-hour chart"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is a common profit target for OTE trades?",
-          "options": ["100% Fibonacci extension of the impulse move", "The next Fibonacci retracement", "The previous day's close", "50% of the impulse move"],
+          "options": [
+            "100% Fibonacci extension of the impulse move",
+            "The next Fibonacci retracement",
+            "The previous day's close",
+            "50% of the impulse move"
+          ],
           "correctIndex": 0
         }
       ]
@@ -632,7 +814,8 @@
         {
           "type": "interaction",
           "chartId": "smc_8_practice",
-          "text": "Practice exercise: The chart data is a complete market scenario. Apply the full 5-step SMC trading plan: (1) Identify the higher timeframe direction. (2) Find a pullback on the execution timeframe. (3) Mark all confluent entry factors (FVG, OB, S/D zone, OTE, liquidity). (4) Identify the confirmation candle. (5) Determine your stop loss and profit target levels. Calculate the risk-to-reward ratio. Is this a trade worth taking? What is your conviction level based on confluence? Document your entire thought process as you go through each step."
+          "text": "Practice exercise: The chart data is a complete market scenario. Apply the full 5-step SMC trading plan: (1) Identify the higher timeframe direction. (2) Find a pullback on the execution timeframe. (3) Mark all confluent entry factors (FVG, OB, S/D zone, OTE, liquidity). (4) Identify the confirmation candle. (5) Determine your stop loss and profit target levels. Calculate the risk-to-reward ratio. Is this a trade worth taking? What is your conviction level based on confluence? Document your entire thought process as you go through each step.",
+          "concept": "smc_trading_plan"
         },
         {
           "type": "animation",
@@ -653,27 +836,52 @@
       "quiz": [
         {
           "question": "What is the first step in the SMC trading plan?",
-          "options": ["Determine higher timeframe direction", "Look for an FVG", "Draw Fibonacci levels", "Enter the trade"],
+          "options": [
+            "Determine higher timeframe direction",
+            "Look for an FVG",
+            "Draw Fibonacci levels",
+            "Enter the trade"
+          ],
           "correctIndex": 0
         },
         {
           "question": "How many confluent factors are recommended for a trade?",
-          "options": ["Minimum 2", "Minimum 1", "Minimum 5", "No minimum necessary"],
+          "options": [
+            "Minimum 2",
+            "Minimum 1",
+            "Minimum 5",
+            "No minimum necessary"
+          ],
           "correctIndex": 0
         },
         {
           "question": "When should you enter a trade?",
-          "options": ["After confirmation at the entry zone", "When price touches the FVG", "When you see the setup forming", "When the market opens"],
+          "options": [
+            "After confirmation at the entry zone",
+            "When price touches the FVG",
+            "When you see the setup forming",
+            "When the market opens"
+          ],
           "correctIndex": 0
         },
         {
           "question": "Where should you take your first profit target?",
-          "options": ["At the most recent swing high/low", "At the next day's open", "After 20 pips", "At the same level as your entry"],
+          "options": [
+            "At the most recent swing high/low",
+            "At the next day's open",
+            "After 20 pips",
+            "At the same level as your entry"
+          ],
           "correctIndex": 0
         },
         {
           "question": "What is the maximum recommended risk per trade?",
-          "options": ["1-2% of account", "5-10% of account", "25% of account", "50% of account"],
+          "options": [
+            "1-2% of account",
+            "5-10% of account",
+            "25% of account",
+            "50% of account"
+          ],
           "correctIndex": 0
         }
       ]
