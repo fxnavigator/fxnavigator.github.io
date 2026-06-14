@@ -69,7 +69,7 @@
           "type": "interaction",
           "chartId": "elliott_1_practice",
           "text": "Open the practice chart below. Locate a complete 5-wave impulse structure and label waves 1 through 5 directly on the chart. Then find the subsequent 3-wave ABC correction and label each leg. Verify the three inviolable rules: Wave 2 must not exceed the start of Wave 1, Wave 3 must not be the shortest motive wave, and Wave 4 must not overlap Wave 1. If any rule is broken, the count is invalid and you should search for a different structure. Once confirmed, note the Fibonacci retracement level of Wave 2 against Wave 1 to assess the strength of the trend.",
-          "concept": null
+          "concept": "elliott_wave_basics"
         }
       ],
       "quiz": [
@@ -188,7 +188,7 @@
           "type": "interaction",
           "chartId": "elliott_2_practice",
           "text": "Open the practice chart and identify a five-wave impulse structure. Label each wave from 1 to 5. Systematically verify all three inviolable rules: measure that Wave 2 does not exceed the origin of Wave 1 using the Fibonacci retracement tool, confirm that Wave 3 is longer than Waves 1 and 5, and check that Wave 4 does not overlap any price level reached during Wave 1. If any rule is broken, find a different wave set. Also apply the alternation guideline: note whether Wave 2 and Wave 4 have different shapes. Draw a channel using Waves 1 and 3, and see if Wave 4 respects the channel boundary.",
-          "concept": null
+          "concept": "elliott_impulse_rules"
         }
       ],
       "quiz": [
@@ -307,7 +307,7 @@
           "type": "interaction",
           "chartId": "elliott_3_practice",
           "text": "Open the practice chart and identify at least two different corrective patterns. For each pattern, determine whether it is a zigzag, flat, or triangle by examining the internal structure of Wave A. Label the A-B-C waves. If you find a triangle, label all five sub-waves A through E and draw the converging trendlines. Note the depth of each correction as a percentage of the preceding impulse using the Fibonacci retracement tool. Finally, describe the strength of the subsequent impulse move: did a deep zigzag lead to a powerful third wave? Did a shallow flat precede a strong fifth wave extension?",
-          "concept": null
+          "concept": "elliott_corrective"
         }
       ],
       "quiz": [
@@ -426,7 +426,7 @@
           "type": "interaction",
           "chartId": "elliott_4_practice",
           "text": "Open the practice chart and identify a complete five-wave impulse. Apply the Fibonacci retracement tool from the start of Wave 1 to the end of Wave 1 and note where Wave 2 retraced to. Apply the Fibonacci extension tool from the start of Wave 1 to the end of Wave 1, then to the end of Wave 2, and check whether Wave 3 reached the 1.618 level. Measure Wave 4 retracement of Wave 3 and confirm it is between 23.6 and 38.2 percent. Finally, project Wave 5 using the 0.618 expansion from the start of Wave 1 through Wave 3. Document each Fibonacci relationship and note whether the price respected the levels precisely.",
-          "concept": null
+          "concept": "elliott_fibonacci"
         }
       ],
       "quiz": [
@@ -545,7 +545,7 @@
           "type": "interaction",
           "chartId": "elliott_5_practice",
           "text": "Open the practice chart and locate a completed five-wave impulse. Determine which wave (1, 3, or 5) is the longest and check whether it has a clear five-wave sub-division internally. If Wave 3 is the longest, check if it reached at least the 1.618 Fibonacci extension of Wave 1. If Wave 5 is the longest, check for momentum divergence using RSI or MACD. Also search for any truncation where Wave 5 failed to exceed Wave 3. If you find a truncation, note the price level where Wave 5 ended relative to Wave 3. Document your findings for each wave and classify the structure as regular, extended, or truncated.",
-          "concept": null
+          "concept": "elliott_extensions"
         }
       ],
       "quiz": [
@@ -664,7 +664,7 @@
           "type": "interaction",
           "chartId": "elliott_6_practice",
           "text": "Open the practice chart and search for a diagonal pattern. Draw converging trendlines connecting the peaks and troughs to confirm the wedge shape. Label each sub-wave from 1 through 5. Check for Wave 4 overlap with Wave 1 to confirm it is a diagonal rather than a regular impulse. Drop to a lower timeframe to verify that each sub-wave has a 3-3-3-3-3 structure. Note whether the diagonal is a leading diagonal (Wave 1 or A position) or an ending diagonal (Wave 5 or C position). Document any momentum divergence you observe on RSI or MACD and describe the subsequent price action after the diagonal completed.",
-          "concept": null
+          "concept": "elliott_diagonals"
         }
       ],
       "quiz": [
@@ -783,7 +783,7 @@
           "type": "interaction",
           "chartId": "elliott_7_practice",
           "text": "Open the practice chart and perform a full multi-timeframe analysis. Start at the highest available timeframe and identify the dominant wave count. Move down one timeframe and refine the count, labeling sub-waves. Move down another timeframe and identify the specific entry structure. On each level, document whether price is in an impulse or correction phase and whether the rules hold. Check for alignment: do all timeframes agree on the trend direction? Identify any conflicts and note the higher timeframe resolution. Finally, identify a potential trade setup where all timeframes align and describe your entry, target, and stop-loss levels.",
-          "concept": null
+          "concept": "elliott_multi_timeframe"
         }
       ],
       "quiz": [
@@ -902,7 +902,7 @@
           "type": "interaction",
           "chartId": "elliott_8_practice",
           "text": "Open the practice chart and execute the complete six-phase Elliott trading plan. Phase one: scan the chart and identify a potential wave setup. Phase two: zoom out and contextualize the count within the larger structure. Phase three: validate the count using rules, Fibonacci, volume, and divergence checks. Phase four: plan your entry, stop-loss, and two take-profit levels with a defined risk-reward ratio. Phase five: simulate an entry at your planned level and note how you would manage the trade. Phase six: write a journal entry evaluating your analysis, including what you did well and what could be improved. Document every decision with specific price levels and Fibonacci ratios.",
-          "concept": null
+          "concept": "elliott_trading_plan"
         }
       ],
       "quiz": [

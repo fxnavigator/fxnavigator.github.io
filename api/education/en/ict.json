@@ -44,7 +44,8 @@
         {
           "type": "interaction",
           "chartId": "ict_1_practice",
-          "text": "Practice exercise: Open a 1-hour chart of EUR/USD and scroll back 72 hours. Identify the most obvious dealing range, a period where price oscillated between a clear high and low for at least 12 hours. Mark the high and low with horizontal lines. Now look for the breakout from this range. Was it preceded by a sharp spike beyond one boundary, which is the Judas Swing, followed by a reversal through the range in the opposite direction? If so, you have identified the full institutional cycle: accumulation within the range, manipulation via the spike, and distribution through the breakout. Practice this on different pairs and timeframes until you can spot it instantly."
+          "text": "Practice exercise: Open a 1-hour chart of EUR/USD and scroll back 72 hours. Identify the most obvious dealing range, a period where price oscillated between a clear high and low for at least 12 hours. Mark the high and low with horizontal lines. Now look for the breakout from this range. Was it preceded by a sharp spike beyond one boundary, which is the Judas Swing, followed by a reversal through the range in the opposite direction? If so, you have identified the full institutional cycle: accumulation within the range, manipulation via the spike, and distribution through the breakout. Practice this on different pairs and timeframes until you can spot it instantly.",
+          "concept": "ict_liquidity_sweep"
         },
         {
           "type": "animation",
@@ -153,7 +154,8 @@
         {
           "type": "interaction",
           "chartId": "ict_2_practice",
-          "text": "Exercise: On a 4-hour EUR/USD chart, identify the most recent significant swing from a low to a high. Draw Fibonacci from the swing low to the swing high. Mark 0-50% as discount in green and 50-100% as premium in red. Now look at where price is currently trading. Based on the daily trend, should you be looking for buy entries or sell entries? If price is in discount and the daily trend is up, mark potential buy zones. If price is in premium and the daily trend is down, mark potential sell zones. This exercise trains you to align PD Array with structure before ever considering an entry."
+          "text": "Exercise: On a 4-hour EUR/USD chart, identify the most recent significant swing from a low to a high. Draw Fibonacci from the swing low to the swing high. Mark 0-50% as discount in green and 50-100% as premium in red. Now look at where price is currently trading. Based on the daily trend, should you be looking for buy entries or sell entries? If price is in discount and the daily trend is up, mark potential buy zones. If price is in premium and the daily trend is down, mark potential sell zones. This exercise trains you to align PD Array with structure before ever considering an entry.",
+          "concept": "ict_pd_array"
         },
         {
           "type": "animation",
@@ -262,7 +264,8 @@
         {
           "type": "interaction",
           "chartId": "ict_3_practice",
-          "text": "Exercise: On a 1-hour chart of XAU/USD, identify the external structure using the daily chart; is it uptrend, downtrend, or ranging? Now identify the internal structure on the 1-hour chart. Mark the internal swing highs and lows. Look for any instance where internal structure broke in the opposite direction of the external trend. That is a potential MSS. Was it preceded by a liquidity grab at a key level? Was the break a displacement with a large candle? If yes, you have identified a high-probability MSS. Practice finding MSS on at least three different charts before your next trading session."
+          "text": "Exercise: On a 1-hour chart of XAU/USD, identify the external structure using the daily chart; is it uptrend, downtrend, or ranging? Now identify the internal structure on the 1-hour chart. Mark the internal swing highs and lows. Look for any instance where internal structure broke in the opposite direction of the external trend. That is a potential MSS. Was it preceded by a liquidity grab at a key level? Was the break a displacement with a large candle? If yes, you have identified a high-probability MSS. Practice finding MSS on at least three different charts before your next trading session.",
+          "concept": "ict_market_structure"
         },
         {
           "type": "animation",
@@ -366,7 +369,8 @@
         {
           "type": "interaction",
           "chartId": "ict_4_practice",
-          "text": "Exercise: Mark the killzones on your chart using vertical lines. Set your chart timezone to Eastern Standard Time. Draw a vertical line at 2:00 AM, 5:00 AM, 7:00 AM, 10:00 AM, and 11:00 AM EST. Now look back at the last week of data on EUR/USD. Observe how price behaves within each marked zone. You will notice that the majority of significant moves start within these killzone windows. Moves that start outside killzones are less reliable and more likely to reverse. This exercise will train your eye to see the market rhythm and help you understand why time is as important as price in ICT."
+          "text": "Exercise: Mark the killzones on your chart using vertical lines. Set your chart timezone to Eastern Standard Time. Draw a vertical line at 2:00 AM, 5:00 AM, 7:00 AM, 10:00 AM, and 11:00 AM EST. Now look back at the last week of data on EUR/USD. Observe how price behaves within each marked zone. You will notice that the majority of significant moves start within these killzone windows. Moves that start outside killzones are less reliable and more likely to reverse. This exercise will train your eye to see the market rhythm and help you understand why time is as important as price in ICT.",
+          "concept": "ict_killzone"
         },
         {
           "type": "animation",
@@ -480,7 +484,8 @@
         {
           "type": "interaction",
           "chartId": "ict_5_practice",
-          "text": "Exercise: On a 1-hour chart of GBP/USD covering the last 48 hours, identify the three phases of PO3. Start by finding a clear range where price oscillated between two levels for several hours; that is accumulation. Now look for a spike beyond one boundary of the range followed by an immediate reversal; that is manipulation. Finally, find the breakout in the opposite direction of the spike that trends away from the range; that is distribution. Label each phase on your chart. Once you can spot all three phases clearly, try predicting what phase comes next from any point on the chart."
+          "text": "Exercise: On a 1-hour chart of GBP/USD covering the last 48 hours, identify the three phases of PO3. Start by finding a clear range where price oscillated between two levels for several hours; that is accumulation. Now look for a spike beyond one boundary of the range followed by an immediate reversal; that is manipulation. Finally, find the breakout in the opposite direction of the spike that trends away from the range; that is distribution. Label each phase on your chart. Once you can spot all three phases clearly, try predicting what phase comes next from any point on the chart.",
+          "concept": "ict_po3"
         },
         {
           "type": "animation",
@@ -594,7 +599,8 @@
         {
           "type": "interaction",
           "chartId": "ict_6_practice",
-          "text": "Practice exercise: Open a 1-hour chart of EUR/USD and find a clear uptrend on the 4-hour chart. Within the 1-hour chart, identify a downward retracement swing. Draw Fibonacci from the swing high to the swing low of that retracement. Mark the 70.5%, 78.6%, and 88.6% levels. Now look for an Order Block and a Fair Value Gap within this zone. If you find both, you have identified a triple-confluence OTE zone. Mark the entry price, the stop-loss level 5-10 pips below the nearest OB, and the three extension targets. This is your complete trade plan from a single chart setup."
+          "text": "Practice exercise: Open a 1-hour chart of EUR/USD and find a clear uptrend on the 4-hour chart. Within the 1-hour chart, identify a downward retracement swing. Draw Fibonacci from the swing high to the swing low of that retracement. Mark the 70.5%, 78.6%, and 88.6% levels. Now look for an Order Block and a Fair Value Gap within this zone. If you find both, you have identified a triple-confluence OTE zone. Mark the entry price, the stop-loss level 5-10 pips below the nearest OB, and the three extension targets. This is your complete trade plan from a single chart setup.",
+          "concept": "ict_ote_fib"
         },
         {
           "type": "animation",
@@ -693,7 +699,8 @@
         {
           "type": "interaction",
           "chartId": "ict_7_practice",
-          "text": "Exercise: On a 15-minute chart of EUR/USD, mark vertical lines at 10:00 AM, 11:00 AM, and 2:00 PM EST for the last five trading days. Observe what happened at each time. Did price reverse at 10:00 AM? Did it continue at 11:00 AM? Did it reverse again at 2:00 PM? Count how many times each time produced a meaningful move. You will find that 10:00 AM produces a reversal approximately 60-70% of the time, 11:00 AM produces a continuation about 50-60% of the time, and 2:00 PM produces a reversal about 40-50% of the time. Track these statistics yourself to build confidence in time-based trading."
+          "text": "Exercise: On a 15-minute chart of EUR/USD, mark vertical lines at 10:00 AM, 11:00 AM, and 2:00 PM EST for the last five trading days. Observe what happened at each time. Did price reverse at 10:00 AM? Did it continue at 11:00 AM? Did it reverse again at 2:00 PM? Count how many times each time produced a meaningful move. You will find that 10:00 AM produces a reversal approximately 60-70% of the time, 11:00 AM produces a continuation about 50-60% of the time, and 2:00 PM produces a reversal about 40-50% of the time. Track these statistics yourself to build confidence in time-based trading.",
+          "concept": "ict_time_price"
         },
         {
           "type": "animation",

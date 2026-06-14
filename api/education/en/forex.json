@@ -1,0 +1,890 @@
+{
+  "id": "forex",
+  "title": "Forex Trading (FX)",
+  "subtitle": "From zero to professional forex trader",
+  "description": "A complete forex course covering everything from currency pairs to advanced trading strategies. Learn pips, lots, leverage, market sessions, fundamental analysis, technical analysis, price action, and build a professional trading plan.",
+  "color": 4279150057,
+  "completedBadge": "Forex Pro",
+  "lessons": [
+    {
+      "id": "forex_1",
+      "title": "What is Forex?",
+      "subtitle": "Understanding the world's largest financial market",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Forex (foreign exchange) is the global marketplace where currencies are traded. It is the largest and most liquid financial market in the world, with a daily trading volume exceeding $7.5 trillion. Unlike stock markets, forex has no central exchange — trading happens electronically over-the-counter (OTC) between banks, institutions, and individual traders worldwide.",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Forex trading works by simultaneously buying one currency and selling another. Currencies are traded in pairs — for example, EUR/USD represents the euro against the US dollar. When you buy EUR/USD, you are buying euros and selling dollars. The exchange rate tells you how much of the quote currency (USD) is needed to buy one unit of the base currency (EUR).",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "The major participants in the forex market include central banks (like the Federal Reserve and ECB), commercial banks, hedge funds, multinational corporations, and retail traders. Central banks participate to manage monetary policy and currency reserves. Corporations trade to hedge international business risks. Retail traders — individuals like you — speculate on price movements to generate profit.",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "There are over 170 currencies traded globally, but most trading activity is concentrated in a handful of major pairs. The most traded currencies are the US Dollar (USD), Euro (EUR), Japanese Yen (JPY), British Pound (GBP), Swiss Franc (CHF), Canadian Dollar (CAD), Australian Dollar (AUD), and New Zealand Dollar (NZD).",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "The forex market is open 24 hours a day, five days a week, starting Sunday evening (EST) when the Sydney session opens and closing Friday evening when the New York session closes. This continuous operation is possible because trading follows the sun around the world — moving from Tokyo to London to New York as each financial center opens for business.",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Market liquidity refers to how easily a currency pair can be bought or sold without causing a significant price change. Major pairs like EUR/USD and USD/JPY have extremely high liquidity because of the massive volume traded daily. High liquidity means tighter spreads (lower transaction costs) and better price stability for traders.",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "A pip (percentage in point) is the smallest standard price movement in forex. For most major pairs, one pip equals 0.0001. For pairs involving the Japanese Yen, one pip equals 0.01. Understanding pips is essential for calculating profit, loss, and position size. Most price changes in forex are measured in pips.",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "The bid price is the highest price a buyer is willing to pay for a currency pair, while the ask price is the lowest price a seller is willing to accept. The difference between them is called the spread. Spreads are typically measured in pips and represent the cost of executing a trade. Tighter spreads are better for traders.",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Forex trading offers several advantages: 24-hour market access, high liquidity, low transaction costs, the ability to trade with leverage, and the opportunity to profit in both rising and falling markets (by going long or short). However, it also carries significant risk, especially when leverage is used. Proper education and risk management are essential before trading live.",
+          "concept": "forex_basics"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_1_practice",
+          "text": "Practice exercise: Open the EUR/USD chart and identify the current bid/ask spread. Observe how the spread changes during different market sessions.",
+          "concept": "forex_basics"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the daily trading volume of the forex market?",
+          "options": [
+            "Over $7.5 trillion",
+            "Over $1 trillion",
+            "Over $500 billion",
+            "Over $10 trillion"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does EUR/USD represent?",
+          "options": [
+            "Euro against US Dollar",
+            "Euro against British Pound",
+            "US Dollar against Euro",
+            "Euro against Swiss Franc"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which of these is NOT a major forex participant?",
+          "options": [
+            "Retail clothing stores",
+            "Central banks",
+            "Commercial banks",
+            "Hedge funds"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "How many hours a day is the forex market open?",
+          "options": [
+            "24 hours",
+            "12 hours",
+            "16 hours",
+            "8 hours"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does a pip represent for most currency pairs?",
+          "options": [
+            "0.0001",
+            "0.001",
+            "0.01",
+            "0.1"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "forex_2",
+      "title": "Pips, Lots and Leverage",
+      "subtitle": "Master position sizing, pip values, and margin",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "A pip is the smallest incremental price movement in forex. For pairs quoted to 4 decimal places (like EUR/USD = 1.1050), one pip equals 0.0001. For yen pairs quoted to 2 decimal places (like USD/JPY = 110.50), one pip equals 0.01. Pipettes are fractional pips representing one-tenth of a pip, giving you more precise pricing.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "Pip value depends on three factors: the currency pair being traded, the size of the position (lot size), and the quote currency (the second currency in the pair). For a standard lot (100,000 units) of EUR/USD, where USD is the quote currency, each pip is worth approximately $10. For a mini lot (10,000 units), each pip is worth $1.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "A standard lot equals 100,000 units of the base currency. A mini lot equals 10,000 units. A micro lot equals 1,000 units. A nano lot equals 100 units. Most retail brokers offer mini and micro lot trading, allowing traders with smaller accounts to participate. Choosing the right lot size is crucial for proper risk management.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "To calculate pip value: for pairs where USD is the quote currency (EUR/USD, GBP/USD), multiply your position size in lots by 0.0001 (or 0.01 for yen pairs). For a standard lot of EUR/USD: 100,000 × 0.0001 = $10 per pip. For a mini lot: 10,000 × 0.0001 = $1 per pip. For a micro lot: 1,000 × 0.0001 = $0.10 per pip.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "Leverage allows you to control a large position with a relatively small amount of capital. If your broker offers 100:1 leverage, you can control $100,000 worth of currency with just $1,000 in your account. Leverage amplifies both profits and losses. While it can generate significant returns on small price movements, it can also wipe out your account just as quickly.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "Margin is the amount of money required in your account to open and maintain a leveraged position. For example, with 100:1 leverage, the margin requirement for a $100,000 position is $1,000 (1% of the position value). Margin is not a cost or fee — it is a security deposit that is returned when you close the trade.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "Margin call occurs when your account equity falls below the required margin level. When this happens, your broker will close your losing positions to prevent the account balance from going negative. Stop-out level is the specific threshold (often 50% or 100% of required margin) at which the broker automatically liquidates your positions.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "Position sizing is the most important risk management tool. A common rule is to risk no more than 1-2% of your account balance on any single trade. To calculate position size: determine your stop loss in pips, divide your maximum acceptable loss by that pip value, and convert to lots. This ensures no single trade can destroy your account.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "A practical example: If you have a $10,000 account and risk 1% ($100), with a 50-pip stop loss on EUR/USD, you need a pip value of $2 (100/50). Since a standard lot gives $10/pip and a mini lot gives $1/pip, you would trade 2 mini lots. This systematic approach keeps your risk consistent regardless of market conditions.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_2_practice",
+          "text": "Practice exercise: Using the EUR/USD chart, calculate the pip value for a mini lot and determine the correct position size for a 30-pip stop loss with a 1% risk rule on a $5,000 account.",
+          "concept": "forex_pips_leverage"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is a standard lot size in forex?",
+          "options": [
+            "100,000 units",
+            "10,000 units",
+            "1,000 units",
+            "100 units"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "With 100:1 leverage, how much margin is needed for a $100,000 position?",
+          "options": [
+            "$1,000",
+            "$10,000",
+            "$100",
+            "$5,000"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "When does a margin call occur?",
+          "options": [
+            "When equity falls below required margin",
+            "When you make a profit",
+            "When spread widens",
+            "At market close"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the recommended maximum risk per trade?",
+          "options": [
+            "1-2% of account",
+            "5-10% of account",
+            "20-30% of account",
+            "50% of account"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is one pip worth for a mini lot of EUR/USD?",
+          "options": [
+            "$1",
+            "$10",
+            "$0.10",
+            "$100"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "forex_3",
+      "title": "Major Currency Pairs",
+      "subtitle": "Characteristics and behavior of the most traded pairs",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Major currency pairs are the most heavily traded pairs in the forex market, always involving the US Dollar on one side. The four major pairs are EUR/USD, USD/JPY, GBP/USD, and USD/CHF. These pairs account for the majority of daily forex volume and offer the tightest spreads and highest liquidity.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "EUR/USD is the most traded currency pair globally, representing the eurozone economy against the US economy. It accounts for approximately 23% of all daily forex transactions. EUR/USD is known for its tight spreads, predictable technical patterns, and strong correlation with German bond yields and US interest rate differentials.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "USD/JPY is the second most traded pair, representing the US Dollar against the Japanese Yen. It is highly sensitive to interest rate differentials between the US and Japan. USD/JPY tends to move strongly during the Asian and US sessions. It is also sensitive to risk sentiment — during market turmoil, the yen often strengthens as a safe-haven currency.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "GBP/USD, known as Cable, represents the British Pound against the US Dollar. It is known for its volatile price swings and wider spreads compared to EUR/USD. The pair is heavily influenced by Bank of England policy decisions, UK economic data, and Brexit-related developments. Cable tends to move most during the London session.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "USD/CHF represents the US Dollar against the Swiss Franc. The Swiss Franc is considered a safe-haven currency, meaning it tends to strengthen during times of global economic uncertainty. The Swiss National Bank (SNB) actively intervenes in the forex market to prevent excessive Franc strength, which can impact Swiss exports.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "Commodity currencies include AUD/USD, USD/CAD, and NZD/USD. These pairs are heavily influenced by commodity prices. AUD/USD (Aussie) is sensitive to iron ore, coal, and gold prices. USD/CAD (Loonie) is influenced by crude oil prices. NZD/USD (Kiwi) responds to dairy and agricultural commodity prices.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "Cross pairs (or crosses) are currency pairs that do not include the US Dollar. Examples include EUR/GBP, EUR/JPY, and GBP/JPY. Crosses often exhibit different behavior than major pairs and can offer unique trading opportunities. They tend to have wider spreads because liquidity is lower than major pairs.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "Each currency pair has a distinct personality based on the economic characteristics of the countries involved. EUR/USD is driven by interest rate differentials. GBP/USD by economic growth data. USD/JPY by risk sentiment. AUD/USD by commodity prices. Understanding each pair's unique drivers is essential for successful trading.",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "animation",
+          "text": "Correlation between currency pairs is important to understand. EUR/USD and GBP/USD are positively correlated (tend to move in the same direction). USD/CHF is negatively correlated with EUR/USD. Trading correlated pairs can either amplify risk (if trading in the same direction) or hedge exposure (if trading in opposite directions).",
+          "concept": "forex_major_pairs"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_3_practice",
+          "text": "Practice exercise: Open the EUR/USD, GBP/USD, and USD/JPY charts. Compare their average daily range and identify which pair moves the most pips per day.",
+          "concept": "forex_major_pairs"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which is the most traded currency pair in the world?",
+          "options": [
+            "EUR/USD",
+            "GBP/USD",
+            "USD/JPY",
+            "USD/CHF"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is GBP/USD commonly known as?",
+          "options": [
+            "Cable",
+            "Loonie",
+            "Aussie",
+            "Kiwi"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which currency is considered a safe-haven?",
+          "options": [
+            "Swiss Franc",
+            "Australian Dollar",
+            "British Pound",
+            "Euro"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What influences USD/CAD the most?",
+          "options": [
+            "Crude oil prices",
+            "Gold prices",
+            "Iron ore prices",
+            "Dairy prices"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does a cross pair mean?",
+          "options": [
+            "A pair without USD",
+            "A pair with USD",
+            "A pair with JPY",
+            "A pair with EUR"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "forex_4",
+      "title": "Forex Market Sessions",
+      "subtitle": "Master the timing of the global forex market",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "The forex market operates 24 hours a day through four major trading sessions: Sydney, Tokyo, London, and New York. Each session opens and closes at specific times, creating periods of high and low activity. Understanding when each session is active helps you trade when volatility and liquidity are highest.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "The Sydney session opens at 5:00 PM EST (Sunday) and closes at 2:00 AM EST. It is the first session to open after the weekend. The Sydney session is typically the quietest with lower volatility and narrower ranges. It mainly affects AUD/USD, NZD/USD, and USD/JPY. This session sets the initial tone for the week.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "The Tokyo session opens at 7:00 PM EST and closes at 4:00 AM EST. Also known as the Asian session, it sees increased activity in yen pairs (USD/JPY, EUR/JPY, GBP/JPY). Japanese economic data releases during this session can cause significant volatility. The Tokyo session often establishes key levels for the rest of the day.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "The London session opens at 3:00 AM EST and closes at 12:00 PM EST. London handles approximately 34% of all forex transactions, making it the most important trading center. This session brings the highest liquidity and volatility, especially when it overlaps with the New York session. Most major moves happen during London hours.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "The New York session opens at 8:00 AM EST and closes at 5:00 PM EST. It accounts for about 17% of global forex volume. Key US economic data releases (NFP, CPI, GDP) occur during this session, causing major price movements. The overlap with the London session (8:00 AM to 12:00 PM EST) is the most active trading period of the day.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "Session overlaps create the highest volatility. The London-New York overlap (8:00 AM - 12:00 PM EST) is the most active period, with massive volume moving through EUR/USD, GBP/USD, and USD/JPY. The Tokyo-London overlap is minimal. The Sydney-Tokyo overlap (7:00 PM - 2:00 AM EST) offers moderate activity in yen and commodity pairs.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "Different currency pairs are most active during different sessions. EUR/USD and GBP/USD are most volatile during the London and New York sessions. USD/JPY peaks during the Tokyo and New York sessions. AUD/USD and NZD/USD move most during the Sydney and Tokyo sessions. Time your trading to match your preferred pairs.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "Economic news releases have a significant impact during their respective sessions. US data (Non-Farm Payrolls, CPI, FOMC decisions) moves markets during the New York session. European data (ECB decisions, German GDP) affects the London session. Japanese data (Tankan, CPI) impacts the Tokyo session. Always check the economic calendar before trading.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "Monday opens with the Sydney session, often continuing Friday's trend. Friday afternoons (New York session) typically see position-squaring and lower volatility as traders close positions before the weekend. Wednesday and Thursday are often the most active days. The first few hours of the London session (3 AM - 6 AM EST) offer some of the best trading opportunities.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_4_practice",
+          "text": "Practice exercise: Check the current time and identify which sessions are currently active. Note the pip range of EUR/USD during each session overlap.",
+          "concept": "forex_sessions"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which trading session handles the most forex volume?",
+          "options": [
+            "London",
+            "New York",
+            "Tokyo",
+            "Sydney"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the most active overlap period?",
+          "options": [
+            "London-New York",
+            "Tokyo-London",
+            "Sydney-Tokyo",
+            "New York-Sydney"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which session is typically the quietest?",
+          "options": [
+            "Sydney",
+            "London",
+            "New York",
+            "Tokyo"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "When does the London session open in EST?",
+          "options": [
+            "3:00 AM",
+            "7:00 PM",
+            "8:00 AM",
+            "5:00 PM"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which currency pairs are most active during Sydney session?",
+          "options": [
+            "AUD/USD and NZD/USD",
+            "EUR/USD and GBP/USD",
+            "USD/JPY and USD/CHF",
+            "All pairs equally"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "forex_5",
+      "title": "Fundamental Analysis",
+      "subtitle": "Understand the economic forces driving currency prices",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Fundamental analysis in forex involves evaluating economic indicators, central bank policies, and geopolitical events to determine a currency's intrinsic value. Unlike technical analysis which focuses on price patterns, fundamental analysis looks at the economic health of countries to predict currency movements.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "Interest rates are the single most important fundamental factor in forex. Central banks set interest rates to control inflation and promote economic growth. Higher interest rates attract foreign capital seeking better returns, strengthening the currency. Lower rates have the opposite effect. The interest rate differential between two currencies drives long-term trends.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "The Non-Farm Payrolls (NFP) report, released on the first Friday of each month, is the most impactful US economic indicator. It measures the number of jobs added in the US economy (excluding farming). A higher-than-expected NFP generally strengthens the USD as it signals a strong economy. NFP releases routinely cause 100+ pip moves.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "Consumer Price Index (CPI) measures inflation — the rate at which prices for goods and services rise. Central banks target around 2% inflation. High inflation leads to interest rate hikes (strengthening currency). Low inflation may lead to rate cuts (weakening currency). Core CPI (excluding food and energy) is closely watched by traders.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "GDP (Gross Domestic Product) measures the total economic output of a country. Strong GDP growth suggests a healthy economy and tends to strengthen the currency. Weak GDP growth suggests economic trouble and weakens the currency. GDP is released quarterly and is considered a lagging indicator — it confirms trends already visible in other data.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "Central banks use monetary policy tools to manage their economies. The Federal Reserve (Fed), European Central Bank (ECB), Bank of England (BOE), and Bank of Japan (BOJ) are the most influential. Policy decisions include interest rate changes, quantitative easing (QE), and forward guidance. FOMC meetings are among the most anticipated events in forex.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "Retail Sales, Industrial Production, and Consumer Confidence are leading indicators that provide early signals about economic direction. Retail Sales measure consumer spending (70% of US economy). Industrial Production measures factory output. Consumer Confidence surveys predict future spending. Strong readings in these indicators typically support the currency.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "Geopolitical events can cause dramatic currency movements. Elections, trade wars, military conflicts, and diplomatic tensions all impact currency values. For example, Brexit caused massive GBP volatility. Trade tensions between the US and China affected USD/CNH and emerging market currencies. Safe-haven currencies (USD, JPY, CHF) strengthen during global uncertainty.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "To trade fundamentals effectively: maintain an economic calendar, understand market expectations (consensus vs actual), and focus on the deviation from expectations rather than the absolute number. Markets move on surprises — if NFP matches expectations, the reaction is muted. If it deviates significantly, expect large moves. Always use stops when trading news events.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_5_practice",
+          "text": "Practice exercise: Check the economic calendar for today's high-impact news events. Note which currency pairs might be affected and plan potential trades around the releases.",
+          "concept": "forex_fundamentals"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the most important fundamental factor in forex?",
+          "options": [
+            "Interest rates",
+            "GDP growth",
+            "Inflation",
+            "Employment data"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does the Non-Farm Payrolls report measure?",
+          "options": [
+            "Jobs added excluding farming",
+            "Total jobs in the economy",
+            "Unemployment rate",
+            "Average hourly earnings"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What inflation rate do most central banks target?",
+          "options": [
+            "2%",
+            "0%",
+            "5%",
+            "10%"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Which central bank is most influential in forex?",
+          "options": [
+            "Federal Reserve (Fed)",
+            "European Central Bank (ECB)",
+            "Bank of England (BOE)",
+            "Bank of Japan (BOJ)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What causes the largest market reaction to economic data?",
+          "options": [
+            "Deviation from expectations",
+            "The absolute number",
+            "The time of release",
+            "The currency pair being traded"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "forex_6",
+      "title": "Technical Analysis for Forex",
+      "subtitle": "Charts, indicators, and patterns for better entries",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Technical analysis is the study of price action using charts and indicators. It is based on three assumptions: market action discounts everything, prices move in trends, and history repeats itself. In forex, technical analysis is widely used because of the market's tendency to respect key levels and form recognizable patterns.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Support and resistance are the foundation of technical analysis. Support is a price level where buying pressure is strong enough to prevent further decline. Resistance is where selling pressure prevents further advance. These levels form at previous swing highs and lows, round numbers, and trendlines. When broken, support becomes resistance and vice versa.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Trendlines connect successive swing highs (downtrend) or swing lows (uptrend) to identify the direction of the market. An uptrend is defined by higher highs and higher lows. A downtrend by lower highs and lower lows. A sideways (ranging) market has no clear direction. The trend is your friend — trading in the direction of the trend increases your probability of success.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Moving averages smooth price data to help identify trend direction and potential support/resistance. The Simple Moving Average (SMA) gives equal weight to all periods. The Exponential Moving Average (EMA) gives more weight to recent prices. Common settings are the 50-period and 200-period moving averages. A golden cross (50 above 200) signals an uptrend.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Relative Strength Index (RSI) is a momentum oscillator that measures the speed and magnitude of recent price changes. RSI ranges from 0 to 100. Readings above 70 indicate overbought conditions (potential reversal down). Readings below 30 indicate oversold conditions (potential reversal up). Divergence between RSI and price can signal trend exhaustion.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "MACD (Moving Average Convergence Divergence) shows the relationship between two moving averages. It consists of the MACD line (12-period EMA minus 26-period EMA), the signal line (9-period EMA of MACD), and the histogram (difference between MACD and signal). When MACD crosses above the signal line, it is bullish. Below the signal line, it is bearish.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Fibonacci retracement levels (38.2%, 50%, 61.8%) are used to identify potential reversal points within a trend. After a strong move, price often retraces to these levels before continuing in the original direction. The 61.8% level is the most significant. Fibonacci extensions (127.2%, 161.8%) project where price might go after a retracement completes.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Bollinger Bands consist of a middle SMA band with upper and lower bands set at 2 standard deviations. In a trending market, price walks up or down the bands. In a ranging market, price oscillates between the bands. When bands widen, volatility is increasing. When bands contract, volatility is decreasing. Price touching the upper or lower band does not automatically signal a reversal.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Combine multiple technical tools for higher probability setups. For example: identify the trend with moving averages, find a support level, wait for RSI to show oversold conditions, and look for a bullish candlestick pattern. The more confluence you have, the higher the probability of a successful trade. Keep your chart clean — too many indicators cause analysis paralysis.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_6_practice",
+          "text": "Practice exercise: On the EUR/USD chart, draw support and resistance levels, add a 50-period EMA, and identify potential entry points where multiple technical factors align.",
+          "concept": "forex_technical"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does RSI above 70 indicate?",
+          "options": [
+            "Overbought conditions",
+            "Oversold conditions",
+            "Strong trend",
+            "Low volatility"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does a golden cross signal?",
+          "options": [
+            "Uptrend (50 EMA above 200 EMA)",
+            "Downtrend (50 EMA below 200 EMA)",
+            "Sideways market",
+            "High volatility"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What happens when support is broken?",
+          "options": [
+            "It becomes resistance",
+            "It stays support",
+            "It disappears",
+            "It becomes stronger"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What percentage is the most significant Fibonacci retracement?",
+          "options": [
+            "61.8%",
+            "38.2%",
+            "50%",
+            "78.6%"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What do Bollinger Bands use to calculate band width?",
+          "options": [
+            "Standard deviation",
+            "RSI",
+            "Volume",
+            "Fibonacci"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "forex_7",
+      "title": "Price Action Trading",
+      "subtitle": "Read raw candlestick patterns like a professional",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "Price action trading is the purest form of technical analysis — making trading decisions based on raw price movements without relying on lagging indicators. Price action traders read candlestick patterns, support/resistance, and market structure to identify high-probability setups. This approach works well in forex because of the market's tendency to respect key levels.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "Each candlestick tells a story. The body represents the opening and closing prices. The wicks (shadows) represent the high and low prices. A long bullish body (close above open) indicates strong buying pressure. A long bearish body (close below open) indicates strong selling pressure. Long wicks suggest rejection of those price levels.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "The pin bar (also called hammer or shooting star) is one of the most reliable reversal patterns. It has a long wick and a small body. A bullish pin bar forms at support with a long lower wick, indicating price was rejected lower. A bearish pin bar forms at resistance with a long upper wick, indicating price was rejected higher. Trade in the direction of the pin bar body.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "An engulfing pattern occurs when a candle completely engulfs the previous candle's body. A bullish engulfing candle (large green candle that completely covers the previous red candle) signals a potential reversal up. A bearish engulfing candle (large red candle covering a green one) signals a potential reversal down. The larger the engulfing candle, the more significant the signal.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "Inside bars form when a candle's high and low are within the range of the previous candle. This indicates consolidation and decreasing volatility. An inside bar breakout in the direction of the prevailing trend often signals the continuation of the move. The breakout can be traded by entering when price exceeds the inside bar's high (long) or low (short).",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "The doji candle has a very small or nonexistent body, with open and close at nearly the same price. It represents indecision in the market. A doji after a strong uptrend suggests buyers are losing momentum. A doji after a strong downtrend suggests sellers are losing momentum. When combined with support or resistance, dojis can signal trend reversals.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "Fakeouts (also called false breakouts or spring traps) occur when price temporarily breaks a key level but immediately reverses. In forex, fakeouts are common because institutions often push price through obvious levels to trigger stop losses before moving in the real direction. Trading fakeouts requires waiting for the false break to be confirmed before entering.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "Market structure breaks are powerful price action signals. A break of structure (BOS) occurs when price breaks a previous swing high in an uptrend or a previous swing low in a downtrend. A change of character (CHoCH) occurs when the market structure shifts from uptrend to downtrend or vice versa. These concepts form the bridge between pure price action and SMC.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "To build a price action trading system: identify the trend using market structure, mark key support and resistance levels, wait for a clear candlestick pattern at a key level, and enter with a stop loss beyond the pattern's extreme. Price action is simple but requires practice and patience to master. Start by paper trading and reviewing your setups regularly.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_7_practice",
+          "text": "Practice exercise: Scan the EUR/USD chart for pin bars, engulfing patterns, and inside bars at key support/resistance levels. Mark your potential trade entries on the chart.",
+          "concept": "forex_price_action"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does a pin bar indicate?",
+          "options": [
+            "Price rejection at that level",
+            "Strong trend continuation",
+            "Market indecision",
+            "Low volatility"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is an engulfing pattern?",
+          "options": [
+            "A candle that completely covers the previous candle's body",
+            "A candle with a very small body",
+            "A candle inside the previous candle's range",
+            "A candle with very long wicks"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What does a doji candle represent?",
+          "options": [
+            "Market indecision",
+            "Strong buying pressure",
+            "Strong selling pressure",
+            "Trend continuation"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a fakeout?",
+          "options": [
+            "A temporary breakout that immediately reverses",
+            "A strong breakout with continuation",
+            "A candlestick pattern",
+            "A fundamental event"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a break of structure (BOS)?",
+          "options": [
+            "Price breaks a previous swing high/low in trend direction",
+            "Price reverses at a key level",
+            "Price forms a doji",
+            "Price gaps overnight"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "forex_8",
+      "title": "Forex Trading Plan",
+      "subtitle": "Build a complete system for consistent trading",
+      "steps": [
+        {
+          "type": "animation",
+          "text": "A trading plan is your complete set of rules for entering, managing, and exiting trades. It removes emotion from your decisions and ensures consistency. Every professional trader has a written trading plan. Without one, you are gambling, not trading. Your plan must cover: what to trade, when to trade, how to enter, how to manage risk, and when to exit.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Start by defining your trading style based on your personality and schedule. Scalping (seconds to minutes) requires constant screen time. Day trading (minutes to hours) suits those who can trade during active sessions. Swing trading (days to weeks) is ideal for people with a day job. Position trading (weeks to months) focuses on long-term trends. Choose one and master it.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Your trade entry rules must be specific and objective. For example: 'I will enter a long trade when price reaches a 61.8% Fibonacci retracement of the previous swing, RSI is below 30, and a bullish engulfing pattern forms at the level.' The more specific your rules, the easier it is to identify valid setups and avoid questionable trades. Write down every entry condition.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Risk management is the most important part of your trading plan. Never risk more than 1-2% of your account on any single trade. Set your stop loss at a level that invalidates your trading thesis. Calculate position size based on your stop loss distance. A good trader can be wrong 50% of the time and still be profitable if risk is managed properly.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Your risk-to-reward ratio (RR) determines whether you can be profitable over time. A minimum 1:2 RR means you risk 1 unit to make 2 units. Even with a 40% win rate and 1:2 RR, you would be profitable. Always define your target levels before entering a trade. Use previous support/resistance, Fibonacci extensions, or volatility-based targets.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "A trading journal is essential for improvement. Record every trade: entry/exit prices, date/time, setup type, screen shot of the chart, emotional state, and lessons learned. Review your journal weekly to identify patterns in your winning and losing trades. Most traders discover they make the same mistakes repeatedly — the journal helps you break those patterns.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Trading psychology is often the difference between success and failure. Common psychological traps include: revenge trading (trying to recover a loss immediately), FOMO (fear of missing out, chasing price), and overtrading (taking too many low-quality setups). Develop a pre-trade routine to check your mental state. If you are angry, tired, or distracted — do not trade.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Your daily routine should include: check the economic calendar, analyze higher timeframe structure, identify key levels, wait for your specific setup, execute according to your plan, and close your charts. Do not stare at open positions — it leads to emotional decisions. Place your stop and target, then let the market do the work.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Continuous education is vital. The market evolves, and so must you. Review your trades weekly, read trading books (Trading in the Zone by Mark Douglas, Technical Analysis of the Financial Markets by John Murphy), follow professional traders, and keep learning. Demo trade new strategies before using them on a live account. The journey from novice to professional takes years — be patient and persistent.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "interaction",
+          "chartId": "forex_8_practice",
+          "text": "Practice exercise: Write down your complete trading plan for next week. Include your trading style, entry rules, risk management parameters, and daily routine. Then execute your plan and review the results.",
+          "concept": "forex_trading_plan"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why is a trading plan important?",
+          "options": [
+            "It removes emotion and ensures consistency",
+            "It guarantees profits",
+            "It predicts market direction",
+            "It replaces risk management"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the recommended maximum risk per trade?",
+          "options": [
+            "1-2% of account",
+            "5-10% of account",
+            "15-20% of account",
+            "25-30% of account"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a minimum recommended risk-to-reward ratio?",
+          "options": [
+            "1:2",
+            "1:1",
+            "2:1",
+            "1:5"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the purpose of a trading journal?",
+          "options": [
+            "To identify patterns and improve",
+            "To calculate taxes",
+            "To share with other traders",
+            "To predict future trades"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What should you do if you feel angry or tired before trading?",
+          "options": [
+            "Skip trading for the day",
+            "Trade smaller size",
+            "Trade only your best setup",
+            "Take a break and return in 30 minutes"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}
