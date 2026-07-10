@@ -1,0 +1,23 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "TEAM_ID.com.fxnavigator.fxnavigator",
+                    "TEAM_ID.com.fxnavigator.fxnavigator.dev"
+                ],
+                "paths": [
+                    "/ref/*",
+                    "/competition*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "TEAM_ID.com.fxnavigator.fxnavigator",
+            "TEAM_ID.com.fxnavigator.fxnavigator.dev"
+        ]
+    }
+}
