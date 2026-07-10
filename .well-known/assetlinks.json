@@ -1,0 +1,35 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "sd.elteyab.fxapp",
+      "sha256_cert_fingerprints": [
+        "DD:8C:25:D5:E1:90:13:52:69:AB:D4:25:7A:73:1B:83:BF:71:A0:A1:AA:4D:39:CF:5F:25:5B:B3:4E:4D:AF:6D"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "sd.elteyab.fxapp",
+      "sha256_cert_fingerprints": [
+        "1B:60:AF:74:FF:31:53:C4:BE:55:0C:AC:53:5C:2A:97:5F:6C:E1:8D"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "sd.elteyab.fxapp.dev",
+      "sha256_cert_fingerprints": [
+        "21:CD:EA:D8:1F:EE:5F:C4:C8:2B:71:D2:B5:5E:7C:54:A6:38:CA:97"
+      ]
+    }
+  }
+]
