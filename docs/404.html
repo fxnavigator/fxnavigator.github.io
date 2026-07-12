@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        (function () {
+            var path = window.location.pathname;
+            var refMatch = path.match(/\/ref\/([^/?#]+)/);
+
+            if (refMatch) {
+                var code = refMatch[1];
+                window.location.replace('/ref/index.html?code=' + encodeURIComponent(code));
+            } else {
+                window.location.replace('/');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
