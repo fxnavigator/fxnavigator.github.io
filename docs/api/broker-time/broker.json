@@ -1,3 +1,1550 @@
 {
-  
+  "version": 1,
+  "generatedAt": "2026-08-17T21:07:22.769951Z",
+  "count": 52,
+  "brokers": [
+    {
+      "id": "exness",
+      "type": "broker",
+      "displayName": "Exness",
+      "aliases": [
+        "إكسنس",
+        "اكسنس"
+      ],
+      "description": "Global retail broker (CySEC/FSA).",
+      "brokerId": "exness",
+      "baseProfileId": "general",
+      "verificationStatus": "verified",
+      "sourceName": "Exness Help Center",
+      "sourceUrl": "https://get.exness.help/hc/en-us/articles/360014390760",
+      "verifiedAt": "2026-08-17T00:00:00.000",
+      "serverTimezone": "UTC",
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "mena",
+        "africa",
+        "asia"
+      ],
+      "website": "https://www.exness.com",
+      "notes": "Server time fixed at GMT+0 year-round (official).",
+      "sessionOverrides": null
+    },
+    {
+      "id": "xm",
+      "type": "broker",
+      "displayName": "XM",
+      "aliases": [
+        "xm group",
+        "إكس إم",
+        "اكس ام"
+      ],
+      "description": "Global retail broker (ASIC/CySEC/IFSC).",
+      "brokerId": "xm",
+      "baseProfileId": "general",
+      "verificationStatus": "verified",
+      "sourceName": "XM FAQ",
+      "sourceUrl": "https://xem.fxsignup.com/en/faq/2022041104.html",
+      "verifiedAt": "2026-08-17T00:00:00.000",
+      "serverTimezone": "Asia/Nicosia",
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "mena",
+        "europe"
+      ],
+      "website": "https://www.xm.com",
+      "notes": "Server shows Cyprus time GMT+2 (GMT+3 in summer) (official).",
+      "sessionOverrides": null
+    },
+    {
+      "id": "ic-markets",
+      "type": "broker",
+      "displayName": "IC Markets",
+      "aliases": [
+        "icmarkets",
+        "آي سي ماركتس"
+      ],
+      "description": "ECN/STP broker (ASIC/CySEC).",
+      "brokerId": "ic-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "verified",
+      "sourceName": "IC Markets",
+      "sourceUrl": "https://www.icmarkets.eu/en/trading-pricing/trading-hours",
+      "verifiedAt": "2026-08-17T00:00:00.000",
+      "serverTimezone": "Europe/Athens",
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "europe"
+      ],
+      "website": "https://www.icmarkets.com",
+      "notes": "Server GMT+2 winter / GMT+3 summer following the US DST cycle (5pm New York close) (official).",
+      "sessionOverrides": null
+    },
+    {
+      "id": "hfm",
+      "type": "broker",
+      "displayName": "HFM",
+      "aliases": [
+        "hfm markets",
+        "hfm",
+        "إتش إف إم",
+        "هفم"
+      ],
+      "description": "Retail broker (CySEC/FSCA), formerly HotForex.",
+      "brokerId": "hfm",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "mena",
+      "supportedRegions": [
+        "mena",
+        "africa",
+        "global"
+      ],
+      "website": "https://www.hfm.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "oanda",
+      "type": "broker",
+      "displayName": "OANDA",
+      "aliases": [
+        "اواندا"
+      ],
+      "description": "Global broker with price data API (CFTC/FCA).",
+      "brokerId": "oanda",
+      "baseProfileId": "general",
+      "verificationStatus": "verified",
+      "sourceName": "OANDA",
+      "sourceUrl": "https://www.oanda.com/us-en/trading/hours-of-operation",
+      "verifiedAt": "2026-08-17T00:00:00.000",
+      "serverTimezone": "America/New_York",
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.oanda.com",
+      "notes": "FX markets open Sunday 5pm to Friday 5pm New York time (official).",
+      "sessionOverrides": null
+    },
+    {
+      "id": "avatrade",
+      "type": "broker",
+      "displayName": "AvaTrade",
+      "aliases": [
+        "ava trade",
+        "افاتريد"
+      ],
+      "description": "Global retail broker (Central Bank of Ireland).",
+      "brokerId": "avatrade",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.avatrade.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "pepperstone",
+      "type": "broker",
+      "displayName": "Pepperstone",
+      "aliases": [
+        "بيبرستون"
+      ],
+      "description": "ECN/STP broker (ASIC/FCA).",
+      "brokerId": "pepperstone",
+      "baseProfileId": "general",
+      "verificationStatus": "verified",
+      "sourceName": "Pepperstone",
+      "sourceUrl": "https://pepperstone.com/en-gb/about-us/trading-hours",
+      "verifiedAt": "2026-08-17T00:00:00.000",
+      "serverTimezone": "Europe/Athens",
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "europe"
+      ],
+      "website": "https://www.pepperstone.com",
+      "notes": "Server GMT+2 winter / GMT+3 summer following the US DST cycle (official).",
+      "sessionOverrides": null
+    },
+    {
+      "id": "fxpro",
+      "type": "broker",
+      "displayName": "FxPro",
+      "aliases": [
+        "fx pro",
+        "اف اكس برو"
+      ],
+      "description": "Global retail broker (FCA/CySEC).",
+      "brokerId": "fxpro",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.fxpro.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "xtb",
+      "type": "broker",
+      "displayName": "XTB",
+      "aliases": [
+        "اكس تي بي"
+      ],
+      "description": "Global broker (FCA/KNF/DFSA).",
+      "brokerId": "xtb",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.xtb.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "fxopen",
+      "type": "broker",
+      "displayName": "FXOpen",
+      "aliases": [
+        "اف اكس اوبن"
+      ],
+      "description": "ECN/STP broker (FCA/ASIC).",
+      "brokerId": "fxopen",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.fxopen.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "tickmill",
+      "type": "broker",
+      "displayName": "Tickmill",
+      "aliases": [
+        "تيك ميل"
+      ],
+      "description": "ECN broker (FCA/CySEC/SCB).",
+      "brokerId": "tickmill",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "africa"
+      ],
+      "website": "https://www.tickmill.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "moneta-markets",
+      "type": "broker",
+      "displayName": "Moneta Markets",
+      "aliases": [
+        "moneta",
+        "مونيتا"
+      ],
+      "description": "ECN/STP broker (FSCA).",
+      "brokerId": "moneta-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "africa",
+        "mena",
+        "global"
+      ],
+      "website": "https://www.monetamarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "dukascopy",
+      "type": "broker",
+      "displayName": "Dukascopy",
+      "aliases": [
+        "دوكاسكوبي"
+      ],
+      "description": "Swiss bank & ECN broker (FINMA).",
+      "brokerId": "dukascopy",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.dukascopy.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "fbs",
+      "type": "broker",
+      "displayName": "FBS",
+      "aliases": [
+        "اف بي اس"
+      ],
+      "description": "International broker (IFSC).",
+      "brokerId": "fbs",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "mena",
+      "supportedRegions": [
+        "mena",
+        "asia",
+        "global"
+      ],
+      "website": "https://fbs.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "fp-markets",
+      "type": "broker",
+      "displayName": "FP Markets",
+      "aliases": [
+        "fp markets",
+        "اف بي ماركتس"
+      ],
+      "description": "ECN/STP broker (ASIC/CySEC).",
+      "brokerId": "fp-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.fpmarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "fxtm",
+      "type": "broker",
+      "displayName": "FXTM",
+      "aliases": [
+        "forextime",
+        "forex time",
+        "فوركس تايم",
+        "اف اكس تي ام"
+      ],
+      "description": "Global broker (FSCA/CySEC), formerly ForexTime.",
+      "brokerId": "fxtm",
+      "baseProfileId": "general",
+      "verificationStatus": "verified",
+      "sourceName": "FXTM",
+      "sourceUrl": "https://www.fxtm.com/en/help/trading-platform/features-and-settings/what-time-zone-is-your-server-set-to/",
+      "verifiedAt": "2026-08-17T00:00:00.000",
+      "serverTimezone": "Europe/Athens",
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "africa",
+        "mena",
+        "asia"
+      ],
+      "website": "https://www.forextime.com",
+      "notes": "Server time GMT+2 standard, GMT+3 during DST (official).",
+      "sessionOverrides": null
+    },
+    {
+      "id": "admirals",
+      "type": "broker",
+      "displayName": "Admirals",
+      "aliases": [
+        "admiral markets",
+        "أدميرالز"
+      ],
+      "description": "Global broker (FCA/CySEC).",
+      "brokerId": "admirals",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://admiralmarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "ig",
+      "type": "broker",
+      "displayName": "IG",
+      "aliases": [
+        "ig group",
+        "آي جي"
+      ],
+      "description": "Global broker (FCA/ASIC).",
+      "brokerId": "ig",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.ig.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "forex-com",
+      "type": "broker",
+      "displayName": "FOREX.com",
+      "aliases": [
+        "forex com",
+        "forex.com",
+        "فوركس دوت كوم"
+      ],
+      "description": "Global broker (CFTC/FCA/ASIC).",
+      "brokerId": "forex-com",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.forex.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "cmc-markets",
+      "type": "broker",
+      "displayName": "CMC Markets",
+      "aliases": [
+        "cmc",
+        "سي ام سي"
+      ],
+      "description": "Global broker (FCA/ASIC).",
+      "brokerId": "cmc-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.cmcmarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "plus500",
+      "type": "broker",
+      "displayName": "Plus500",
+      "aliases": [
+        "بلس 500",
+        "بلس500"
+      ],
+      "description": "Global CFD broker (FCA/CySEC).",
+      "brokerId": "plus500",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.plus500.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "vantage",
+      "type": "broker",
+      "displayName": "Vantage",
+      "aliases": [
+        "vantage markets",
+        "فانتاج"
+      ],
+      "description": "Global CFD broker (ASIC/VFSC).",
+      "brokerId": "vantage",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.vantagemarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "roboforex",
+      "type": "broker",
+      "displayName": "RoboForex",
+      "aliases": [
+        "robo forex",
+        "روبوفوركس"
+      ],
+      "description": "International broker (IFSC).",
+      "brokerId": "roboforex",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.roboforex.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "iux",
+      "type": "broker",
+      "displayName": "IUX",
+      "aliases": [
+        "iux markets",
+        "أي يو إكس"
+      ],
+      "description": "MENA-focused broker (FSC).",
+      "brokerId": "iux",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "mena",
+      "supportedRegions": [
+        "mena",
+        "africa",
+        "asia"
+      ],
+      "website": "https://iux.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "octa",
+      "type": "broker",
+      "displayName": "Octa",
+      "aliases": [
+        "octafx",
+        "octa fx",
+        "أوكتا"
+      ],
+      "description": "International broker, formerly OctaFX.",
+      "brokerId": "octa",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://octa.net",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "fxcm",
+      "type": "broker",
+      "displayName": "FXCM",
+      "aliases": [
+        "اف اكس سي ام"
+      ],
+      "description": "Global broker (FCA/ASIC).",
+      "brokerId": "fxcm",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.fxcm.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "trading212",
+      "type": "broker",
+      "displayName": "Trading 212",
+      "aliases": [
+        "trading212",
+        "ترادينج 212"
+      ],
+      "description": "Global CFD broker (FCA).",
+      "brokerId": "trading212",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.trading212.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "thinkmarkets",
+      "type": "broker",
+      "displayName": "ThinkMarkets",
+      "aliases": [
+        "think markets",
+        "ثينك ماركتس"
+      ],
+      "description": "Global broker (FCA/ASIC).",
+      "brokerId": "thinkmarkets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.thinkmarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "eightcap",
+      "type": "broker",
+      "displayName": "Eightcap",
+      "aliases": [
+        "eight cap",
+        "إيت كاب"
+      ],
+      "description": "ECN broker (ASIC/VFSC).",
+      "brokerId": "eightcap",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia"
+      ],
+      "website": "https://www.eightcap.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "axi",
+      "type": "broker",
+      "displayName": "Axi",
+      "aliases": [
+        "axi trader",
+        "أكسي"
+      ],
+      "description": "Global broker (ASIC/FCA).",
+      "brokerId": "axi",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.axi.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "easymarkets",
+      "type": "broker",
+      "displayName": "easyMarkets",
+      "aliases": [
+        "easy markets",
+        "إيزي ماركتس"
+      ],
+      "description": "Global broker (CySEC/ASIC).",
+      "brokerId": "easymarkets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.easymarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "capital-com",
+      "type": "broker",
+      "displayName": "Capital.com",
+      "aliases": [
+        "capitalcom",
+        "كابيتال دوت كوم"
+      ],
+      "description": "Global CFD broker (FCA/CySEC).",
+      "brokerId": "capital-com",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://capital.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "blackbull",
+      "type": "broker",
+      "displayName": "BlackBull Markets",
+      "aliases": [
+        "black bull",
+        "بلاك بول"
+      ],
+      "description": "ECN broker (FMA).",
+      "brokerId": "blackbull",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia"
+      ],
+      "website": "https://www.blackbull.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "fusion-markets",
+      "type": "broker",
+      "displayName": "Fusion Markets",
+      "aliases": [
+        "fusion",
+        "فيوجن ماركتس"
+      ],
+      "description": "Low-cost ECN broker (ASIC/VFSC).",
+      "brokerId": "fusion-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia"
+      ],
+      "website": "https://www.fusionmarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "tmgm",
+      "type": "broker",
+      "displayName": "TMGM",
+      "aliases": [
+        "trademax",
+        "تي ام جي ام"
+      ],
+      "description": "Global broker (ASIC/VFSC).",
+      "brokerId": "tmgm",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.tmgm.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "activtrades",
+      "type": "broker",
+      "displayName": "ActivTrades",
+      "aliases": [
+        "activ trades",
+        "أكتيف تريدز"
+      ],
+      "description": "Global broker (FCA).",
+      "brokerId": "activtrades",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.activtrades.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "city-index",
+      "type": "broker",
+      "displayName": "City Index",
+      "aliases": [
+        "cityindex",
+        "سيتي إندكس"
+      ],
+      "description": "Global broker (FCA).",
+      "brokerId": "city-index",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.cityindex.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "hycm",
+      "type": "broker",
+      "displayName": "HYCM",
+      "aliases": [
+        "hy markets",
+        "اتش واي سي ام"
+      ],
+      "description": "Global broker (FCA/CySEC).",
+      "brokerId": "hycm",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.hycm.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "atfx",
+      "type": "broker",
+      "displayName": "ATFX",
+      "aliases": [
+        "أي تي اف اكس"
+      ],
+      "description": "Global broker (FCA/CySEC).",
+      "brokerId": "atfx",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "mena",
+      "supportedRegions": [
+        "mena",
+        "asia",
+        "global"
+      ],
+      "website": "https://www.atfx.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "puprime",
+      "type": "broker",
+      "displayName": "PU Prime",
+      "aliases": [
+        "pu prime",
+        "بي يو برايم"
+      ],
+      "description": "Global broker (FSA/Seychelles).",
+      "brokerId": "puprime",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "mena",
+      "supportedRegions": [
+        "mena",
+        "asia",
+        "africa"
+      ],
+      "website": "https://www.puprime.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "vt-markets",
+      "type": "broker",
+      "displayName": "VT Markets",
+      "aliases": [
+        "vtmarkets",
+        "في تي ماركتس"
+      ],
+      "description": "Global broker (ASIC).",
+      "brokerId": "vt-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia"
+      ],
+      "website": "https://www.vtmarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "hantec-markets",
+      "type": "broker",
+      "displayName": "Hantec Markets",
+      "aliases": [
+        "hantec",
+        "هانتك"
+      ],
+      "description": "Global broker (FCA).",
+      "brokerId": "hantec-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "asia"
+      ],
+      "website": "https://www.hantecmarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "swissquote",
+      "type": "broker",
+      "displayName": "Swissquote",
+      "aliases": [
+        "سويسكوت"
+      ],
+      "description": "Swiss bank & broker (FINMA).",
+      "brokerId": "swissquote",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.swissquote.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "saxo",
+      "type": "broker",
+      "displayName": "Saxo",
+      "aliases": [
+        "saxo bank",
+        "ساكسو"
+      ],
+      "description": "Danish multi-asset bank (FSA Denmark).",
+      "brokerId": "saxo",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.home.saxo",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "libertex",
+      "type": "broker",
+      "displayName": "Libertex",
+      "aliases": [
+        "ليبرتكس"
+      ],
+      "description": "Global CFD broker (CySEC/FSCA).",
+      "brokerId": "libertex",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://libertex.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "markets-com",
+      "type": "broker",
+      "displayName": "Markets.com",
+      "aliases": [
+        "markets com",
+        "ماركتس دوت كوم"
+      ],
+      "description": "Global broker (FCA/CySEC).",
+      "brokerId": "markets-com",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "popular",
+      "supportedRegions": [
+        "global",
+        "europe",
+        "mena"
+      ],
+      "website": "https://www.markets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "trade-nation",
+      "type": "broker",
+      "displayName": "Trade Nation",
+      "aliases": [
+        "trade nation",
+        "ترايد نيشن"
+      ],
+      "description": "Global broker (FCA/ASIC).",
+      "brokerId": "trade-nation",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://www.tradenation.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "go-markets",
+      "type": "broker",
+      "displayName": "GO Markets",
+      "aliases": [
+        "go markets",
+        "جو ماركتس"
+      ],
+      "description": "Global broker (ASIC/CySEC).",
+      "brokerId": "go-markets",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.gomarkets.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "startrader",
+      "type": "broker",
+      "displayName": "StarTrader",
+      "aliases": [
+        "star trader",
+        "ستار تريدر"
+      ],
+      "description": "Global broker (FSA).",
+      "brokerId": "startrader",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "mena",
+        "asia"
+      ],
+      "website": "https://www.startrader.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "multibank",
+      "type": "broker",
+      "displayName": "MultiBank Group",
+      "aliases": [
+        "multibank",
+        "مولتي بنك"
+      ],
+      "description": "Global broker (ASIC/VFSC).",
+      "brokerId": "multibank",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "mena",
+      "supportedRegions": [
+        "mena",
+        "asia",
+        "global"
+      ],
+      "website": "https://www.multibankfx.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "doo-prime",
+      "type": "broker",
+      "displayName": "Doo Prime",
+      "aliases": [
+        "doo prime",
+        "دو برايم"
+      ],
+      "description": "ECN broker (FSA).",
+      "brokerId": "doo-prime",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "ecnStp",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "mena"
+      ],
+      "website": "https://www.doogroup.com",
+      "notes": null,
+      "sessionOverrides": null
+    },
+    {
+      "id": "alpari",
+      "type": "broker",
+      "displayName": "Alpari",
+      "aliases": [
+        "ألباري"
+      ],
+      "description": "International broker (FSA).",
+      "brokerId": "alpari",
+      "baseProfileId": "general",
+      "verificationStatus": "unverified",
+      "sourceName": "Official broker trading-hours / server-time documentation",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "serverTimezone": null,
+      "scheduleProfileId": "standard_forex_2026",
+      "scheduleMode": "inherit",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "category": "global",
+      "supportedRegions": [
+        "global",
+        "asia",
+        "africa"
+      ],
+      "website": "https://alpari.com",
+      "notes": null,
+      "sessionOverrides": null
+    }
+  ]
 }
