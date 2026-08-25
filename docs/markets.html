@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Live Forex Markets — Quotes, Charts &amp; Economic Calendar | FXNavigator</title>
+  <meta name="description" content="Live forex quotes, gold and silver prices, crypto and indices with interactive candlestick charts, economic calendar and market news — powered by FXNavigator.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://fx.smart.sd/markets.html">
+  <meta name="theme-color" content="#070d1a">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FXNavigator">
+  <meta property="og:title" content="Live Forex Markets — FXNavigator">
+  <meta property="og:description" content="Real-time quotes, candlestick charts, economic calendar and market news.">
+  <meta property="og:url" content="https://fx.smart.sd/markets.html">
+  <meta property="og:image" content="https://fx.smart.sd/images/appscreen/home.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "FXNavigator", "item": "https://fx.smart.sd/" },
+      { "@type": "ListItem", "position": 2, "name": "Live Markets", "item": "https://fx.smart.sd/markets.html" }
+    ]
+  }
+  </script>
+
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{
+      --bg:#070d1a;--bg2:#0b1120;--bg3:#101a30;--card:#0e1628;
+      --border:#1c2942;--border2:#2c3d5c;
+      --text:#eef2f9;--text2:#a3b1c9;--text3:#667795;
+      --accent:#38bdf8;--accent2:#818cf8;--gold:#fbbf24;
+      --up:#34d399;--down:#fb5065;
+      --grad:linear-gradient(135deg,#38bdf8,#818cf8);
+      --radius:14px;--tr:.22s cubic-bezier(.4,0,.2,1);
+      --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
+    }
+    html{scroll-behavior:smooth;scroll-padding-top:80px}
+    body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    body.rtl{direction:rtl;font-family:'Cairo',var(--font)}
+    a{color:var(--accent);text-decoration:none}
+    button{font-family:inherit}
+    :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+    .container{max-width:1180px;margin-inline:auto;padding-inline:18px}
+
+    header.nav{position:sticky;top:0;z-index:90;background:rgba(7,13,26,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
+    .brand{display:flex;align-items:center;gap:9px;font-size:17.5px;font-weight:800;color:var(--text)}
+    .brand img{width:28px;height:28px;border-radius:7px}
+    .brand span{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    body.rtl .brand span{-webkit-text-fill-color:initial;background:none;color:var(--accent)}
+    .nav-actions{display:flex;align-items:center;gap:8px}
+    .btn{display:inline-flex;align-items:center;gap:7px;border:none;cursor:pointer;background:var(--bg3);color:var(--text);border:1px solid var(--border2);border-radius:999px;padding:9px 16px;font-size:13px;font-weight:600;transition:var(--tr);min-height:40px;text-decoration:none}
+    .btn:hover{border-color:var(--accent);color:var(--accent)}
+    .btn-primary{background:var(--grad);color:#04101d;border-color:transparent;font-weight:700}
+    .btn-primary:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(56,189,248,.35);color:#04101d}
+
+    .statusbar{display:flex;align-items:center;gap:10px 20px;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid var(--border);background:var(--bg2);font-size:13px;color:var(--text2)}
+    .conn{display:inline-flex;align-items:center;gap:7px;font-weight:700}
+    .dot{width:9px;height:9px;border-radius:50%;background:var(--text3);box-shadow:0 0 8px transparent}
+    .conn.live .dot{background:var(--up);box-shadow:0 0 8px rgba(52,211,153,.8);animation:pulse 2s infinite}
+    .conn.polling .dot{background:var(--gold)}
+    .conn.offline .dot{background:var(--down)}
+    @keyframes pulse{50%{opacity:.45}}
+    .sessions{display:flex;gap:8px;flex-wrap:wrap;margin-inline-start:auto}
+    .session{padding:3px 11px;border-radius:999px;border:1px solid var(--border2);font-size:12px;color:var(--text3)}
+    .session.open{border-color:rgba(52,211,153,.5);color:var(--up)}
+
+    main{padding:26px 0 60px}
+    h1{font-size:clamp(22px,3.4vw,30px);font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
+    .page-sub{color:var(--text3);font-size:14px;margin-bottom:22px}
+
+    .tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+    .tab{padding:10px 20px;border-radius:999px;border:1px solid var(--border2);background:var(--card);color:var(--text2);font-size:13.5px;font-weight:600;cursor:pointer;transition:var(--tr);min-height:42px}
+    .tab:hover{border-color:var(--accent);color:var(--accent)}
+    .tab.active{background:var(--grad);color:#04101d;border-color:transparent}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+    .qcard{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;cursor:pointer;transition:var(--tr);position:relative}
+    .qcard:hover{border-color:rgba(56,189,248,.55);transform:translateY(-2px)}
+    .qcard.selected{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+    .qcard .sym{font-size:14.5px;font-weight:800;display:flex;align-items:center;gap:8px}
+    .qcard .sym .state{margin-inline-start:auto;font-size:9.5px;font-weight:700;padding:1px 6px;border-radius:4px;text-transform:uppercase;letter-spacing:.4px;background:rgba(148,163,184,.12);color:var(--text3)}
+    .qcard .sym .state.open{background:rgba(52,211,153,.14);color:var(--up)}
+    .qcard .price{font-size:21px;font-weight:800;margin-top:8px;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+    .qcard .chg{display:inline-block;font-size:12px;font-weight:700;margin-top:4px;padding:1px 8px;border-radius:5px}
+    .chg.up{color:var(--up);background:rgba(52,211,153,.12)}
+    .chg.down{color:var(--down);background:rgba(251,80,101,.12)}
+    .chg.flat{color:var(--text3);background:rgba(148,163,184,.1)}
+    .qcard .row{display:flex;justify-content:space-between;font-size:11.5px;color:var(--text3);margin-top:7px;font-variant-numeric:tabular-nums}
+    .flash-up{animation:fUp .5s}
+    .flash-down{animation:fDown .5s}
+    @keyframes fUp{0%{color:var(--up)}100%{}}
+    @keyframes fDown{0%{color:var(--down)}100%{}}
+
+    .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);margin-top:22px;overflow:hidden}
+    .panel-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:15px 18px;border-bottom:1px solid var(--border)}
+    .panel-head h2{font-size:15.5px;font-weight:750}
+    .panel-body{padding:16px 18px}
+    .intervals{display:flex;gap:6px;flex-wrap:wrap;margin-inline-start:auto}
+    .ivl{padding:6px 13px;font-size:12px;border-radius:8px;border:1px solid var(--border2);background:transparent;color:var(--text2);cursor:pointer;transition:var(--tr);min-height:34px}
+    .ivl:hover{border-color:var(--accent);color:var(--accent)}
+    .ivl.active{background:rgba(56,189,248,.14);border-color:var(--accent);color:var(--accent);font-weight:700}
+    #chart{width:100%;height:420px}
+    #chartNote{text-align:center;color:var(--text3);font-size:12.5px;padding:60px 20px}
+
+    .cal-table{width:100%;border-collapse:collapse;font-size:13.5px}
+    .cal-table th{color:var(--text3);font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;text-align:start;padding:9px 12px;border-bottom:1px solid var(--border2)}
+    .cal-table td{padding:10px 12px;border-bottom:1px solid var(--border);font-variant-numeric:tabular-nums}
+    .cal-table tr:last-child td{border-bottom:none}
+    .imp{display:inline-block;width:8px;height:8px;border-radius:50%;vertical-align:middle}
+    .imp.high{background:var(--down)}.imp.medium{background:var(--gold)}.imp.low{background:var(--text3)}
+    .cur{font-weight:800;color:var(--accent);font-size:12px}
+    .actual-better{color:var(--up);font-weight:700}
+    .actual-worse{color:var(--down);font-weight:700}
+
+    .news-list{display:grid;gap:2px}
+    .news-item{display:block;padding:12px 6px;border-bottom:1px solid var(--border);color:var(--text);transition:var(--tr)}
+    .news-item:last-child{border-bottom:none}
+    .news-item:hover{background:rgba(56,189,248,.04)}
+    .news-item .t{font-size:14px;font-weight:600;line-height:1.45}
+    .news-item .m{font-size:12px;color:var(--text3);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap}
+
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .movers-list{display:grid;gap:8px}
+    .mover{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:10px;font-size:13px;cursor:pointer;transition:var(--tr)}
+    .mover:hover{border-color:rgba(56,189,248,.55)}
+    .mover .s{font-weight:750;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .mover .p{color:var(--text3);font-size:12px;font-variant-numeric:tabular-nums}
+
+    footer{border-top:1px solid var(--border);padding:26px 0 calc(26px + env(safe-area-inset-bottom));background:var(--bg2);font-size:13px;color:var(--text3)}
+    .foot-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+    .foot-row input{flex:1;min-width:220px;background:var(--bg3);border:1px solid var(--border2);border-radius:10px;padding:10px 14px;color:var(--text);font-size:13px;outline:none;min-height:42px}
+    .foot-row input:focus{border-color:var(--accent)}
+    .risk{margin-top:14px;font-size:11.5px;line-height:1.6;opacity:.8}
+
+    .banner{display:none;margin:14px 0 0;padding:13px 16px;border-radius:12px;border:1px solid rgba(251,191,36,.4);background:rgba(251,191,36,.08);color:#fcd34d;font-size:13.5px;line-height:1.6}
+    .banner.show{display:block}
+
+    @media (max-width:760px){
+      .two-col{grid-template-columns:1fr}
+      #chart{height:300px}
+      .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+      .qcard .price{font-size:18px}
+      .sessions{margin-inline-start:0;width:100%}
+      .nav-inner{height:56px}
+    }
+    @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"></noscript>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="/">
+      <img src="/favicon.svg" alt="" width="28" height="28">
+      FX<span>Navigator</span>
+    </a>
+    <div class="nav-actions">
+      <a class="btn" href="/" data-i18n="nav_home">Home</a>
+      <button class="btn" id="langBtn">العربية</button>
+      <a class="btn btn-primary js-store" href="https://play.google.com/store/apps/details?id=sd.elteyab.fxapp" target="_blank" rel="noopener" data-i18n="nav_app">Get App</a>
+    </div>
+  </div>
+</header>
+
+<div class="statusbar">
+  <div class="container statusbar-inner" style="display:flex;align-items:center;gap:10px 20px;flex-wrap:wrap">
+    <span class="conn offline" id="conn"><span class="dot"></span><span id="connLabel" data-i18n="connecting">Connecting…</span></span>
+    <span id="clockUtc" style="font-variant-numeric:tabular-nums"></span>
+    <div class="sessions" id="sessions"></div>
+  </div>
+</div>
+
+<main class="container">
+  <h1 data-i18n="title">Live Markets</h1>
+  <p class="page-sub" data-i18n="subtitle">Real-time quotes, candlestick charts, movers, economic calendar and news.</p>
+
+  <div class="banner" id="apiBanner"></div>
+
+  <div class="tabs" id="tabs" role="tablist" aria-label="Asset classes"></div>
+  <div class="grid" id="quoteGrid" aria-live="off"></div>
+
+  <section class="panel" aria-label="Chart">
+    <div class="panel-head">
+      <h2 id="chartTitle" style="font-variant-numeric:tabular-nums">EURUSD</h2>
+      <div class="intervals" id="intervals"></div>
+    </div>
+    <div id="chart"></div>
+    <div id="chartNote" data-i18n="select_hint">Select an instrument above to load its chart.</div>
+  </section>
+
+  <div class="two-col">
+    <section class="panel" aria-label="Movers">
+      <div class="panel-head"><h2 data-i18n="gainers">Top Gainers</h2></div>
+      <div class="panel-body"><div class="movers-list" id="gainersList"></div></div>
+    </section>
+    <section class="panel" aria-label="Movers">
+      <div class="panel-head"><h2 data-i18n="losers">Top Losers</h2></div>
+      <div class="panel-body"><div class="movers-list" id="losersList"></div></div>
+    </section>
+  </div>
+
+  <section class="panel" aria-label="Economic calendar">
+    <div class="panel-head">
+      <h2 data-i18n="calendar_title">Economic Calendar</h2>
+      <span style="font-size:12px;color:var(--text3)" data-i18n="calendar_sub">High-impact events · next 7 days</span>
+    </div>
+    <div class="panel-body" style="overflow-x:auto;padding:0 8px 8px">
+      <table class="cal-table">
+        <thead><tr>
+          <th data-i18n="th_time">Time (UTC)</th><th data-i18n="th_cur">Cur</th><th data-i18n="th_event">Event</th>
+          <th data-i18n="th_imp">Impact</th><th>Actual</th><th>Forecast</th><th>Previous</th>
+        </tr></thead>
+        <tbody id="calBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" aria-label="News">
+    <div class="panel-head">
+      <h2 data-i18n="news_title">Market News</h2>
+      <button class="btn" id="newsRefresh" style="margin-inline-start:auto" data-i18n="refresh">Refresh</button>
+    </div>
+    <div class="panel-body"><div class="news-list" id="newsList"></div></div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-row">
+      <label for="apiBase" style="white-space:nowrap" data-i18n="api_label">API endpoint:</label>
+      <input id="apiBase" type="url" placeholder="https://your-worker.workers.dev" autocomplete="off">
+      <button class="btn btn-primary" id="saveApi" data-i18n="save">Save</button>
+    </div>
+    <p class="risk" data-i18n="risk_note">Quotes are delayed market data for information only — not financial advice. Trading involves substantial risk of loss.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js" defer></script>
+<script>
+(function(){
+  'use strict';
+
+  const GROUPS = {
+    forex:   ['EURUSD','GBPUSD','USDJPY','USDCHF','AUDUSD','USDCAD','NZDUSD','EURJPY'],
+    metals:  ['XAUUSD','XAGUSD','XPTUSD','XPDUSD'],
+    crypto:  ['BTCUSD','ETHUSD','XRPUSD','LTCUSD','BCHUSD','ADAUSD'],
+    indices: ['US30','NAS100','SPX500','GER40','UK100','JP225']
+  };
+  const INTERVALS_SEC = { '1m':60, '5m':300, '15m':900, '30m':1800, '1h':3600, '4h':14400, '1d':86400 };
+
+  const i18n = {
+    en: {
+      nav_home:'Home', nav_app:'Get App', connecting:'Connecting…', live:'Live', polling:'Delayed (polling)', offline:'Offline',
+      title:'Live Markets', subtitle:'Real-time quotes, candlestick charts, movers, economic calendar and news.',
+      tab_forex:'Forex', tab_metals:'Gold & Silver', tab_crypto:'Crypto', tab_indices:'Indices',
+      select_hint:'Select an instrument above to load its chart.', loading_chart:'Loading chart…',
+      gainers:'Top Gainers', losers:'Top Losers',
+      calendar_title:'Economic Calendar', calendar_sub:'High-impact events · next 7 days',
+      th_time:'Time (UTC)', th_cur:'Cur', th_event:'Event', th_imp:'Impact',
+      news_title:'Market News', refresh:'Refresh', api_label:'API endpoint:', save:'Save',
+      risk_note:'Quotes are delayed market data for information only — not financial advice. Trading involves substantial risk of loss.',
+      banner_offline:'Could not reach the FXNavigator API. Deploy the Cloudflare Worker (see repository) then paste its URL below.',
+      closed:'closed', no_data:'No data', na:'—'
+    },
+    ar: {
+      nav_home:'الرئيسية', nav_app:'حمّل التطبيق', connecting:'جارٍ الاتصال…', live:'مباشر', polling:'مؤخر (تحديث دوري)', offline:'غير متصل',
+      title:'الأسواق المباشرة', subtitle:'أسعار لحظية، رسوم شموع اليابانية، الأكثر تحركاً، التقويم الاقتصادي والأخبار.',
+      tab_forex:'فوركس', tab_metals:'الذهب والفضة', tab_crypto:'عملات رقمية', tab_indices:'المؤشرات',
+      select_hint:'اختر أداة من الأعلى لعرض الرسم البياني.', loading_chart:'جارٍ تحميل الرسم…',
+      gainers:'الأكثر صعوداً', losers:'الأكثر هبوطاً',
+      calendar_title:'التقويم الاقتصادي', calendar_sub:'أحداث عالية التأثير · الأيام السبعة القادمة',
+      th_time:'الوقت (UTC)', th_cur:'العملة', th_event:'الحدث', th_imp:'التأثير',
+      news_title:'أخبار السوق', refresh:'تحديث', api_label:'عنوان الـ API:', save:'حفظ',
+      risk_note:'الأسعار بيانات سوق مؤخرة لغرض إعلامي فقط — ليست نصيحة مالية. التداول ينطوي على مخاطر خسائر كبيرة.',
+      banner_offline:'تعذر الوصول إلى واجهة FXNavigator. انشر Cloudflare Worker (راجع المستودع) ثم ألصق رابطه أدناه.',
+      closed:'مغلق', no_data:'لا بيانات', na:'—'
+    }
+  };
+
+  let lang = localStorage.getItem('fxnav_lang') === 'ar' ? 'ar'
+    : ((navigator.language||'').slice(0,2).toLowerCase() === 'ar' ? 'ar' : 'en');
+
+  function t(key){ return i18n[lang][key] ?? i18n.en[key] ?? key; }
+
+  function applyLang(){
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.body.classList.toggle('rtl', lang === 'ar');
+    document.getElementById('langBtn').textContent = lang === 'ar' ? 'English' : 'العربية';
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const v = i18n[lang][el.dataset.i18n];
+      if (v !== undefined) el.textContent = v;
+    });
+    buildTabs();
+    renderSessions(lastStatus);
+    loadCalendar();
+    loadNews();
+    loadMovers();
+  }
+
+  document.getElementById('langBtn').addEventListener('click', () => {
+    lang = lang === 'ar' ? 'en' : 'ar';
+    localStorage.setItem('fxnav_lang', lang);
+    applyLang();
+  });
+
+  const API_DEFAULT_SAME_ORIGIN = '';
+  const API_DEFAULT_REMOTE = 'https://fxnavigator-api.fxapp.workers.dev';
+  let apiBase = localStorage.getItem('fxnav_api_base');
+  if (apiBase === null || apiBase === '') apiBase = API_DEFAULT_REMOTE;
+  const apiInput = document.getElementById('apiBase');
+  apiInput.value = apiBase;
+  apiInput.placeholder = API_DEFAULT_REMOTE;
+  document.getElementById('saveApi').addEventListener('click', () => {
+    apiBase = apiInput.value.trim().replace(/\/+$/, '');
+    localStorage.setItem('fxnav_api_base', apiBase);
+    reconnectWs();
+    loadAll();
+    loadStatus();
+  });
+
+  function apiUrl(path){
+    return (apiBase || '') + path;
+  }
+
+  async function apiFetch(path){
+    const res = await fetch(apiUrl(path), { headers:{Accept:'application/json'} });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const json = await res.json();
+    return json.data !== undefined && json.ok !== undefined ? json : json;
+  }
+
+  function unwrap(json){
+    return json && typeof json === 'object' && 'ok' in json ? (json.data ?? json) : json;
+  }
+
+  function priceDecimals(tick){
+    const s = Math.abs(Number(tick?.spread) || 0);
+    if (!s) return Number.isInteger(tick?.mid) ? 2 : 5;
+    const d = Math.ceil(-Math.log10(s)) + 1;
+    return Math.min(7, Math.max(2, d));
+  }
+  function fmtPrice(tick, value){
+    if (value == null || isNaN(value)) return t('na');
+    return Number(value).toLocaleString(lang === 'ar' ? 'en-US' : lang, {
+      minimumFractionDigits: priceDecimals(tick), maximumFractionDigits: priceDecimals(tick)
+    });
+  }
+  function fmtPct(n){ return (n > 0 ? '+' : '') + (Number(n) || 0).toFixed(2) + '%'; }
+  function chgClass(n){ return n > 0 ? 'up' : n < 0 ? 'down' : 'flat'; }
+
+  let activeGroup = localStorage.getItem('fxnav_group') || 'forex';
+  let activeSymbol = localStorage.getItem('fxnav_symbol') || 'EURUSD';
+  let activeInterval = '1h';
+
+  function buildTabs(){
+    const labels = { forex:t('tab_forex'), metals:t('tab_metals'), crypto:t('tab_crypto'), indices:t('tab_indices') };
+    const el = document.getElementById('tabs');
+    el.innerHTML = Object.keys(GROUPS).map(g =>
+      `<button class="tab${g===activeGroup?' active':''}" role="tab" aria-selected="${g===activeGroup}" data-group="${g}">${labels[g]}</button>`
+    ).join('');
+    el.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
+      activeGroup = b.dataset.group;
+      localStorage.setItem('fxnav_group', activeGroup);
+      buildTabs();
+      loadQuotes();
+      subscribeCurrent();
+    }));
+  }
+
+  const quoteCache = new Map();
+
+  function renderQuotes(quotes){
+    const grid = document.getElementById('quoteGrid');
+    if (!quotes.length){ grid.innerHTML = `<p style="color:var(--text3);padding:24px">${t('no_data')}</p>`; return; }
+    grid.innerHTML = quotes.map(q => {
+      quoteCache.set(q.symbol, q);
+      const prev = prevPrices.get(q.symbol);
+      const flash = prev != null && q.mid != null && q.mid !== prev ? (q.mid > prev ? ' flash-up' : ' flash-down') : '';
+      prevPrices.set(q.symbol, q.mid);
+      const closed = q.marketState === 'closed';
+      return `<div class="qcard${q.symbol===activeSymbol?' selected':''}${flash}" data-sym="${q.symbol}" tabindex="0" role="button" aria-label="${q.symbol}">
+        <div class="sym">${q.symbol}<span class="state ${closed?'':'open'}">${closed?t('closed'):(q.marketState==='open'?'live':'·')}</span></div>
+        <div class="price">${fmtPrice(q, q.mid)}</div>
+        <div class="chg ${closed?'flat':chgClass(q.changePercent)}">${closed?'':fmtPct(q.changePercent)}</div>
+        <div class="row"><span>Bid</span><b>${fmtPrice(q,q.bid)}</b></div>
+        <div class="row"><span>Ask</span><b>${fmtPrice(q,q.ask)}</b></div>
+        <div class="row"><span>Spread</span><b>${fmtPrice(q,q.spread)}</b></div>
+        <div class="row"><span>H / L</span><b>${fmtPrice(q,q.high)} / ${fmtPrice(q,q.low)}</b></div>
+      </div>`;
+    }).join('');
+    grid.querySelectorAll('.qcard').forEach(card => card.addEventListener('click', () => selectSymbol(card.dataset.sym)));
+  }
+
+  const prevPrices = new Map();
+
+  function upsertTick(tick){
+    const known = quoteCache.get(tick.symbol);
+    quoteCache.set(tick.symbol, { ...known, ...tick });
+    const groupSymbols = GROUPS[activeGroup];
+    if (groupSymbols.includes(tick.symbol)){
+      renderQuotes(groupSymbols.map(s => quoteCache.get(s)).filter(Boolean));
+    }
+    if (tick.symbol === activeSymbol) applyLiveCandle(tick);
+  }
+
+  function selectSymbol(sym){
+    activeSymbol = sym;
+    localStorage.setItem('fxnav_symbol', sym);
+    document.querySelectorAll('.qcard').forEach(c => c.classList.toggle('selected', c.dataset.sym === sym));
+    loadCandles();
+  }
+
+  function setConn(state){
+    const el = document.getElementById('conn');
+    el.className = 'conn ' + state;
+    document.getElementById('connLabel').textContent =
+      state === 'live' ? t('live') : state === 'polling' ? t('polling') : state === 'offline' ? t('offline') : t('connecting');
+    document.getElementById('apiBanner').classList.toggle('show', state === 'offline');
+    if (state === 'offline'){
+      const b = document.getElementById('apiBanner');
+      b.textContent = t('banner_offline');
+    }
+  }
+
+  async function loadQuotes(){
+    try {
+      const json = await apiFetch(`/api/quotes?symbols=${GROUPS[activeGroup].join(',')}`);
+      const data = unwrap(json);
+      renderQuotes(Array.isArray(data.quotes) ? data.quotes : []);
+      setConn(wsConnected() ? 'live' : 'polling');
+    } catch (e) {
+      setConn('offline');
+    }
+  }
+
+  async function loadAll(){ loadQuotes(); loadMovers(); }
+
+  // ---------- WebSocket live stream ----------
+  let ws = null, wsBackoff = 500, wsEverConnected = false;
+
+  function wsConnected(){ return ws && ws.readyState === 1; }
+
+  function wsUrl(){
+    const base = apiBase || location.origin;
+    return base.replace(/^http/, 'ws') + '/ws/stream';
+  }
+
+  function subscribeCurrent(){
+    if (!wsConnected()) return;
+    ws.send(JSON.stringify({ type:'subscribe', symbols:[...new Set([...GROUPS[activeGroup], activeSymbol])] }));
+  }
+
+  function reconnectWs(){
+    try { ws && ws.close(); } catch {}
+    ws = null;
+  }
+
+  function connectWs(){
+    if (('websocket' in window) === false) { setConn('polling'); return; }
+    let sock;
+    try { sock = new WebSocket(wsUrl()); } catch { setConn('polling'); scheduleReconnect(); return; }
+
+    sock.onopen = () => {
+      ws = sock; wsBackoff = 500; wsEverConnected = true;
+      setConn('live');
+      subscribeCurrent();
+    };
+    sock.onmessage = ev => {
+      let msg; try { msg = JSON.parse(ev.data); } catch { return; }
+      if (msg.type === 'tick' && msg.data) upsertTick(msg.data);
+      else if (msg.type === 'status' && msg.state !== 'connected') setConn('polling');
+    };
+    sock.onclose = () => { if (ws === sock) { ws = null; } setConn('polling'); scheduleReconnect(); };
+    sock.onerror = () => {};
+  }
+
+  function scheduleReconnect(){
+    setTimeout(() => { connectWs(); }, wsBackoff);
+    wsBackoff = Math.min(wsBackoff * 2, 20000);
+  }
+
+  setInterval(() => { if (wsConnected()) ws.send(JSON.stringify({type:'ping'})); }, 25000);
+  setInterval(() => { if (!wsConnected() && document.visibilityState === 'visible') loadQuotes(); }, 5000);
+
+  // ---------- Chart ----------
+  let chart = null, candleSeries = null, lastBars = {};
+
+  function ensureChart(){
+    if (typeof LightweightCharts === 'undefined') return false;
+    const host = document.getElementById('chart');
+    if (!chart){
+      chart = LightweightCharts.createChart(host, {
+        height: window.innerWidth < 760 ? 300 : 420,
+        layout: { background:{ color:'#0b1120' }, textColor:'#94a3b8', fontSize:12 },
+        grid: { vertLines:{ color:'#16223c' }, horzLines:{ color:'#16223c' } },
+        rightPriceScale: { borderColor:'#2c3d5c' },
+        timeScale: { borderColor:'#2c3d5c', timeVisible:true, secondsVisible:false },
+        crosshair: { mode: 0 }
+      });
+      candleSeries = chart.addCandlestickSeries({
+        upColor:'#34d399', downColor:'#fb5065', borderUpColor:'#34d399', borderDownColor:'#fb5065',
+        wickUpColor:'#34d399', wickDownColor:'#fb5065'
+      });
+      new ResizeObserver(() => chart.applyOptions({ width: host.clientWidth })).observe(host);
+    } else {
+      chart.applyOptions({ width: host.clientWidth, height: window.innerWidth < 760 ? 300 : 420 });
+    }
+    return true;
+  }
+
+  function barTime(openTime, interval){
+    if (interval === '1d') return String(openTime).slice(0, 10);
+    return Math.floor(new Date(openTime).getTime() / 1000);
+  }
+
+  function applyLiveCandle(tick){
+    if (!lastBars[activeInterval] || !tick.mid) return;
+    const sec = INTERVALS_SEC[activeInterval];
+    const bucket = Math.floor((new Date(tick.timestamp || Date.now()).getTime()/1000) / sec) * sec;
+    const time = activeInterval === '1d' ? new Date(bucket*1000).toISOString().slice(0,10) : bucket;
+    const bar = lastBars[activeInterval];
+    if (bar && bar.time === time){
+      candleSeries.update({ time, open:bar.open, high:Math.max(bar.high, tick.mid), low:Math.min(bar.low, tick.mid), close:tick.mid });
+      lastBars[activeInterval] = { ...lastBars[activeInterval], high:Math.max(bar.high,tick.mid), low:Math.min(bar.low,tick.mid), close:tick.mid };
+    } else if (bar){
+      const nb = { time, open:bar.close, high:Math.max(bar.close,tick.mid), low:Math.min(bar.close,tick.mid), close:tick.mid };
+      candleSeries.update(nb);
+      lastBars[activeInterval] = nb;
+    }
+  }
+
+  function buildIntervals(){
+    const el = document.getElementById('intervals');
+    const opts = ['1m','5m','15m','30m','1h','4h','1D'];
+    el.innerHTML = opts.map(i =>
+      `<button class="ivl${i.toLowerCase()===activeInterval?' active':''}" data-ivl="${i}">${i}</button>`
+    ).join('');
+    el.querySelectorAll('.ivl').forEach(b => b.addEventListener('click', () => {
+      activeInterval = b.dataset.ivl.toLowerCase();
+      buildIntervals();
+      loadCandles();
+    }));
+  }
+
+  async function loadCandles(){
+    const note = document.getElementById('chartNote');
+    document.getElementById('chartTitle').textContent = activeSymbol + ' · ' + activeInterval.toUpperCase();
+    note.style.display = 'block';
+    note.textContent = t('loading_chart');
+    try {
+      const json = await apiFetch(`/api/candles?symbol=${encodeURIComponent(activeSymbol)}&interval=${encodeURIComponent(activeInterval)}&limit=300`);
+      const data = unwrap(json);
+      if (!ensureChart()) throw new Error('chart lib unavailable');
+      note.style.display = 'none';
+      const bars = (data.bars || []).slice(-400).map(b => ({
+        time: barTime(b.openTime, data.interval),
+        open:b.open, high:b.high, low:b.low, close:b.close
+      }));
+      candleSeries.setData(bars);
+      lastBars[data.interval] = bars[bars.length - 1] || null;
+      chart.timeScale().fitContent();
+    } catch (e) {
+      note.style.display = 'block';
+      note.textContent = e.message === 'chart lib unavailable' ? t('loading_chart') : t('no_data');
+    }
+  }
+
+  // ---------- Movers ----------
+  async function loadMovers(){
+    for (const kind of ['gainers','losers']){
+      try {
+        const json = await apiFetch(`/api/movers?kind=${kind}&limit=6`);
+        const data = unwrap(json);
+        const el = document.getElementById(kind + 'List');
+        el.innerHTML = (data.items || []).map(m => `
+          <div class="mover" data-mv="${m.symbol}" role="button" tabindex="0">
+            <span class="s">${m.symbol}</span>
+            <span class="p">${Number(m.lastPrice).toLocaleString('en-US',{maximumFractionDigits:5})}</span>
+            <span class="chg ${chgClass(m.changePercent)}">${fmtPct(m.changePercent)}</span>
+          </div>`).join('') || `<p style="color:var(--text3);font-size:13px">${t('no_data')}</p>`;
+        el.querySelectorAll('.mover').forEach(row => row.addEventListener('click', () => {
+          activeSymbol = row.dataset.mv; localStorage.setItem('fxnav_symbol', activeSymbol);
+          loadQuotes(); loadCandles(); subscribeCurrent();
+        }));
+      } catch {}
+    }
+  }
+
+  // ---------- Calendar ----------
+  async function loadCalendar(){
+    try {
+      const json = await apiFetch('/api/calendar?importance=high&from=' +
+        new Date(Date.now()-86400000).toISOString().slice(0,19)+'Z' + '&to=' +
+        new Date(Date.now()+7*86400000).toISOString().slice(0,19)+'Z' + '&limit=30');
+      const events = unwrap(json).events || [];
+      const fmtTime = new Intl.DateTimeFormat(lang==='ar'?'ar':'en-GB', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit', timeZone:'UTC' });
+      document.getElementById('calBody').innerHTML = events.slice(0, 20).map(e => {
+        const hasActual = e.actual !== null && e.actual !== undefined;
+        const beat = hasActual && e.forecast != null ? (e.actual >= e.forecast ? 'actual-better' : 'actual-worse') : '';
+        const fmtNum = v => v == null ? '—' : Number(v).toLocaleString('en-US');
+        return `<tr>
+          <td>${fmtTime.format(new Date(e.time))}</td>
+          <td><span class="cur">${e.currency || e.countryCode || ''}</span></td>
+          <td>${escapeHtml(e.name || '')}</td>
+          <td><span class="imp ${e.importance || 'low'}" title="${e.importance}"></span></td>
+          <td class="${beat}">${hasActual ? fmtNum(e.actual) : '—'}</td>
+          <td>${fmtNum(e.forecast)}</td>
+          <td>${fmtNum(e.previous)}</td>
+        </tr>`;
+      }).join('') || `<tr><td colspan="7" style="color:var(--text3);text-align:center;padding:20px">${t('no_data')}</td></tr>`;
+    } catch {}
+  }
+
+  // ---------- News ----------
+  async function loadNews(){
+    try {
+      const json = await apiFetch('/api/news?maxResults=8');
+      const articles = unwrap(json).articles || [];
+      const fmtDate = new Intl.RelativeTimeFormat(lang==='ar'?'ar':'en', { numeric:'auto' });
+      document.getElementById('newsList').innerHTML = articles.map(a => {
+        const ageH = (Date.now() - new Date(a.publishedDate)) / 3600000;
+        const rel = ageH < 24 ? fmtDate.format(-Math.round(ageH), 'hour')
+          : ageH < 24*30 ? fmtDate.format(-Math.round(ageH/24), 'day')
+          : new Date(a.publishedDate).toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+        return `<a class="news-item" href="${escapeAttr(a.url)}" target="_blank" rel="noopener noreferrer">
+          <div class="t">${escapeHtml(a.title)}</div>
+          <div class="m"><span>${escapeHtml(a.publisher || '')}</span><span>${rel}</span></div>
+        </a>`;
+      }).join('');
+    } catch {}
+  }
+
+  document.getElementById('newsRefresh').addEventListener('click', loadNews);
+
+  function escapeHtml(s){ return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  function escapeAttr(s){ return escapeHtml(s).replace(/`/g,'&#96;'); }
+
+  // ---------- Sessions & clock ----------
+  let lastStatus = null;
+
+  function renderSessions(status){
+    const el = document.getElementById('sessions');
+    const sessions = status?.sessions;
+    const defs = sessions ? [['sydney'],['tokyo'],['london'],['newyork']] : [];
+    if (!defs.length){
+      el.innerHTML = ['Sydney','Tokyo','London','New York'].map(n =>
+        `<span class="session" data-sess="${n.toLowerCase()}">${n}</span>`).join('');
+      return;
+    }
+    el.innerHTML = defs.map(([k]) => {
+      const s = sessions[k];
+      const label = k === 'newyork' ? 'New York' : k.charAt(0).toUpperCase() + k.slice(1);
+      return `<span class="session${s.open?' open':''}" data-sess="${k}">${label}${s.open?' ●':''}</span>`;
+    }).join('');
+  }
+
+  async function loadStatus(){
+    try {
+      const json = await apiFetch('/api/market-status');
+      lastStatus = unwrap(json);
+      renderSessions(lastStatus);
+    } catch {}
+  }
+
+  setInterval(() => {
+    document.getElementById('clockUtc').textContent =
+      new Date().toISOString().slice(11,19) + ' UTC';
+  }, 1000);
+
+  setInterval(loadStatus, 60000);
+
+  // ---------- Boot ----------
+  applyLang();
+  buildIntervals();
+  loadStatus();
+  loadAll();
+  loadCandles();
+  connectWs();
+
+  if (/iphone|ipad|ipod/i.test(navigator.userAgent)){
+    document.querySelectorAll('.js-store').forEach(a => a.href = 'https://apps.apple.com/search?term=FXNavigator');
+  }
+})();
+</script>
+</body>
+</html>

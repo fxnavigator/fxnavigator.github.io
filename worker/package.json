@@ -1,0 +1,17 @@
+{
+  "name": "fxnavigator-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker API gateway between FXNavigator and BiQuote market data",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "db:apply": "wrangler d1 execute fxnavigator --file=db/schema.sql --remote",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

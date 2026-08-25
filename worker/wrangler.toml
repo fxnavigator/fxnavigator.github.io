@@ -1,0 +1,32 @@
+name = "fxnavigator-api"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# ---------------------------------------------------------------------------
+# Bindings
+#   CACHE_KV : cross-PoP response cache (quotes, news, calendar, symbols)
+#   DB       : D1 database for symbol snapshots, history and future user prefs
+# Fill the ids after creating them:
+#   wrangler kv namespace create CACHE_KV
+#   wrangler d1 create fxnavigator
+# ---------------------------------------------------------------------------
+
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "b6f51e1472b34209a02b715496b97441"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fxnavigator"
+database_id = "af242f76-8201-412d-b09a-653942c28664"
+
+[vars]
+ENVIRONMENT = "production"
+ALLOWED_ORIGINS = "https://fx.smart.sd,https://www.fx.smart.sd,http://localhost:8080,http://127.0.0.1:8080"
+UPSTREAM_BASE = "https://biquote.io"
+
+[observability]
+enabled = true
+
+# Secrets (set with:  wrangler secret put ADMIN_TOKEN)
+#   ADMIN_TOKEN - guards POST /admin/* endpoints
