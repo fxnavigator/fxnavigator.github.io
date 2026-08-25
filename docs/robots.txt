@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /ref/
+Disallow: /api/
 
-Sitemap: https://fxnavigator.app/sitemap.xml
+Sitemap: https://fx.smart.sd/sitemap.xml

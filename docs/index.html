@@ -2,549 +2,626 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FXNavigator — Smart Trading Companion & Forex Market Guide</title>
-  <meta name="description" content="FXNavigator is your all-in-one Forex trading companion: live market sessions, economic calendar, news, education, AI assistant, prop firms directory, and smart notifications.">
-  <meta name="keywords" content="forex, trading, prop firms, market sessions, economic calendar, forex education, ICT, SMC, trading journal, forex app">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>FXNavigator — Smart Forex Trading Companion App (iOS &amp; Android)</title>
+  <meta name="description" content="FXNavigator is your all-in-one Forex trading companion: live market sessions, economic calendar, news, interactive ICT/SMC education, AI assistant and a directory of 32+ prop firms.">
+  <meta name="keywords" content="forex app, trading companion, market sessions, economic calendar, forex education, ICT, SMC, prop firms, funded trader, trading journal, FXNavigator">
   <meta name="author" content="FXNavigator">
-  <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://fx.smart.sd/">
+  <meta name="theme-color" content="#0b1120">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="FXNavigator — Smart Trading Companion">
-  <meta property="og:description" content="Your all-in-one Forex trading companion: live market sessions, economic calendar, news, education, AI assistant, and prop firms directory.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://fxnavigator.github.io/funded/">
-  <meta property="og:image" content="https://fxnavigator.github.io/funded/images/appscreen/home.jpg">
+  <meta property="og:site_name" content="FXNavigator">
+  <meta property="og:title" content="FXNavigator — Smart Forex Trading Companion App">
+  <meta property="og:description" content="Live market sessions, economic calendar, news, ICT/SMC education, AI assistant and 32+ prop firms — all in one free app.">
+  <meta property="og:url" content="https://fx.smart.sd/">
+  <meta property="og:image" content="https://fx.smart.sd/images/appscreen/home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="ar_AR">
-
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="FXNavigator — Smart Trading Companion">
-  <meta name="twitter:description" content="Your all-in-one Forex trading companion.">
-  <meta name="twitter:image" content="https://fxnavigator.github.io/funded/images/appscreen/home.jpg">
+  <meta name="twitter:title" content="FXNavigator — Smart Forex Trading Companion App">
+  <meta name="twitter:description" content="Live sessions, calendar, education, AI assistant and prop firm directory in one free app.">
+  <meta name="twitter:image" content="https://fx.smart.sd/images/appscreen/home.jpg">
 
-  <!-- JSON-LD Structured Data -->
+  <meta name="google-play-app" content="app-id=sd.elteyab.fxapp">
+  <link rel="alternate" hreflang="en" href="https://fx.smart.sd/">
+  <link rel="alternate" hreflang="ar" href="https://fx.smart.sd/?lang=ar">
+  <link rel="alternate" hreflang="x-default" href="https://fx.smart.sd/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://fx.smart.sd/#org",
+        "name": "FXNavigator",
+        "url": "https://fx.smart.sd/",
+        "logo": "https://fx.smart.sd/favicon.svg",
+        "email": "support@fxnavigator.app"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://fx.smart.sd/#website",
+        "url": "https://fx.smart.sd/",
+        "name": "FXNavigator",
+        "publisher": { "@id": "https://fx.smart.sd/#org" },
+        "inLanguage": ["en", "ar"]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://fx.smart.sd/#webpage",
+        "url": "https://fx.smart.sd/",
+        "name": "FXNavigator — Smart Forex Trading Companion App",
+        "isPartOf": { "@id": "https://fx.smart.sd/#website" },
+        "about": { "@id": "https://fx.smart.sd/#app" },
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
+    "@id": "https://fx.smart.sd/#app",
     "name": "FXNavigator",
-    "operatingSystem": ["iOS", "Android"],
+    "operatingSystem": "iOS, Android",
     "applicationCategory": "FinanceApplication",
-    "description": "Smart trading companion and Forex market guide with live sessions, economic calendar, news, education, AI assistant, and prop firms directory.",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
+    "description": "Smart trading companion and Forex market guide with live sessions, economic calendar, news, interactive ICT/SMC education, AI assistant and a directory of 32+ prop firms.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "bestRating": "5",
+      "ratingCount": "2400"
     },
-    "author": {
-      "@type": "Organization",
-      "name": "FXNavigator"
-    }
+    "featureList": "Live market sessions with countdowns, Economic calendar, Forex news alerts, Interactive trading schools (ICT, SMC, Elliott Wave, SMT, VFX), AI assistant, Prop firms directory, Market heat map, Trading journal, Smart notifications, Watchlist and price alerts, Currency calculator, Gamification with XP and achievements",
+    "author": { "@id": "https://fx.smart.sd/#org" }
   }
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Prop Firms Directory",
-    "url": "https://fxnavigator.github.io/funded/",
-    "description": "Directory of 32+ forex and futures prop firms with funding challenges, platform details, and affiliate links.",
-    "applicationCategory": "FinanceApplication"
+    "@type": "FAQPage",
+    "@id": "https://fx.smart.sd/#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is FXNavigator?",
+        "acceptedAnswer": { "@type": "Answer", "text": "FXNavigator is a comprehensive Forex trading companion app available on iOS and Android. It provides live market sessions, an economic calendar, news, interactive education, an AI assistant and a directory of 32+ prop funding firms — all in one place." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is FXNavigator free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. FXNavigator offers a free tier with full access to core features. An optional Premium subscription ($4.99/month) unlocks advanced features, removes ads and provides early access to new tools." }
+      },
+      {
+        "@type": "Question",
+        "name": "What platforms does FXNavigator support?",
+        "acceptedAnswer": { "@type": "Answer", "text": "FXNavigator is available on iOS and Android phones and tablets." }
+      },
+      {
+        "@type": "Question",
+        "name": "What languages does FXNavigator support?",
+        "acceptedAnswer": { "@type": "Answer", "text": "FXNavigator supports 12 languages: English, Arabic, French, Turkish, Spanish, German, Portuguese, Russian, Indonesian, Chinese, Japanese and Hindi." }
+      },
+      {
+        "@type": "Question",
+        "name": "What are prop firms?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Proprietary trading firms (prop firms) provide traders with capital to trade in exchange for a share of the profits. The FXNavigator directory lists 32+ firms with details on funding challenges, account sizes, platforms and special discounts." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the education system work?",
+        "acceptedAnswer": { "@type": "Answer", "text": "FXNavigator includes 5 trading schools (ICT, SMC, Elliott Wave, SMT, VFX) with 8 progressive lessons each. Every lesson combines animated concept renderers, interactive chart exercises and quizzes. You earn XP, build streaks and unlock achievements as you progress." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is FXNavigator financial advice?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. FXNavigator is an educational and informational tool. It does not provide financial advice, investment recommendations or trading signals. Trading Forex carries significant risk of loss." }
+      }
+    ]
   }
   </script>
 
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --bg: #0b1120;
-      --bg2: #0f172a;
-      --bg3: #1e293b;
-      --border: #1e293b;
-      --border2: #334155;
-      --text: #e2e8f0;
-      --text2: #94a3b8;
-      --text3: #64748b;
-      --accent: #38bdf8;
-      --accent2: #818cf8;
-      --accent3: #fbbf24;
-      --danger: #f43f5e;
-      --success: #22c55e;
-      --radius: 12px;
-      --radius-sm: 8px;
-      --transition: all .2s ease;
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{
+      --bg:#070d1a;--bg2:#0b1120;--bg3:#101a30;--card:#0e1628;
+      --border:#1c2942;--border2:#2c3d5c;
+      --text:#eef2f9;--text2:#a3b1c9;--text3:#667795;
+      --accent:#38bdf8;--accent2:#818cf8;--gold:#fbbf24;
+      --success:#34d399;--danger:#fb5065;
+      --grad:linear-gradient(135deg,#38bdf8,#818cf8);
+      --radius:16px;--radius-sm:10px;
+      --tr:.25s cubic-bezier(.4,0,.2,1);
+      --shadow:0 12px 40px rgba(2,8,23,.45);
+      --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
     }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-    }
-    body.rtl { direction: rtl; font-family: 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    a { color: var(--accent); text-decoration: none; transition: var(--transition); }
-    a:hover { color: #93d5fb; }
-    img { max-width: 100%; height: auto; display: block; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-    .section { padding: 80px 0; }
-    .section-title { font-size: 32px; font-weight: 700; text-align: center; margin-bottom: 12px; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-    .section-subtitle { text-align: center; color: var(--text2); font-size: 16px; margin-bottom: 48px; max-width: 640px; margin-left: auto; margin-right: auto; }
+    html{scroll-behavior:smooth;scroll-padding-top:84px}
+    body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+    body.rtl{direction:rtl;font-family:'Cairo',var(--font)}
+    ::selection{background:rgba(56,189,248,.3)}
+    a{color:var(--accent);text-decoration:none}
+    img{max-width:100%;height:auto;display:block}
+    button{font-family:inherit}
+    :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 
-    /* Nav */
-    nav {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 16px 24px; background: rgba(11,17,32,.85); backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border2); position: sticky; top: 0; z-index: 100;
-    }
-    nav .logo { font-size: 20px; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: 8px; }
-    nav .logo span { color: var(--accent); }
-    nav .links { display: flex; gap: 20px; align-items: center; }
-    nav .links a { color: var(--text2); font-size: 14px; font-weight: 500; }
-    nav .links a:hover { color: var(--text); }
-    .lang-btn {
-      background: var(--bg3); border: 1px solid var(--border2); color: var(--text);
-      padding: 6px 14px; border-radius: 999px; font-size: 13px; cursor: pointer;
-      transition: var(--transition); font-weight: 500;
-    }
-    .lang-btn:hover { border-color: var(--accent); color: var(--accent); }
-    .hamburger { display: none; flex-direction: column; gap: 4px; cursor: pointer; background: none; border: none; padding: 4px; }
-    .hamburger span { width: 22px; height: 2px; background: var(--text); border-radius: 2px; transition: var(--transition); }
+    .skip-link{position:absolute;left:-999px;top:8px;z-index:300;background:var(--accent);color:#04101d;padding:10px 18px;border-radius:8px;font-weight:700}
+    .skip-link:focus{left:8px;color:#04101d}
+    .container{width:100%;max-width:1180px;margin-inline:auto;padding-inline:20px}
+    .section{padding:88px 0}
+    .cv{content-visibility:auto;contain-intrinsic-size:auto 720px}
 
-    /* Hero */
-    .hero {
-      padding: 100px 20px 80px; text-align: center;
-      background: radial-gradient(ellipse at top center, rgba(56,189,248,.08) 0%, transparent 60%);
-    }
-    .hero h1 { font-size: 48px; font-weight: 800; line-height: 1.15; margin-bottom: 16px; }
-    .hero h1 span { background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-    .hero p { font-size: 18px; color: var(--text2); max-width: 600px; margin: 0 auto 32px; }
-    .hero-badges { display: flex; justify-content: center; gap: 12px; margin-bottom: 40px; flex-wrap: wrap; }
-    .hero-badge {
-      background: var(--bg3); border: 1px solid var(--border2); border-radius: 999px;
-      padding: 6px 16px; font-size: 13px; color: var(--text2); display: flex; align-items: center; gap: 6px;
-    }
-    .hero-badge svg { width: 16px; height: 16px; }
-    .hero-badge.rating svg { color: var(--accent3); }
-    .hero-badge.downloads svg { color: var(--accent); }
-    .btn-group { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-    .btn {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 14px 28px; border-radius: var(--radius); font-size: 15px; font-weight: 600;
-      border: none; cursor: pointer; transition: var(--transition); text-decoration: none;
-    }
-    .btn-primary { background: var(--accent); color: #0b1120; }
-    .btn-primary:hover { background: #93d5fb; color: #0b1120; }
-    .btn-secondary { background: var(--bg3); color: var(--text); border: 1px solid var(--border2); }
-    .btn-secondary:hover { background: var(--border2); color: var(--text); }
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(56,189,248,.09);border:1px solid rgba(56,189,248,.28);color:#7dd3fc;font-size:13px;font-weight:600;padding:7px 16px;border-radius:999px;margin-bottom:22px}
+    .eyebrow svg{width:15px;height:15px;flex-shrink:0}
+    .section-head{text-align:center;max-width:680px;margin:0 auto 52px}
+    .section-title{font-size:clamp(26px,4vw,38px);font-weight:800;line-height:1.2;letter-spacing:-.02em;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    body.rtl .section-title{-webkit-text-fill-color:initial;background:none;color:var(--accent)}
+    .section-sub{color:var(--text2);font-size:clamp(15px,2vw,17px);margin-top:14px}
 
-    /* Features Grid */
-    .features-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
-    .feature-card {
-      background: var(--bg2); border: 1px solid var(--border2); border-radius: var(--radius);
-      padding: 28px 24px; transition: var(--transition);
-    }
-    .feature-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(56,189,248,.08); }
-    .feature-icon {
-      width: 48px; height: 48px; border-radius: var(--radius-sm);
-      display: flex; align-items: center; justify-content: center;
-      margin-bottom: 16px; font-size: 22px;
-    }
-    .feature-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
-    .feature-card p { font-size: 13px; color: var(--text2); line-height: 1.6; }
+    header.nav{position:sticky;top:0;z-index:100;background:rgba(7,13,26,.82);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px;max-width:1180px;margin-inline:auto;padding-inline:20px}
+    .brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:800;color:var(--text);letter-spacing:-.01em}
+    .brand img{width:32px;height:32px;border-radius:8px}
+    .brand span{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    body.rtl .brand span{-webkit-text-fill-color:initial;background:none;color:var(--accent)}
+    .nav-links{display:flex;align-items:center;gap:6px}
+    .nav-links a:not(.btn-nav){color:var(--text2);font-size:14.5px;font-weight:500;padding:10px 14px;border-radius:8px;transition:var(--tr)}
+    .nav-links a:not(.btn-nav):hover{color:var(--text);background:rgba(148,163,184,.08)}
+    .btn-nav{display:inline-flex;align-items:center;gap:8px;margin-inline-start:8px;background:var(--grad);color:#04101d;font-size:14px;font-weight:700;padding:10px 20px;border-radius:999px;transition:var(--tr)}
+    .btn-nav:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(56,189,248,.35);color:#04101d}
+    .lang-btn{background:var(--bg3);border:1px solid var(--border2);color:var(--text);padding:8px 16px;border-radius:999px;font-size:13px;font-weight:600;cursor:pointer;transition:var(--tr);min-height:40px}
+    .lang-btn:hover{border-color:var(--accent);color:var(--accent)}
+    .hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;background:none;border:none;cursor:pointer;padding:10px;border-radius:10px}
+    .hamburger span{display:block;height:2px;width:100%;background:var(--text);border-radius:2px;transition:var(--tr)}
+    .hamburger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .hamburger[aria-expanded="true"] span:nth-child(2){opacity:0}
+    .hamburger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 
-    /* Phone Mockup */
-    .screenshots-grid { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-    .phone-mockup {
-      width: 260px; background: var(--bg3); border-radius: 32px;
-      border: 3px solid var(--border2); padding: 8px; box-shadow: 0 20px 60px rgba(0,0,0,.4);
-      transition: var(--transition);
-    }
-    .phone-mockup:hover { transform: translateY(-8px); border-color: var(--accent); }
-    .phone-mockup .screen {
-      border-radius: 24px; overflow: hidden; aspect-ratio: 9/19.5;
-      background: #000;
-    }
-    .phone-mockup .screen img { width: 100%; height: 100%; object-fit: cover; }
-    .phone-mockup .caption { text-align: center; padding: 12px 8px 8px; font-size: 13px; color: var(--text2); font-weight: 500; }
+    .hero{position:relative;padding:96px 20px 72px;text-align:center;overflow:hidden}
+    .hero::before,.hero::after{content:'';position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none}
+    .hero::before{width:520px;height:520px;top:-220px;left:50%;transform:translateX(-50%);background:rgba(56,189,248,.13)}
+    .hero::after{width:420px;height:420px;bottom:-260px;right:-140px;background:rgba(129,140,248,.1)}
+    .hero-inner{position:relative;z-index:1;max-width:760px;margin-inline:auto}
+    .hero h1{font-size:clamp(32px,6vw,56px);font-weight:800;line-height:1.12;letter-spacing:-.03em;margin-bottom:20px}
+    .hero h1 .grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    body.rtl .hero h1 .grad{-webkit-text-fill-color:initial;background:none;color:var(--accent)}
+    .hero .lede{font-size:clamp(16px,2.2vw,19px);color:var(--text2);max-width:600px;margin:0 auto 34px}
+    .cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:14px 30px;border-radius:14px;font-size:15.5px;font-weight:700;border:none;cursor:pointer;transition:var(--tr)}
+    .btn svg{width:19px;height:19px;flex-shrink:0}
+    .btn-primary{background:var(--grad);color:#04101d}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(56,189,248,.35);color:#04101d}
+    .btn-ghost{background:rgba(148,163,184,.07);color:var(--text);border:1px solid var(--border2)}
+    .btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+    .trust-row{display:flex;justify-content:center;align-items:center;gap:10px 26px;flex-wrap:wrap;margin-top:38px}
+    .trust-item{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--text2);font-weight:500}
+    .trust-item svg{width:17px;height:17px;color:var(--gold)}
+    .stars{color:var(--gold);letter-spacing:2px;font-size:14px}
+    .stats-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:880px;margin:64px auto 0;position:relative;z-index:1}
+    .stat-card{background:rgba(14,22,40,.75);border:1px solid var(--border);border-radius:var(--radius);padding:20px 12px;text-align:center;transition:var(--tr)}
+    .stat-card:hover{border-color:rgba(56,189,248,.5);transform:translateY(-3px)}
+    .stat-card .num{font-size:clamp(22px,3vw,30px);font-weight:800;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    body.rtl .stat-card .num{-webkit-text-fill-color:initial;background:none;color:var(--accent)}
+    .stat-card .lbl{font-size:12.5px;color:var(--text3);margin-top:4px;font-weight:500}
 
-    /* Sessions Detail */
-    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
-    .detail-grid.reverse { direction: ltr; }
-    body.rtl .detail-grid.reverse { direction: rtl; }
-    .detail-content h2 { font-size: 28px; font-weight: 700; margin-bottom: 16px; }
-    .detail-content h2 span { background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-    .detail-content p { color: var(--text2); margin-bottom: 16px; font-size: 15px; }
-    .detail-content ul { list-style: none; padding: 0; }
-    .detail-content ul li { padding: 8px 0; font-size: 14px; color: var(--text2); display: flex; align-items: center; gap: 10px; }
-    .detail-content ul li::before { content: '✓'; color: var(--success); font-weight: 700; }
-    .detail-image { text-align: center; }
-    .detail-image img { max-width: 320px; margin: 0 auto; border-radius: 24px; box-shadow: 0 16px 48px rgba(0,0,0,.3); border: 2px solid var(--border2); }
+    .features-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:18px}
+    .feature-card{position:relative;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:26px 24px;transition:var(--tr);overflow:hidden}
+    .feature-card::before{content:'';position:absolute;inset:0;background:radial-gradient(400px circle at var(--mx,50%) var(--my,0%),rgba(56,189,248,.08),transparent 45%);opacity:0;transition:opacity .3s;pointer-events:none}
+    .feature-card:hover{border-color:rgba(56,189,248,.55);transform:translateY(-4px);box-shadow:var(--shadow)}
+    .feature-card:hover::before{opacity:1}
+    .feature-icon{width:48px;height:48px;border-radius:13px;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+    .feature-icon svg{width:24px;height:24px}
+    .feature-card h3{font-size:16.5px;font-weight:700;margin-bottom:8px;letter-spacing:-.01em}
+    .feature-card p{font-size:13.5px;color:var(--text2);line-height:1.65}
 
-    /* Prop Firms Section */
-    #filter-bar { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center; }
-    .filter-btn { background: var(--bg3); border: 1px solid var(--border2); border-radius: 999px; padding: 6px 16px; font-size: 13px; color: var(--text2); cursor: pointer; transition: var(--transition); }
-    .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
-    .filter-btn.active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 600; }
-    #search-box { width: 100%; max-width: 400px; margin: 0 auto 20px; display: block; background: var(--bg3); border: 1px solid var(--border2); border-radius: var(--radius-sm); padding: 10px 16px; color: var(--text); font-size: 14px; outline: none; }
-    #search-box::placeholder { color: var(--text3); }
-    #search-box:focus { border-color: var(--accent); }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
-    .card { background: var(--bg3); border-radius: var(--radius); padding: 20px; cursor: pointer; transition: var(--transition); border: 1px solid var(--border2); }
-    .card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(56,189,248,.1); }
-    .card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
-    .card-logo { width: 44px; height: 44px; border-radius: var(--radius-sm); object-fit: contain; background: var(--bg); padding: 4px; }
-    .card-logo-fallback { width: 44px; height: 44px; border-radius: var(--radius-sm); background: var(--border2); display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700; color: var(--accent); flex-shrink: 0; }
-    .card-title { flex: 1; min-width: 0; }
-    .card-title h3 { font-size: 15px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .card-title .meta { display: flex; gap: 6px; margin-top: 4px; flex-wrap: wrap; }
-    .badge { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; text-transform: uppercase; letter-spacing: .3px; }
-    .badge-forex { background: rgba(56,189,248,.15); color: var(--accent); }
-    .badge-futures { background: rgba(129,140,248,.15); color: var(--accent2); }
-    .badge-discount { background: rgba(251,191,36,.15); color: var(--accent3); font-size: 10px; padding: 1px 6px; border-radius: 4px; font-weight: 700; }
-    .card-body { color: var(--text2); font-size: 13px; }
-    .card-body .row { display: flex; justify-content: space-between; margin-bottom: 4px; }
-    .card-body .row .label { color: var(--text3); }
-    .card-footer { margin-top: 12px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .tag { font-size: 11px; background: var(--bg); padding: 2px 8px; border-radius: 999px; color: var(--text3); border: 1px solid var(--border2); }
-    .heart { color: var(--danger); font-size: 12px; margin-left: auto; display: flex; align-items: center; gap: 2px; }
-    body.rtl .heart { margin-left: 0; margin-right: auto; }
+    .shots-row{display:flex;gap:26px;justify-content:center;scroll-snap-type:x mandatory;overflow-x:auto;padding:10px 4px 26px;-webkit-overflow-scrolling:touch}
+    .shots-row::-webkit-scrollbar{height:8px}
+    .shots-row::-webkit-scrollbar-thumb{background:var(--border2);border-radius:99px}
+    .phone{flex:0 0 auto;width:250px;scroll-snap-align:center;background:linear-gradient(160deg,#182338,#0c1424);border:1px solid var(--border2);border-radius:36px;padding:9px;box-shadow:var(--shadow);transition:var(--tr)}
+    .phone:hover{transform:translateY(-8px);border-color:rgba(56,189,248,.6)}
+    .phone .screen{border-radius:27px;overflow:hidden;aspect-ratio:9/19.5;background:#000}
+    .phone .screen img{width:100%;height:100%;object-fit:cover}
+    .phone figcaption{text-align:center;padding:14px 8px 6px;font-size:13.5px;color:var(--text2);font-weight:600}
 
-    /* FAQ */
-    .faq-list { max-width: 720px; margin: 0 auto; }
-    .faq-item { background: var(--bg2); border: 1px solid var(--border2); border-radius: var(--radius-sm); margin-bottom: 12px; overflow: hidden; }
-    .faq-q {
-      padding: 16px 20px; cursor: pointer; font-weight: 600; font-size: 15px;
-      display: flex; justify-content: space-between; align-items: center;
-      transition: var(--transition); user-select: none;
-    }
-    .faq-q:hover { background: var(--bg3); }
-    .faq-q .arrow { font-size: 12px; transition: var(--transition); color: var(--text3); }
-    .faq-item.open .faq-q .arrow { transform: rotate(180deg); }
-    .faq-a { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height .3s ease, padding .3s ease; color: var(--text2); font-size: 14px; line-height: 1.7; }
-    .faq-item.open .faq-a { max-height: 300px; padding: 0 20px 16px; }
+    .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+    .detail-content h2{font-size:clamp(24px,3vw,32px);font-weight:800;letter-spacing:-.02em;margin-bottom:16px;line-height:1.25}
+    .detail-content h2 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    body.rtl .detail-content h2 span{-webkit-text-fill-color:initial;background:none;color:var(--accent)}
+    .detail-content>p{color:var(--text2);margin-bottom:20px;font-size:15.5px}
+    .check-list{list-style:none;display:grid;gap:11px}
+    .check-list li{display:flex;align-items:flex-start;gap:11px;font-size:14.5px;color:var(--text2)}
+    .check-list li::before{content:'';flex-shrink:0;width:20px;height:20px;margin-top:2px;border-radius:50%;background:rgba(52,211,153,.14);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2334d399' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");background-size:11px;background-position:center;background-repeat:no-repeat}
+    .detail-media{text-align:center}
+    .detail-media img{max-width:330px;width:100%;margin-inline:auto;border-radius:28px;border:1px solid var(--border2);box-shadow:var(--shadow)}
 
-    /* CTA */
-    .cta-section {
-      text-align: center; padding: 80px 20px;
-      background: radial-gradient(ellipse at center, rgba(56,189,248,.06) 0%, transparent 60%);
-    }
-    .cta-section h2 { font-size: 32px; font-weight: 700; margin-bottom: 12px; }
-    .cta-section p { color: var(--text2); margin-bottom: 32px; font-size: 16px; }
-    .store-badges { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-    .store-badge { display: inline-flex; align-items: center; gap: 10px; background: #000; color: #fff; padding: 12px 24px; border-radius: var(--radius); font-weight: 600; font-size: 14px; transition: var(--transition); border: 1px solid #333; }
-    .store-badge:hover { background: #1a1a1a; transform: translateY(-2px); }
-    .store-badge svg { width: 24px; height: 24px; }
-    .store-badge small { font-weight: 400; font-size: 10px; opacity: .7; display: block; }
-    .store-badge .label-line { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2; }
+    #filter-bar{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;justify-content:center}
+    .filter-btn{background:var(--bg3);border:1px solid var(--border2);border-radius:999px;padding:9px 20px;font-size:13.5px;font-weight:600;color:var(--text2);cursor:pointer;transition:var(--tr);min-height:42px}
+    .filter-btn:hover{border-color:var(--accent);color:var(--accent)}
+    .filter-btn.active{background:var(--grad);color:#04101d;border-color:transparent}
+    #search-box{width:100%;max-width:430px;margin:0 auto 30px;display:block;background:var(--bg3);border:1px solid var(--border2);border-radius:12px;padding:13px 18px;color:var(--text);font-size:15px;outline:none;transition:var(--tr);min-height:48px}
+    #search-box::placeholder{color:var(--text3)}
+    #search-box:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(56,189,248,.15)}
+    .firms-meta{text-align:center;color:var(--text3);font-size:13px;margin-bottom:22px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:16px}
+    .card{display:block;background:var(--card);border-radius:var(--radius);padding:20px;cursor:pointer;transition:var(--tr);border:1px solid var(--border);color:var(--text)}
+    .card:hover{border-color:rgba(56,189,248,.55);transform:translateY(-3px);box-shadow:var(--shadow);color:var(--text)}
+    .card-header{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+    .card-logo{width:46px;height:46px;border-radius:11px;object-fit:contain;background:#fff;padding:4px;flex-shrink:0}
+    .card-logo-fallback{width:46px;height:46px;border-radius:11px;background:var(--bg3);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;color:var(--accent);flex-shrink:0}
+    .card-title{flex:1;min-width:0}
+    .card-title h3{font-size:15.5px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .card-title .meta{display:flex;gap:6px;margin-top:5px;flex-wrap:wrap}
+    .badge{font-size:10px;font-weight:800;padding:2px 7px;border-radius:5px;text-transform:uppercase;letter-spacing:.4px}
+    .badge-forex{background:rgba(56,189,248,.14);color:#67d4fd}
+    .badge-futures{background:rgba(129,140,248,.16);color:#aab4fc}
+    .badge-discount{background:rgba(251,191,36,.15);color:var(--gold)}
+    .card-body{color:var(--text2);font-size:13px;display:grid;gap:5px}
+    .card-body .row{display:flex;justify-content:space-between;gap:10px}
+    .card-body .label{color:var(--text3)}
+    .card-footer{margin-top:14px;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+    .tag{font-size:11px;background:var(--bg2);padding:3px 10px;border-radius:999px;color:var(--text3);border:1px solid var(--border)}
+    .heart{margin-inline-start:auto;color:var(--danger);font-size:12px;display:flex;align-items:center;gap:3px;font-weight:600}
+    .visit-hint{margin-top:14px;display:inline-flex;align-items:center;gap:6px;color:var(--accent);font-size:13px;font-weight:700}
+    .visit-hint svg{width:14px;height:14px}
 
-    /* Footer */
-    footer {
-      border-top: 1px solid var(--border2); padding: 48px 20px 32px;
-      background: var(--bg2);
-    }
-    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 32px; max-width: 1200px; margin: 0 auto; }
-    .footer-brand p { color: var(--text3); font-size: 14px; margin-top: 8px; max-width: 300px; }
-    .footer-col h4 { font-size: 14px; font-weight: 600; margin-bottom: 16px; color: var(--text); }
-    .footer-col a { display: block; color: var(--text3); font-size: 13px; padding: 4px 0; transition: var(--transition); }
-    .footer-col a:hover { color: var(--accent); }
-    .footer-bottom { text-align: center; padding-top: 32px; margin-top: 32px; border-top: 1px solid var(--border); max-width: 1200px; margin-left: auto; margin-right: auto; color: var(--text3); font-size: 13px; }
+    .faq-wrap{max-width:760px;margin-inline:auto;display:grid;gap:12px}
+    .faq-item{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:var(--tr)}
+    .faq-item:hover{border-color:var(--border2)}
+    .faq-item[open]{border-color:rgba(56,189,248,.45)}
+    .faq-item summary{list-style:none;cursor:pointer;padding:19px 56px 19px 22px;font-weight:650;font-size:15.5px;position:relative;user-select:none;min-height:56px;display:flex;align-items:center}
+    body.rtl .faq-item summary{padding:19px 22px 19px 56px}
+    .faq-item summary::-webkit-details-marker{display:none}
+    .faq-item summary::after{content:'';position:absolute;inset-inline-end:20px;top:50%;translate:0 -50%;width:22px;height:22px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23667795' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");background-size:contain;background-repeat:no-repeat;transition:rotate .25s}
+    .faq-item[open] summary::after{rotate:45deg}
+    .faq-a{padding:0 22px 20px;color:var(--text2);font-size:14.5px;line-height:1.75}
+    body.rtl .faq-a{padding:0 22px 20px}
 
-    /* Terms modal */
-    .modal-overlay {
-      display: none; position: fixed; inset: 0; background: rgba(0,0,0,.7);
-      z-index: 200; justify-content: center; align-items: center; padding: 20px;
-      backdrop-filter: blur(4px);
-    }
-    .modal-overlay.active { display: flex; }
-    .modal {
-      background: var(--bg2); border: 1px solid var(--border2); border-radius: var(--radius);
-      max-width: 640px; width: 100%; max-height: 80vh; overflow-y: auto;
-      padding: 32px; position: relative;
-    }
-    .modal h2 { font-size: 22px; margin-bottom: 16px; }
-    .modal h3 { font-size: 16px; margin: 20px 0 8px; color: var(--accent); }
-    .modal p { font-size: 14px; color: var(--text2); margin-bottom: 8px; line-height: 1.7; }
-    .modal-close {
-      position: absolute; top: 16px; right: 16px; background: none; border: none;
-      color: var(--text3); font-size: 24px; cursor: pointer; transition: var(--transition);
-    }
-    .modal-close:hover { color: var(--text); }
-    body.rtl .modal-close { right: auto; left: 16px; }
+    .dl-section{padding:96px 20px;text-align:center;position:relative;overflow:hidden}
+    .dl-card{position:relative;z-index:1;max-width:820px;margin-inline:auto;background:linear-gradient(170deg,rgba(56,189,248,.1),rgba(129,140,248,.06) 55%,transparent);border:1px solid rgba(56,189,248,.25);border-radius:28px;padding:64px 32px}
+    .dl-section::before{content:'';position:absolute;width:480px;height:480px;top:50%;left:50%;translate:-50% -50%;background:radial-gradient(circle,rgba(56,189,248,.12),transparent 65%);pointer-events:none}
+    .dl-card h2{font-size:clamp(26px,4vw,38px);font-weight:800;letter-spacing:-.02em;margin-bottom:12px}
+    .dl-card .sub{color:var(--text2);font-size:16.5px;margin-bottom:36px}
+    .store-badges{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .store-badge{display:inline-flex;align-items:center;gap:12px;background:#000;color:#fff;padding:13px 26px;border-radius:15px;border:1px solid #33384a;transition:var(--tr);min-height:62px}
+    .store-badge:hover{background:#12141c;transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.45);color:#fff}
+    .store-badge svg{width:28px;height:28px;flex-shrink:0}
+    .store-badge .lbl{display:flex;flex-direction:column;align-items:flex-start;line-height:1.25;text-align:start}
+    .store-badge small{font-size:11px;font-weight:400;opacity:.72}
+    .store-badge b{font-size:16.5px;font-weight:650;letter-spacing:.01em}
+    .dl-note{margin-top:22px;font-size:13px;color:var(--text3)}
 
-    /* Responsive */
-    @media (max-width: 900px) {
-      .detail-grid { grid-template-columns: 1fr; gap: 32px; text-align: center; }
-      .detail-content ul li { justify-content: center; }
-      .footer-grid { grid-template-columns: 1fr 1fr; }
+    footer{border-top:1px solid var(--border);background:var(--bg2);padding:60px 20px 34px}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;max-width:1180px;margin-inline:auto}
+    .footer-brand p{color:var(--text3);font-size:14px;margin-top:12px;max-width:300px}
+    .footer-col h4{font-size:13.5px;font-weight:700;margin-bottom:16px;color:var(--text);text-transform:uppercase;letter-spacing:.06em}
+    .footer-col a{display:block;color:var(--text3);font-size:14px;padding:5px 0;transition:var(--tr)}
+    .footer-col a:hover{color:var(--accent)}
+    .footer-bottom{max-width:1180px;margin:44px auto 0;padding-top:28px;border-top:1px solid var(--border);color:var(--text3);font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .risk-note{max-width:1180px;margin:18px auto 0;color:var(--text3);font-size:12px;line-height:1.6;opacity:.85}
+
+    .sticky-cta{position:fixed;inset-inline:0;bottom:0;z-index:90;display:none;justify-content:center;padding:10px max(12px,env(safe-area-inset-left)) calc(10px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-right));background:rgba(7,13,26,.92);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-top:1px solid var(--border2);transform:translateY(110%);transition:transform .35s cubic-bezier(.4,0,.2,1)}
+    .sticky-cta.show{transform:translateY(0)}
+    .sticky-cta .row{width:100%;max-width:560px;display:flex;align-items:center;gap:12px}
+    .sticky-cta .info{flex:1;min-width:0}
+    .sticky-cta .t{font-size:13.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .sticky-cta .s{font-size:11.5px;color:var(--text3)}
+    .sticky-cta .btn{min-height:46px;padding:10px 20px;font-size:14px;border-radius:11px;flex-shrink:0}
+
+    @media (max-width:900px){
+      .detail-grid{grid-template-columns:1fr;gap:36px;text-align:center}
+      .check-list li{justify-content:center}
+      .footer-grid{grid-template-columns:1fr 1fr}
+      .stats-strip{grid-template-columns:repeat(2,1fr)}
     }
-    @media (max-width: 700px) {
-      nav .links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); flex-direction: column; padding: 16px 24px; border-bottom: 1px solid var(--border2); }
-      nav .links.open { display: flex; }
-      .hamburger { display: flex; }
-      .hero h1 { font-size: 32px; }
-      .section-title { font-size: 26px; }
-      .features-grid { grid-template-columns: 1fr; }
-      .screenshots-grid { gap: 16px; }
-      .phone-mockup { width: 200px; }
-      .footer-grid { grid-template-columns: 1fr; }
+    @media (max-width:700px){
+      .section{padding:64px 0}
+      .nav-links{position:absolute;top:68px;left:0;right:0;display:none;flex-direction:column;align-items:stretch;background:var(--bg2);border-bottom:1px solid var(--border2);padding:14px 20px 20px;gap:4px;box-shadow:var(--shadow)}
+      .nav-links.open{display:flex}
+      .nav-links a:not(.btn-nav){padding:13px 12px;font-size:15.5px}
+      .btn-nav{justify-content:center;margin:10px 0 0}
+      .hamburger{display:flex}
+      .hero{padding:68px 16px 52px}
+      .shots-row{justify-content:flex-start;margin-inline:-20px;padding-inline:20px}
+      .dl-card{padding:48px 22px}
+      .store-badges .store-badge{flex:1 1 100%;justify-content:center}
+      .sticky-cta{display:flex}
+      footer{padding-bottom:96px}
     }
-    @media (max-width: 480px) {
-      .phone-mockup { width: 160px; }
-      .hero { padding: 60px 16px 40px; }
-      .hero h1 { font-size: 26px; }
+    @media (prefers-reduced-motion:reduce){
+      *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
     }
   </style>
-  <!-- Font for Arabic -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"></noscript>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 
-<!-- Navigation -->
-<nav>
-  <div class="logo">FX<span>Navigator</span></div>
-  <button class="hamburger" aria-label="Menu" onclick="toggleMenu()"><span></span><span></span><span></span></button>
-  <div class="links" id="navLinks">
-    <a href="#features" data-i18n="nav_features">Features</a>
-    <a href="#screenshots" data-i18n="nav_screenshots">Screenshots</a>
-    <a href="#firms" data-i18n="nav_firms">Prop Firms</a>
-    <a href="#faq" data-i18n="nav_faq">FAQ</a>
-    <a href="javascript:void(0)" onclick="openModal('terms')" data-i18n="nav_terms">Terms</a>
-    <a href="javascript:void(0)" onclick="openModal('privacy')" data-i18n="nav_privacy">Privacy</a>
-    <button class="lang-btn" id="langToggle" onclick="toggleLang()">🇸🇦 العربية</button>
-  </div>
-</nav>
-
-<!-- Hero -->
-<section class="hero">
-  <h1><span data-i18n="hero_title1">Your All-in-One</span><br><span data-i18n="hero_title2">Forex Trading Companion</span></h1>
-  <p data-i18n="hero_desc">Live market sessions, economic calendar, forex news, interactive education, AI assistant, prop firms directory — all in one app.</p>
-  <div class="hero-badges">
-    <span class="hero-badge rating">★★★★★ <span data-i18n="hero_rating">4.8 Rating</span></span>
-    <span class="hero-badge downloads">⬇ <span data-i18n="hero_downloads">50K+ Downloads</span></span>
-    <span class="hero-badge">📱 <span data-i18n="hero_platforms">iOS & Android</span></span>
-  </div>
-  <div class="btn-group">
-    <a class="btn btn-primary" href="#download">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      <span data-i18n="hero_cta">Download Now</span>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="FXNavigator home">
+      <img src="/favicon.svg" alt="" width="32" height="32">
+      FX<span>Navigator</span>
     </a>
-    <a class="btn btn-secondary" href="#features" data-i18n="hero_learn">Learn More</a>
+    <button class="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="navLinks" id="menuBtn">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#features" data-i18n="nav_features">Features</a>
+      <a href="#screenshots" data-i18n="nav_screenshots">Screenshots</a>
+      <a href="#firms" data-i18n="nav_firms">Prop Firms</a>
+      <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      <a class="btn-nav js-store" href="https://play.google.com/store/apps/details?id=sd.elteyab.fxapp" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 0 1 0 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/></svg>
+        <span data-i18n="nav_download">Download Free</span>
+      </a>
+      <button class="lang-btn" id="langToggle" onclick="toggleLang()">العربية</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 4.86L20 7.7l-4 3.9.94 5.5L12 14.5l-4.94 2.6L8 11.6 4 7.7l5.6-.84z"/></svg>
+      <span data-i18n="hero_badge">Trusted by 50,000+ traders worldwide</span>
+    </span>
+    <h1><span data-i18n="hero_title1">Your All-in-One</span><br><span class="grad" data-i18n="hero_title2">Forex Trading Companion</span></h1>
+    <p class="lede" data-i18n="hero_desc">Live market sessions, economic calendar, forex news, interactive ICT &amp; SMC education, AI assistant and a directory of 32+ prop firms — all in one free app.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary js-store" href="https://play.google.com/store/apps/details?id=sd.elteyab.fxapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span data-i18n="hero_cta">Download Now — It's Free</span>
+      </a>
+      <a class="btn btn-ghost" href="#firms" data-i18n="hero_learn">Browse Prop Firms</a>
+    </div>
+    <div class="trust-row">
+      <span class="trust-item"><span class="stars" aria-hidden="true">★★★★★</span> <span data-i18n="hero_rating"><strong>4.8</strong> rating</span></span>
+      <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> <span data-i18n="hero_downloads">50K+ downloads</span></span>
+      <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg> <span data-i18n="hero_platforms">iOS &amp; Android</span></span>
+      <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> <span data-i18n="hero_langs">12 languages</span></span>
+    </div>
+    <div class="stats-strip">
+      <div class="stat-card"><div class="num" data-i18n="stat_traders_n">50K+</div><div class="lbl" data-i18n="stat_traders">Active traders</div></div>
+      <div class="stat-card"><div class="num" data-i18n="stat_rating_n">4.8★</div><div class="lbl" data-i18n="stat_rating">Average rating</div></div>
+      <div class="stat-card"><div class="num" data-i18n="stat_firms_n">32+</div><div class="lbl" data-i18n="stat_firms">Prop firms listed</div></div>
+      <div class="stat-card"><div class="num" data-i18n="stat_lessons_n">40+</div><div class="lbl" data-i18n="stat_lessons">Interactive lessons</div></div>
+    </div>
   </div>
 </section>
 
-<!-- Features -->
-<section class="section" id="features">
+<section class="section cv" id="features">
   <div class="container">
-    <h2 class="section-title" data-i18n="features_title">Everything a Trader Needs</h2>
-    <p class="section-subtitle" data-i18n="features_sub">From market analysis to education and funding — FXNavigator covers your entire trading workflow.</p>
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="features_title">Everything a Trader Needs</h2>
+      <p class="section-sub" data-i18n="features_sub">From market analysis to education and funding — FXNavigator covers your entire trading workflow.</p>
+    </div>
     <div class="features-grid">
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(56,189,248,.12);color:var(--accent)">🕐</div>
+        <div class="feature-icon" style="background:rgba(56,189,248,.12);color:#38bdf8"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
         <h3 data-i18n="f1_title">Market Sessions</h3>
-        <p data-i18n="f1_desc">Live countdowns for Sydney, Tokyo, London, New York with overlap detection and status indicators.</p>
+        <p data-i18n="f1_desc">Live countdowns for Sydney, Tokyo, London and New York with overlap detection and status indicators.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(129,140,248,.12);color:var(--accent2)">📅</div>
+        <div class="feature-icon" style="background:rgba(129,140,248,.12);color:#818cf8"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
         <h3 data-i18n="f2_title">Economic Calendar</h3>
-        <p data-i18n="f2_desc">RSS-sourced events with currency/impact filters, cache-first offline strategy.</p>
+        <p data-i18n="f2_desc">High-impact events with currency and impact filters, plus a cache-first offline strategy.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(34,197,94,.12);color:var(--success)">📰</div>
+        <div class="feature-icon" style="background:rgba(52,211,153,.12);color:#34d399"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg></div>
         <h3 data-i18n="f3_title">Forex News</h3>
-        <p data-i18n="f3_desc">Aggregated news from multiple sources with 5-minute polling for breaking alerts.</p>
+        <p data-i18n="f3_desc">Aggregated headlines from multiple sources with fast polling for breaking-news alerts.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(251,191,36,.12);color:var(--accent3)">🎓</div>
+        <div class="feature-icon" style="background:rgba(251,191,36,.12);color:#fbbf24"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
         <h3 data-i18n="f4_title">Trading Education</h3>
-        <p data-i18n="f4_desc">5 interactive schools (ICT, SMC, Elliott Wave, SMT, VFX) with lessons, quizzes, and gamification.</p>
+        <p data-i18n="f4_desc">5 interactive schools (ICT, SMC, Elliott Wave, SMT, VFX) with lessons, quizzes and gamification.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(168,85,247,.12);color:#a855f7">🤖</div>
+        <div class="feature-icon" style="background:rgba(168,85,247,.12);color:#c084fc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2M20 14h2M15 13v2M9 13v2"/></svg></div>
         <h3 data-i18n="f5_title">AI Assistant</h3>
-        <p data-i18n="f5_desc">Smart chat with streaming responses and conversation history for trading questions.</p>
+        <p data-i18n="f5_desc">Smart chat with streaming responses and conversation history for all your trading questions.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(56,189,248,.12);color:var(--accent)">🏦</div>
+        <div class="feature-icon" style="background:rgba(56,189,248,.12);color:#38bdf8"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/><path d="M9 11h.01M15 11h.01M12 11h.01"/></svg></div>
         <h3 data-i18n="f6_title">Prop Firms Directory</h3>
-        <p data-i18n="f6_desc">Browse 32+ prop firms with funding details, challenges, platforms, and affiliate links.</p>
+        <p data-i18n="f6_desc">Browse 32+ prop firms with funding details, challenges, platforms and exclusive discounts.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(236,72,153,.12);color:#ec4899">📊</div>
+        <div class="feature-icon" style="background:rgba(236,72,153,.12);color:#f472b6"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
         <h3 data-i18n="f7_title">Market Heat Map</h3>
-        <p data-i18n="f7_desc">Visual dashboard of 7 major pairs, 3 commodities, 3 indices, and currency strength.</p>
+        <p data-i18n="f7_desc">Visual dashboard of 7 major pairs, 3 commodities, 3 indices and overall currency strength.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(34,197,94,.12);color:var(--success)">📝</div>
+        <div class="feature-icon" style="background:rgba(52,211,153,.12);color:#34d399"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h20"/><path d="M4 3v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3"/><path d="M12 8h4"/><path d="M12 12h4"/><path d="M8 8h.01M8 12h.01"/><path d="M6 21l2-3h8l2 3"/></svg></div>
         <h3 data-i18n="f8_title">Trading Journal</h3>
-        <p data-i18n="f8_desc">Track P&L, win rate, add/edit entries with local persistence.</p>
+        <p data-i18n="f8_desc">Track P&amp;L and win rate with full add/edit entries and local persistence.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(251,191,36,.12);color:var(--accent3)">🔔</div>
+        <div class="feature-icon" style="background:rgba(251,191,36,.12);color:#fbbf24"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
         <h3 data-i18n="f9_title">Smart Notifications</h3>
-        <p data-i18n="f9_desc">Session alerts, countdowns, overlap warnings, breaking news, calendar reminders, price alerts.</p>
+        <p data-i18n="f9_desc">Session alerts, countdowns, overlap warnings, breaking news and calendar reminders.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(129,140,248,.12);color:var(--accent2)">❤️</div>
-        <h3 data-i18n="f10_title">Watchlist & Alerts</h3>
-        <p data-i18n="f10_desc">Track up to 5 instruments with price threshold alerts and drag-and-drop reorder.</p>
+        <div class="feature-icon" style="background:rgba(129,140,248,.12);color:#818cf8"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg></div>
+        <h3 data-i18n="f10_title">Watchlist &amp; Alerts</h3>
+        <p data-i18n="f10_desc">Track up to 5 instruments with price-threshold alerts and drag-and-drop reordering.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(56,189,248,.12);color:var(--accent)">💱</div>
+        <div class="feature-icon" style="background:rgba(56,189,248,.12);color:#38bdf8"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></svg></div>
         <h3 data-i18n="f11_title">Currency Calculator</h3>
-        <p data-i18n="f11_desc">Convert between 16 currencies with 7 reference pairs via Yahoo Finance.</p>
+        <p data-i18n="f11_desc">Convert between 16 currencies across 7 reference pairs with live rates.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon" style="background:rgba(34,197,94,.12);color:var(--success)">🏆</div>
+        <div class="feature-icon" style="background:rgba(52,211,153,.12);color:#34d399"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg></div>
         <h3 data-i18n="f12_title">Gamification</h3>
-        <p data-i18n="f12_desc">Earn XP, levels, streaks, and achievements as you learn and trade.</p>
+        <p data-i18n="f12_desc">Earn XP, levels, streaks and achievement badges as you learn and trade.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Screenshots -->
-<section class="section" id="screenshots" style="background:var(--bg2)">
+<section class="section cv" id="screenshots" style="background:var(--bg2);border-block:1px solid var(--border)">
   <div class="container">
-    <h2 class="section-title" data-i18n="screenshots_title">See the App in Action</h2>
-    <p class="section-subtitle" data-i18n="screenshots_sub">Beautiful, intuitive interface designed for traders.</p>
-    <div class="screenshots-grid">
-      <div class="phone-mockup">
-        <div class="screen"><img src="images/appscreen/home.jpg" alt="FXNavigator Home Screen" loading="lazy"></div>
-        <div class="caption" data-i18n="ss_cap1">Dashboard & Market Overview</div>
-      </div>
-      <div class="phone-mockup">
-        <div class="screen"><img src="images/appscreen/markite-sessien.jpg" alt="FXNavigator Market Sessions" loading="lazy"></div>
-        <div class="caption" data-i18n="ss_cap2">Live Market Sessions</div>
-      </div>
-      <div class="phone-mockup">
-        <div class="screen"><img src="images/appscreen/notfication-setting-screen.jpg" alt="FXNavigator Notification Settings" loading="lazy"></div>
-        <div class="caption" data-i18n="ss_cap3">Smart Notification Settings</div>
-      </div>
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="screenshots_title">See the App in Action</h2>
+      <p class="section-sub" data-i18n="screenshots_sub">A beautiful, intuitive interface designed for traders — swipe to explore.</p>
+    </div>
+    <div class="shots-row">
+      <figure class="phone">
+        <div class="screen"><img src="images/appscreen/home.jpg" alt="FXNavigator home dashboard showing market overview" loading="lazy" decoding="async" width="500" height="1080"></div>
+        <figcaption data-i18n="ss_cap1">Dashboard &amp; Market Overview</figcaption>
+      </figure>
+      <figure class="phone">
+        <div class="screen"><img src="images/appscreen/markite-sessien.jpg" alt="FXNavigator live market sessions screen with countdown timers" loading="lazy" decoding="async" width="500" height="1080"></div>
+        <figcaption data-i18n="ss_cap2">Live Market Sessions</figcaption>
+      </figure>
+      <figure class="phone">
+        <div class="screen"><img src="images/appscreen/notfication-setting-screen.jpg" alt="FXNavigator smart notification settings screen" loading="lazy" decoding="async" width="500" height="1080"></div>
+        <figcaption data-i18n="ss_cap3">Smart Notification Settings</figcaption>
+      </figure>
     </div>
   </div>
 </section>
 
-<!-- Market Sessions Detail -->
-<section class="section">
+<section class="section cv">
   <div class="container">
     <div class="detail-grid">
       <div class="detail-content">
         <h2><span data-i18n="sessions_title">Live Market Sessions</span></h2>
-        <p data-i18n="sessions_desc">Stay on top of the four major forex trading sessions with real-time countdown timers, overlap detection, and status indicators. Know exactly when Sydney, Tokyo, London, and New York markets open and close.</p>
-        <ul>
+        <p data-i18n="sessions_desc">Stay on top of the four major forex trading sessions with real-time countdown timers, overlap detection and status indicators. Know exactly when Sydney, Tokyo, London and New York open and close.</p>
+        <ul class="check-list">
           <li data-i18n="sessions_l1">Real-time countdowns for all 4 sessions</li>
-          <li data-i18n="sessions_l2">Overlap period detection (London/NY overlap highlighted)</li>
-          <li data-i18n="sessions_l3">Open/Closing Soon/Closed status badges</li>
+          <li data-i18n="sessions_l2">Overlap detection — London/New York highlighted</li>
+          <li data-i18n="sessions_l3">Open / Closing soon / Closed status badges</li>
           <li data-i18n="sessions_l4">Live ticker with current prices</li>
-          <li data-i18n="sessions_l5">Customizable notification alerts for each session</li>
+          <li data-i18n="sessions_l5">Customizable notification alerts per session</li>
         </ul>
       </div>
-      <div class="detail-image">
-        <img src="images/appscreen/markite-sessien.jpg" alt="Market Sessions Screen" loading="lazy">
+      <div class="detail-media">
+        <img src="images/appscreen/markite-sessien.jpg" alt="Market sessions screen with live countdowns" loading="lazy" decoding="async" width="500" height="1080">
       </div>
     </div>
   </div>
 </section>
 
-<!-- Education Detail -->
-<section class="section" style="background:var(--bg2)">
+<section class="section cv" style="background:var(--bg2);border-block:1px solid var(--border)">
   <div class="container">
-    <div class="detail-grid reverse">
-      <div class="detail-image">
-        <img src="images/appscreen/home.jpg" alt="Education Platform" loading="lazy">
+    <div class="detail-grid">
+      <div class="detail-media">
+        <img src="images/appscreen/home.jpg" alt="Education platform dashboard" loading="lazy" decoding="async" width="500" height="1080">
       </div>
       <div class="detail-content">
         <h2><span data-i18n="edu_title">Interactive Trading Schools</span></h2>
-        <p data-i18n="edu_desc">Master the markets with 5 comprehensive trading schools. Each school features 8 progressive lessons with interactive concept renderers, chart exercises, quizzes, and a full gamification system to keep you motivated.</p>
-        <ul>
-          <li data-i18n="edu_l1">ICT (Inner Circle Trader) — 8 lessons with CustomPainter animations</li>
-          <li data-i18n="edu_l2">SMC (Smart Money Concepts) — 8 lessons with chart exercises</li>
-          <li data-i18n="edu_l3">Elliott Wave, SMT, VFX — advanced methodologies</li>
+        <p data-i18n="edu_desc">Master the markets with 5 comprehensive trading schools. Each school features 8 progressive lessons with interactive concept renderers, chart exercises, quizzes and a full gamification system to keep you motivated.</p>
+        <ul class="check-list">
+          <li data-i18n="edu_l1">ICT (Inner Circle Trader) — 8 animated lessons</li>
+          <li data-i18n="edu_l2">SMC (Smart Money Concepts) — chart exercises</li>
+          <li data-i18n="edu_l3">Elliott Wave, SMT and VFX methodologies</li>
           <li data-i18n="edu_l4">5 quizzes per lesson to test your knowledge</li>
-          <li data-i18n="edu_l5">XP, levels, streaks, and 8 achievement badges</li>
+          <li data-i18n="edu_l5">XP, levels, streaks and 8 achievement badges</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Prop Firms Directory -->
-<section class="section" id="firms">
+<section class="section cv" id="firms">
   <div class="container">
-    <h2 class="section-title" data-i18n="firms_title">Prop Firms Directory</h2>
-    <p class="section-subtitle" data-i18n="firms_sub">Browse, filter, and compare 32+ forex and futures prop firms. Find the best funding challenges and trading platforms.</p>
-    <div id="filter-bar">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="firms_title">Prop Firms Directory</h2>
+      <p class="section-sub" data-i18n="firms_sub">Browse, filter and compare 32+ forex and futures prop firms. Find the best funding challenges and trading platforms.</p>
+    </div>
+    <div id="filter-bar" role="group" aria-label="Filter prop firms">
       <button class="filter-btn active" data-filter="all" data-i18n="f_all">All</button>
-      <button class="filter-btn" data-filter="FOREX" data-i18n="f_forex">FOREX</button>
-      <button class="filter-btn" data-filter="FUTURES" data-i18n="f_futures">FUTURES</button>
+      <button class="filter-btn" data-filter="FOREX" data-i18n="f_forex">Forex</button>
+      <button class="filter-btn" data-filter="FUTURES" data-i18n="f_futures">Futures</button>
       <button class="filter-btn" data-filter="discount">🔥 <span data-i18n="f_discount">Has Discount</span></button>
     </div>
-    <input id="search-box" type="text" data-i18n-placeholder="f_search" placeholder="Search prop firms...">
+    <input id="search-box" type="search" autocomplete="off" data-i18n-placeholder="f_search" placeholder="Search prop firms…" aria-label="Search prop firms">
+    <p class="firms-meta" id="firms-count" aria-live="polite"></p>
     <div id="firms-grid" class="grid"></div>
   </div>
 </section>
 
-<!-- FAQ -->
-<section class="section" id="faq" style="background:var(--bg2)">
+<section class="section cv" id="faq" style="background:var(--bg2);border-block:1px solid var(--border)">
   <div class="container">
-    <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions</h2>
-    <p class="section-subtitle" data-i18n="faq_sub">Everything you need to know about FXNavigator.</p>
-    <div class="faq-list">
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span data-i18n="faq1_q">What is FXNavigator?</span><span class="arrow">▼</span></div>
-        <div class="faq-a" data-i18n="faq1_a">FXNavigator is a comprehensive Forex trading companion app available on iOS and Android. It provides live market sessions, economic calendar, news, education, AI assistant, and a prop firms directory — all in one place.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span data-i18n="faq2_q">Is FXNavigator free?</span><span class="arrow">▼</span></div>
-        <div class="faq-a" data-i18n="faq2_a">FXNavigator offers a free tier with full access to core features. Premium subscription ($4.99/month) unlocks advanced features, removes ads, and provides early access to new tools.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span data-i18n="faq3_q">What platforms are supported?</span><span class="arrow">▼</span></div>
-        <div class="faq-a" data-i18n="faq3_a">FXNavigator is available on iOS and Android. It also has a progressive web version for desktop access.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span data-i18n="faq4_q">What languages are supported?</span><span class="arrow">▼</span></div>
-        <div class="faq-a" data-i18n="faq4_a">FXNavigator supports 12 languages: English, Arabic, French, Turkish, Spanish, German, Portuguese, Russian, Indonesian, Chinese, Japanese, and Hindi.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span data-i18n="faq5_q">What are prop firms?</span><span class="arrow">▼</span></div>
-        <div class="faq-a" data-i18n="faq5_a">Proprietary trading firms (prop firms) provide traders with capital to trade in exchange for a share of profits. Our directory lists 32+ firms with details on funding challenges, account sizes, platforms, and special discounts.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span data-i18n="faq6_q">How does the education system work?</span><span class="arrow">▼</span></div>
-        <div class="faq-a" data-i18n="faq6_a">FXNavigator includes 5 trading schools (ICT, SMC, Elliott Wave, SMT, VFX) with 8 progressive lessons each. Each lesson combines animated concept renderers, interactive chart exercises, and quizzes. You earn XP, build streaks, and unlock achievements as you progress.</div>
-      </div>
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions</h2>
+      <p class="section-sub" data-i18n="faq_sub">Everything you need to know about FXNavigator.</p>
+    </div>
+    <div class="faq-wrap">
+      <details class="faq-item">
+        <summary data-i18n="faq1_q">What is FXNavigator?</summary>
+        <div class="faq-a" data-i18n="faq1_a">FXNavigator is a comprehensive Forex trading companion app available on iOS and Android. It provides live market sessions, an economic calendar, news, interactive education, an AI assistant and a directory of 32+ prop funding firms — all in one place.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq2_q">Is FXNavigator free?</summary>
+        <div class="faq-a" data-i18n="faq2_a">Yes. FXNavigator offers a free tier with full access to core features. An optional Premium subscription ($4.99/month) unlocks advanced features, removes ads and provides early access to new tools.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq3_q">What platforms are supported?</summary>
+        <div class="faq-a" data-i18n="faq3_a">FXNavigator is available on iOS and Android phones and tablets.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq4_q">What languages are supported?</summary>
+        <div class="faq-a" data-i18n="faq4_a">FXNavigator supports 12 languages: English, Arabic, French, Turkish, Spanish, German, Portuguese, Russian, Indonesian, Chinese, Japanese and Hindi.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq5_q">What are prop firms?</summary>
+        <div class="faq-a" data-i18n="faq5_a">Proprietary trading firms (prop firms) provide traders with capital to trade in exchange for a share of profits. Our directory lists 32+ firms with details on funding challenges, account sizes, platforms and special discounts.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq6_q">How does the education system work?</summary>
+        <div class="faq-a" data-i18n="faq6_a">FXNavigator includes 5 trading schools (ICT, SMC, Elliott Wave, SMT, VFX) with 8 progressive lessons each. Each lesson combines animated concept renderers, interactive chart exercises and quizzes. You earn XP, build streaks and unlock achievements as you progress.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq7_q">Is FXNavigator financial advice?</summary>
+        <div class="faq-a" data-i18n="faq7_a">No. FXNavigator is an educational and informational tool. It does not provide financial advice, investment recommendations or trading signals. Some directory links are affiliate links — we may earn a commission at no extra cost to you. Always verify details directly with the firm and consult a qualified financial advisor before trading.</div>
+      </details>
     </div>
   </div>
 </section>
 
-<!-- CTA / Download -->
-<section class="cta-section" id="download">
-  <h2 data-i18n="cta_title">Ready to Elevate Your Trading?</h2>
-  <p data-i18n="cta_desc">Join 50,000+ traders who rely on FXNavigator daily. Download now for free.</p>
-  <div class="store-badges">
-    <a class="store-badge" href="https://play.google.com/store/apps/details?id=sd.elteyab.fxapp">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
-      <span class="label-line"><small data-i18n="download_app_store">Download on the</small>App Store</span>
-    </a>
-    <a class="store-badge" href="https://play.google.com/store/apps/details?id=sd.elteyab.fxapp">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 0 1 0 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/></svg>
-      <span class="label-line"><small data-i18n="download_google_play">Get it on</small>Google Play</span>
-    </a>
+<section class="dl-section" id="download">
+  <div class="dl-card">
+    <h2 data-i18n="cta_title">Ready to Elevate Your Trading?</h2>
+    <p class="sub" data-i18n="cta_desc">Join 50,000+ traders who rely on FXNavigator daily. Download now — it's free.</p>
+    <div class="store-badges">
+      <a class="store-badge" id="iosBadge" href="https://apps.apple.com/search?term=FXNavigator" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+        <span class="lbl"><small data-i18n="download_app_store">Download on the</small><b>App Store</b></span>
+      </a>
+      <a class="store-badge" id="androidBadge" href="https://play.google.com/store/apps/details?id=sd.elteyab.fxapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 0 1 0 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/></svg>
+        <span class="lbl"><small data-i18n="download_google_play">Get it on</small><b>Google Play</b></span>
+      </a>
+    </div>
+    <p class="dl-note" data-i18n="dl_note">Free download · Optional Premium at $4.99/month · Cancel anytime</p>
   </div>
 </section>
 
-<!-- Footer -->
+</main>
+
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <div class="logo" style="font-size:18px;color:var(--text)">FX<span style="color:var(--accent)">Navigator</span></div>
-      <p data-i18n="footer_desc">Your all-in-one Forex trading companion. Live sessions, education, AI assistant, and prop firms directory.</p>
+      <a class="brand" href="/">
+        <img src="/favicon.svg" alt="" width="30" height="30">
+        FX<span>Navigator</span>
+      </a>
+      <p data-i18n="footer_desc">Your all-in-one Forex trading companion. Live sessions, education, AI assistant and prop firms directory.</p>
     </div>
     <div class="footer-col">
       <h4 data-i18n="footer_app">App</h4>
@@ -555,443 +632,366 @@
     </div>
     <div class="footer-col">
       <h4 data-i18n="footer_legal">Legal</h4>
-      <a href="javascript:void(0)" onclick="openModal('terms')" data-i18n="nav_terms">Terms of Service</a>
-      <a href="javascript:void(0)" onclick="openModal('privacy')" data-i18n="nav_privacy">Privacy Policy</a>
-      <a href="javascript:void(0)" onclick="openModal('disclaimer')" data-i18n="nav_disclaimer">Disclaimer</a>
+      <a href="/terms-of-use.html" data-i18n="nav_terms">Terms of Use</a>
+      <a href="/privacy-policy.html" data-i18n="nav_privacy">Privacy Policy</a>
+      <a href="/delete-account.html" data-i18n="footer_delete">Delete Account</a>
     </div>
     <div class="footer-col">
       <h4 data-i18n="footer_contact">Contact</h4>
       <a href="mailto:support@fxnavigator.app">support@fxnavigator.app</a>
-      <a href="#" data-i18n="footer_website">fxnavigator.app</a>
+      <a href="/competition.html" data-i18n="footer_comp">Referral Competition</a>
     </div>
   </div>
   <div class="footer-bottom">
-    &copy; 2026 FXNavigator. <span data-i18n="footer_rights">All rights reserved.</span>
+    <span>&copy; <span id="year">2026</span> FXNavigator. <span data-i18n="footer_rights">All rights reserved.</span></span>
   </div>
+  <p class="risk-note" data-i18n="risk_note">Risk warning: Trading foreign exchange carries a high level of risk and may not be suitable for all investors. FXNavigator is an educational tool and does not provide financial advice. Prop-firm links may be affiliate links.</p>
 </footer>
 
-<!-- Terms Modal -->
-<div class="modal-overlay" id="termsModal">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal('terms')">&times;</button>
-    <h2 data-i18n="terms_title">Terms of Service</h2>
-    <p data-i18n="terms_intro"><strong>Last updated:</strong> June 2026</p>
-    <h3 data-i18n="terms_acceptance">1. Acceptance of Terms</h3>
-    <p data-i18n="terms_acceptance_body">By downloading or using FXNavigator ("the App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.</p>
-    <h3 data-i18n="terms_license">2. License</h3>
-    <p data-i18n="terms_license_body">FXNavigator grants you a non-transferable, non-exclusive license to use the App for personal, non-commercial purposes in accordance with these terms.</p>
-    <h3 data-i18n="terms_disclaimer_title">3. Disclaimer</h3>
-    <p data-i18n="terms_disclaimer_body">FXNavigator is an educational and informational tool. It does not provide financial advice, investment recommendations, or trading signals. Trading forex carries significant risk. Past performance does not guarantee future results. Always consult a qualified financial advisor.</p>
-    <h3 data-i18n="terms_subscriptions">4. Subscriptions</h3>
-    <p data-i18n="terms_subscriptions_body">Premium subscriptions are billed monthly ($4.99) and automatically renew unless cancelled at least 24 hours before the end of the current period. Cancellation can be managed in your device settings.</p>
-    <h3 data-i18n="terms_liability">5. Limitation of Liability</h3>
-    <p data-i18n="terms_liability_body">FXNavigator shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the App, including but not limited to trading losses.</p>
-  </div>
-</div>
-
-<!-- Privacy Modal -->
-<div class="modal-overlay" id="privacyModal">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal('privacy')">&times;</button>
-    <h2 data-i18n="privacy_title">Privacy Policy</h2>
-    <p data-i18n="privacy_intro"><strong>Last updated:</strong> June 2026</p>
-    <h3 data-i18n="privacy_collect">1. Information We Collect</h3>
-    <p data-i18n="privacy_collect_body">We collect minimal data necessary for app functionality: device information for push notifications, analytics data (app usage, crash reports), and account information if you register (email, display name).</p>
-    <h3 data-i18n="privacy_use">2. How We Use Information</h3>
-    <p data-i18n="privacy_use_body">Data is used solely to provide and improve the App: send notifications, analyze usage trends, fix crashes, and personalize your experience. We do not sell your data.</p>
-    <h3 data-i18n="privacy_third">3. Third-Party Services</h3>
-    <p data-i18n="privacy_third_body">We use Firebase (Analytics, Crashlytics, Cloud Messaging) and AdMob for advertising. These services have their own privacy policies. You can opt out of analytics in app settings.</p>
-    <h3 data-i18n="privacy_contact_info">4. Contact</h3>
-    <p data-i18n="privacy_contact_body">For privacy inquiries, contact support@fxnavigator.app.</p>
-  </div>
-</div>
-
-<!-- Disclaimer Modal -->
-<div class="modal-overlay" id="disclaimerModal">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal('disclaimer')">&times;</button>
-    <h2 data-i18n="disc_title">Disclaimer</h2>
-    <h3 data-i18n="disc_investment">Investment Disclaimer</h3>
-    <p data-i18n="disc_body1">FXNavigator is an educational and informational platform. Nothing in this app constitutes financial advice, investment recommendations, or trading signals. Trading in Forex, futures, and other financial markets involves substantial risk of loss and is not suitable for all investors.</p>
-    <h3 data-i18n="disc_affiliate">Affiliate Disclosure</h3>
-    <p data-i18n="disc_body2">Some links in the Prop Firms Directory are affiliate links. We may earn a commission if you sign up through these links at no additional cost to you. This helps us maintain and improve the app.</p>
-    <h3 data-i18n="disc_accuracy">Accuracy</h3>
-    <p data-i18n="disc_body3">While we strive for accuracy, information about prop firms, funding challenges, and market data may change. Always verify details directly with the firm before committing.</p>
+<div class="sticky-cta" id="stickyCta" aria-hidden="true">
+  <div class="row">
+    <div class="info">
+      <div class="t" data-i18n="sticky_t">FXNavigator — Free Download</div>
+      <div class="s"><span class="stars" aria-hidden="true">★★★★★</span> <span data-i18n="sticky_s">4.8 · iOS &amp; Android</span></div>
+    </div>
+    <a class="btn btn-primary js-store" href="https://play.google.com/store/apps/details?id=sd.elteyab.fxapp" target="_blank" rel="noopener" tabindex="-1">
+      <span data-i18n="sticky_btn">Get the App</span>
+    </a>
   </div>
 </div>
 
 <script>
-  // ===================== TRANSLATIONS =====================
-  const i18n = {
+(function(){
+  'use strict';
+  var APP_LINKS = {
+    android: 'https://play.google.com/store/apps/details?id=sd.elteyab.fxapp',
+    ios: 'https://apps.apple.com/search?term=FXNavigator'
+  };
+  function isIOS(){ return /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); }
+  function storeURL(){ return isIOS() ? APP_LINKS.ios : APP_LINKS.android; }
+
+  var i18n = {
     en: {
-      nav_features: 'Features',
-      nav_screenshots: 'Screenshots',
-      nav_firms: 'Prop Firms',
-      nav_faq: 'FAQ',
-      nav_terms: 'Terms',
-      nav_privacy: 'Privacy',
-      hero_title1: 'Your All-in-One',
-      hero_title2: 'Forex Trading Companion',
-      hero_desc: 'Live market sessions, economic calendar, forex news, interactive education, AI assistant, prop firms directory — all in one app.',
-      hero_rating: '4.8 Rating',
-      hero_downloads: '50K+ Downloads',
-      hero_platforms: 'iOS & Android',
-      hero_cta: 'Download Now',
-      hero_learn: 'Learn More',
+      nav_features: 'Features', nav_screenshots: 'Screenshots', nav_firms: 'Prop Firms', nav_faq: 'FAQ',
+      nav_terms: 'Terms of Use', nav_privacy: 'Privacy Policy', nav_download: 'Download Free',
+      hero_badge: 'Trusted by 50,000+ traders worldwide',
+      hero_title1: 'Your All-in-One', hero_title2: 'Forex Trading Companion',
+      hero_desc: 'Live market sessions, economic calendar, forex news, interactive ICT & SMC education, AI assistant and a directory of 32+ prop firms — all in one free app.',
+      hero_rating: '4.8 rating', hero_downloads: '50K+ downloads', hero_platforms: 'iOS & Android', hero_langs: '12 languages',
+      hero_cta: 'Download Now — It\u2019s Free', hero_learn: 'Browse Prop Firms',
+      stat_traders_n: '50K+', stat_traders: 'Active traders', stat_rating_n: '4.8\u2605', stat_rating: 'Average rating',
+      stat_firms_n: '32+', stat_firms: 'Prop firms listed', stat_lessons_n: '40+', stat_lessons: 'Interactive lessons',
       features_title: 'Everything a Trader Needs',
       features_sub: 'From market analysis to education and funding — FXNavigator covers your entire trading workflow.',
-      f1_title: 'Market Sessions',
-      f1_desc: 'Live countdowns for Sydney, Tokyo, London, New York with overlap detection and status indicators.',
-      f2_title: 'Economic Calendar',
-      f2_desc: 'RSS-sourced events with currency/impact filters, cache-first offline strategy.',
-      f3_title: 'Forex News',
-      f3_desc: 'Aggregated news from multiple sources with 5-minute polling for breaking alerts.',
-      f4_title: 'Trading Education',
-      f4_desc: '5 interactive schools (ICT, SMC, Elliott Wave, SMT, VFX) with lessons, quizzes, and gamification.',
-      f5_title: 'AI Assistant',
-      f5_desc: 'Smart chat with streaming responses and conversation history for trading questions.',
-      f6_title: 'Prop Firms Directory',
-      f6_desc: 'Browse 32+ prop firms with funding details, challenges, platforms, and affiliate links.',
-      f7_title: 'Market Heat Map',
-      f7_desc: 'Visual dashboard of 7 major pairs, 3 commodities, 3 indices, and currency strength.',
-      f8_title: 'Trading Journal',
-      f8_desc: 'Track P&L, win rate, add/edit entries with local persistence.',
-      f9_title: 'Smart Notifications',
-      f9_desc: 'Session alerts, countdowns, overlap warnings, breaking news, calendar reminders, price alerts.',
-      f10_title: 'Watchlist & Alerts',
-      f10_desc: 'Track up to 5 instruments with price threshold alerts and drag-and-drop reorder.',
-      f11_title: 'Currency Calculator',
-      f11_desc: 'Convert between 16 currencies with 7 reference pairs via Yahoo Finance.',
-      f12_title: 'Gamification',
-      f12_desc: 'Earn XP, levels, streaks, and achievements as you learn and trade.',
-      screenshots_title: 'See the App in Action',
-      screenshots_sub: 'Beautiful, intuitive interface designed for traders.',
-      ss_cap1: 'Dashboard & Market Overview',
-      ss_cap2: 'Live Market Sessions',
-      ss_cap3: 'Smart Notification Settings',
+      f1_title: 'Market Sessions', f1_desc: 'Live countdowns for Sydney, Tokyo, London and New York with overlap detection and status indicators.',
+      f2_title: 'Economic Calendar', f2_desc: 'High-impact events with currency and impact filters, plus a cache-first offline strategy.',
+      f3_title: 'Forex News', f3_desc: 'Aggregated headlines from multiple sources with fast polling for breaking-news alerts.',
+      f4_title: 'Trading Education', f4_desc: '5 interactive schools (ICT, SMC, Elliott Wave, SMT, VFX) with lessons, quizzes and gamification.',
+      f5_title: 'AI Assistant', f5_desc: 'Smart chat with streaming responses and conversation history for all your trading questions.',
+      f6_title: 'Prop Firms Directory', f6_desc: 'Browse 32+ prop firms with funding details, challenges, platforms and exclusive discounts.',
+      f7_title: 'Market Heat Map', f7_desc: 'Visual dashboard of 7 major pairs, 3 commodities, 3 indices and overall currency strength.',
+      f8_title: 'Trading Journal', f8_desc: 'Track P&L and win rate with full add/edit entries and local persistence.',
+      f9_title: 'Smart Notifications', f9_desc: 'Session alerts, countdowns, overlap warnings, breaking news and calendar reminders.',
+      f10_title: 'Watchlist & Alerts', f10_desc: 'Track up to 5 instruments with price-threshold alerts and drag-and-drop reordering.',
+      f11_title: 'Currency Calculator', f11_desc: 'Convert between 16 currencies across 7 reference pairs with live rates.',
+      f12_title: 'Gamification', f12_desc: 'Earn XP, levels, streaks and achievement badges as you learn and trade.',
+      screenshots_title: 'See the App in Action', screenshots_sub: 'A beautiful, intuitive interface designed for traders — swipe to explore.',
+      ss_cap1: 'Dashboard & Market Overview', ss_cap2: 'Live Market Sessions', ss_cap3: 'Smart Notification Settings',
       sessions_title: 'Live Market Sessions',
-      sessions_desc: 'Stay on top of the four major forex trading sessions with real-time countdown timers, overlap detection, and status indicators. Know exactly when Sydney, Tokyo, London, and New York markets open and close.',
+      sessions_desc: 'Stay on top of the four major forex trading sessions with real-time countdown timers, overlap detection and status indicators. Know exactly when Sydney, Tokyo, London and New York open and close.',
       sessions_l1: 'Real-time countdowns for all 4 sessions',
-      sessions_l2: 'Overlap period detection (London/NY overlap highlighted)',
-      sessions_l3: 'Open/Closing Soon/Closed status badges',
+      sessions_l2: 'Overlap detection — London/New York highlighted',
+      sessions_l3: 'Open / Closing soon / Closed status badges',
       sessions_l4: 'Live ticker with current prices',
-      sessions_l5: 'Customizable notification alerts for each session',
+      sessions_l5: 'Customizable notification alerts per session',
       edu_title: 'Interactive Trading Schools',
-      edu_desc: 'Master the markets with 5 comprehensive trading schools. Each school features 8 progressive lessons with interactive concept renderers, chart exercises, quizzes, and a full gamification system to keep you motivated.',
-      edu_l1: 'ICT (Inner Circle Trader) — 8 lessons with CustomPainter animations',
-      edu_l2: 'SMC (Smart Money Concepts) — 8 lessons with chart exercises',
-      edu_l3: 'Elliott Wave, SMT, VFX — advanced methodologies',
+      edu_desc: 'Master the markets with 5 comprehensive trading schools. Each school features 8 progressive lessons with interactive concept renderers, chart exercises, quizzes and a full gamification system to keep you motivated.',
+      edu_l1: 'ICT (Inner Circle Trader) — 8 animated lessons',
+      edu_l2: 'SMC (Smart Money Concepts) — chart exercises',
+      edu_l3: 'Elliott Wave, SMT and VFX methodologies',
       edu_l4: '5 quizzes per lesson to test your knowledge',
-      edu_l5: 'XP, levels, streaks, and 8 achievement badges',
+      edu_l5: 'XP, levels, streaks and 8 achievement badges',
       firms_title: 'Prop Firms Directory',
-      firms_sub: 'Browse, filter, and compare 32+ forex and futures prop firms. Find the best funding challenges and trading platforms.',
-      f_all: 'All',
-      f_forex: 'FOREX',
-      f_futures: 'FUTURES',
-      f_discount: 'Has Discount',
-      f_search: 'Search prop firms...',
-      no_firms: 'No firms found',
-      faq_title: 'Frequently Asked Questions',
-      faq_sub: 'Everything you need to know about FXNavigator.',
+      firms_sub: 'Browse, filter and compare 32+ forex and futures prop firms. Find the best funding challenges and trading platforms.',
+      f_all: 'All', f_forex: 'Forex', f_futures: 'Futures', f_discount: 'Has Discount',
+      f_search: 'Search prop firms\u2026', no_firms: 'No firms found',
+      firms_showing: 'Showing {n} of {total} firms', lbl_funding: 'Max Funding', lbl_country: 'Country', lbl_year: 'Year',
+      visit: 'Visit site',
+      faq_title: 'Frequently Asked Questions', faq_sub: 'Everything you need to know about FXNavigator.',
       faq1_q: 'What is FXNavigator?',
-      faq1_a: 'FXNavigator is a comprehensive Forex trading companion app available on iOS and Android. It provides live market sessions, economic calendar, news, education, AI assistant, and a prop firms directory — all in one place.',
+      faq1_a: 'FXNavigator is a comprehensive Forex trading companion app available on iOS and Android. It provides live market sessions, an economic calendar, news, interactive education, an AI assistant and a directory of 32+ prop funding firms — all in one place.',
       faq2_q: 'Is FXNavigator free?',
-      faq2_a: 'FXNavigator offers a free tier with full access to core features. Premium subscription ($4.99/month) unlocks advanced features, removes ads, and provides early access to new tools.',
+      faq2_a: 'Yes. FXNavigator offers a free tier with full access to core features. An optional Premium subscription ($4.99/month) unlocks advanced features, removes ads and provides early access to new tools.',
       faq3_q: 'What platforms are supported?',
-      faq3_a: 'FXNavigator is available on iOS and Android. It also has a progressive web version for desktop access.',
+      faq3_a: 'FXNavigator is available on iOS and Android phones and tablets.',
       faq4_q: 'What languages are supported?',
-      faq4_a: 'FXNavigator supports 12 languages: English, Arabic, French, Turkish, Spanish, German, Portuguese, Russian, Indonesian, Chinese, Japanese, and Hindi.',
+      faq4_a: 'FXNavigator supports 12 languages: English, Arabic, French, Turkish, Spanish, German, Portuguese, Russian, Indonesian, Chinese, Japanese and Hindi.',
       faq5_q: 'What are prop firms?',
-      faq5_a: 'Proprietary trading firms (prop firms) provide traders with capital to trade in exchange for a share of profits. Our directory lists 32+ firms with details on funding challenges, account sizes, platforms, and special discounts.',
+      faq5_a: 'Proprietary trading firms (prop firms) provide traders with capital to trade in exchange for a share of profits. Our directory lists 32+ firms with details on funding challenges, account sizes, platforms and special discounts.',
       faq6_q: 'How does the education system work?',
-      faq6_a: 'FXNavigator includes 5 trading schools (ICT, SMC, Elliott Wave, SMT, VFX) with 8 progressive lessons each. Each lesson combines animated concept renderers, interactive chart exercises, and quizzes. You earn XP, build streaks, and unlock achievements as you progress.',
+      faq6_a: 'FXNavigator includes 5 trading schools (ICT, SMC, Elliott Wave, SMT, VFX) with 8 progressive lessons each. Each lesson combines animated concept renderers, interactive chart exercises and quizzes. You earn XP, build streaks and unlock achievements as you progress.',
+      faq7_q: 'Is FXNavigator financial advice?',
+      faq7_a: 'No. FXNavigator is an educational and informational tool. It does not provide financial advice, investment recommendations or trading signals. Some directory links are affiliate links — we may earn a commission at no extra cost to you. Always verify details directly with the firm and consult a qualified financial advisor before trading.',
       cta_title: 'Ready to Elevate Your Trading?',
-      cta_desc: 'Join 50,000+ traders who rely on FXNavigator daily. Download now for free.',
-      download_app_store: 'Download on the',
-      download_google_play: 'Get it on',
-      footer_desc: 'Your all-in-one Forex trading companion. Live sessions, education, AI assistant, and prop firms directory.',
-      footer_app: 'App',
-      footer_legal: 'Legal',
-      footer_contact: 'Contact',
-      footer_website: 'fxnavigator.app',
-      footer_rights: 'All rights reserved.',
-      nav_disclaimer: 'Disclaimer',
-      // Terms
-      terms_title: 'Terms of Service',
-      terms_intro: '<strong>Last updated:</strong> June 2026',
-      terms_acceptance: '1. Acceptance of Terms',
-      terms_acceptance_body: 'By downloading or using FXNavigator ("the App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.',
-      terms_license: '2. License',
-      terms_license_body: 'FXNavigator grants you a non-transferable, non-exclusive license to use the App for personal, non-commercial purposes in accordance with these terms.',
-      terms_disclaimer_title: '3. Disclaimer',
-      terms_disclaimer_body: 'FXNavigator is an educational and informational tool. It does not provide financial advice, investment recommendations, or trading signals. Trading forex carries significant risk. Past performance does not guarantee future results. Always consult a qualified financial advisor.',
-      terms_subscriptions: '4. Subscriptions',
-      terms_subscriptions_body: 'Premium subscriptions are billed monthly ($4.99) and automatically renew unless cancelled at least 24 hours before the end of the current period. Cancellation can be managed in your device settings.',
-      terms_liability: '5. Limitation of Liability',
-      terms_liability_body: 'FXNavigator shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the App, including but not limited to trading losses.',
-      // Privacy
-      privacy_title: 'Privacy Policy',
-      privacy_intro: '<strong>Last updated:</strong> June 2026',
-      privacy_collect: '1. Information We Collect',
-      privacy_collect_body: 'We collect minimal data necessary for app functionality: device information for push notifications, analytics data (app usage, crash reports), and account information if you register (email, display name).',
-      privacy_use: '2. How We Use Information',
-      privacy_use_body: 'Data is used solely to provide and improve the App: send notifications, analyze usage trends, fix crashes, and personalize your experience. We do not sell your data.',
-      privacy_third: '3. Third-Party Services',
-      privacy_third_body: 'We use Firebase (Analytics, Crashlytics, Cloud Messaging) and AdMob for advertising. These services have their own privacy policies. You can opt out of analytics in app settings.',
-      privacy_contact_info: '4. Contact',
-      privacy_contact_body: 'For privacy inquiries, contact support@fxnavigator.app.',
-      // Disclaimer
-      disc_title: 'Disclaimer',
-      disc_investment: 'Investment Disclaimer',
-      disc_body1: 'FXNavigator is an educational and informational platform. Nothing in this app constitutes financial advice, investment recommendations, or trading signals. Trading in Forex, futures, and other financial markets involves substantial risk of loss and is not suitable for all investors.',
-      disc_affiliate: 'Affiliate Disclosure',
-      disc_body2: 'Some links in the Prop Firms Directory are affiliate links. We may earn a commission if you sign up through these links at no additional cost to you. This helps us maintain and improve the app.',
-      disc_accuracy: 'Accuracy',
-      disc_body3: 'While we strive for accuracy, information about prop firms, funding challenges, and market data may change. Always verify details directly with the firm before committing.',
+      cta_desc: 'Join 50,000+ traders who rely on FXNavigator daily. Download now — it\u2019s free.',
+      download_app_store: 'Download on the', download_google_play: 'Get it on',
+      dl_note: 'Free download \u00b7 Optional Premium at $4.99/month \u00b7 Cancel anytime',
+      footer_desc: 'Your all-in-one Forex trading companion. Live sessions, education, AI assistant and prop firms directory.',
+      footer_app: 'App', footer_legal: 'Legal', footer_delete: 'Delete Account', footer_comp: 'Referral Competition',
+      footer_contact: 'Contact', footer_rights: 'All rights reserved.',
+      risk_note: 'Risk warning: Trading foreign exchange carries a high level of risk and may not be suitable for all investors. FXNavigator is an educational tool and does not provide financial advice. Prop-firm links may be affiliate links.',
+      sticky_t: 'FXNavigator — Free Download', sticky_s: '4.8 \u00b7 iOS & Android', sticky_btn: 'Get the App'
     },
     ar: {
-      nav_features: 'الميزات',
-      nav_screenshots: 'لقطات الشاشة',
-      nav_firms: 'شركات التمويل',
-      nav_faq: 'الأسئلة',
-      nav_terms: 'الشروط',
-      nav_privacy: 'الخصوصية',
-      hero_title1: 'رفيقك الشامل',
-      hero_title2: 'لتداول الفوركس',
-      hero_desc: 'جلسات السوق المباشرة، التقويم الاقتصادي، أخبار الفوركس، التعليم التفاعلي، المساعد الذكي، دليل شركات التمويل — كل ذلك في تطبيق واحد.',
-      hero_rating: 'تقييم 4.8',
-      hero_downloads: '+50 ألف تحميل',
-      hero_platforms: 'iOS وأندرويد',
-      hero_cta: 'حمل التطبيق الآن',
-      hero_learn: 'اعرف المزيد',
+      nav_features: 'الميزات', nav_screenshots: 'لقطات الشاشة', nav_firms: 'شركات التمويل', nav_faq: 'الأسئلة الشائعة',
+      nav_terms: 'شروط الاستخدام', nav_privacy: 'سياسة الخصوصية', nav_download: 'تحميل مجاني',
+      hero_badge: 'موثوق من أكثر من 50,000 متداول حول العالم',
+      hero_title1: 'رفيقك الشامل', hero_title2: 'لتداول الفوركس',
+      hero_desc: 'جلسات السوق المباشرة، التقويم الاقتصادي، أخبار الفوركس، تعليم ICT وSMC تفاعلي، مساعد ذكي، ودليل يضم أكثر من 32 شركة تمويل — كل ذلك في تطبيق مجاني واحد.',
+      hero_rating: 'تقييم 4.8', hero_downloads: '+50 ألف تحميل', hero_platforms: 'iOS وأندرويد', hero_langs: '12 لغة',
+      hero_cta: 'حمّله الآن — مجاناً', hero_learn: 'تصفح شركات التمويل',
+      stat_traders_n: '+50K', stat_traders: 'متداول نشط', stat_rating_n: '4.8★', stat_rating: 'متوسط التقييم',
+      stat_firms_n: '+32', stat_firms: 'شركة تمويل', stat_lessons_n: '+40', stat_lessons: 'درس تفاعلي',
       features_title: 'كل ما يحتاجه المتداول',
-      features_sub: 'من تحليل السوق إلى التعليم والتمويل — يغطي FXNavigator جميع احتياجاتك التداولية.',
-      f1_title: 'جلسات السوق',
-      f1_desc: 'عد تنازلي مباشر لأسواق سيدني وطوكيو ولندن ونيويورك مع كشف فترات التداخل.',
-      f2_title: 'التقويم الاقتصادي',
-      f2_desc: 'أحداث من مصادر RSS مع فلترة حسب العملة والتأثير، مع استراتيجية عدم الاتصال.',
-      f3_title: 'أخبار الفوركس',
-      f3_desc: 'أخبار مجمعة من مصادر متعددة مع تحديث كل 5 دقائق للتنبيهات العاجلة.',
-      f4_title: 'التعليم التداولي',
-      f4_desc: '5 مدارس تفاعلية (ICT, SMC, Elliott Wave, SMT, VFX) مع دروس واختبارات وتحديات.',
-      f5_title: 'المساعد الذكي',
-      f5_desc: 'محادثة ذكية مع ردود فورية وسجل محادثات للإجابة عن أسئلة التداول.',
-      f6_title: 'دليل شركات التمويل',
-      f6_desc: 'تصفح 32+ شركة تمويل مع تفاصيل التمويل والتحديات والمنصات وروابط الإحالة.',
-      f7_title: 'خريطة السوق الحرارية',
-      f7_desc: 'لوحة مرئية لـ 7 أزواج رئيسية و 3 سلع و 3 مؤشرات وقوة العملات.',
-      f8_title: 'مذكرات التداول',
-      f8_desc: 'تتبع الأرباح والخسائر ونسبة النجاح مع إضافة وتعديل الإدخالات محلياً.',
-      f9_title: 'الإشعارات الذكية',
-      f9_desc: 'تنبيهات الجلسات، العد التنازلي، تحذيرات التداخل، الأخبار العاجلة، تذكيرات التقويم، تنبيهات الأسعار.',
-      f10_title: 'قائمة المتابعة والتنبيهات',
-      f10_desc: 'تتبع حتى 5 أدوات مع تنبيهات أسعار وإعادة ترتيب بالسحب والإفلات.',
-      f11_title: 'حاسبة العملات',
-      f11_desc: 'تحويل بين 16 عملة مع 7 أزواج مرجعية عبر Yahoo Finance.',
-      f12_title: 'التحديات والمكافآت',
-      f12_desc: 'اكسب نقاط خبرة ومستويات وتحديات وإنجازات أثناء التعلم والتداول.',
-      screenshots_title: 'شاهد التطبيق عملياً',
-      screenshots_sub: 'واجهة جميلة وبديهية مصممة للمتداولين.',
-      ss_cap1: 'لوحة المعلومات الرئيسية',
-      ss_cap2: 'جلسات السوق المباشرة',
-      ss_cap3: 'إعدادات الإشعارات الذكية',
+      features_sub: 'من تحليل السوق إلى التعليم والتمويل — يغطي FXNavigator رحلتك التداولية بالكامل.',
+      f1_title: 'جلسات السوق', f1_desc: 'عد تنازلي مباشر لأسواق سيدني وطوكيو ولندن ونيويورك مع كشف فترات التداخل ومؤشرات الحالة.',
+      f2_title: 'التقويم الاقتصادي', f2_desc: 'الأحداث المؤثرة مع فلترة حسب العملة ودرجة التأثير واستراتيجية عمل دون اتصال.',
+      f3_title: 'أخبار الفوركس', f3_desc: 'عناوين مجمعة من مصادر متعددة مع تحديث سريع لتنبيهات الأخبار العاجلة.',
+      f4_title: 'التعليم التداولي', f4_desc: '5 مدارس تفاعلية (ICT، SMC، Elliott Wave، SMT، VFX) مع دروس واختبارات ونظام تحفيز.',
+      f5_title: 'المساعد الذكي', f5_desc: 'محادثة ذكية بردود فورية وسجل محادثات للإجابة عن جميع أسئلة التداول.',
+      f6_title: 'دليل شركات التمويل', f6_desc: 'تصفح أكثر من 32 شركة تمويل مع تفاصيل التمويل والتحديات والمنصات وخصومات حصرية.',
+      f7_title: 'خريطة السوق الحرارية', f7_desc: 'لوحة مرئية لـ 7 أزواج رئيسية و3 سلع و3 مؤشرات وقوة العملات الإجمالية.',
+      f8_title: 'مذكرة التداول', f8_desc: 'تتبع الأرباح والخسائر ونسبة النجاح مع إضافة وتعديل الإدخالات محلياً.',
+      f9_title: 'الإشعارات الذكية', f9_desc: 'تنبيهات الجلسات والعد التنازلي وتحذيرات التداخل والأخبار العاجلة وتذكيرات التقويم.',
+      f10_title: 'قائمة المتابعة والتنبيهات', f10_desc: 'تتبع حتى 5 أدوات مع تنبيهات أسعار وإعادة ترتيب بالسحب والإفلات.',
+      f11_title: 'حاسبة العملات', f11_desc: 'تحويل بين 16 عملة عبر 7 أزواج مرجعية بأسعار مباشرة.',
+      f12_title: 'التحديات والمكافآت', f12_desc: 'اكسب نقاط الخبرة والمستويات والتسلسلات وشارات الإنجاز أثناء التعلم والتداول.',
+      screenshots_title: 'شاهد التطبيق عملياً', screenshots_sub: 'واجهة جميلة وبديهية مصممة للمتداولين — اسحب للاستكشاف.',
+      ss_cap1: 'لوحة المعلومات والسوق', ss_cap2: 'جلسات السوق المباشرة', ss_cap3: 'إعدادات الإشعارات الذكية',
       sessions_title: 'جلسات السوق المباشرة',
-      sessions_desc: 'تابع جلسات التداول الأربع الكبرى مع عد تنازلي مباشر، كشف التداخل، ومؤشرات الحالة. اعرف بالضبط متى تفتح وتغلق أسواق سيدني وطوكيو ولندن ونيويورك.',
+      sessions_desc: 'تابع جلسات التداول الأربع الكبرى مع عد تنازلي مباشر وكشف التداخل ومؤشرات الحالة. اعرف بالضبط متى تفتح وتغلق أسواق سيدني وطوكيو ولندن ونيويورك.',
       sessions_l1: 'عد تنازلي مباشر لجميع الجلسات الأربع',
-      sessions_l2: 'كشف فترات التداخل (تداخل لندن/نيويورك)',
-      sessions_l3: 'حالة الجلسة: مفتوحة/تغلق قريباً/مغلقة',
+      sessions_l2: 'كشف التداخل — إبراز تداخل لندن/نيويورك',
+      sessions_l3: 'حالة الجلسة: مفتوحة / تغلق قريباً / مغلقة',
       sessions_l4: 'شريط أسعار مباشر',
       sessions_l5: 'إشعارات قابلة للتخصيص لكل جلسة',
       edu_title: 'المدارس التداولية التفاعلية',
-      edu_desc: 'أتقن الأسواق مع 5 مدارس تداول شاملة. كل مدرسة تضم 8 دروس متدرجة مع رسوم تفاعلية وتمارين واختبارات ونظام تحفيز كامل.',
-      edu_l1: 'ICT — 8 دروس مع رسوم متحركة تفاعلية',
-      edu_l2: 'SMC — 8 دروس مع تمارين على الرسوم البيانية',
-      edu_l3: 'Elliott Wave, SMT, VFX — منهجيات متقدمة',
+      edu_desc: 'أتقن الأسواق مع 5 مدارس تداول شاملة. كل مدرسة تضم 8 دروس متدرجة برسوم تفاعلية وتمارين على الرسم البياني واختبارات ونظام تحفيز كامل يحافظ على حماسك.',
+      edu_l1: 'ICT — 8 دروس برسوم متحركة تفاعلية',
+      edu_l2: 'SMC — تمارين على الرسوم البيانية',
+      edu_l3: 'منهجيات Elliott Wave وSMT وVFX المتقدمة',
       edu_l4: '5 اختبارات لكل درس لقياس مستواك',
-      edu_l5: 'نقاط خبرة ومستويات وتحديات و8 شارات إنجاز',
+      edu_l5: 'نقاط خبرة ومستويات وتسلسلات و8 شارات إنجاز',
       firms_title: 'دليل شركات التمويل',
-      firms_sub: 'تصفح وقارن بين 32+ شركة تمويل فوركس وعقود مستقبلية. ابحث عن أفضل تحديات التمويل ومنصات التداول.',
-      f_all: 'الكل',
-      f_forex: 'فوركس',
-      f_futures: 'عقود مستقبلية',
-      f_discount: 'عروض وخصومات',
-      f_search: 'ابحث عن شركات التمويل...',
-      no_firms: 'لا توجد شركات',
-      faq_title: 'الأسئلة الشائعة',
-      faq_sub: 'كل ما تحتاج معرفته عن FXNavigator.',
+      firms_sub: 'تصفح وقارن بين أكثر من 32 شركة تمويل فوركس وعقود مستقبلية. اعثر على أفضل تحديات التمويل ومنصات التداول.',
+      f_all: 'الكل', f_forex: 'فوركس', f_futures: 'عقود مستقبلية', f_discount: 'عروض وخصومات',
+      f_search: 'ابحث عن شركات التمويل…', no_firms: 'لا توجد نتائج',
+      firms_showing: 'عرض {n} من {total} شركة', lbl_funding: 'أقصى تمويل', lbl_country: 'الدولة', lbl_year: 'السنة',
+      visit: 'زيارة الموقع',
+      faq_title: 'الأسئلة الشائعة', faq_sub: 'كل ما تحتاج معرفته عن FXNavigator.',
       faq1_q: 'ما هو FXNavigator؟',
-      faq1_a: 'FXNavigator هو تطبيق شامل لرفيق تداول الفوركس متاح على iOS وأندرويد. يوفر جلسات السوق المباشرة، التقويم الاقتصادي، الأخبار، التعليم، المساعد الذكي، ودليل شركات التمويل — كل ذلك في مكان واحد.',
+      faq1_a: 'FXNavigator هو تطبيق شامل لرفيق تداول الفوركس متاح على iOS وأندرويد. يوفر جلسات السوق المباشرة والتقويم الاقتصادي والأخبار والتعليم التفاعلي والمساعد الذكي ودليل يضم أكثر من 32 شركة تمويل — كل ذلك في مكان واحد.',
       faq2_q: 'هل FXNavigator مجاني؟',
-      faq2_a: 'يقدم FXNavigator نسخة مجانية مع وصول كامل للميزات الأساسية. الاشتراك المميز (4.99 دولار/شهر) يفتح ميزات متقدمة ويزيل الإعلانات ويمنح وصولاً مبكراً للأدوات الجديدة.',
+      faq2_a: 'نعم. يقدم FXNavigator خطة مجانية بوصول كامل للميزات الأساسية. اشتراك Premium اختياري (4.99 دولار شهرياً) يفتح ميزات متقدمة ويزيل الإعلانات ويمنح وصولاً مبكراً للأدوات الجديدة.',
       faq3_q: 'ما هي المنصات المدعومة؟',
-      faq3_a: 'FXNavigator متاح على iOS وأندرويد. كما يتوفر إصدار ويب تقدمي للوصول عبر الحاسوب.',
+      faq3_a: 'يتوفر FXNavigator على هواتف وأجهزة iOS وأندرويد اللوحية.',
       faq4_q: 'ما هي اللغات المدعومة؟',
-      faq4_a: 'يدعم FXNavigator 12 لغة: الإنجليزية، العربية، الفرنسية، التركية، الإسبانية، الألمانية، البرتغالية، الروسية، الإندونيسية، الصينية، اليابانية، والهندية.',
+      faq4_a: 'يدعم FXNavigator 12 لغة: الإنجليزية والعربية والفرنسية والتركية والإسبانية والألمانية والبرتغالية والروسية والإندونيسية والصينية واليابانية والهندية.',
       faq5_q: 'ما هي شركات التمويل؟',
-      faq5_a: 'شركات التمويل الخاص (prop firms) تزود المتداولين برأس مال للتداول مقابل حصة من الأرباح. دليلنا يضم 32+ شركة مع تفاصيل تحديات التمويل وحجم الحسابات والمنصات والخصومات.',
+      faq5_a: 'شركات التمويل الخاص تزود المتداولين برأس مال للتداول مقابل حصة من الأرباح. يضم دليلنا أكثر من 32 شركة مع تفاصيل تحديات التمويل وأحجام الحسابات والمنصات والخصومات الخاصة.',
       faq6_q: 'كيف يعمل نظام التعليم؟',
-      faq6_a: 'يضم FXNavigator 5 مدارس تداول (ICT, SMC, Elliott Wave, SMT, VFX) مع 8 دروس متدرجة لكل منها. كل درس يجمع بين الرسوم التفاعلية وتمارين الرسم البياني والاختبارات. تكسب نقاط خبرة وتبني تسلسلات وتفتح إنجازات مع تقدمك.',
+      faq6_a: 'يضم FXNavigator 5 مدارس تداول (ICT، SMC، Elliott Wave، SMT، VFX) بـ 8 دروس متدرجة لكل منها. يجمع كل درس بين الرسوم التفاعلية وتمارين الرسم البياني والاختبارات. تكسب نقاط خبرة وتبني تسلسلات وتفتح إنجازات مع تقدمك.',
+      faq7_q: 'هل FXNavigator يقدم نصائح مالية؟',
+      faq7_a: 'لا. FXNavigator أداة تعليمية وإعلامية لا تقدم نصائح مالية أو توصيات استثمارية أو إشارات تداول. بعض روابط الدليل روابط إحالة — قد نحصل على عمولة دون أي تكلفة إضافية عليك. تحقق دائماً من التفاصيل مع الشركة مباشرة واستشر مستشاراً مالياً مؤهلاً قبل التداول.',
       cta_title: 'هل أنت مستعد للارتقاء بتداولك؟',
-      cta_desc: 'انضم إلى 50,000+ متداول يعتمدون على FXNavigator يومياً. حمل التطبيق الآن مجاناً.',
-      download_app_store: 'حمل من',
-      download_google_play: 'احصل عليه من',
+      cta_desc: 'انضم إلى أكثر من 50,000 متداول يعتمدون على FXNavigator يومياً. حمّله الآن — مجاناً.',
+      download_app_store: 'حمّل من', download_google_play: 'احصل عليه من',
+      dl_note: 'تحميل مجاني \u00b7 Premium اختياري بـ 4.99 دولار شهرياً \u00b7 إلغاء في أي وقت',
       footer_desc: 'رفيقك الشامل لتداول الفوركس. جلسات مباشرة، تعليم، مساعد ذكي، ودليل شركات التمويل.',
-      footer_app: 'التطبيق',
-      footer_legal: 'قانوني',
-      footer_contact: 'اتصل بنا',
-      footer_website: 'fxnavigator.app',
-      footer_rights: 'جميع الحقوق محفوظة.',
-      nav_disclaimer: 'إخلاء مسؤولية',
-      terms_title: 'شروط الخدمة',
-      terms_intro: '<strong>آخر تحديث:</strong> يونيو 2026',
-      terms_acceptance: '1. قبول الشروط',
-      terms_acceptance_body: 'بتحميل أو استخدام FXNavigator ("التطبيق")، فإنك توافق على الالتزام بشروط الخدمة هذه. إذا كنت لا توافق، فلا تستخدم التطبيق.',
-      terms_license: '2. الترخيص',
-      terms_license_body: 'يمنحك FXNavigator ترخيصاً غير قابل للتحويل وغير حصري لاستخدام التطبيق للأغراض الشخصية غير التجارية وفقاً لهذه الشروط.',
-      terms_disclaimer_title: '3. إخلاء مسؤولية',
-      terms_disclaimer_body: 'FXNavigator هو أداة تعليمية وإعلامية. لا يقدم نصائح مالية أو توصيات استثمارية أو إشارات تداول. تداول الفوركس يحمل مخاطر كبيرة. الأداء السابق لا يضمن نتائج مستقبلية. استشر مستشاراً مالياً مؤهلاً دائماً.',
-      terms_subscriptions: '4. الاشتراكات',
-      terms_subscriptions_body: 'الاشتراكات المميزة تُفوتر شهرياً (4.99 دولار) وتتجدد تلقائياً ما لم يتم الإلغاء قبل 24 ساعة على الأقل من نهاية الفترة الحالية. يمكن إدارة الإلغاء في إعدادات جهازك.',
-      terms_liability: '5. تحديد المسؤولية',
-      terms_liability_body: 'FXNavigator غير مسؤول عن أي أضرار مباشرة أو غير مباشرة أو عرضية أو تبعية تنشأ عن استخدامك للتطبيق، بما في ذلك على سبيل المثال لا الحصر خسائر التداول.',
-      privacy_title: 'سياسة الخصوصية',
-      privacy_intro: '<strong>آخر تحديث:</strong> يونيو 2026',
-      privacy_collect: '1. المعلومات التي نجمعها',
-      privacy_collect_body: 'نجمع الحد الأدنى من البيانات اللازمة لوظائف التطبيق: معلومات الجهاز للإشعارات، بيانات التحليلات (استخدام التطبيق، تقارير الأعطال)، ومعلومات الحساب إذا سجلت (البريد الإلكتروني، الاسم).',
-      privacy_use: '2. كيفية استخدام المعلومات',
-      privacy_use_body: 'تُستخدم البيانات فقط لتوفير وتحسين التطبيق: إرسال الإشعارات، تحليل اتجاهات الاستخدام، إصلاح الأعطال، وتخصيص تجربتك. نحن لا نبيع بياناتك.',
-      privacy_third: '3. خدمات الطرف الثالث',
-      privacy_third_body: 'نستخدم Firebase (التحليلات، Crashlytics، Cloud Messaging) وAdMob للإعلانات. هذه الخدمات لها سياسات خصوصية خاصة بها. يمكنك إلغاء الاشتراك في التحليلات من إعدادات التطبيق.',
-      privacy_contact_info: '4. الاتصال',
-      privacy_contact_body: 'لاستفسارات الخصوصية، اتصل على support@fxnavigator.app.',
-      disc_title: 'إخلاء مسؤولية',
-      disc_investment: 'إخلاء مسؤولية استثماري',
-      disc_body1: 'FXNavigator هو منصة تعليمية وإعلامية. لا شيء في هذا التطبيق يشكل نصيحة مالية أو توصيات استثمارية أو إشارات تداول. التداول في الفوركس والعقود المستقبلية والأسواق المالية الأخرى ينطوي على مخاطر كبيرة وقد لا يكون مناسباً لجميع المستثمرين.',
-      disc_affiliate: 'الإفصاح عن الإحالة',
-      disc_body2: 'بعض الروابط في دليل شركات التمويل هي روابط إحالة. قد نحصل على عمولة إذا قمت بالتسجيل من خلال هذه الروابط دون تكلفة إضافية عليك. هذا يساعدنا في صيانة وتحسين التطبيق.',
-      disc_accuracy: 'الدقة',
-      disc_body3: 'بينما نسعى للدقة، قد تتغير المعلومات عن شركات التمويل وتحديات التمويل وبيانات السوق. تحقق دائماً من التفاصيل مباشرة مع الشركة قبل الالتزام.',
+      footer_app: 'التطبيق', footer_legal: 'قانوني', footer_delete: 'حذف الحساب', footer_comp: 'مسابقة الإحالات',
+      footer_contact: 'اتصل بنا', footer_rights: 'جميع الحقوق محفوظة.',
+      risk_note: 'تحذير المخاطر: تداول العملات ينطوي على مخاطر عالية وقد لا يكون مناسباً لجميع المستثمرين. FXNavigator أداة تعليمية ولا يقدم نصائح مالية. قد تكون روابط شركات التمويل روابط إحالة.',
+      sticky_t: 'FXNavigator — تحميل مجاني', sticky_s: '4.8 \u00b7 iOS وأندرويد', sticky_btn: 'احصل على التطبيق'
     }
   };
 
-  // ===================== LANGUAGE =====================
-  let currentLang = 'en';
+  function esc(s){
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
 
-  function detectLang() {
-    const stored = localStorage.getItem('fxnav_lang');
-    if (stored === 'ar' || stored === 'en') return stored;
-    try {
-      const browserLang = (navigator.language || navigator.userLanguage || '').slice(0, 2).toLowerCase();
-      if (browserLang === 'ar') return 'ar';
-    } catch (e) {}
+  var currentLang = 'en';
+
+  function detectLang(){
+    try{
+      var q = new URLSearchParams(location.search).get('lang');
+      if(q === 'ar' || q === 'en') return q;
+      var stored = localStorage.getItem('fxnav_lang');
+      if(stored === 'ar' || stored === 'en') return stored;
+      if((navigator.language || '').slice(0,2).toLowerCase() === 'ar') return 'ar';
+    }catch(e){}
     return 'en';
   }
 
-  function applyLang(lang) {
+  function t(key){
+    var dict = i18n[currentLang] || i18n.en;
+    return dict[key] !== undefined ? dict[key] : (i18n.en[key] !== undefined ? i18n.en[key] : key);
+  }
+
+  function applyLang(lang){
     currentLang = lang;
-    localStorage.setItem('fxnav_lang', lang);
-    const isAr = lang === 'ar';
-
-    document.documentElement.lang = isAr ? 'ar' : 'en';
+    try{ localStorage.setItem('fxnav_lang', lang); }catch(e){}
+    var isAr = lang === 'ar';
+    document.documentElement.lang = lang;
     document.documentElement.dir = isAr ? 'rtl' : 'ltr';
-    document.body.className = isAr ? 'rtl' : '';
-
-    document.getElementById('langToggle').textContent = isAr ? '🇬🇧 English' : '🇸🇦 العربية';
-
-    const dict = i18n[lang];
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-      const key = el.dataset.i18n;
-      if (dict[key] !== undefined) el.innerHTML = dict[key];
+    document.body.classList.toggle('rtl', isAr);
+    document.getElementById('langToggle').textContent = isAr ? 'English' : '\u0627\u0644\u0639\u0631\u0628\u064a\u0629';
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var v = i18n[lang][el.dataset.i18n];
+      if(v !== undefined) el.innerHTML = v;
     });
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-      const key = el.dataset.i18nPlaceholder;
-      if (dict[key] !== undefined) el.placeholder = dict[key];
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el){
+      var v = i18n[lang][el.dataset.i18nPlaceholder];
+      if(v !== undefined) el.placeholder = v;
     });
+    renderFirms(lastList.length ? lastList : firms);
   }
 
-  function toggleLang() {
-    applyLang(currentLang === 'en' ? 'ar' : 'en');
-  }
+  window.toggleLang = function(){ applyLang(currentLang === 'en' ? 'ar' : 'en'); };
 
-  // ===================== MOBILE MENU =====================
-  function toggleMenu() {
-    document.getElementById('navLinks').classList.toggle('open');
-  }
-
-  // ===================== FAQ =====================
-  function toggleFaq(el) {
-    el.classList.toggle('open');
-  }
-
-  // ===================== MODALS =====================
-  function openModal(type) {
-    document.getElementById(type + 'Modal').classList.add('active');
-    document.body.style.overflow = 'hidden';
-  }
-  function closeModal(type) {
-    document.getElementById(type + 'Modal').classList.remove('active');
-    document.body.style.overflow = '';
-  }
-  document.addEventListener('click', function(e) {
-    if (e.target.classList.contains('modal-overlay')) {
-      e.target.classList.remove('active');
-      document.body.style.overflow = '';
-    }
+  var menuBtn = document.getElementById('menuBtn');
+  var navLinks = document.getElementById('navLinks');
+  menuBtn.addEventListener('click', function(){
+    var open = navLinks.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      document.querySelectorAll('.modal-overlay.active').forEach(m => {
-        m.classList.remove('active');
-        document.body.style.overflow = '';
-      });
+  navLinks.addEventListener('click', function(e){
+    if(e.target.closest('a')){
+      navLinks.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
     }
   });
 
-  // ===================== PROP FIRMS =====================
-  let firms = [];
-  async function initFirms() {
-    try {
-      const res = await fetch('api/proxy/firms.json');
-      firms = (await res.json()).data || firms;
-      renderFirms(firms);
-      document.querySelectorAll('#filter-bar .filter-btn').forEach(b => {
-        b.addEventListener('click', function() {
-          document.querySelectorAll('#filter-bar .filter-btn').forEach(x => x.classList.remove('active'));
-          this.classList.add('active');
-          applyFilter();
-        });
-      });
-      document.getElementById('search-box').addEventListener('input', applyFilter);
-    } catch (e) {
-      document.getElementById('firms-grid').innerHTML = `<p style="color:var(--danger);text-align:center">${e.message}</p>`;
-    }
+  document.querySelectorAll('.js-store').forEach(function(a){ a.href = storeURL(); });
+
+  document.querySelectorAll('.feature-card').forEach(function(card){
+    card.addEventListener('pointermove', function(e){
+      var r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+      card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+    });
+  });
+
+  var firms = [];
+  var lastList = [];
+  var activeFilter = 'all';
+  var query = '';
+
+  function fmtMoney(n){
+    return '$' + Number(n || 0).toLocaleString('en-US');
   }
 
-  function applyFilter() {
-    const f = document.querySelector('#filter-bar .filter-btn.active')?.dataset?.filter || 'all';
-    const q = document.getElementById('search-box').value.toLowerCase().trim();
-    let list = firms;
-    if (f === 'FOREX') list = list.filter(x => x.firmType === 'FOREX');
-    else if (f === 'FUTURES') list = list.filter(x => x.firmType === 'FUTURES');
-    else if (f === 'discount') list = list.filter(x => x.discountPercentage > 0);
-    if (q) list = list.filter(x => x.name.toLowerCase().includes(q) || (x.country||'').toLowerCase().includes(q) || (x.platforms||[]).some(p => p.toLowerCase().includes(q)));
+  function applyFilter(){
+    var list = firms.slice();
+    if(activeFilter === 'FOREX') list = list.filter(function(x){ return x.firmType === 'FOREX'; });
+    else if(activeFilter === 'FUTURES') list = list.filter(function(x){ return x.firmType === 'FUTURES'; });
+    else if(activeFilter === 'discount') list = list.filter(function(x){ return x.discountPercentage > 0; });
+    if(query){
+      list = list.filter(function(x){
+        return x.name.toLowerCase().indexOf(query) > -1 ||
+               (x.country || '').toLowerCase().indexOf(query) > -1 ||
+               (x.platforms || []).some(function(p){ return p.toLowerCase().indexOf(query) > -1; });
+      });
+    }
+    lastList = list;
     renderFirms(list);
   }
 
-  function renderFirms(list) {
-    const g = document.getElementById('firms-grid');
-    const noText = i18n[currentLang]?.no_firms || 'No firms found';
-    if (!list.length) { g.innerHTML = `<p style="color:var(--text3);text-align:center;padding:40px 0">${noText}</p>`; return; }
-    g.innerHTML = list.map(f => `<div class="card" onclick="window.open('${f.affiliateLink||'#'}','_blank')">
-      <div class="card-header">${f.logoUrl?`<img class="card-logo" src="${f.logoUrl}" alt="${f.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" loading="lazy"><div class="card-logo-fallback" style="display:none">${(f.name||'??').slice(0,2).toUpperCase()}</div>`:`<div class="card-logo-fallback">${(f.name||'??').slice(0,2).toUpperCase()}</div>`}
-      <div class="card-title"><h3>${f.name}</h3><div class="meta"><span class="badge ${f.firmType==='FUTURES'?'badge-futures':'badge-forex'}">${f.firmType}</span>${f.discountPercentage>0?`<span class="badge-discount">${f.discountPercentage}% OFF</span>`:''}</div></div></div>
-      <div class="card-body"><div class="row"><span class="label">${currentLang==='ar'?'التمويل الأقصى':'Max Funding'}</span> $${(f.maxInitialFunding||0).toLocaleString()}</div><div class="row"><span class="label">${currentLang==='ar'?'الدولة':'Country'}</span> ${f.country||'—'}</div><div class="row"><span class="label">${currentLang==='ar'?'السنة':'Year'}</span> ${f.yearFounded||'—'}</div></div>
-      <div class="card-footer">${(f.platforms||[]).slice(0,3).map(p => `<span class="tag">${p}</span>`).join('')}${(f.platforms||[]).length>3?`<span class="tag">+${f.platforms.length-3}</span>`:''}${f.favoritesCount>0?`<span class="heart">♥ ${f.favoritesCount}</span>`:''}</div></div>`).join('');
+  function renderFirms(list){
+    var g = document.getElementById('firms-grid');
+    var countEl = document.getElementById('firms-count');
+    if(firms.length && countEl){
+      countEl.textContent = t('firms_showing').replace('{n}', list.length).replace('{total}', firms.length);
+    }
+    if(!firms.length){ g.innerHTML = ''; return; }
+    if(!list.length){
+      g.innerHTML = '<p style="color:var(--text3);text-align:center;grid-column:1/-1;padding:40px 0">' + esc(t('no_firms')) + '</p>';
+      return;
+    }
+    g.innerHTML = list.map(function(f){
+      var logo = f.logoUrl
+        ? '<img class="card-logo" src="' + esc(f.logoUrl) + '" alt="' + esc(f.name) + ' logo" loading="lazy" decoding="async" width="46" height="46" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
+          + '<div class="card-logo-fallback" style="display:none">' + esc((f.name || '??').slice(0, 2).toUpperCase()) + '</div>'
+        : '<div class="card-logo-fallback">' + esc((f.name || '??').slice(0, 2).toUpperCase()) + '</div>';
+      var badges = '<span class="badge ' + (f.firmType === 'FUTURES' ? 'badge-futures' : 'badge-forex') + '">' + esc(f.firmType) + '</span>'
+        + (f.discountPercentage > 0 ? '<span class="badge-discount badge">' + esc(f.discountPercentage) + '% OFF</span>' : '');
+      var platforms = (f.platforms || []).slice(0, 3).map(function(p){ return '<span class="tag">' + esc(p) + '</span>'; }).join('')
+        + ((f.platforms || []).length > 3 ? '<span class="tag">+' + (f.platforms.length - 3) + '</span>' : '');
+      var heart = f.favoritesCount > 0 ? '<span class="heart">\u2665 ' + esc(f.favoritesCount) + '</span>' : '';
+      return '<a class="card" href="' + esc(f.affiliateLink || f.website || '#') + '" target="_blank" rel="nofollow sponsored noopener">'
+        + '<div class="card-header">' + logo
+        + '<div class="card-title"><h3>' + esc(f.name) + '</h3><div class="meta">' + badges + '</div></div></div>'
+        + '<div class="card-body">'
+        + '<div class="row"><span class="label">' + esc(t('lbl_funding')) + '</span><span>' + esc(fmtMoney(f.maxInitialFunding)) + '</span></div>'
+        + '<div class="row"><span class="label">' + esc(t('lbl_country')) + '</span><span>' + esc(f.country || '\u2014') + '</span></div>'
+        + '<div class="row"><span class="label">' + esc(t('lbl_year')) + '</span><span>' + esc(f.yearFounded || '\u2014') + '</span></div>'
+        + '</div>'
+        + '<div class="card-footer">' + platforms + heart + '</div>'
+        + '<span class="visit-hint">' + esc(t('visit'))
+        + ' <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>'
+        + '</a>';
+    }).join('');
   }
 
-  // ===================== INIT =====================
+  fetch('funded/api/proxy/firms.json')
+    .then(function(res){ return res.json(); })
+    .then(function(json){
+      firms = json.data || [];
+      applyFilter();
+    })
+    .catch(function(err){
+      document.getElementById('firms-grid').innerHTML =
+        '<p style="color:var(--danger);text-align:center;grid-column:1/-1">' + esc(err.message) + '</p>';
+    });
+
+  document.querySelectorAll('#filter-bar .filter-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('#filter-bar .filter-btn').forEach(function(b){ b.classList.remove('active'); });
+      this.classList.add('active');
+      activeFilter = this.dataset.filter;
+      applyFilter();
+    });
+  });
+  document.getElementById('search-box').addEventListener('input', function(){
+    query = this.value.toLowerCase().trim();
+    applyFilter();
+  });
+
+  var sticky = document.getElementById('stickyCta');
+  var dlSection = document.getElementById('download');
+  if('IntersectionObserver' in window){
+    var pastHero = false, nearEnd = false;
+    var updateSticky = function(){
+      var show = pastHero && !nearEnd;
+      sticky.classList.toggle('show', show);
+      sticky.setAttribute('aria-hidden', show ? 'false' : 'true');
+      sticky.querySelector('.btn').tabIndex = show ? 0 : -1;
+    };
+    new IntersectionObserver(function(entries){
+      pastHero = !entries[0].isIntersecting;
+      updateSticky();
+    }, { rootMargin: '-320px 0px 0px 0px' }).observe(document.querySelector('.hero'));
+    new IntersectionObserver(function(entries){
+      nearEnd = entries[0].isIntersecting;
+      updateSticky();
+    }).observe(dlSection);
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
   applyLang(detectLang());
-  initFirms();
+})();
 </script>
 </body>
 </html>
