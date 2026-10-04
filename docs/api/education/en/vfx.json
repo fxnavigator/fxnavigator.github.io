@@ -2,7 +2,7 @@
   "id": "vfx",
   "title": "VFX — Volume and Order Flow Mastery",
   "subtitle": "Reading Institutional Intent Through Volume and Order Flow",
-  "description": "Volume and Order Flow analysis uncovers the true strength behind price movements by tracking real money entering and exiting the market at specific price levels. Unlike indicators based solely on price, volume cannot be faked — it is the direct footprint of institutional activity. This school builds a complete framework from basic raw volume to advanced absorption and order flow techniques, culminating in a professional trading plan based entirely on Market Microstructure and handling random market fluctuations.",
+  "description": "Volume and Order Flow analysis uncovers the true strength behind price movements by tracking real money entering and exiting the market at specific price levels. Unlike price-only indicators, volume adds a useful activity read: in centralized markets volume is recorded per exchange; in spot forex what you see is tick/broker-side volume — a useful activity proxy, not global real volume. Professionals complement it with CME FX futures. This school builds a complete framework from basic raw volume to advanced absorption and order flow techniques, culminating in a professional trading plan based entirely on Market Microstructure.",
   "color": 4293870660,
   "completedBadge": "Volume Expert",
   "lessons": [
@@ -13,32 +13,82 @@
       "steps": [
         {
           "type": "animation",
-          "text": "Volume is the total number of contracts, futures, or units traded during a specified period. In classical technical analysis, every candle has a corresponding volume bar at the bottom showing the level of participation. For a professional trader, volume is the primary tool for separating real price movements from random noise. Price tells you what happened, but volume shows the conviction behind it. When price moves significantly on low volume, it represents a 'weak run' or 'illiquid move' that lacks institutional backing and is prone to rapid reversals.",
+          "text": "Volume is the total number of contracts, futures, or units traded during a specified period. For a professional trader, volume is the primary tool for separating real price movements from random noise.",
           "concept": "vfx_volume_basics"
         },
         {
           "type": "animation",
-          "text": "To understand volume, you must recognize the key participants in modern markets. Retail traders represent a tiny fraction of daily volume. The real driving force comes from High-Frequency Trading (HFT) algorithms, hedge funds, and investment banks (Smart Money). When an institution wants to buy $800M worth of EUR/USD, they cannot place a single market order without moving the price against themselves. Instead, they split this massive order into hundreds of smaller orders over hours or days. Reading volume is the only way to expose these hidden institutional footprints.",
+          "text": "In classical technical analysis, every candle has a corresponding volume bar at the bottom showing the level of participation. Price tells you what happened, but volume shows the conviction behind it. When price moves significantly on low volume, it represents a 'weak run' or 'illiquid move' that lacks institutional backing",
           "concept": "vfx_volume_basics"
         },
         {
           "type": "animation",
-          "text": "In market microstructure, we focus on Auction Market Theory (AMT). Markets constantly move to find efficiency and balance between supply and demand. When price reaches a zone where heavy volume was traded in the past, it means a major institutional defensive position is located there. If price returns to this level, institutions that haven't finished filling their orders will step in to defend their average entry. Conversely, Low Volume Nodes (LVNs) act as 'liquidity voids' where price sweeps through rapidly due to a lack of institutional interest in trading at those prices (e.g., Fair Value Gaps).",
+          "text": "and is prone to rapid reversals.",
           "concept": "vfx_volume_basics"
         },
         {
           "type": "animation",
-          "text": "An advanced concept is focusing on Random Market Fluctuations. In the modern markets of 2025/2026, traders face continuous noise from HFT algorithms and quick liquidity sweeps. For instance, during the U.S. Consumer Price Index (CPI) release in early 2026, the S&P 500 exhibited sharp random swings up and down to sweep stop orders. The average retail trader views this as an impulsive trend and chases the price, while a professional volume trader monitors Relative Volume: if the rapid swing occurs on low volume relative to the 20-period average, it is classified as a washout, not a genuine trend.",
+          "text": "To understand volume, you must recognize the key participants in modern markets. When an institution wants to buy $800M worth of EUR/USD, they cannot place a single market order without moving the price against themselves. Reading volume is one professional way to look for these hidden institutional footprints.",
           "concept": "vfx_volume_basics"
         },
         {
           "type": "animation",
-          "text": "Relative Volume (RVOL) is an essential professional filter. Comparing current volume to a recent average (e.g., a 20-period volume moving average) is the only way to evaluate the significance of a volume bar. If current volume is 3x the average, there is clear institutional participation. If volume is below average, the move lacks Smart Money support. False breakouts that trap retail traders often happen when price breaks a key structural level on low volume, indicating a move driven by retail or random noise that will be quickly reversed.",
+          "text": "Retail traders represent a tiny fraction of daily volume. The real driving force comes from High-Frequency Trading (HFT) algorithms, hedge funds, and investment banks (Smart Money). Instead, they split this massive order into hundreds of smaller orders over hours or days.",
           "concept": "vfx_volume_basics"
         },
         {
           "type": "animation",
-          "text": "Volume behaves differently in trending markets versus trading ranges. In a healthy uptrend, volume expands on bullish candles and contracts sharply on bearish retracements, showing that buyers drive the market while sellers lack conviction. If volume begins to expand during bearish corrections and contract during bullish legs, it is an early warning that the trend is losing fuel and institutions are distributing their positions, setting the stage for an imminent reversal.",
+          "text": "In market microstructure, we focus on Auction Market Theory (AMT). When price reaches a zone where heavy volume was traded in the past, it means a major institutional defensive position is located there. Conversely, Low Volume Nodes (LVNs) act as 'liquidity voids' where price often traverses quickly for lack of",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "resting orders (distinct from FVGs; a revisit is not guaranteed).",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Markets constantly move to find efficiency and balance between supply and demand. If price returns to this level, institutions that haven't finished filling their orders will step in to defend their average entry.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "An advanced concept is focusing on Random Market Fluctuations. For example, if a CPI release triggers sharp up-and-down sweeps to run stop orders, a novice may treat such a sweep as an impulsive trend and chase it, while a professional checks Relative Volume: if the rapid swing occurs on low",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "volume versus the 20-period average, it is classified as a shakeout, not a genuine trend.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "In modern markets, traders face continuous noise from algorithmic trading and quick liquidity sweeps.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Relative Volume (RVOL) is an essential professional filter. If current volume is 3x the average, there is clear institutional participation. If volume is below average, the move lacks Smart Money support.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Comparing current volume to a recent average (e.g., a 20-period volume moving average) is one professional filter to evaluate the significance of a volume bar. False breakouts that trap retail traders often happen when price breaks a key structural level on low volume, indicating a move driven by retail or",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "random noise that will be quickly reversed.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Volume behaves differently in trending markets versus trading ranges. If volume begins to expand during bearish corrections and contract during bullish legs, it is an early warning that the trend is losing fuel and institutions are distributing their positions, setting the stage for an imminent reversal.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "In a healthy uptrend, volume expands on bullish candles and contracts sharply on bearish retracements, showing that buyers drive the market while sellers lack conviction.",
           "concept": "vfx_volume_basics"
         },
         {
@@ -48,13 +98,27 @@
         },
         {
           "type": "animation",
-          "text": "The most common mistake is interpreting any high-volume bar as an immediate entry signal. High volume simply means a major battle occurred between buyers and sellers at that price. To determine the winner, you must integrate the candle's position in the overall Market Structure. A massive bullish candle on high volume at the top of a multi-day rally is often a Buying Climax, where institutions dump their positions to late buyers. Always put volume in context.",
+          "text": "The most common mistake is interpreting any high-volume bar as an immediate entry signal. To determine the winner, you must integrate the candle's position in the overall Market Structure. Always put volume in context.",
           "concept": "vfx_volume_basics"
         },
         {
           "type": "animation",
-          "text": "To apply these concepts, monitor volume at key levels on EUR/USD or Gold. Mark the highest volume candle of the last 20 bars and observe how price reacts when it returns to that level in the future. You will notice these levels act as price magnets where washouts and entries occur. Always ensure volume confirmation is your gateway to entering any SMC or ICT setup to align with institutional flow.",
+          "text": "High volume simply means a major battle occurred between buyers and sellers at that price. A massive bullish candle on high volume at the top of a multi-day rally is often a Buying Climax, where institutions dump their positions to late buyers.",
           "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "To apply these concepts, monitor volume at key levels on EUR/USD or Gold. You will notice these levels act as price magnets where shakeouts and entries occur.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Mark the highest volume candle of the last 20 bars and observe how price reacts when it returns to that level in the future. Always ensure volume confirmation is your gateway to entering any SMC or ICT setup to align with institutional flow.",
+          "concept": "vfx_volume_basics"
+        },
+        {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
         },
         {
           "type": "interaction",
@@ -67,52 +131,52 @@
         {
           "question": "What does volume primarily measure in financial markets?",
           "options": [
+            "The percentage change of price over time",
             "The total number of contracts or units traded during a specified period",
             "The speed of price movements during a trading session",
-            "The number of active retail traders at any given moment",
-            "The percentage change of price over time"
+            "The number of active retail traders at any given moment"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What is the best description of Relative Volume?",
           "options": [
-            "Comparing current volume to a recent average to determine if participation is high or low",
             "Total volume divided by the number of trading days in the week",
             "Measuring volume only on reversal candles",
-            "The ratio of buy orders to sell orders at market open"
+            "The ratio of buy orders to sell orders at market open",
+            "Comparing current volume to a recent average to determine if participation is high or low"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "In a healthy uptrend, how should volume ideally behave?",
           "options": [
-            "Expands on bullish candles and contracts on bearish retracements",
-            "Remains flat and constant regardless of price direction",
+            "Disappears completely during pullbacks and appears only at peaks",
             "Is higher on bearish candles compared to bullish candles",
-            "Disappears completely during pullbacks and appears only at peaks"
+            "Expands on bullish candles and contracts on bearish retracements",
+            "Remains flat and constant regardless of price direction"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What does a massive volume candle with a very long upper wick at the top of an extended rally indicate?",
           "options": [
             "A buying climax and institutional distribution preparing for a bearish reversal",
             "A strong continuation signal for the uptrend to enter buy orders immediately",
-            "A new accumulation phase by Smart Money algorithms",
-            "Normal activity resulting from random trades that does not affect the price"
+            "Normal activity resulting from random trades that does not affect the price",
+            "A new accumulation phase by Smart Money algorithms"
           ],
           "correctIndex": 0
         },
         {
-          "question": "Why does price tend to revisit Low Volume Nodes (LVNs)?",
+          "question": "How does price typically behave inside Low Volume Nodes (LVNs)?",
           "options": [
-            "They act as liquidity voids and imbalances that price swept through, and the market seeks to rebalance them",
+            "They always force price to consolidate for several days before continuing",
+            "They are low-liquidity voids with few resting orders, so price often traverses them quickly; revisits happen but are NOT guaranteed",
             "They are target levels programmatically determined by trading platforms",
-            "Retail traders avoid them, making them easy and safe zones to move",
-            "They are always associated with economic news releases that cause price to reverse"
+            "Retail traders avoid them, making them easy and safe zones to move"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         }
       ]
     },
@@ -123,42 +187,87 @@
       "steps": [
         {
           "type": "animation",
-          "text": "Delta is the net difference between the volume executed by aggressive buyers at the Ask price and aggressive sellers at the Bid price during a specified period. Trades executed at the Ask indicate an aggressive buyer willing to buy immediately at the market price. Trades executed at the Bid indicate an aggressive seller willing to hit the bid to exit their position. The equation is simple: Delta = Aggressive Buy Volume - Aggressive Sell Volume. Delta does not reflect candle direction, but rather the internal aggressive market order pressure.",
+          "text": "Delta is the net difference between the volume executed by aggressive buyers at the Ask price and aggressive sellers at the Bid price during a specified period. The equation is simple: Delta = Aggressive Buy Volume - Aggressive Sell Volume.",
           "concept": "vfx_delta_orderflow"
         },
         {
           "type": "animation",
-          "text": "The strongest Delta signals come from Delta Divergence. When a candle closes bearish but its Delta is highly positive, it means that despite aggressive market buy orders, passive sellers placed limit orders as thick walls, absorbing all the buy pressure and preventing price from rising. This is called 'Passive Absorption' and is a highly bearish signal. Conversely, a bullish candle with a highly negative Delta reveals passive buying absorbing market sellers, setting the stage for a bullish reversal.",
+          "text": "Trades executed at the Ask indicate an aggressive buyer willing to buy immediately at the market price. Trades executed at the Bid indicate an aggressive seller willing to hit the bid to exit their position. Delta does not reflect candle direction, but rather the internal aggressive market order pressure.",
           "concept": "vfx_delta_orderflow"
         },
         {
           "type": "animation",
-          "text": "Order Flow is the continuous, real-time tracking of orders in the market depth (Order Book). In strong, sustained trends, we see absolute control of positive Delta on upward legs with very minor negative Delta during corrections, indicating institutional algorithms are driving the market in one direction. If you notice Delta turning heavily negative while price remains stable at the top, it is an early sign of large sellers entering before it shows on classical price structure.",
+          "text": "The strongest Delta signals come from Delta Divergence. This is called 'Passive Absorption' and is a highly bearish signal. Conversely, a bullish candle with a highly negative Delta reveals passive buying absorbing market sellers, setting the stage for a bullish reversal.",
           "concept": "vfx_delta_orderflow"
         },
         {
           "type": "animation",
-          "text": "Cumulative Volume Delta (CVD) represents a major advancement. Instead of reading each candle's Delta separately, CVD accumulates Delta values over time. This allows us to monitor if a divergence is building over the medium to long term. During random market fluctuations, such as the violent liquidations in Bitcoin in late 2025, when price makes a new low but CVD fails to make a new low (indicating market sellers are being absorbed by passive buyers), it represents a high-probability reversal setup.",
+          "text": "When a candle closes bearish but its Delta is highly positive, it means that despite aggressive market buy orders, passive sellers placed limit orders as thick walls, absorbing all the buy pressure and preventing price from rising.",
           "concept": "vfx_delta_orderflow"
         },
         {
           "type": "animation",
-          "text": "The Footprint Chart is the ideal tool for viewing Delta details inside each candle. It displays the precise volume executed at the Bid and Ask for every price level (tick) within a candle's range. This allows traders to spot 'buying/selling imbalances'. If buying volume at the Ask is 3x or 4x the selling volume at the corresponding Bid, it forms a buying imbalance. These levels become strong support and resistance zones because institutions aggressively defend their financial imbalances.",
+          "text": "Order Flow is the continuous, real-time tracking of orders in the market depth (Order Book). If you notice Delta turning heavily negative while price remains stable at the top, it is an early sign of large sellers entering before it shows on classical price structure.",
           "concept": "vfx_delta_orderflow"
         },
         {
           "type": "animation",
-          "text": "To apply Delta successfully, integrate it with major liquidity pools. When price sweeps a previous low, retail traders expect a bearish breakout and place aggressive market sell orders, while institutions place limit buy orders to absorb this panic. If you see price break the low with massive negative Delta but quickly reverse and close above the low, it confirms passive buying has absorbed the sellers. Entering a buy position after the reversal is confirmed gives you a high success rate and minimal risk.",
+          "text": "In strong, sustained trends, we see absolute control of positive Delta on upward legs with very minor negative Delta during corrections, indicating institutional algorithms are driving the market in one direction.",
           "concept": "vfx_delta_orderflow"
         },
         {
           "type": "animation",
-          "text": "Be aware that volume and Delta data sources are not equal. In the spot forex market, there is no centralized exchange, so the volume and Delta shown by retail platforms are tick volume representing only that broker's activity. For 100% accurate, professional-grade Delta, professionals monitor currency futures on the Chicago Mercantile Exchange (CME), where every contract executed at Bid/Ask is recorded and distributed in real-time.",
+          "text": "Cumulative Volume Delta (CVD) represents a major advancement. This allows us to monitor if a divergence is building over the medium to long term.",
           "concept": "vfx_delta_orderflow"
         },
         {
           "type": "animation",
-          "text": "Training your eye on Delta requires daily tracking. During major sessions (London and New York), observe Delta behavior when price tests Order Blocks. If price approaches a bullish Order Block and negative Delta values decline, it confirms the drying up of sell pressure. If a strong positive Delta suddenly appears upon hitting the block, it is the green light to enter the trade with confidence. Do not trade Delta in the middle of ranges where random noise can easily stop you out.",
+          "text": "Instead of reading each candle's Delta separately, CVD accumulates Delta values over time. For example, if price makes a new low but CVD fails to make a new low — suggesting sellers are being absorbed by passive buyers — it is a possible reversal setup to confirm with structure, not",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "a guarantee.",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "The Footprint Chart is the ideal tool for viewing Delta details inside each candle. This allows traders to spot 'buying/selling imbalances'. These levels become strong support and resistance zones because institutions aggressively defend their financial imbalances.",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "It displays the precise volume executed at the Bid and Ask for every price level (tick) within a candle's range. If buying volume at the Ask is 3x or 4x the selling volume at the corresponding Bid, it forms a buying imbalance.",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "To apply Delta successfully, integrate it with major liquidity pools. If you see price break the low with massive negative Delta but quickly reverse and close above the low, it confirms passive buying has absorbed the sellers.",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "When price sweeps a previous low, retail traders expect a bearish breakout and place aggressive market sell orders, while institutions place limit buy orders to absorb this panic. Entering a buy only after price reclaims the low, with a stop below the sweep and risk of 1% or less, improves",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "discipline — but absorption can fail, so the stop is mandatory.",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "Be aware that volume and Delta data sources are not equal. In the spot forex market, there is no centralized exchange, so the volume and Delta shown by retail platforms are tick volume representing only that broker's activity. CME FX futures print every Bid/Ask on a central book — a better Delta proxy — but futures are not spot and no signal is perfect.",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "Training your eye on Delta requires daily tracking. If price approaches a bullish Order Block and negative Delta values decline, it confirms the drying up of sell pressure. Do not trade Delta in the middle of ranges where random noise can easily stop you out.",
+          "concept": "vfx_delta_orderflow"
+        },
+        {
+          "type": "animation",
+          "text": "During major sessions (London and New York), observe Delta behavior when price tests Order Blocks. If a strong positive Delta suddenly appears upon hitting the block, it is the green light to enter the trade with confidence.",
           "concept": "vfx_delta_orderflow"
         },
         {
@@ -167,8 +276,12 @@
           "concept": "vfx_delta_orderflow"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
-          "text": "Open the practice chart. Examine the volume bars alongside the price candles. Identify at least two candles showing a clear divergence between price direction and the expected aggressive order flow pressure — for example, a bearish candle at a support level closing in the upper half of its range on high volume, suggesting passive buyers absorbed the selling pressure. Mark these divergence points and monitor if price reversed or continued later.",
+          "text": "Open the practice chart. This dataset holds only o/h/l/c/t/v candles with volume bars — Delta and footprint are NOT included, so estimate from volume bars: find a high-volume candle at support closing in the upper half of its range as a possible absorption hint. Mark two such candidates and note that true Delta/footprint confirmation is impossible here — any call is an estimate.",
           "concept": "vfx_delta_orderflow",
           "chartId": "vfx_2_practice"
         }
@@ -177,50 +290,50 @@
         {
           "question": "What does Delta measure in order flow analysis?",
           "options": [
-            "The net difference between buying and selling volume executed aggressively (at market) during a specified period",
-            "The total number of open positions currently in the market that have not been settled yet",
             "The pip difference between the highest and lowest price of the current candle",
+            "The total number of open positions currently in the market that have not been settled yet",
+            "The net difference between buying and selling volume executed aggressively (at market) during a specified period",
             "The speed at which prices change during high-impact economic news releases"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What does it mean when a candle closes bearish (red) but its Delta is highly positive?",
           "options": [
             "There is strong passive absorption from sellers (Passive Sellers) blocking price from rising despite aggressive market buying",
-            "An immediate and 100% confirmed bullish reversal signal, and you should buy immediately",
-            "The data is corrupt and you should refresh your platform to correct it",
-            "The market is in a quiet trading period with no institutional participation"
+            "The market is in a quiet trading period with no institutional participation",
+            "A quiet balance between buyers and sellers with no tradable edge",
+            "A bullish continuation signal, so you should add to long positions immediately"
           ],
           "correctIndex": 0
         },
         {
           "question": "What is the Cumulative Volume Delta (CVD) indicator?",
           "options": [
+            "The sum of volume at Ask minus volume at Bid for the entire day divided by 2",
             "A running sum of Delta values over multiple candles to show sustained directional pressure and identify divergences",
             "The single highest Delta reading recorded during the current trading session",
-            "The sum of volume at Ask minus volume at Bid for the entire day divided by 2",
             "A mathematical indicator measuring the average Delta for each hour of exchange operation"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "Why is Delta analysis most effective at major structural levels?",
           "options": [
-            "It reveals the reaction and behavior of institutions (defending or yielding) at liquidity pools and Order Blocks",
-            "Structural levels feature higher volume, making Delta calculations easier mathematically",
             "Retail traders place all their orders only at round psychological numbers",
-            "Delta always and automatically diverges from price at every support and resistance level"
+            "Structural levels feature higher volume, making Delta calculations easier mathematically",
+            "Delta always and automatically diverges from price at every support and resistance level",
+            "It reveals the reaction and behavior of institutions (defending or yielding) at liquidity pools and Order Blocks"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What is the advantage of monitoring Delta in Futures markets compared to Spot Forex?",
           "options": [
-            "It provides centralized, 100% reliable volume and Delta representing the actual market due to exchange centralization",
-            "Commissions charged on trading Futures are much lower than Spot Forex",
+            "It prints every Bid/Ask on a central book, giving a better Delta proxy — though futures are not spot and no signal is perfect",
             "Futures move much faster, making it easier to spot immediate divergences",
-            "Trading algorithms cannot manipulate volume data in Futures exchanges"
+            "Trading algorithms cannot manipulate volume data in Futures exchanges",
+            "Commissions charged on trading Futures are much lower than Spot Forex"
           ],
           "correctIndex": 0
         }
@@ -233,32 +346,62 @@
       "steps": [
         {
           "type": "animation",
-          "text": "Climax Volume is a massive and exceptional spike in volume that represents the complete exhaustion of the dominant trend. This pattern occurs when the last group of traders (often retail driven by FOMO) rushes to enter trades at the worst possible prices, while large institutions unload their positions to these buyers or accumulate panic sellers. A Buying Climax occurs at peaks and ends uptrends, while a Selling Climax occurs at troughs and ends downtrends.",
+          "text": "Climax Volume is a massive and exceptional spike in volume that represents the complete exhaustion of the dominant trend. A Buying Climax occurs at peaks and ends uptrends, while a Selling Climax occurs at troughs and ends downtrends.",
           "concept": "vfx_climax"
         },
         {
           "type": "animation",
-          "text": "The visual structure of a Buying Climax is highly distinct: a sharp price spike followed by a rapid retracement to close in the lower third of the candle, leaving a very long upper wick (Pin Bar or Shooting Star) accompanied by volume 3 to 5 times the average. The long wick confirms aggressive buyers were overwhelmed and absorbed by passive sellers (institutions). This event marks the end of distribution and the start of a bearish move targeting downside liquidity.",
+          "text": "This pattern occurs when the last group of traders (often retail driven by FOMO) rushes to enter trades at the worst possible prices, while large institutions unload their positions to these buyers or accumulate panic sellers.",
           "concept": "vfx_climax"
         },
         {
           "type": "animation",
-          "text": "A Selling Climax has the exact opposite structure. It appears after a sharp, sustained drop where retail traders panic and sell their positions at any price to avoid further losses. Meanwhile, large institutions wait for this moment to sweep these massive sell orders at discount prices. The candle leaves a very long lower wick with a close in the upper third on record volume. This is the classic Wyckoff Spring in its purest form, paving the way for a strong upward reversal.",
+          "text": "The visual structure of a Buying Climax is highly distinct: a sharp price spike followed by a rapid retracement to close in the lower third of the candle, leaving a very long upper wick (Pin Bar or Shooting Star) accompanied by volume 3 to 5 times the average.",
           "concept": "vfx_climax"
         },
         {
           "type": "animation",
-          "text": "Structural context is the differentiator between success and failure in identifying Climax Volume. A volume spike in the middle of a range is just random volatility or temporary algorithmic trading. A massive volume spike appearing after an extended multi-day trend at major liquidity pools (Liquidity Sweeps) or key Order Blocks is the true climax signal. Always evaluate how far a trend has traveled before calling a volume spike a climax.",
+          "text": "The long wick confirms aggressive buyers were overwhelmed and absorbed by passive sellers (institutions). This event marks the end of distribution and the start of a bearish move targeting downside liquidity.",
           "concept": "vfx_climax"
         },
         {
           "type": "animation",
-          "text": "No Demand and No Supply Bars are the quietest and smartest patterns in Volume Spread Analysis (VSA). A No Supply Bar is a bearish candle with a very narrow spread and volume significantly below at least two previous candles, appearing at support levels. This mechanically proves sellers are exhausted and supply has dried up, paving the way for price to rise with minimal buying effort. Similarly, a No Demand Bar appears at resistance to confirm buyers have dried up.",
+          "text": "A Selling Climax has the exact opposite structure. Meanwhile, large institutions wait for this moment to sweep these massive sell orders at discount prices. A selling climax alone is not automatically a Spring — the Spring is the later undercut-and-reclaim test after SC/AR/ST — and any reversal still needs confirmation.",
           "concept": "vfx_climax"
         },
         {
           "type": "animation",
-          "text": "The Test Bar is a fundamental concept for protecting volume traders. After a Selling Climax, the market rarely rises immediately; instead, price returns to test the same low (Secondary Test) to ensure no sellers remain. If price returns to the low on low volume and narrow spreads, it is a successful test confirming supply is absorbed and the path is clear to rise. If volume is high during the test, it means sellers are still active, and buying should be avoided.",
+          "text": "It appears after a sharp, sustained drop where retail traders panic and sell their positions at any price to avoid further losses. The candle leaves a very long lower wick with a close in the upper third on record volume.",
+          "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "Structural context is the differentiator between success and failure in identifying Climax Volume. A massive volume spike appearing after an extended multi-day trend at major liquidity pools (Liquidity Sweeps) or key Order Blocks is the true climax signal.",
+          "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "A volume spike in the middle of a range is just random volatility or temporary algorithmic trading. Always evaluate how far a trend has traveled before calling a volume spike a climax.",
+          "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "No Demand and No Supply Bars are the quietest and smartest patterns in Volume Spread Analysis (VSA). This mechanically proves sellers are exhausted and supply has dried up, paving the way for price to rise with minimal buying effort.",
+          "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "A No Supply Bar is a bearish candle with a very narrow spread and volume significantly below at least two previous candles, appearing at support levels. Similarly, a No Demand Bar appears at resistance to confirm buyers have dried up.",
+          "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "The Test Bar is a fundamental concept for protecting volume traders. If price returns to the low on low volume and narrow spreads, it is a successful test confirming supply is absorbed and the path is clear to rise.",
+          "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "After a Selling Climax, the market rarely rises immediately; instead, price returns to test the same low (Secondary Test) to ensure no sellers remain. If volume is high during the test, it means sellers are still active, and buying should be avoided.",
           "concept": "vfx_climax"
         },
         {
@@ -268,13 +411,22 @@
         },
         {
           "type": "animation",
-          "text": "A fatal mistake is confusing a Trend Acceleration candle with a Climax candle. An acceleration candle is a long candle closing near its extreme in the direction of the trend, with almost no opposing wick, on high volume. This candle indicates trend continuation and institutions aggressively pushing the price. A climax candle closes far from its extreme and leaves a long wick against the movement, confirming a battle and reversal of forces.",
+          "text": "A fatal mistake is confusing a Trend Acceleration candle with a Climax candle. This candle indicates trend continuation and institutions aggressively pushing the price. A climax candle closes far from its extreme and leaves a long wick against the movement, confirming a battle and reversal of forces.",
+          "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "An acceleration candle is a long candle closing near its extreme in the direction of the trend, with almost no opposing wick, on high volume.",
           "concept": "vfx_climax"
         },
         {
           "type": "animation",
           "text": "To develop your climax-spotting skills, review Gold or Oil charts on the daily timeframe over the last two years. Mark every volume bar that exceeded twice the 20-period average. Classify each case: was it a climax reversal, trend acceleration, or random noise? You will find that climax events appearing at historical key levels provide reversal trades with the highest win rates and tightest risk.",
           "concept": "vfx_climax"
+        },
+        {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
         },
         {
           "type": "interaction",
@@ -287,39 +439,39 @@
         {
           "question": "What is the primary visual characteristic that distinguishes a Buying Climax candle?",
           "options": [
+            "An inside bar with very low volume appearing at a resistance level",
             "Huge volume, a very long upper wick, and a close in the lower third of the candle after an extended rally",
-            "A long bullish engulfing candle with no wicks on average volume",
             "A series of small bullish candles with flat, steady volume",
-            "An inside bar with very low volume appearing at a resistance level"
+            "A long bullish engulfing candle with no wicks on average volume"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "How do you describe a No Supply Bar in VSA?",
           "options": [
-            "A bearish candle with a very narrow spread and volume lower than at least two previous candles, appearing at support",
+            "A series of alternating bullish and bearish candles with equal volume",
             "A long bearish candle breaking support on record-breaking volume",
             "A doji candle where open and close are equal on average volume",
-            "A series of alternating bullish and bearish candles with equal volume"
+            "A bearish candle with a very narrow spread and volume lower than at least two previous candles, appearing at support"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What is the primary purpose of waiting for a Test Bar after a Selling Climax?",
           "options": [
-            "To confirm supply has dried up and the market is cleared of sellers before entering a buy position safely",
-            "To confirm aggressive buyers are pushing prices higher with market orders immediately",
+            "To ensure price will continue down and break the previous climax low",
             "A test bar has no technical significance and can be ignored",
-            "To ensure price will continue down and break the previous climax low"
+            "To confirm supply has dried up and the market is cleared of sellers before entering a buy position safely",
+            "To confirm aggressive buyers are pushing prices higher with market orders immediately"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What is the fundamental difference between a Trend Acceleration candle and a Climax candle?",
           "options": [
             "Acceleration closes near its extreme with minimal opposing wick, while Climax leaves a long wick and closes far from its extreme",
-            "Trend acceleration requires significantly less volume than a classic climax candle",
             "Climax candles only appear on the Daily timeframe while acceleration appears on the 1-minute",
+            "Trend acceleration requires significantly less volume than a classic climax candle",
             "There is no difference; both represent continuation signals for the current trend"
           ],
           "correctIndex": 0
@@ -329,8 +481,8 @@
           "options": [
             "Because the same volume spike has different meanings at the end of an extended trend compared to the middle of a range",
             "Because structural context determines the exact numerical volume required for a climax",
-            "Without structural context, trading platforms cannot calculate Delta values",
-            "Structural context only matters in stock trading and has no value in crypto"
+            "Structural context only matters in stock trading and has no value in crypto",
+            "Without structural context, trading platforms cannot calculate Delta values"
           ],
           "correctIndex": 0
         }
@@ -348,12 +500,22 @@
         },
         {
           "type": "animation",
-          "text": "The Point of Control (POC) is the price that saw the highest volume executed during the specified period. It represents the Fair Value agreed upon by large players and acts as a gravity center. When price deviates from the POC, it tends to return and retest it once the temporary imbalance resolves. Institutions defend their massive positions at the POC, making it a powerful support/resistance level.",
+          "text": "The Point of Control (POC) is the price that saw the highest volume executed during the specified period. Institutions defend their massive positions at the POC, making it a powerful support/resistance level.",
           "concept": "vfx_volume_profile"
         },
         {
           "type": "animation",
-          "text": "The Value Area (VA) is the range of prices where 70% (the first standard deviation) of total volume was executed. The upper boundary is the Value Area High (VAH) and the lower is the Value Area Low (VAL). Prices inside the VA are considered fair, while prices above VAH are premium (expensive) and below VAL are discount (cheap). Trading strategies rely on price breaking or bouncing from VAH/VAL to return to the POC.",
+          "text": "It represents the Fair Value agreed upon by large players and acts as a gravity center. When price deviates from the POC, it tends to return and retest it once the temporary imbalance resolves.",
+          "concept": "vfx_volume_profile"
+        },
+        {
+          "type": "animation",
+          "text": "The Value Area (VA) is the range of prices where 70% (the first standard deviation) of total volume was executed. Trading strategies rely on price breaking or bouncing from VAH/VAL to return to the POC.",
+          "concept": "vfx_volume_profile"
+        },
+        {
+          "type": "animation",
+          "text": "The upper boundary is the Value Area High (VAH) and the lower is the Value Area Low (VAL). Prices inside the VA are considered fair, while prices above VAH are premium (expensive) and below VAL are discount (cheap).",
           "concept": "vfx_volume_profile"
         },
         {
@@ -368,12 +530,22 @@
         },
         {
           "type": "animation",
-          "text": "Low Volume Nodes (LVNs) are the valleys in the Volume Profile. They represent prices rejected by Smart Money, often formed during rapid price runs. When price enters an LVN, it sweeps through quickly with long candles (liquidity voids) due to a lack of resting orders to absorb the move. Trading through LVNs gives you fast trades aiming for the next HVN, with stops behind the void's edge.",
+          "text": "Low Volume Nodes (LVNs) are the valleys in the Volume Profile. When price enters an LVN, it sweeps through quickly with long candles (liquidity voids) due to a lack of resting orders to absorb the move.",
           "concept": "vfx_volume_profile"
         },
         {
           "type": "animation",
-          "text": "The Developing Volume Profile shows the type of trading day in real-time. On balanced range days, the profile is bell-shaped (D-shape) and the POC remains static in the center. In these days, buy at VAL and sell at VAH. On trending days, the POC moves with the price, extending the profile (P-shape or b-shape). On trending days, avoid range reversal trades and focus on continuation breakouts.",
+          "text": "They represent prices rejected by Smart Money, often formed during rapid price runs. Trading through LVNs gives you fast trades aiming for the next HVN, with stops behind the void's edge. Revisits happen but are not guaranteed.",
+          "concept": "vfx_volume_profile"
+        },
+        {
+          "type": "animation",
+          "text": "The Developing Volume Profile shows the type of trading day in real-time. In these days, buy at VAL and sell at VAH. On trending days, avoid range reversal trades and focus on continuation breakouts.",
+          "concept": "vfx_volume_profile"
+        },
+        {
+          "type": "animation",
+          "text": "On balanced range days, the profile is bell-shaped (D-shape) and the POC remains static in the center. On trending days, the POC moves with the price, extending the profile (P-shape or b-shape).",
           "concept": "vfx_volume_profile"
         },
         {
@@ -383,8 +555,17 @@
         },
         {
           "type": "animation",
-          "text": "Use Volume Profile to filter out false breakouts from random market noise. If price breaks above VAH but on low volume while the POC remains stuck at the bottom, the breakout is a trap. Price will likely return inside the Value Area and target the POC. The migration of the POC with the price is the primary condition confirming acceptance of new prices and breakout validity.",
+          "text": "Use Volume Profile to filter out false breakouts from random market noise. Price will likely return inside the Value Area and target the POC.",
           "concept": "vfx_volume_profile"
+        },
+        {
+          "type": "animation",
+          "text": "If price breaks above VAH but on low volume while the POC remains stuck at the bottom, the breakout is a trap. The migration of the POC with the price is the primary condition confirming acceptance of new prices and breakout validity.",
+          "concept": "vfx_volume_profile"
+        },
+        {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
         },
         {
           "type": "interaction",
@@ -398,49 +579,49 @@
           "question": "What does the Point of Control (POC) represent in a Volume Profile?",
           "options": [
             "The price level that saw the highest volume executed, acting as fair value and a gravity center",
-            "The exact mathematical midpoint between the highest and lowest price of the session",
             "The opening price of the first session of the trading week",
-            "The time-weighted average price regardless of transaction volume"
+            "The time-weighted average price regardless of transaction volume",
+            "The exact mathematical midpoint between the highest and lowest price of the session"
           ],
           "correctIndex": 0
         },
         {
           "question": "What percentage of total volume standardly defines the Value Area (VA)?",
           "options": [
-            "Approximately 70% of total volume traded during the period",
-            "Exactly 50% of the total volume of the session",
             "The first 15% and last 15% of the total volume",
-            "It varies randomly each day depending on exchange decisions"
+            "Approximately 70% of total volume traded during the period",
+            "It varies randomly each day depending on exchange decisions",
+            "Exactly 50% of the total volume of the session"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "How does price typically behave when entering a Low Volume Node (LVN)?",
           "options": [
-            "It sweeps through rapidly with strong moves due to a lack of resting orders to absorb the movement",
             "It enters a long consolidation phase searching for price balance",
-            "It reverses immediately and obligatorily upon touching the edge of the node",
-            "It acts as the strongest support/resistance, stopping price from moving altogether"
+            "It acts as the strongest support/resistance, stopping price from moving altogether",
+            "It sweeps through rapidly with strong moves due to a lack of resting orders to absorb the movement",
+            "It reverses immediately and obligatorily upon touching the edge of the node"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What distinguishes a strong trending day from a balanced range day on a Volume Profile?",
           "options": [
-            "The POC migrates continuously with price, extending the profile shape, whereas a range day keeps a static POC",
-            "The Value Areas (VAH and VAL) disappear completely from the screen",
             "Volume is distributed equally horizontally at all price levels",
-            "Trending days always have 10x more volume than range days at all levels"
+            "Trending days always have 10x more volume than range days at all levels",
+            "The Value Areas (VAH and VAL) disappear completely from the screen",
+            "The POC migrates continuously with price, extending the profile shape, whereas a range day keeps a static POC"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "How do you use the POC migration to filter false breakouts?",
           "options": [
             "If the POC does not migrate and settle at the new breakout price, the breakout is likely a false trap",
+            "False breakouts have no relation to POC and depend only on the RSI",
             "If the current POC value matches the daily opening price exactly",
-            "Once price reaches the POC, you should cancel all pending orders",
-            "False breakouts have no relation to POC and depend only on the RSI"
+            "Once price reaches the POC, you should cancel all pending orders"
           ],
           "correctIndex": 0
         }
@@ -453,12 +634,22 @@
       "steps": [
         {
           "type": "animation",
-          "text": "Volume Divergence occurs when the behavior of volume contradicts price movement. In a healthy market, volume should support price: expanding in the direction of the main trend and contracting during pullbacks. When this harmony breaks — such as price making a new high but on declining volume — it is an institutional warning that the market maker has stopped supporting the rally and is distributing positions ahead of a reversal.",
+          "text": "Volume Divergence occurs when the behavior of volume contradicts price movement. When this harmony breaks — such as price making a new high but on declining volume — it is an institutional warning that the market maker has stopped supporting the rally and is distributing positions ahead of a reversal.",
           "concept": "vfx_divergence"
         },
         {
           "type": "animation",
-          "text": "Bearish Volume Divergence appears at the end of uptrends. Price makes a first high on high volume (e.g., 500 contracts), retraces, then rallies to a new higher high but on significantly lower volume (e.g., 200 contracts). This divergence proves mechanically that the breakout is driven by retail chasing the price, while institutions have stopped buying and are selling. This pattern typically precedes sharp declines and buyer liquidations.",
+          "text": "In a healthy market, volume should support price: expanding in the direction of the main trend and contracting during pullbacks.",
+          "concept": "vfx_divergence"
+        },
+        {
+          "type": "animation",
+          "text": "Bearish Volume Divergence appears at the end of uptrends. This divergence proves mechanically that the breakout is driven by retail chasing the price, while institutions have stopped buying and are selling.",
+          "concept": "vfx_divergence"
+        },
+        {
+          "type": "animation",
+          "text": "Price makes a first high on high volume (e.g., 500 contracts), retraces, then rallies to a new higher high but on significantly lower volume (e.g., 200 contracts). This pattern typically precedes sharp declines and buyer liquidations.",
           "concept": "vfx_divergence"
         },
         {
@@ -468,7 +659,7 @@
         },
         {
           "type": "animation",
-          "text": "Intraday divergence during economic news events provides the best example of managing random volatility. For instance, in a FOMC rate decision in late 2025, EUR/USD swept a previous high by 30 pips. Retail traders bought the breakout, while volume traders noted that cumulative volume and Delta on the breakout candle were extremely weak and diverged from the price rise. It was identified as a liquidity sweep; selling the pair yielded quick profits as price collapsed.",
+          "text": "Intraday divergence during economic news events provides the best example of managing random volatility. For example, if a rate decision sweeps a previous high by about 30 pips while cumulative volume and Delta on the breakout candle stay weak and diverge from the rise, treat it as a possible liquidity sweep and wait for structural confirmation — fades can fail.",
           "concept": "vfx_divergence"
         },
         {
@@ -483,7 +674,7 @@
         },
         {
           "type": "animation",
-          "text": "Multi-Timeframe Divergence is a powerful filter. When you spot a bearish volume divergence on the H1 chart and it aligns with a similar divergence on the H4 chart at a daily resistance level, the probability of a successful reversal exceeds 85%. This alignment proves that structural weakness is strategic, representing distribution by large portfolios.",
+          "text": "Multi-Timeframe Divergence is a powerful filter. When you spot a bearish volume divergence on the H1 chart and it aligns with a similar divergence on the H4 chart at a daily resistance level, confluence rises — there is no fixed win rate, so backtest this setup first. This alignment suggests possible strategic distribution, not a guaranteed outcome.",
           "concept": "vfx_divergence"
         },
         {
@@ -497,6 +688,10 @@
           "concept": "vfx_divergence"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "text": "Study the practice chart carefully. Look for a sequence of price highs or lows where volume behavior changes across consecutive peaks or troughs. Determine if a bullish or bearish volume divergence is present. Mark the specific candles where the divergence begins and where it becomes most obvious. Then note what price did after the divergence reached its extreme. Was there a reversal, a climax event, or a low-volume continuation pullback?",
           "concept": "vfx_divergence",
@@ -507,52 +702,52 @@
         {
           "question": "What defines a Bearish Volume Divergence?",
           "options": [
-            "Price making higher highs while volume on each new high decreases, indicating lack of institutional buying",
-            "Price making lower highs while volume increases to show selling pressure",
+            "CVD turning negative at a major support breakout",
             "Price consolidating in a tight range while volume spikes to 5x the average",
-            "CVD turning negative at a major support breakout"
+            "Price making lower highs while volume increases to show selling pressure",
+            "Price making higher highs while volume on each new high decreases, indicating lack of institutional buying"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What does a price correction on very low volume within a primary uptrend indicate?",
           "options": [
-            "Trend continuation confirmation (pullback) due to a lack of institutional selling, presenting a buy opportunity",
             "The beginning of a bearish reversal, and you should exit all buy positions immediately",
-            "The market is random and unanalyzable, and you should stop trading",
-            "A broad distribution process and unloading of positions by Smart Money algorithms"
+            "A broad distribution process and unloading of positions by Smart Money algorithms",
+            "Trend continuation confirmation (pullback) due to a lack of institutional selling, presenting a buy opportunity",
+            "The market is random and unanalyzable, and you should stop trading"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "How does Session Timing affect the interpretation of volume divergence?",
           "options": [
             "It filters out false divergences caused by natural dips in participation, like market closes or weekends",
-            "It determines the exact leverage to use in divergence trades",
+            "It forces platforms to adjust candle prices to match official trading hours",
             "It eliminates the need to monitor volume and focuses only on New York session hours",
-            "It forces platforms to adjust candle prices to match official trading hours"
+            "It determines the exact leverage to use in divergence trades"
           ],
           "correctIndex": 0
         },
         {
           "question": "Why is the PVT indicator more sensitive to divergences than the classic OBV?",
           "options": [
-            "It weights volume by the exact percentage change in price instead of adding/subtracting the entire volume",
-            "It automatically filters out retail transactions and displays only bank trades",
             "It uses real-time order flow and Delta data instead of historical volume",
-            "It updates its readings every second independently of price candle closes"
+            "It weights volume by the exact percentage change in price instead of adding/subtracting the entire volume",
+            "It updates its readings every second independently of price candle closes",
+            "It automatically filters out retail transactions and displays only bank trades"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What is the correct action after spotting a strong volume divergence at a key resistance level?",
           "options": [
-            "Wait for a market structure shift and technical confirmation on a lower timeframe to secure entry",
-            "Enter a market order immediately with maximum leverage to catch the exact top",
             "Cancel all trades and switch instruments immediately due to unstable market conditions",
-            "Place a buy stop order above the new high in anticipation of a sudden breakout"
+            "Enter a market order immediately with maximum leverage to catch the exact top",
+            "Place a buy stop order above the new high in anticipation of a sudden breakout",
+            "Wait for a market structure shift and technical confirmation on a lower timeframe to secure entry"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         }
       ]
     },
@@ -607,6 +802,10 @@
           "concept": "vfx_absorption"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "text": "Examine the practice chart and look for an area where price spent several candles on high volume but with narrow bodies — this is a candidate absorption zone. Mark the boundaries of this zone. Note if price broke out of the zone, and if so, did the breakout candle have an expanded range and high volume? Identify where the first retest of the absorption zone occurred after the breakout, as this is the optimal entry. Mark your stop loss level and estimate a realistic target based on structure.",
           "concept": "vfx_absorption",
@@ -617,40 +816,40 @@
         {
           "question": "What is the mechanical interpretation of narrow-bodied candles with high volume at support?",
           "options": [
-            "An accumulation absorption process by an institutional buyer absorbing supply",
             "Complete absence of traders and a quiet, random market phase",
-            "Control by aggressive sellers and an imminent price collapse",
-            "A technical error in volume calculation by the broker"
+            "A technical error in volume calculation by the broker",
+            "An accumulation absorption process by an institutional buyer absorbing supply",
+            "Control by aggressive sellers and an imminent price collapse"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What are Iceberg Orders and how do they appear in order flow?",
           "options": [
-            "Large institutional orders split into small visible parts to hide size, leaving huge executed volume footprints at one price",
-            "Pending orders placed only during winter in global exchanges",
+            "Stop orders that trigger only during high-volatility news events",
             "Stop-loss orders activated automatically during sudden price slippage",
-            "Random buy and sell orders placed by retail at round support numbers"
+            "Random buy and sell orders placed by retail at round support numbers",
+            "Large institutional orders split into small visible parts to hide size, leaving huge executed volume footprints at one price"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What distinguishes a real breakout of an absorption range from a false one?",
           "options": [
-            "A real breakout requires a long-bodied candle (wide spread) accompanied by an expansion in volume and Delta",
             "A real breakout always occurs on very low volume to avoid attracting attention",
-            "A false breakout requires a large opening gap on the daily chart",
-            "They cannot be distinguished until a week after the breakout occurs"
+            "A real breakout requires a long-bodied candle (wide spread) accompanied by an expansion in volume and Delta",
+            "They cannot be distinguished until a week after the breakout occurs",
+            "A false breakout requires a large opening gap on the daily chart"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "In the Wyckoff accumulation schematic, what is the Spring phase?",
           "options": [
             "A sweep of liquidity below the range to trigger buyers' stop losses and absorb panic selling before the markup",
-            "The first rapid upward move after touching the range low on average volume",
             "The quiet secondary test occurring on low volume at upper resistance",
-            "A tight consolidation phase lasting for several weeks in the middle of distribution"
+            "A tight consolidation phase lasting for several weeks in the middle of distribution",
+            "The first rapid upward move after touching the range low on average volume"
           ],
           "correctIndex": 0
         },
@@ -658,9 +857,9 @@
           "question": "Where should the stop loss and target be placed when trading an absorption breakout setup?",
           "options": [
             "Stop below the entire absorption range (invalidation point), and target at the next High Volume Node",
+            "Stop 2 pips below the entry candle, and target open without limits",
             "Stop 5 pips above the breakout candle, and target at the previous range low",
-            "Stop at the daily open price, and target at twice the stop distance",
-            "Stop 2 pips below the entry candle, and target open without limits"
+            "Stop at the daily open price, and target at twice the stop distance"
           ],
           "correctIndex": 0
         }
@@ -688,7 +887,7 @@
         },
         {
           "type": "animation",
-          "text": "During high-volatility periods (like early 2026), false breakouts of daily demand zones to sweep liquidity were common. A volume trader uses breakout volume to filter these. If price breaks a demand zone on low volume and minor negative Delta, it is a liquidity sweep rather than a real breakout, and price will likely reverse upward.",
+          "text": "For example, if volatile conditions produce false breakouts of daily demand zones that sweep liquidity, a volume trader uses breakout volume to filter these. If price breaks a demand zone on low volume and minor negative Delta, it is a liquidity sweep rather than a real breakout, and price will likely reverse upward.",
           "concept": "vfx_supply_demand"
         },
         {
@@ -717,6 +916,10 @@
           "concept": "vfx_supply_demand"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "text": "Open the practice chart and identify the most significant supply or demand zone based on the sharpness of the price move it created. Check the volume at the origin of this zone — is it above average? Track how price approached and reacted to the zone during its first retest. Was the approach on declining volume? Was there a high-volume reaction candle at the zone boundary? Mark all observations and evaluate if the volume evidence supports the zone's quality.",
           "concept": "vfx_supply_demand",
@@ -727,52 +930,52 @@
         {
           "question": "What determines the defensive strength of a demand zone from a volume perspective?",
           "options": [
-            "The volume and liquidity executed at the origin candle that created the zone",
-            "The number of times price has retested the zone in the past",
+            "The percentage rise of the zone divided by the average daily range",
             "The direction of the 200-day simple moving average above the price",
-            "The percentage rise of the zone divided by the average daily range"
+            "The number of times price has retested the zone in the past",
+            "The volume and liquidity executed at the origin candle that created the zone"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What is the ideal volume and Delta sequence to confirm a demand zone on a retest?",
           "options": [
             "Price retracing to the zone on declining volume, followed by a reversal candle with high volume and positive Delta",
-            "Volume increasing on long bearish candles that break below the zone low",
             "Volume remaining flat at the average without any variation upon touching the zone",
-            "A large bearish gap that skips the zone entirely without executing trades inside it"
+            "A large bearish gap that skips the zone entirely without executing trades inside it",
+            "Volume increasing on long bearish candles that break below the zone low"
           ],
           "correctIndex": 0
         },
         {
           "question": "What does a Market Structure Break (BMS) occurring on very low volume indicate?",
           "options": [
-            "A false breakout or liquidity sweep, and you should avoid entering with it",
             "A strong trend continuation confirmation because algorithms hide their size",
-            "The start of a consolidation phase requiring hedge buy/sell orders",
-            "That price will move sideways slowly until the end of the trading week"
+            "A false breakout or liquidity sweep, and you should avoid entering with it",
+            "That price will move sideways slowly until the end of the trading week",
+            "The start of a consolidation phase requiring hedge buy/sell orders"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "How do you use breakout volume to avoid false breakouts of support levels?",
           "options": [
-            "If support breaks on low volume and minor negative Delta, it is a liquidity sweep and price will likely reverse upward",
             "Enter a market order immediately upon breakout without waiting for the candle close",
-            "False breakouts always occur on volume 10x the average to sweep accounts",
-            "Monitoring the MACD is the only way and volume is irrelevant at breakouts"
+            "Monitoring RSI divergence alone is sufficient and volume adds no value at breakouts",
+            "If support breaks on low volume and minor negative Delta, it is a liquidity sweep and price will likely reverse upward",
+            "False breakouts always occur on volume 10x the average to sweep accounts"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What are the three essential elements of a Volume & Structure Confluence setup?",
           "options": [
+            "A long trading range, a breakout of the previous high on low volume, and stop loss at break-even",
             "An unmitigated SMC Order Block, overlapping with an HVN or POC, with volume/Delta confirmation on the test",
             "RSI in overbought/oversold territory, a 50% Fibonacci level, and a moving average crossover",
-            "Doji candles at daily resistance, a positive news release, and high leverage",
-            "A long trading range, a breakout of the previous high on low volume, and stop loss at break-even"
+            "Doji candles at daily resistance, a positive news release, and high leverage"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         }
       ]
     },
@@ -808,7 +1011,7 @@
         },
         {
           "type": "animation",
-          "text": "Step 5: Risk & Execution. Calculate position size based on stop loss distance, ensuring risk does not exceed 0.5% to 1% of capital per trade. Place the stop loss behind the invalidation level (outside the absorption zone or Order Block), rather than right at the entry candle low, to survive random fluctuations.",
+          "text": "Step 5: Risk & Execution. Calculate position size based on stop loss distance, ensuring risk does not exceed 0.5% to 1% of capital per trade. Place the stop loss behind the invalidation level (outside the absorption zone or Order Block), rather than right at the entry candle low, to survive volatility sweeps.",
           "concept": "vfx_trading_plan"
         },
         {
@@ -827,6 +1030,10 @@
           "concept": "vfx_trading_plan"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "text": "This is your integrated practice session. Open the chart and apply the complete five-step VFX trading plan. First, determine market structure. Second, locate the approximate POC and Value Area based on visible volume. Third, mark no more than three confluence levels. Fourth, identify any candle that meets the confirmation sequence — low-volume approach, high-volume reaction, and Delta alignment. Finally, define entry, stop loss, and two targets. Document your reasoning.",
           "concept": "vfx_trading_plan",
@@ -837,52 +1044,52 @@
         {
           "question": "What is the correct order of the five stages in the VFX trading plan?",
           "options": [
+            "Volume Profile, execution/risk management, market structure, setup confirmation, key levels",
             "Market structure, Volume Profile, key levels, setup confirmation, execution/risk management",
-            "Setup confirmation, key levels, execution/risk management, market structure, Volume Profile",
             "Key levels, market structure, execution/risk management, Volume Profile, setup confirmation",
-            "Volume Profile, execution/risk management, market structure, setup confirmation, key levels"
+            "Setup confirmation, key levels, execution/risk management, market structure, Volume Profile"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What two conditions must a key level satisfy to be valid for the session?",
           "options": [
             "Structural relevance (Order Block, FVG, sweep) and direct alignment with an HVN, POC, or Value Area boundary",
+            "Matches a 50% Fibonacci level and has a low-volume structure breakout",
             "Located above the 200-day moving average and within 50 pips of the current price",
-            "Lies at a round number and has been tested in at least three Asian sessions",
-            "Matches a 50% Fibonacci level and has a low-volume structure breakout"
+            "Lies at a round number and has been tested in at least three Asian sessions"
           ],
           "correctIndex": 0
         },
         {
           "question": "Where should the stop loss be placed when entering a buy position based on an absorption zone?",
           "options": [
-            "Below the entire absorption/consolidation zone (invalidation level) to protect against random volatility sweeps",
-            "Exactly 2 pips below the entry candle to minimize risk",
             "At the daily open price regardless of the accumulation area",
-            "At the midpoint of the absorption range to allow for deep tests"
+            "At the midpoint of the absorption range to allow for deep tests",
+            "Below the entire absorption/consolidation zone (invalidation level) to protect against random volatility sweeps",
+            "Exactly 2 pips below the entry candle to minimize risk"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "Why does the VFX plan restrict entering new positions before high-impact news releases?",
           "options": [
-            "High volatility during news can temporarily invalidate volume and structure, making trading a gamble",
-            "Brokers close servers and disable stop-loss execution completely during news",
+            "News events usually extend the prior trend smoothly without whipsaws",
+            "News volatility always creates clean trends that are safer for tight stops",
             "Volume disappears entirely and the market becomes inactive for hours",
-            "News events always push prices against the trend with 100% certainty"
+            "High volatility during news can temporarily invalidate volume and structure, making trading a gamble"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What is the volume-profile-based Take Profit Strategy in the VFX plan?",
           "options": [
-            "Set the first target (TP1) before the first High Volume Node (HVN) or POC that price faces, and set the second target at the Value Area boundaries",
-            "Close the entire position immediately and automatically once price reaches a random 1:1 risk-reward ratio",
+            "Take profit manually only based on real-time changes in the RSI indicator",
             "Place all take-profit targets at weekly historical highs without any partial position closing",
-            "Take profit manually only based on real-time changes in the RSI indicator"
+            "Close the entire position immediately and automatically once price reaches a random 1:1 risk-reward ratio",
+            "Set the first target (TP1) before the first High Volume Node (HVN) or POC that price faces, and set the second target at the Value Area boundaries"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         }
       ]
     },
@@ -893,12 +1100,22 @@
       "steps": [
         {
           "type": "animation",
-          "text": "A Time Price Opportunity (TPO) chart is a classic auction market theory tool developed by Peter Steidlmayer at the Chicago Board of Trade (CBOT). Unlike a Volume Profile which aggregates volume at price, a TPO chart tracks the time spent at each price level using alphabetical characters (each representing a 30-minute block). This helps professional traders distinguish between value areas (where the market is accepted) and unfair price extensions (which the market quickly rejects).",
+          "text": "A Time Price Opportunity (TPO) chart is a classic auction market theory tool developed by Peter Steidlmayer at the Chicago Board of Trade (CBOT). This helps professional traders distinguish between value areas (where the market is accepted) and unfair price extensions (which the market quickly rejects).",
           "concept": "vfx_market_profile"
         },
         {
           "type": "animation",
-          "text": "The Initial Balance (IB) is a critical reference representing the price range established during the first hour of the trading session (usually TPO periods A and B). The IB reflects the price boundaries set by market-making institutions before the broader auction starts. A narrow IB range suggests a high probability of a Trend Day breakout. A wide IB range indicates a likely Normal Day where price stays range-bound within the Value Area.",
+          "text": "Unlike a Volume Profile which aggregates volume at price, a TPO chart tracks the time spent at each price level using alphabetical characters (each representing a 30-minute block).",
+          "concept": "vfx_market_profile"
+        },
+        {
+          "type": "animation",
+          "text": "The Initial Balance (IB) is a critical reference representing the price range established during the first hour of the trading session (usually TPO periods A and B). A wide IB range indicates a likely Normal Day where price stays range-bound within the Value Area.",
+          "concept": "vfx_market_profile"
+        },
+        {
+          "type": "animation",
+          "text": "The IB reflects the price boundaries set by market-making institutions before the broader auction starts. A narrow IB range suggests a high probability of a Trend Day breakout.",
           "concept": "vfx_market_profile"
         },
         {
@@ -907,8 +1124,12 @@
           "concept": "vfx_market_profile"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
-          "text": "Open the practice chart below. Identify the Initial Balance (IB) range for the first hour of trading and its high/low levels. Observe how price reacts to the IB boundaries. Did a high-volume breakout occur? Draw support and resistance zones along the Single Prints separating the double distribution profile nodes.",
+          "text": "Open the practice chart. This dataset holds only o/h/l/c/t/v — no TPO, session times, or Initial Balance fields. Approximate with volume bars: treat the first few candles as a rough opening-range proxy, note where most volume clustered as a rough value-area proxy, and state that true TPO/IB/Single-Print analysis is not possible here.",
           "concept": "vfx_market_profile",
           "chartId": "vfx_9_practice"
         }
@@ -917,12 +1138,12 @@
         {
           "question": "What does a TPO (Time Price Opportunity) chart primarily represent?",
           "options": [
-            "The amount of time price spends at each price level during a session",
+            "The absolute number of buy trades executed by hedge funds",
             "The total contract volume executed at each price level",
-            "The rapid changes in bid/ask order book depth",
-            "The absolute number of buy trades executed by hedge funds"
+            "The amount of time price spends at each price level during a session",
+            "The rapid changes in bid/ask order book depth"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What does the Initial Balance (IB) represent?",
@@ -937,12 +1158,12 @@
         {
           "question": "What do Single Prints represent in a Double Distribution profile?",
           "options": [
-            "Low-volume areas representing single TPOs that act as strong rejection zones on retests",
             "The average entry levels of retail traders holding long positions",
             "Consolidation regions that last for more than five hours",
-            "Perfect alignments between support lines and Fibonacci retracements"
+            "Perfect alignments between support lines and Fibonacci retracements",
+            "Low-volume areas representing single TPOs that act as strong rejection zones on retests"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         }
       ]
     },
@@ -953,12 +1174,17 @@
       "steps": [
         {
           "type": "animation",
-          "text": "A Footprint Chart is a micro-view candlestick chart showing market buys (executed at the Ask price) and market sells (executed at the Bid price) at every price level inside a candle. These values are compared diagonally (lower-left to upper-right) to assess aggression. For instance, we compare the aggressive market buy order at one price to the opposing limit ask order at the price below to see who controls the auction.",
+          "text": "A Footprint Chart is a micro-view candlestick chart showing market buys (executed at the Ask price) and market sells (executed at the Bid price) at every price level inside a candle.",
           "concept": "vfx_footprint_imbalances"
         },
         {
           "type": "animation",
-          "text": "A Market Imbalance occurs when aggressive market volume on one side exceeds the opposing limit volume on the other side by a large ratio (the standard Imbalance Ratio is 300% or 400%). This signals aggressive market buyers or sellers pushing their way into the market at any cost, providing the direct footprint of HFT and institutional execution.",
+          "text": "These values are compared diagonally (lower-left to upper-right) to assess aggression. For instance, we compare the aggressive market buy order at one price to the opposing limit ask order at the price below to see who controls the auction.",
+          "concept": "vfx_footprint_imbalances"
+        },
+        {
+          "type": "animation",
+          "text": "A Market Imbalance occurs when aggressive market volume on one side exceeds the opposing limit volume on the other side by a large ratio (the standard Imbalance Ratio is 300% or 400%). This signals aggressive market buyers or sellers pushing their way into the market at any cost, providing a sign of aggressive institutional execution.",
           "concept": "vfx_footprint_imbalances"
         },
         {
@@ -967,8 +1193,12 @@
           "concept": "vfx_footprint_imbalances"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
-          "text": "Open the practice chart below. Locate the candle showing three consecutive stacked buying imbalances (where Ask volume is at least 3x the diagonal Bid). Draw a horizontal support zone from this stacked range. Observe how price behaves upon its first retest and document if a bullish rebound occurs.",
+          "text": "Open the practice chart. This dataset holds only o/h/l/c/t/v — no bid/ask footprint levels, so stacked imbalances cannot be seen directly. As a rough proxy, locate a wide-range high-volume candle (a possible aggressive-participation hint), mark its range as a tentative zone, and note that true 3x diagonal-imbalance confirmation is not in this dataset.",
           "concept": "vfx_footprint_imbalances",
           "chartId": "vfx_10_practice"
         }
@@ -977,30 +1207,30 @@
         {
           "question": "How are bid/ask volumes compared in a Footprint chart to detect imbalances?",
           "options": [
-            "Diagonally (comparing market buy Ask volume against opposing market sell Bid volume at the next price)",
             "Horizontally at the exact same price level",
             "By dividing total candle volume by the previous candle's volume",
-            "By calculating the ratio of Asian session volume to New York volume"
+            "By calculating the ratio of Asian session volume to New York volume",
+            "Diagonally (comparing market buy Ask volume against opposing market sell Bid volume at the next price)"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What does a Stacked Imbalance inside a candle indicate?",
           "options": [
-            "Three or more consecutive vertical imbalances forming a strong institutional zone",
             "A balanced market where buyers and sellers are in complete equilibrium",
             "That the current volume is larger than the 200-period average volume",
+            "Three or more consecutive vertical imbalances forming a strong institutional zone",
             "A false breakout of a key structural level on low volume"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What is the standard Imbalance Ratio used to highlight aggressive participation?",
           "options": [
             "300% to 400% (the aggressive side is 3 to 4 times stronger than the opposing side)",
             "10% to 20% relative volume increase",
-            "50% exactly under all market conditions",
-            "1000% minimum to confirm institutional market-maker involvement"
+            "1000% minimum to confirm institutional market-maker involvement",
+            "50% exactly under all market conditions"
           ],
           "correctIndex": 0
         }
@@ -1027,8 +1257,12 @@
           "concept": "vfx_order_book_microstructure"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
-          "text": "Open the practice chart below. Locate large limit order walls in the DOM. Watch how price approaches these levels. Did the orders disappear before execution (Spoofing) or did they remain and absorb market orders (Iceberg)? Document your observations.",
+          "text": "Open the practice chart. This dataset holds only o/h/l/c/t/v — there is no DOM/order-book feed, so spoofing and icebergs cannot be observed. As a proxy exercise, find a narrow-range high-volume zone (possible absorption hint) followed by a sharp sweep of its high/low, and note that DOM-wall confirmation is not possible here.",
           "concept": "vfx_order_book_microstructure",
           "chartId": "vfx_11_practice"
         }
@@ -1037,12 +1271,12 @@
         {
           "question": "What is an Iceberg Order?",
           "options": [
+            "An order type available only for retail cryptocurrency pairs",
             "A large order split into small visible parts that refresh automatically upon execution",
-            "A position closed automatically when price crosses a moving average line",
-            "A pending order type active only during low-liquidity winter sessions",
-            "An order type available only for retail cryptocurrency pairs"
+            "A large order fully displayed in the DOM to show institutional intent",
+            "A position closed automatically when price crosses a moving average line"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What is the primary objective of Spoofing in the order book?",
@@ -1057,12 +1291,12 @@
         {
           "question": "Where are limit sell orders (Asks) displayed in the DOM?",
           "options": [
-            "On the right side, representing available liquidity for sellers at higher prices",
-            "On the left side, representing available liquidity for buyers at lower prices",
             "In the middle column, color-coded by MACD indicator status",
-            "In a separate window showing only historical trades"
+            "In a separate window showing only historical trades",
+            "On the left side, representing available liquidity for buyers at lower prices",
+            "On the right side, representing available liquidity for sellers at higher prices"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         }
       ]
     },
@@ -1087,8 +1321,12 @@
           "concept": "vfx_vwap_bands"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
-          "text": "Open the practice chart below. Locate prices that penetrated the 3rd SD band. Check the volume at this deviation. Did a reversal candle appear? Identify the target at the central VWAP line and calculate the risk-to-reward ratio.",
+          "text": "Open the practice chart. This dataset holds only o/h/l/c/t/v — no VWAP or standard-deviation fields. As a proxy, compare each close to a simple 20-period average of closes as a rough value reference, flag the farthest extensions on drying volume as mean-reversion candidates, and note that true VWAP/SD-band signals are not in this dataset.",
           "concept": "vfx_vwap_bands",
           "chartId": "vfx_12_practice"
         }
@@ -1097,32 +1335,32 @@
         {
           "question": "Why do institutions prefer to monitor VWAP?",
           "options": [
-            "It incorporates volume into price data to define statistical value areas",
-            "It uses AI algorithms to predict future price moves with 99% accuracy",
+            "It predicts future price direction on its own without needing price context",
             "It does not require connection to real exchange volume data feeds",
-            "It displays fixed historical support and resistance lines automatically"
+            "It displays fixed historical support and resistance lines automatically",
+            "It incorporates volume into price data to define statistical value areas"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "Which bands represent statistically extreme price extensions for mean reversion?",
           "options": [
+            "The levels between the daily open and the previous close",
             "The 2nd and 3rd Standard Deviation bands",
-            "The 1st Standard Deviation band exclusively",
             "The 200-period simple moving average lines",
-            "The levels between the daily open and the previous close"
+            "The 1st Standard Deviation band exclusively"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What typically happens when price extends beyond the 3rd SD band on declining volume?",
           "options": [
-            "Price is highly likely to reject the extreme level and revert to the central VWAP",
-            "Price will continue trending in a straight line for several days",
             "Trading is suspended and order execution is disabled in the market",
-            "The central VWAP line automatically transforms into a trailing stop loss"
+            "The central VWAP line automatically transforms into a trailing stop loss",
+            "Price is highly likely to reject the extreme level and revert to the central VWAP",
+            "Price will continue trending in a straight line for several days"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         }
       ]
     },
@@ -1143,12 +1381,16 @@
         },
         {
           "type": "animation",
-          "text": "Algorithmic filters help manage random HFT volatility. During a liquidity sweep, look at the Footprint: a rapid decrease in overall delta and opposing stacked imbalances confirm rejection, signaling that institutions are defending the zone.",
+          "text": "Algorithmic filters help manage short-term algorithmic noise. During a liquidity sweep, look at the Footprint: a rapid decrease in overall delta and opposing stacked imbalances confirm rejection, signaling that institutions are defending the zone.",
           "concept": "vfx_order_flow_confluence"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
-          "text": "Open the practice chart below. Locate the confluence zone where a Demand OB overlaps with a Volume Profile HVN. Verify the confirmation sequence: low-volume approach, bullish CVD divergence, and stacked buying imbalances. Plan your trade and document your reasoning.",
+          "text": "Open the practice chart. This is a volume-bars-only confluence drill: this dataset holds only o/h/l/c/t/v — no CVD, footprint, DOM, or TPO fields. Mark a structural level, check for a low-volume approach and a high-volume reaction candle as rough proxies, and list which confirmations (CVD divergence, stacked imbalances) are NOT verifiable here.",
           "concept": "vfx_order_flow_confluence",
           "chartId": "vfx_13_practice"
         }
@@ -1157,19 +1399,19 @@
         {
           "question": "What are the three steps in the advanced order flow confluence sequence?",
           "options": [
-            "Identify structural level, verify low-volume approach, confirm with CVD divergence & footprint imbalances",
-            "Monitor moving average cross, check RSI overbought status, wait for engulfing candle",
             "Read positive news, use high leverage, place market buy order immediately at open",
-            "Draw trendline, wait for breakout, enter hedge positions without stop loss"
+            "Identify structural level, verify low-volume approach, confirm with CVD divergence & footprint imbalances",
+            "Draw trendline, wait for breakout, enter hedge positions without stop loss",
+            "Monitor moving average cross, check RSI overbought status, wait for engulfing candle"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What does a bullish CVD divergence at a support level indicate?",
           "options": [
             "Market sellers are being absorbed by institutional passive limit buyers",
-            "Aggressive sellers are successfully pushing price down through the support",
             "There is no institutional interest and the market is driven by retail noise",
+            "Aggressive sellers are successfully pushing price down through the support",
             "Market orders are automatically turning into limit orders to protect stops"
           ],
           "correctIndex": 0
@@ -1177,14 +1419,15 @@
         {
           "question": "How do Footprint charts help verify a liquidity sweep rejection?",
           "options": [
-            "By showing overall delta contraction and opposing imbalances confirming rejection",
-            "By preventing you from entering any trade against the immediate momentum",
             "By automatically adjusting take profit targets to 5x stop loss distance",
-            "By analyzing correlation with gold and oil prices to predict currency trends"
+            "By preventing you from entering any trade against the immediate momentum",
+            "By analyzing correlation with gold and oil prices to predict currency trends",
+            "By showing overall delta contraction and opposing imbalances confirming rejection"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         }
       ]
     }
-  ]
+  ],
+  "version": 2
 }

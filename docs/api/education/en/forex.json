@@ -13,7 +13,7 @@
       "steps": [
         {
           "type": "animation",
-          "text": "Forex (foreign exchange) is the global marketplace where currencies are traded. It is the largest and most liquid financial market in the world, with a daily trading volume exceeding $7.5 trillion. Unlike stock markets, forex has no central exchange — trading happens electronically over-the-counter (OTC) between banks, institutions, and individual traders worldwide.",
+          "text": "Forex (foreign exchange) is the global marketplace where currencies are traded. It is the largest and most liquid financial market in the world, with a daily trading volume over $9.6 trillion (BIS Triennial Survey, April 2025; $7.5 trillion was the April 2022 figure). Unlike stock markets, forex has no central exchange — trading happens electronically over-the-counter (OTC) between banks, institutions, and individual traders worldwide.",
           "concept": "forex_basics"
         },
         {
@@ -57,9 +57,13 @@
           "concept": "forex_basics"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "chartId": "forex_1_practice",
-          "text": "Practice exercise: Open the EUR/USD chart and identify the current bid/ask spread. Observe how the spread changes during different market sessions.",
+          "text": "Practice exercise: On this EUR/USD H1 chart, measure the high-low range of three candles in pips (1 pip = 0.0001). Count how many candles moved more than 10 pips.",
           "concept": "forex_basics"
         }
       ],
@@ -67,52 +71,52 @@
         {
           "question": "What is the daily trading volume of the forex market?",
           "options": [
+            "Over $10 trillion",
             "Over $7.5 trillion",
-            "Over $1 trillion",
             "Over $500 billion",
-            "Over $10 trillion"
+            "Over $1 trillion"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What does EUR/USD represent?",
           "options": [
             "Euro against US Dollar",
-            "Euro against British Pound",
+            "Euro against Swiss Franc",
             "US Dollar against Euro",
-            "Euro against Swiss Franc"
+            "Euro against British Pound"
           ],
           "correctIndex": 0
         },
         {
           "question": "Which of these is NOT a major forex participant?",
           "options": [
-            "Retail clothing stores",
             "Central banks",
             "Commercial banks",
-            "Hedge funds"
+            "Hedge funds",
+            "Retail clothing stores"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "How many hours a day is the forex market open?",
           "options": [
-            "24 hours",
-            "12 hours",
             "16 hours",
-            "8 hours"
+            "8 hours",
+            "24 hours",
+            "12 hours"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What does a pip represent for most currency pairs?",
           "options": [
+            "0.01",
             "0.0001",
             "0.001",
-            "0.01",
             "0.1"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         }
       ]
     },
@@ -138,7 +142,12 @@
         },
         {
           "type": "animation",
-          "text": "To calculate pip value: for pairs where USD is the quote currency (EUR/USD, GBP/USD), multiply your position size in lots by 0.0001 (or 0.01 for yen pairs). For a standard lot of EUR/USD: 100,000 × 0.0001 = $10 per pip. For a mini lot: 10,000 × 0.0001 = $1 per pip. For a micro lot: 1,000 × 0.0001 = $0.10 per pip.",
+          "text": "To calculate pip value: for pairs where USD is the quote currency (EUR/USD, GBP/USD), multiply your position size in lots by 0.0001. For a standard lot of EUR/USD: 100,000 × 0.0001 = $10 per pip. For a mini lot: 10,000 × 0.0001 = $1 per pip.",
+          "concept": "forex_pips_leverage"
+        },
+        {
+          "type": "animation",
+          "text": "For yen pairs use 0.01 instead. For a micro lot: 1,000 × 0.0001 = $0.10 per pip. This shortcut applies when USD is the quote currency. For pairs like USD/JPY, divide by the exchange rate to convert the value to dollars.",
           "concept": "forex_pips_leverage"
         },
         {
@@ -167,6 +176,10 @@
           "concept": "forex_pips_leverage"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "chartId": "forex_2_practice",
           "text": "Practice exercise: Using the EUR/USD chart, calculate the pip value for a mini lot and determine the correct position size for a 30-pip stop loss with a 1% risk rule on a $5,000 account.",
@@ -177,32 +190,32 @@
         {
           "question": "What is a standard lot size in forex?",
           "options": [
-            "100,000 units",
-            "10,000 units",
             "1,000 units",
-            "100 units"
+            "100 units",
+            "10,000 units",
+            "100,000 units"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "With 100:1 leverage, how much margin is needed for a $100,000 position?",
           "options": [
-            "$1,000",
-            "$10,000",
             "$100",
-            "$5,000"
+            "$1,000",
+            "$5,000",
+            "$10,000"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "When does a margin call occur?",
           "options": [
-            "When equity falls below required margin",
-            "When you make a profit",
             "When spread widens",
-            "At market close"
+            "At market close",
+            "When equity falls below required margin",
+            "When you make a profit"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What is the recommended maximum risk per trade?",
@@ -215,12 +228,12 @@
           "correctIndex": 0
         },
         {
-          "question": "What is one pip worth for a mini lot of EUR/USD?",
+          "question": "A $5,000 account risks 1% ($50) with a 30-pip stop loss on EUR/USD. What position size keeps the risk at $50?",
           "options": [
-            "$1",
-            "$10",
-            "$0.10",
-            "$100"
+            "0.16 lots",
+            "1.6 lots",
+            "0.05 lots",
+            "0.5 lots"
           ],
           "correctIndex": 0
         }
@@ -238,7 +251,7 @@
         },
         {
           "type": "animation",
-          "text": "EUR/USD is the most traded currency pair globally, representing the eurozone economy against the US economy. It accounts for approximately 23% of all daily forex transactions. EUR/USD is known for its tight spreads, predictable technical patterns, and strong correlation with German bond yields and US interest rate differentials.",
+          "text": "EUR/USD is the most traded currency pair globally, representing the eurozone economy against the US economy. It accounts for about 21% (BIS 2025) of all daily forex transactions. EUR/USD is known for its tight spreads, predictable technical patterns, and strong correlation with German bond yields and US interest rate differentials.",
           "concept": "forex_major_pairs"
         },
         {
@@ -248,12 +261,12 @@
         },
         {
           "type": "animation",
-          "text": "GBP/USD, known as Cable, represents the British Pound against the US Dollar. It is known for its volatile price swings and wider spreads compared to EUR/USD. The pair is heavily influenced by Bank of England policy decisions, UK economic data, and Brexit-related developments. Cable tends to move most during the London session.",
+          "text": "GBP/USD, known as Cable, represents the British Pound against the US Dollar. It is known for its volatile price swings and wider spreads compared to EUR/USD. The pair is heavily influenced by Bank of England policy decisions, UK economic data, and (as historical context rather than a daily driver now) Brexit-related developments. Cable tends to move most during the London session.",
           "concept": "forex_major_pairs"
         },
         {
           "type": "animation",
-          "text": "USD/CHF represents the US Dollar against the Swiss Franc. The Swiss Franc is considered a safe-haven currency, meaning it tends to strengthen during times of global economic uncertainty. The Swiss National Bank (SNB) actively intervenes in the forex market to prevent excessive Franc strength, which can impact Swiss exports.",
+          "text": "USD/CHF represents the US Dollar against the Swiss Franc. The Swiss Franc is considered a safe-haven currency, meaning it tends to strengthen during times of global economic uncertainty. The Swiss National Bank (SNB) has intervened in both directions — historically selling Francs to protect exports, and since 2022 also buying Francs to fight inflation.",
           "concept": "forex_major_pairs"
         },
         {
@@ -277,9 +290,13 @@
           "concept": "forex_major_pairs"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "chartId": "forex_3_practice",
-          "text": "Practice exercise: Open the EUR/USD, GBP/USD, and USD/JPY charts. Compare their average daily range and identify which pair moves the most pips per day.",
+          "text": "Practice exercise: On this EUR/USD H1 chart, compute the average daily high-low range in pips across three full days. Note how the range expands and contracts.",
           "concept": "forex_major_pairs"
         }
       ],
@@ -287,32 +304,32 @@
         {
           "question": "Which is the most traded currency pair in the world?",
           "options": [
-            "EUR/USD",
             "GBP/USD",
             "USD/JPY",
+            "EUR/USD",
             "USD/CHF"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What is GBP/USD commonly known as?",
           "options": [
-            "Cable",
             "Loonie",
-            "Aussie",
-            "Kiwi"
+            "Cable",
+            "Kiwi",
+            "Aussie"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "Which currency is considered a safe-haven?",
           "options": [
-            "Swiss Franc",
+            "Euro",
             "Australian Dollar",
             "British Pound",
-            "Euro"
+            "Swiss Franc"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What influences USD/CAD the most?",
@@ -327,12 +344,12 @@
         {
           "question": "What does a cross pair mean?",
           "options": [
+            "A pair with EUR",
             "A pair without USD",
             "A pair with USD",
-            "A pair with JPY",
-            "A pair with EUR"
+            "A pair with JPY"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         }
       ]
     },
@@ -358,17 +375,22 @@
         },
         {
           "type": "animation",
-          "text": "The London session opens at 3:00 AM EST and closes at 12:00 PM EST. London handles approximately 34% of all forex transactions, making it the most important trading center. This session brings the highest liquidity and volatility, especially when it overlaps with the New York session. Most major moves happen during London hours.",
+          "text": "The London session opens at 3:00 AM EST and closes at 12:00 PM EST. London handles 38% (BIS) of all forex transactions, making it the most important trading center. This session brings the highest liquidity and volatility, especially when it overlaps with the New York session. Most major moves happen during London hours.",
           "concept": "forex_sessions"
         },
         {
           "type": "animation",
-          "text": "The New York session opens at 8:00 AM EST and closes at 5:00 PM EST. It accounts for about 17% of global forex volume. Key US economic data releases (NFP, CPI, GDP) occur during this session, causing major price movements. The overlap with the London session (8:00 AM to 12:00 PM EST) is the most active trading period of the day.",
+          "text": "The New York session opens at 8:00 AM EST and closes at 5:00 PM EST. It accounts for about 19% (BIS) of global forex volume. Key US economic data releases (NFP, CPI, GDP) occur during this session, causing major price movements. The overlap with the London session (8:00 AM to 12:00 PM EST) is the most active trading period of the day.",
           "concept": "forex_sessions"
         },
         {
           "type": "animation",
-          "text": "Session overlaps create the highest volatility. The London-New York overlap (8:00 AM - 12:00 PM EST) is the most active period, with massive volume moving through EUR/USD, GBP/USD, and USD/JPY. The Tokyo-London overlap is minimal. The Sydney-Tokyo overlap (7:00 PM - 2:00 AM EST) offers moderate activity in yen and commodity pairs.",
+          "text": "Session overlaps create the highest volatility. The London-New York overlap (8:00 AM - 12:00 PM EST) is the most active period, with massive volume moving through EUR/USD, GBP/USD, and USD/JPY. The Tokyo-London overlap is minimal.",
+          "concept": "forex_sessions"
+        },
+        {
+          "type": "animation",
+          "text": "Times in this lesson are EST. During US and UK daylight saving (EDT/BST), sessions shift by about an hour — check a session clock. Tokyo never shifts since Japan has no daylight saving. The Sydney-Tokyo overlap (7:00 PM - 2:00 AM EST) offers moderate activity in yen and commodity pairs.",
           "concept": "forex_sessions"
         },
         {
@@ -387,9 +409,13 @@
           "concept": "forex_sessions"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "chartId": "forex_4_practice",
-          "text": "Practice exercise: Check the current time and identify which sessions are currently active. Note the pip range of EUR/USD during each session overlap.",
+          "text": "Practice exercise: Each candle on this chart is stamped in UTC. Using the session hours from this lesson, work out which session was active for three different candles and compare their pip ranges.",
           "concept": "forex_sessions"
         }
       ],
@@ -398,51 +424,51 @@
           "question": "Which trading session handles the most forex volume?",
           "options": [
             "London",
-            "New York",
+            "Sydney",
             "Tokyo",
-            "Sydney"
+            "New York"
           ],
           "correctIndex": 0
         },
         {
           "question": "What is the most active overlap period?",
           "options": [
-            "London-New York",
             "Tokyo-London",
-            "Sydney-Tokyo",
-            "New York-Sydney"
+            "London-New York",
+            "New York-Sydney",
+            "Sydney-Tokyo"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "Which session is typically the quietest?",
           "options": [
-            "Sydney",
-            "London",
+            "Tokyo",
             "New York",
-            "Tokyo"
+            "Sydney",
+            "London"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "When does the London session open in EST?",
           "options": [
-            "3:00 AM",
             "7:00 PM",
+            "5:00 PM",
             "8:00 AM",
-            "5:00 PM"
+            "3:00 AM"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "Which currency pairs are most active during Sydney session?",
           "options": [
-            "AUD/USD and NZD/USD",
             "EUR/USD and GBP/USD",
-            "USD/JPY and USD/CHF",
-            "All pairs equally"
+            "All pairs equally",
+            "AUD/USD and NZD/USD",
+            "USD/JPY and USD/CHF"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         }
       ]
     },
@@ -463,7 +489,12 @@
         },
         {
           "type": "animation",
-          "text": "The Non-Farm Payrolls (NFP) report, released on the first Friday of each month, is the most impactful US economic indicator. It measures the number of jobs added in the US economy (excluding farming). A higher-than-expected NFP generally strengthens the USD as it signals a strong economy. NFP releases routinely cause 100+ pip moves.",
+          "text": "The Non-Farm Payrolls (NFP) report, usually released on the first Friday of each month, is the most impactful US economic indicator. It measures the number of jobs added in the US economy (excluding farming). A higher-than-expected NFP generally strengthens the USD as it signals a strong economy.",
+          "concept": "forex_fundamentals"
+        },
+        {
+          "type": "animation",
+          "text": "NFP releases can move EUR/USD tens of pips within minutes — occasionally 100+ on big surprises. Spreads widen and stops can slip, so reduce size or stay out.",
           "concept": "forex_fundamentals"
         },
         {
@@ -497,6 +528,10 @@
           "concept": "forex_fundamentals"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "chartId": "forex_5_practice",
           "text": "Practice exercise: Check the economic calendar for today's high-impact news events. Note which currency pairs might be affected and plan potential trades around the releases.",
@@ -517,42 +552,42 @@
         {
           "question": "What does the Non-Farm Payrolls report measure?",
           "options": [
-            "Jobs added excluding farming",
             "Total jobs in the economy",
-            "Unemployment rate",
-            "Average hourly earnings"
+            "Average hourly earnings",
+            "Jobs added excluding farming",
+            "Unemployment rate"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What inflation rate do most central banks target?",
           "options": [
-            "2%",
             "0%",
+            "10%",
             "5%",
-            "10%"
+            "2%"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "Which central bank is most influential in forex?",
           "options": [
+            "Bank of England (BOE)",
             "Federal Reserve (Fed)",
             "European Central Bank (ECB)",
-            "Bank of England (BOE)",
             "Bank of Japan (BOJ)"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What causes the largest market reaction to economic data?",
           "options": [
-            "Deviation from expectations",
-            "The absolute number",
             "The time of release",
-            "The currency pair being traded"
+            "The absolute number",
+            "The currency pair being traded",
+            "Deviation from expectations"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         }
       ]
     },
@@ -578,12 +613,22 @@
         },
         {
           "type": "animation",
-          "text": "Moving averages smooth price data to help identify trend direction and potential support/resistance. The Simple Moving Average (SMA) gives equal weight to all periods. The Exponential Moving Average (EMA) gives more weight to recent prices. Common settings are the 50-period and 200-period moving averages. A golden cross (50 above 200) signals an uptrend.",
+          "text": "Moving averages smooth price data to help identify trend direction and potential support/resistance. The Simple Moving Average (SMA) gives equal weight to all periods. The Exponential Moving Average (EMA) gives more weight to recent prices. Common settings are the 50-period and 200-period moving averages.",
           "concept": "forex_technical"
         },
         {
           "type": "animation",
-          "text": "Relative Strength Index (RSI) is a momentum oscillator that measures the speed and magnitude of recent price changes. RSI ranges from 0 to 100. Readings above 70 indicate overbought conditions (potential reversal down). Readings below 30 indicate oversold conditions (potential reversal up). Divergence between RSI and price can signal trend exhaustion.",
+          "text": "A golden cross (50 above 200) signals an uptrend — traditionally on the daily SMA. It is a lagging signal with many false alarms in choppy forex markets.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "Relative Strength Index (RSI) is a momentum oscillator that measures the speed and magnitude of recent price changes. RSI ranges from 0 to 100. Readings above 70 indicate overbought conditions (potential reversal down). Readings below 30 indicate oversold conditions (potential reversal up).",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "In strong trends RSI can stay overbought or oversold for a long time — combine it with a trend filter instead of trading the level alone. Divergence between RSI and price can signal trend exhaustion.",
           "concept": "forex_technical"
         },
         {
@@ -593,7 +638,12 @@
         },
         {
           "type": "animation",
-          "text": "Fibonacci retracement levels (38.2%, 50%, 61.8%) are used to identify potential reversal points within a trend. After a strong move, price often retraces to these levels before continuing in the original direction. The 61.8% level is the most significant. Fibonacci extensions (127.2%, 161.8%) project where price might go after a retracement completes.",
+          "text": "Fibonacci retracement levels (38.2%, 61.8% — plus the popular 50% level, which is psychological rather than Fibonacci-derived) are used to identify potential reversal points within a trend. After a strong move, price often retraces to these levels before continuing in the original direction.",
+          "concept": "forex_technical"
+        },
+        {
+          "type": "animation",
+          "text": "The 61.8% level is the most widely watched; 23.6% and 78.6% are other common levels. Fibonacci extensions (127.2%, 161.8%) project where price might go after a retracement completes.",
           "concept": "forex_technical"
         },
         {
@@ -607,6 +657,10 @@
           "concept": "forex_technical"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "chartId": "forex_6_practice",
           "text": "Practice exercise: On the EUR/USD chart, draw support and resistance levels, add a 50-period EMA, and identify potential entry points where multiple technical factors align.",
@@ -617,52 +671,52 @@
         {
           "question": "What does RSI above 70 indicate?",
           "options": [
-            "Overbought conditions",
             "Oversold conditions",
+            "Low volatility",
             "Strong trend",
-            "Low volatility"
+            "Overbought conditions"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What does a golden cross signal?",
           "options": [
             "Uptrend (50 EMA above 200 EMA)",
-            "Downtrend (50 EMA below 200 EMA)",
+            "High volatility",
             "Sideways market",
-            "High volatility"
+            "Downtrend (50 EMA below 200 EMA)"
           ],
           "correctIndex": 0
         },
         {
           "question": "What happens when support is broken?",
           "options": [
-            "It becomes resistance",
-            "It stays support",
+            "It becomes stronger",
             "It disappears",
-            "It becomes stronger"
+            "It becomes resistance",
+            "It stays support"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What percentage is the most significant Fibonacci retracement?",
           "options": [
-            "61.8%",
             "38.2%",
-            "50%",
-            "78.6%"
+            "61.8%",
+            "78.6%",
+            "50%"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What do Bollinger Bands use to calculate band width?",
           "options": [
-            "Standard deviation",
             "RSI",
-            "Volume",
-            "Fibonacci"
+            "Standard deviation",
+            "Fibonacci",
+            "Volume"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         }
       ]
     },
@@ -683,7 +737,12 @@
         },
         {
           "type": "animation",
-          "text": "The pin bar (also called hammer or shooting star) is one of the most reliable reversal patterns. It has a long wick and a small body. A bullish pin bar forms at support with a long lower wick, indicating price was rejected lower. A bearish pin bar forms at resistance with a long upper wick, indicating price was rejected higher. Trade in the direction of the pin bar body.",
+          "text": "The pin bar is one of the most reliable reversal patterns. It has a long wick and a small body. A bullish pin bar forms at support with a long lower wick; a bearish one forms at resistance with a long upper wick.",
+          "concept": "forex_price_action"
+        },
+        {
+          "type": "animation",
+          "text": "Both show that price was rejected at that level. The hammer (bullish) and the shooting star (bearish) are the two pin bar faces. Trade in the direction of the body, with your stop beyond the wick tip.",
           "concept": "forex_price_action"
         },
         {
@@ -717,6 +776,10 @@
           "concept": "forex_price_action"
         },
         {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
+        },
+        {
           "type": "interaction",
           "chartId": "forex_7_practice",
           "text": "Practice exercise: Scan the EUR/USD chart for pin bars, engulfing patterns, and inside bars at key support/resistance levels. Mark your potential trade entries on the chart.",
@@ -727,52 +790,52 @@
         {
           "question": "What does a pin bar indicate?",
           "options": [
+            "Low volatility",
             "Price rejection at that level",
-            "Strong trend continuation",
             "Market indecision",
-            "Low volatility"
+            "Strong trend continuation"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What is an engulfing pattern?",
           "options": [
             "A candle that completely covers the previous candle's body",
+            "A candle with very long wicks",
             "A candle with a very small body",
-            "A candle inside the previous candle's range",
-            "A candle with very long wicks"
+            "A candle inside the previous candle's range"
           ],
           "correctIndex": 0
         },
         {
           "question": "What does a doji candle represent?",
           "options": [
-            "Market indecision",
-            "Strong buying pressure",
             "Strong selling pressure",
-            "Trend continuation"
+            "Strong buying pressure",
+            "Trend continuation",
+            "Market indecision"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What is a fakeout?",
           "options": [
-            "A temporary breakout that immediately reverses",
+            "A fundamental event",
             "A strong breakout with continuation",
-            "A candlestick pattern",
-            "A fundamental event"
+            "A temporary breakout that immediately reverses",
+            "A candlestick pattern"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What is a break of structure (BOS)?",
           "options": [
-            "Price breaks a previous swing high/low in trend direction",
+            "Price gaps overnight",
             "Price reverses at a key level",
             "Price forms a doji",
-            "Price gaps overnight"
+            "Price breaks a previous swing high/low in trend direction"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         }
       ]
     },
@@ -823,8 +886,17 @@
         },
         {
           "type": "animation",
-          "text": "Continuous education is vital. The market evolves, and so must you. Review your trades weekly, read trading books (Trading in the Zone by Mark Douglas, Technical Analysis of the Financial Markets by John Murphy), follow professional traders, and keep learning. Demo trade new strategies before using them on a live account. The journey from novice to professional takes years — be patient and persistent.",
+          "text": "Continuous education is vital. The market evolves, and so must you. Review your trades weekly, read trading books (Trading in the Zone by Mark Douglas, Technical Analysis of the Financial Markets by John Murphy), follow professional traders, and keep learning.",
           "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Demo trade new strategies before using them on a live account. The journey from novice to professional takes years — be patient and persistent.",
+          "concept": "forex_trading_plan"
+        },
+        {
+          "type": "animation",
+          "text": "Risk note: most retail traders lose money. Never risk more than 1–2% of your account on any single trade, practice on a demo account first, and remember that stop orders can slip on news and weekend gaps."
         },
         {
           "type": "interaction",
@@ -837,40 +909,40 @@
         {
           "question": "Why is a trading plan important?",
           "options": [
-            "It removes emotion and ensures consistency",
             "It guarantees profits",
+            "It removes emotion and ensures consistency",
             "It predicts market direction",
             "It replaces risk management"
           ],
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "What is the recommended maximum risk per trade?",
           "options": [
-            "1-2% of account",
             "5-10% of account",
             "15-20% of account",
-            "25-30% of account"
+            "25-30% of account",
+            "1-2% of account"
           ],
-          "correctIndex": 0
+          "correctIndex": 3
         },
         {
           "question": "What is a minimum recommended risk-to-reward ratio?",
           "options": [
-            "1:2",
             "1:1",
             "2:1",
+            "1:2",
             "1:5"
           ],
-          "correctIndex": 0
+          "correctIndex": 2
         },
         {
           "question": "What is the purpose of a trading journal?",
           "options": [
             "To identify patterns and improve",
-            "To calculate taxes",
             "To share with other traders",
-            "To predict future trades"
+            "To predict future trades",
+            "To calculate taxes"
           ],
           "correctIndex": 0
         },
@@ -878,13 +950,14 @@
           "question": "What should you do if you feel angry or tired before trading?",
           "options": [
             "Skip trading for the day",
-            "Trade smaller size",
+            "Take a break and return in 30 minutes",
             "Trade only your best setup",
-            "Take a break and return in 30 minutes"
+            "Trade smaller size"
           ],
           "correctIndex": 0
         }
       ]
     }
-  ]
+  ],
+  "version": 2
 }
